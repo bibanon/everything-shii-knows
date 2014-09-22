@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+shii.org	TRUE	/	FALSE	1999999999	sqlsnacks_session	0mlmiv2eqqj0uilnu0lds830d2
+www.strokecenter.org	TRUE	/	FALSE	1999999999	w3tc_referrer	http%3A%2F%2Fshii.org%2Fknows%2FBut_enough_about_me...
+religion-cults.com	TRUE	/	FALSE	1999999999	session	f67560cb65921a3de44b2d75131fab11
+
