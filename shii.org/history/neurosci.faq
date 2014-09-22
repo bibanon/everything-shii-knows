@@ -1,0 +1,2891 @@
+=====================================
+NEUROSCIENCES INTERNET RESOURCE GUIDE
+=====================================
+
+December 1993,  version 1.0
+
+Compiled by
+Steve Bonario and Sheryl Cormicle
+
+School of Information and Library Studies, 
+University of Michigan
+-------------------------------------------------------------
+
+Welcome to the ASCII-text version of the Neurosciences 
+Internet Resource Guide.  A version of this Guide exists as a 
+WWW document with  hypertext links to many of the resources 
+we have identified.  See section 1.8, Formats and Access, 
+below for more information.
+
+
+
+CONTENTS:
+
+Section 1.0 -- Introductory Material
+
+		1.1	THE CAVEAT (of course)
+		1.2	THE GUIDE:  WHAT IS IT?
+		1.3	THE GUIDE:  WHO IS IT FOR?
+		1.4	THE COMPILERS:  WHO ARE WE?
+		1.5	ASSUMPTIONS
+		1.6	URLs (Uniform Resource Locators)
+		1.7	ORGANIZATION
+		1.8	FORMATS AND ACCESS
+		1.9	CREDITS
+
+Section 2.0 -- Indexes
+
+		2.1	ALPHABETICAL LISTING OF RESOURCES
+		2.2	KEYWORD INDEX FOR SUBJECT, FORMAT, & 
+				RESOURCE TYPE
+
+Section 3.0 -- Resources: Description, Evaluation & 
+			Internet Location
+
+		(arranged alphabetically by resource title)
+
+==================================
+SECTION 1 -- Introductory Material
+==================================
+
+1.1	THE CAVEAT (of course)
+
+The Neurosciences Internet Resource Guide, version 1.0, is a 
+work in  progress.  We are pleased and proud to present the 
+first fruits of our labor, but it is by no means a finished 
+product.  As anyone who surfs the Internet for more than a 
+day or two can tell you, a Guide such as this has a very 
+short shelflife.  The items presented in this Guide are only 
+a report from the frontier that is the Internet as it existed 
+from September to December, 1993.  By the time you read this, 
+that frontier will have changed such that some of the 
+resources in the Guide may have resettled elsewhere or 
+disappeared altogether.  We strived to make the Guide as 
+accurate as possible, given the ever-changing nature of the 
+Internet.
+
+
+
+1.2	THE GUIDE:  WHAT IS IT?
+
+This document, in its many formats, aims to be a guide to 
+free, Internet accessible resources helpful to 
+neuroscientists of all stripes.  As biology, chemistry, 
+medicine, engineering, and computer science all increasingly 
+collaborate in the goal to understand the brain, and 
+information technology revolutionizes how everyone 
+communicates and processes information (the Decade of the 
+Brain meets the  Information Age), there is a need for 
+mediation and organization.  This guide is a tiny step toward 
+meeting that need.  We wanted simply to describe what exists.  
+Even that goal is not fully realized.  There are gaps and 
+biases -- know that now.  But we hope you're surprised by 
+what you find here.  Let us know what we  missed 
+<nirg@umich.edu>.  This is not a static document -- we expect 
+it to change and you can help change it.
+
+
+
+1.3	THE GUIDE:  WHO IS IT FOR?
+
+As we skimmed the Net, we harvested resources based on their  
+potential value to a neuroscientist--a researcher, educator 
+and/or clinician.  Certain disciplines within neuroscience 
+are more involved in the Internet community than others and 
+those variances betray themselves in what we found.  If we 
+can be accused of any intentional bias, it would be that we 
+searched harder for underrepresented disciplines in the hope 
+that our work might light some lamps and encourage 
+development.
+
+In particular, we have not described all the resources 
+related to neural networks.  There is a wonderful FAQ 
+produced out of the comp.ai.neural-nets usenet group which 
+summarizes many of the best resources in neural networks: 
+(file://rtfm.mit.edu/pub/usenet/news.answers/neural-net-faq)
+There is also a hypertext version at:
+http://www.eeb.ele.tue.nl/neural/neural_FAQ.html 
+
+Also, our coverage of medical neuroscience resources is 
+cursory.  Lee Hancock's Health Resources Guide is helpful in 
+this area:
+file://ftp.sura.net/pub/nic/medical.resources.9-93)
+
+We encountered considerable vison and initiative in the 
+neuroscience community concerning Internet use and potential.  
+There is plenty of room to grow.  We encourage you to get 
+involved.
+
+
+
+1.4	THE COMPILERS:  WHO ARE WE?
+
+Sheryl Cormicle			Steve Bonario
+sherylc@sils.umich.edu		sbonario@umich.edu
+
+We are *not* neuroscientists.  We are librarians in the grand 
+tradition of discovering, evaluating, organizing and 
+preserving the intellectual record, stretching that mission 
+to embrace new technologies and formats, all the while 
+remembering the people in the labs and at the keyboards with 
+real needs.  More specifically (and less poetically), we 
+prepared this guide as part of our coursework in the School 
+of Information and Library Studies at the University of 
+Michigan.  Go Blue.  If circumstances allow (read "we're job 
+hunting"), we intend to maintain this guide.
+
+
+
+1.5	ASSUMPTIONS
+
+We assume you are not new to the Internet.  If you are, we 
+strongly recommend you read or refer to Ed Krol's book, "The 
+Whole Internet:  User's Guide and Catalog" (O'Reilly & 
+Associates, 1992).  Then take a look at our guide.
+
+We don't assume you are familiar with the World Wide Web 
+(WWW) . . . ok, maybe we do . . . but if not, we recommend 
+you check it out.  We were (and still are) avid aficionados 
+of NCSA's Mosaic, a web client.  It makes life on the 
+Internet frontier worth living.
+
+
+
+1.6	URLs (Uniform Resource Locators)
+
+We have used a format for designating the "addresses" of the 
+resources which may be unfamiliar to you.  This format is the 
+Uniform Resource Locator (URL).  It is basically a 
+standardized path name.  It is used within a WWW document to 
+create hypertext and hypermedia links to other files.  Even 
+if you are not using a web client, you can analyze it to 
+extract the information you need to find resources using more 
+traditional tools.
+
+The template is:
+
+resource type://host.domain[:port]/path/filename
+
+Resource types typically include:
+-file:  a file on your local system, or a file on an 
+		anonymous ftp server
+-gopher:  a file on a Gopher server
+-WAIS:  a file on a WAIS server
+-http:  a file on a  World Wide Web server
+
+
+
+1.7	ORGANIZATION
+
+Because people find information in many different ways, the 
+Guide is organized to provide access to resources by several 
+methods:  an alphabetical listing of the resource names, a  
+keyword index, and an index by resource type.  These indexes 
+follow the introductory material below.
+
+The entries are organized alphabetically by the title of the 
+the resource.
+
+
+
+1.8	FORMATS AND ACCESS
+
+The most dynamic and functional format of this guide is the 
+web version:
+
+http://http.sils.umich.edu/Shared_HTTP_Files/nirg/nirg1.html
+
+(please note that this URL for the Guide will change when the 
+Guide finds a permanent home.  Check an updated version of 
+Guide in the U of M Clearinghouse, or send us e-mail at 
+nirg@umich.edu.)
+
+You can access this ASCII text version from the Clearinghouse 
+of Subject-Oriented Internet Resource Guides as follows:
+
+anonymous FTP:
+	host:	una.hh.lib.umich.edu
+	path:	/inetdirsstacks
+	file:	neurosci:cormbonario
+
+gopher:
+	via U. Minnesota list of gophers
+	menu:   North America/USA/Michigan/Clearinghouse.../
+			AllGuides
+
+WWW:
+	gopher://una.hh.lib.umich.edu/00/inetdirsstacks/
+		neurosci:cormbonario
+
+
+
+1.9	CREDITS
+
+There are a gaggle of folks we'd like to thank for helping us 
+to compile and assemble this Guide, for giving us advice and 
+otherwise assisting us.  There are so many, in fact, that we 
+are still in the process of pulling all of the names 
+together.  For the moment, though, we'd like to make sure to 
+thank the following:
+
+Joe "I get 10%" Janes, Lou "I get 10%, too" Rosenfeld, our 
+fellow students in ILS 606, Dr. Stan Watson, Warren Young, 
+Ben Clopton, Patricia Morris, and Lee Liming.
+
+=====================
+SECTION 2.0 -- INDEXES
+=====================
+
+2.1	Alphabetical Listing of Resources
+
+
+Adaptive Simulated Annealing Resources
+ALS (Amyotrophic Lateral Sclerosis) Digest
+American Journal of Physiology
+Applications of Connectionist Systems in Biomedicine
+Australia National University Bioinformatics Facility - 
+	Neuroscience Folder
+bionet.neuroscience
+bionet newsgroup participants
+Brain Scan -- Dementia
+Brain Scan -- Epilepsy
+Brain Scan -- MRI
+Brain Scan -- Normal
+Brain Scan -- Normal -- Reconstructed in 3D
+Brain Scan -- Recurrent Tumor
+Brain Scan -- Recurrent Tumor (Astrocytoma)
+Brainbrowser Texts
+Brainstack
+Center for Neural Communication Technology
+Center for Theoretical & Applied Neuroscience (CTAN)
+comp.ai.neural-nets
+Connectionists
+CT Cadaver Head data - A 113-slice MRI data set of a CT study 
+	of a cadaver head
+CTI Centre for Biology Gopher
+Eindhoven University of Techonology Electric Circuit Design 
+	Home Page - Neural Network Information
+Epilepsy List
+European Journal of Nuclear Medicine
+Experimental Brain Research
+Frog-Net
+Head Data: A 109-slice MRI data set of a human head
+Journal of Neurophysiology
+MR Brain data -  A 109-slice MRI data set of a head with 
+	skull partially removed
+NEURO1-L, the Bitnet Neuroscience Information Exchange Forum
+Neuroanatomy Foundations
+Neuron-Digest
+Neuroprose
+Neurotour
+sci.bio
+sci.bio.technology
+sci.cognitive
+sci.engr.biomed
+sci.med
+sci.med.pharmacy
+sci.med.psychobiology
+sci.psychology
+Sheep's Brain
+Stereotaxic Atlases of Pigeon and Electric Fish
+University of California at San Diego Neurosciences Gopher
+VOXEL-MAN Atlases
+
+With more to come...
+
+
+2.2	KEYWORD INDEX FOR SUBJECT, FORMAT, & RESOURCE TYPE
+
+Please note that this is only a preliminary index to a few of 
+the resources.  This index will continue to be updated until 
+all of the resources in the Guide have been indexed.
+
+
+3D
+	Brain Scan -- Normal -- Reconstructed in 3D
+	CT Cadaver Head data - A 113-slice MRI data set of a CT 
+		study of a cadaver head
+	Head data: A 109 slice MRI data set of a human head
+	MR Brain Data - A 109-slice MRI data set of a head with 
+		skull partially removed
+	VOXEL-MAN Atlases
+
+ADAPTIVE SIMULATED ANNEALING (ASA)
+	Adaptive Simulated Annealing Resources
+
+ADDRESSES
+	Australia National University Bioinformatics Facility - 
+		Neuroscience Folder
+	bionet newsgroup participants
+	University of California at San Diego Neurosciences 
+		Gopher
+
+AMPHIBIANS
+	Frog-Net
+
+AMYOTROPHIC LATERAL SCLEROSIS (ALS)
+	ALS (Amyotrophic Lateral Sclerosis) Digest
+
+ATLAS
+	BrainBrowser Texts
+	Neuroanatomy Foundations
+	Stereotaxic Atlases of Pigeon and Electric Fish
+	VOXEL-MAN Atlases
+
+BIOMEDICAL ENGINEERING
+	Applications of Connectionist Systems in Biomedicine
+	Center for Neural Communication Technology
+	sci.engr.biomed
+
+BRAIN
+	Brain Scan -- Dementia
+	Brain Scan -- Epilepsy
+	Brain Scan -- MRI
+	Brain Scan -- Normal
+	Brain Scan -- Normal -- Reconstructed in 3D
+	Brain Scan -- Recurrent Tumor
+	Brain Scan -- Recurrent Tumor (Astrocytoma)
+	BrainBrowser Texts
+	Brainstack
+	MR Brain Data - A 109-slice MRI data set of a head with 
+		skull partially removed
+	Neuroanatomy Foundations
+	Neurotour
+	Sheep's Brain
+	VOXEL-MAN Atlases
+
+COGNITION
+	Cogneuro
+	sci.cognitive
+
+COMPUTATIONAL NEUROENGINEERING
+	Center for Neural Communication Technology
+	Eindhoven University of Techonology Electric Circuit 
+		Design Home Page - Neural Network Information
+	Neuron-Digest
+
+DATA SETS
+	CT Cadaver Head data - A 113-slice MRI data set of a CT 
+		study of a cadaver head
+	Head data: A 109 slice MRI data set of a human head
+	MR Brain Data - A 109-slice MRI data set of a head with 
+		skull partially removed
+
+DIRECTORIES
+	bionet newsgroup participants
+	University of California at San Diego Neurosciences 
+		Gopher
+
+DISEASES
+	ALS (Amyotrophic Lateral Sclerosis) Digest
+	Brain Scan -- Dementia
+	Brain Scan -- Epilepsy
+	Brain Scan -- Recurrent Tumor
+	Brain Scan -- Recurrent Tumor (Astrocytoma)
+	Epilepsy List
+
+EDUCATIONAL SOFTWARE
+	Brainstack
+	CTI Centre for Biology Gopher
+	Neuroanatomy Foundations
+	Neurotour
+	Sheep's Brain
+
+ELECTRONIC NEWSLETTER
+	ALS (Amyotrophic Lateral Sclerosis) Digest
+	Neuron-Digest
+	
+EPILEPSY
+	Brain Scan -- Epilepsy
+	Epilepsy List
+
+EVENTS
+	bionet.neuroscience
+	comp.ai.neural-nets
+	Neuron Digest
+	sci.bio
+	University of California at San Diego Neurosciences 
+		Gopher
+
+FAQ
+	bionet.neuroscience
+	bionet newsgroup participants
+	comp.ai.neural-nets
+	Eindhoven University of Techonology Electric Circuit 
+		Design Home Page - Neural Network Information
+	Neuroprose
+	Stereotaxic Atlases of Pigeon and Electric Fish
+
+FTP SITES
+	Adaptive Simulated Annealing Resources
+	Center for Neural Communication Technology
+	Neuroprose
+
+GOPHERS
+	Australia National University Bioinformatics Facility - 
+		Neuroscience Folder
+	CTI Centre for Biology Gopher
+	University of California at San Diego Neurosciences 
+		Gopher
+
+HIGHER EDUCATION
+	Australia National University Bioinformatics Facility - 
+		Neuroscience Folder
+	University of California at San Diego Neurosciences 
+		Gopher
+
+HUMAN HEAD
+	CT Cadaver Head data - A 113-slice MRI data set of a CT 
+		study of a cadaver head
+	Head data: A 109 slice MRI data set of a human head
+	MR Brain Data - A 109-slice MRI data set of a head with 
+		skull partially removed
+
+HYPERCARD
+	Brainstack
+	CTI Centre for Biology Gopher
+	Neuroanatomy Foundations
+	Neurotour
+	Sheep's Brain
+
+IMAGES
+	Brain Scan -- Dementia
+	Brain Scan -- Epilepsy
+	Brain Scan -- MRI
+	Brain Scan -- Normal
+	Brain Scan -- Normal -- Reconstructed in 3D
+	Brain Scan -- Recurrent Tumor
+	Brain Scan -- Recurrent Tumor (Astrocytoma)
+	Stereotaxic Atlases of Pigeon and Electric Fish
+
+JOURNALS
+	American Journal of Physiology
+	European Journal of Nuclear Medicine
+	Experimental Brain Research
+	Journal of Neurophysiology
+
+LISTSERVS
+	ALS (Amyotrophic Lateral Sclerosis) Digest
+	Cellular Neural Networks
+	Cogneuro
+	Connectionists
+	Epilepsy List
+	Frog-Net
+	Neuro1-L, the Bitnet Neuroscience Information Exchange 
+		Forum
+	Neuron-Digest
+
+MAC or MACINTOSH SOFTWARE
+	Brainstack
+	CTI Centre for Biology Gopher
+	Neurotour
+	Sheep's Brain
+
+MRI
+	Brain Scan -- MRI
+	CT Cadaver Head data - A 113-slice MRI data set of a CT 
+		study of a cadaver head
+	Head data:  A 109 slice MRI data set of a human head
+	MR Brain Data - A 109-slice MRI data set of a head with 
+		skull partially removed
+
+NEURAL NETWORKS
+	Adaptive Simulated Annealing Resources
+	Applications of Connectionist Systems in Biomedicine
+	Cellular Neural Networks
+	comp.ai.neural-nets
+	Connectionists
+	Eindhoven University of Techonology Electric Circuit 
+		Design Home Page - Neural Network Information
+	Neuron-Digest
+	Neuroprose
+
+NEUROANATOMY
+	bionet.neuroscience
+	Brain Scan -- Dementia
+	Brain Scan -- Epilepsy
+	Brain Scan -- MRI
+	Brain Scan -- Normal
+	Brain Scan -- Normal -- Reconstructed in 3D
+	Brain Scan -- Recurrent Tumor
+	Brain Scan -- Recurrent Tumor (Astrocytoma)
+	BrainBrowser Texts
+	Brainstack
+	CT Cadaver Head data - A 113-slice MRI data set of a CT 
+		study of a cadaver head
+	Head Data: A 109-slice MRI data set of a human head
+	MR Brain data -  A 109-slice MRI data set of a head with 
+		skull partially removed
+	Neuroanatomy Foundations
+	Neurotour
+	Sheep's Brain
+	Stereotaxic Atlases of Pigeon and Electric Fish
+	VOXEL-MAN Atlases
+
+NEUROBIOLOGY
+	Brainstack
+	Experimental Brain Research
+	Neurotour
+	sci.bio
+	sci.bio.technology
+	Sheep's Brain
+
+NEUROENGINEERING
+	Cellular Neural Networks
+	Center for Neural Communication Technology
+	Neuron-Digest
+	sci.engr.biomed
+
+NEUROPHARMACOLOGY
+	sci.med.pharmacy
+
+NEUROPHYSIOLOGY
+	American Journal of Physiology
+	Journal of Neurophysiology
+
+NEUROPSYCHIATRY
+	sci.med.psychobiology
+	sci.psychology
+
+NEWS/NEWSGROUPS
+	bionet.neuroscience
+	comp.ai.neural-nets
+	Neuro1-L, the Bitnet Neuroscience Information Exchange 
+		Forum
+	sci.bio
+	sci.bio.technology
+	sci.engr.biomed
+	sci.med
+	sci.med.pharmacy
+	sci.med.psychobiology
+	sci.psychology
+
+NUCLEAR MEDICINE
+	European Journal of Nuclear Medicine
+
+PHOTOGRAPHS
+	Neuroanatomy Foundations
+	Sheep's Brain
+
+SAGITTAL
+	Brain Scan -- MRI
+	BrainBrowser Texts
+	Stereotaxic Atlases of Pigeon and Electric Fish
+
+SKULL
+	VOXEL-MAN Atlases
+
+SOFTWARE
+	Brainstack
+	CTI Centre for Biology Gopher
+	Neuroanatomy Foundations
+	Neurotour
+	Sheep's Brain
+	VOXEL-MAN Atlases
+
+TABLE OF CONTENTS
+	American Journal of Physiology
+	European Journal of Nuclear Medicine
+	Experimental Brain Research
+	Journal of Neurophysiology
+
+TAPE AVAILABLE
+	CT Cadaver Head data - A 113-slice MRI data set of a CT 
+		study of a cadaver head
+	Head data: A 109 slice MRI data set of a human head
+	MR Brain Data - A 109-slice MRI data set of a head with 
+		skull partially removed
+
+TEXTUAL DOCUMENTS
+	Applications of Connectionist Systems in Biomedicine
+	BrainBrowser Texts
+
+THREE DIMENSIONAL
+	Brain Scan -- Normal -- Reconstructed in 3D
+	CT Cadaver Head data - A 113-slice MRI data set of a CT 
+		study of a cadaver head
+	Head data: A 109 slice MRI data set of a human head
+	MR Brain Data - A 109-slice MRI data set of a head with 
+		skull partially removed
+	VOXEL-MAN Atlases
+
+UNIX FILE
+	VOXEL-MAN Atlases
+
+USENET GROUPS
+	bionet.neuroscience
+	comp.ai.neural-nets
+	sci.bio
+	sci.bio.technology
+	sci.cognitive
+	sci.engr.biomed
+	sci.med
+	sci.med.pharmacy
+	sci.med.psychobiology
+	sci.psychology
+
+WAIS INDEXED
+	bionet.neuroscience
+	Neuroprose
+
+WEB HOME PAGES
+	Center for Theoretical & Applied Neuroscience (CTAN)
+	Eindhoven University of Techonology Electric Circuit 
+		Design Home Page - Neural Network Information
+
+
+========================
+SECTION 3.0 -- Resources
+========================
+
+
+-------------------------------------------------------------
+Adaptive Simulated Annealing Resources
+-------------------------------------------------------------
+Resource Type:  ftp site
+
+URL:  file://ftp.caltech.edu/pub/ingber
+
+Login Instructions:
+	login:  anonymous
+	password:  e-mail address
+
+Description:
+	From the update:
+	The latest Adaptive Simulated Annealing (ASA) code and 
+	some related (p)reprints in compressed PostScript format 
+	can be retrieved here.
+
+	If you do not have ftp access, get information on the 
+	FTPmail service by: mail ftpmail@decwrl.dec.com, and 
+	send only the word "help" in the body of the message.
+
+	If any of the above are not possible, and if your mailer 
+	can handle large files (please test this first), the 
+	code or papers you require can be sent as uuencoded 
+	compressed files via electronic mail.  If you have gzip, 
+	resulting in smaller files, please state this.
+
+Searchable Index:  n/a
+
+Manager:
+	Prof. Lester Ingber
+	Lester Ingber Research
+	P.O. Box 857
+	McLean, VA  22101
+	ingber@alumni.caltech.edu
+	1-800-L-INGBER
+	Fax: [10ATT]0-700-L-INGBER 
+
+	To get on or off the ASA email list, just send an email 
+	to asa-request@alumni.caltech.edu with your request.
+
+	Sorry, I cannot assume the task of mailing out 
+	hardcopies of code or papers.  My volunteer time 
+	assisting people with their queries on my codes and 
+	papers must be limited to electronic mail 
+	correspondence.
+
+FAQ: file://ftp.caltech.edu/pub/ingber/asa_update
+	file://ftp.caltech.edu/pub/ingber/INDEX 
+
+Evaluation:
+	If you need an introduction to ASA and/or the code, this 
+	is a good jump off point.
+
+
+-------------------------------------------------------------
+ALS (Amyotrophic Lateral Sclerosis) Digest
+-------------------------------------------------------------
+Resource Type:  listserv
+
+Subscriptions:  
+	To subscribe, to unsubscribe, to contribute notes, etc. 
+	to ALS Digest, please send e-mail to:
+	bro@huey.met.fsu.edu  (Bob Broedel)
+
+Postings:
+	All interested people may "broadcast" messages to ALS 
+	Digest subscribers by sending to:
+	als@huey.met.fsu.edu
+
+Moderator:
+	Bob Broedel
+	bro@huey.met.fsu.edu
+
+Description:
+	From the masthead:
+	This e-mail list has been set up to serve the world-wide 
+	ALS community. That is, ALS patients, ALS researchers, 
+	ALS support/discussion groups, ALS clinics, etc. Others 
+	are welcome (and invited) to join. Currently there are 
+	130+ subscribers.
+
+Archive/Gateway:  n/a
+
+Searchable Index:  n/a
+
+FAQ:  n/a
+
+Evaluation:
+	Lots of news, information resources, and support get 
+	passed along here.
+
+
+-------------------------------------------------------------
+American Journal of Physiology
+-------------------------------------------------------------
+ISSN: 0002-9513
+
+Resource Type: journal
+
+Table of Contents: 	gopher://oac.hsc.uth.tmc.edu:3300/11/ 
+					publications/jn
+
+Articles (abstracts):  not available
+
+Articles (full-text):  not available
+
+Subscription Info:  not available
+
+Online Version:  not available
+
+
+-------------------------------------------------------------
+Applications of Connectionist Systems in Biomedicine
+-------------------------------------------------------------
+Resource Type:  textual document(s)
+
+Date:  9/92
+
+File Format:  ascii
+
+URL:  gopher://info.lanic.utexas.edu/00/la/Brazil/ftp/mirror/
+		Medicine/neuromed.doc
+
+Author:  
+	Renato M.E. Sabbatini, PhD
+	Center for Biomedical Informatics
+	State University of Campinas
+	P.O. Box 6005
+	Campinas, Sao Paulo, 13081-970, Brazil
+	Tel. +55 192 39-7130
+	Fax. +55 192 39-4717
+	Tlx. +55 19 1150 uec br
+
+Description:  
+	Published in:  K.C. Lun, Degoulet, P. & Piemme, T. 
+	(Eds.) Proceedings of the 7th International Congress on 
+	Medical Informatics. Geneva, Switzerland, September 
+	1992. Amsterdam: North-Holland, 1992, p. 418-425.
+
+	This paper discusses the potential applications and 
+	benefits of connectionist systems in Biology and 
+	Medicine and reviews the field in its latest 
+	developments.
+
+File size:  n/a
+
+Searchable index:  n/a
+
+Evaluation:
+	A nice intro to bridging the gap between neural network 
+	modelling and application in the laboratory.
+
+
+-------------------------------------------------------------
+Australia National University Bioinformatics Facility - 
+Neuroscience Folder
+-------------------------------------------------------------
+Resource Type:  gopher
+
+URL:  gopher://life.anu.edu.au/1/neuroscience
+
+Login Instructions:  n/a
+
+Description:
+	This gopher provides extensive information about the 
+neuroscience programs at Australia National University, 
+including descriptions of research projects, e-mail addresses 
+and phone numbers of faculty.  There are also some links to 
+archived listservs and newsgroups.  Plans for the future 
+include a WWW version, image databases for persons in 
+biological or machine vision, and perhaps an electronic 
+journal.
+
+Searchable Index:  n/a
+
+Manager:  
+	Dr Ted Maddess
+	Visual Sciences Group
+	Research School of Biological Sciences
+	Australian National University
+	GPO Box 475
+	nsconv@life.anu.edu.au
+	phone:  61-6-249-4099
+
+FAQ:  gopher://life.anu.edu.au/00/neuroscience/
+		ArchiveStructure
+
+Evaluation:
+	Lots of good information about current research.  Can't 
+wait for the image database!  The other segments of the ANU 
+Bioinformatics Facility are also well worth checking out.
+
+
+-------------------------------------------------------------
+bionet.neuroscience
+-------------------------------------------------------------
+Resource Type: usenet group
+
+Date: 4/91 to present
+
+Description:	
+	From the FAQ:	
+	The system is intended to promote communication between 
+	professionals in the biological sciences.  All postings 
+	to the newsgroups should be made in that spirit.  While 
+	the general public may "listen in" to the discussions, 
+	these newsgroups are intended 	primarily for 
+	communications between researchers.  There are other 
+	forums on USENET such as sci.bio for the asking and 
+	answering of biological questions from lay persons.
+
+	Bionet.neuroscience is one of the many bionet usenet 
+	newsgroups.  It welcomes input from all disciplines of 
+	neuroscience.
+
+	Postings can be received via a listserv instead of 
+	usenet, but in time this access method will be 
+	phased out.  See the FAQ if this option is necessary. 
+
+	Contact biosci-help@net.bio.net for further help.
+
+Archive:
+	The BIOSCI node at net.bio.net maintains the entire 
+	collection of 	BIOSCI/bionet messages.  They are 
+	available via: WAIS (biosci.src), Gopher (net.bio.net 
+	port 70), and anonymous ftp from net.bio.net 
+	[134.172.2.69].
+
+Searchable Index: wais://net.bio.net:210/biosci
+
+FAQ: gopher://net.bio.net/00/doc/biosci.FAQ
+
+Evaluation:  
+	A very active group--lots of queries and a cooperative 
+	atmosphere.  One of the best forums for a wide 
+	neuroscience audience.
+
+
+-------------------------------------------------------------
+bionet newsgroup participants
+-------------------------------------------------------------
+Resource Type: directory
+
+Update Frequency: daily
+
+URL:	wais://net.bio.net:210/biologists-addresses
+
+Contents/Features:
+	From the FAQ:
+	As of May 1993, BIOSCI at net.bio.net began running a 
+	BIOSCI user address directory which can be accessed 
+	through WAIS or waismail. The database serves as a 
+	directory that enables biologists, who are currently 
+	using (or even just reading) the BIOSCI newsgroups, to 
+	look up e-mail addresses and other information about our 
+	users. The raw unindexed data is available for FTP from 
+	net.bio.net and is atomized sufficiently to allow import 
+	into your local RDBMS should you so desire.  Send the 
+	message  "help"  to waismail@net.bio.net for 
+	instructions on using waismail.  
+	Leave the Subject: line in your message blank.
+
+	The directory contains information about name, job 
+	title, e-mail address, phone number, fax number, 
+	address, and research interests.
+
+
+Searchable?:	yes
+
+FAQ:	gopher://net.bio.net/00/doc/biosci.FAQ
+
+How to Get Listed:
+	1) consult the FAQ
+	2) a form and instructions are posted periodically to 
+		each bionet usenet group
+	3) use a gopher to fill out a form: 
+		gopher://merlot.gdb.org/11/biol-search/Biosci 
+		or  
+		gopher://gopher.csc.fi/11/tiede/BioBox/faq
+
+Evaluation:
+	If you know that the person you are looking for 
+	participates in the bionet newsgroup, this is a great, 
+	quick way to look them up.  Also useful for facilitating 
+	follow up to usenet articles which do not necessary 
+	belong in a public forum or are too complex to deal with 
+	electronically.  
+
+	Searching for research interest keywords could also 
+	assemble a quick list of expert contacts.  But remember 
+	that the info is self-reported and may be out of date.
+
+
+-------------------------------------------------------------
+Brain Scan -- Dementia
+-------------------------------------------------------------
+Resource Type: Image
+
+Image Type: JPEG
+
+URL: gopher://gopher.austin.unimelb.edu.au/I9/images/
+ 		petimages/brain_dementia_FDG
+
+Description:
+	From Austin Hospital Gopher:
+
+	Scan; Brain scan - Dementia
+	Location; UCLA
+	Scanner; CTI 931
+	Radiopharmaceutical; 18F-fluorodeoxyglucose
+
+	This scan shows maked hypometabolism in the parietal 
+	region with good preservation of the motor strip. There 
+	is also slight frontal hypometabolism seen .
+
+File Size: 24K
+
+Hardware/Software Requirements: JPEG file viewing software
+
+Originating Source: UCLA
+
+FAQ: none
+
+Evaluation:
+	Useful for incorporation into compound documents of text 
+	and images.  Resolution is fairly good, but this 
+	resource contains  only a JPEG image, which may not be
+	suitable for research purposes.
+
+
+-------------------------------------------------------------
+Brain Scan -- Epilepsy
+-------------------------------------------------------------
+Resource Type: Image
+
+Image Type: JPEG
+
+URL: gopher://gopher.austin.unimelb.edu.au/I9/images/
+		petimages/brain_epilepsy_FDG
+
+Description:
+	From Austin Hospital Gopher:
+
+	Scan; Brain scan - Epilepsy
+	Location; UCLA
+	Scanner; CTI 931
+	Radiopharmaceutical; 18F FDG
+
+	This is an interictal study (ie. between siezures). The 
+	right temporal lobe is hypometabolic. In fact the whole 
+	right hemisphere is slightly hypometabolic.
+
+File Size: 52K
+
+Hardware/Software Requirements: JPEG file viewing software
+
+Originating Source: UCLA
+
+FAQ: none
+
+Evaluation:
+	Useful for incorporation into compound documents of text 
+	and images.  Resolution is fairly good, but this 
+	resource contains  only a JPEG image, which may not be 
+	suitable for research purposes.
+
+
+-------------------------------------------------------------
+Brain Scan -- MRI 
+-------------------------------------------------------------
+Resource Type: Image
+
+Image Type: JPEG
+
+URL: gopher://gopher.austin.unimelb.edu.au/I9/images/ 
+		petimages/brain_MRI_scan
+
+Description:
+	From Austin Hospital Gopher:
+	This Brain MRI Scan study shows the sagittal slices of 
+	an M.R.I study which can be accessed and displayed by 
+	the "ECAT" P.E.T scanner software. Once image files are 
+	converted to a compatible format they can be manipulated 
+	and processed using the standard "ECAT" software. 
+	Overlaying of P.E.T and M.R.I images and reslicing of 
+	the M.R.I into different planes are two of the useful 
+	options available.
+
+File Size:183K
+
+Hardware/Software 
+Requirements: JPEG file viewing software
+
+Originating Source: 
+Unknown
+
+FAQ: none
+
+Evaluation:
+	Useful for incorporation into compound documents of text 
+	and images.  The options discussed (reslicing MRI and 
+	overlaying MRI and PET images) may prove interesting.  
+	Resolution is fairly good, but this resource contains  
+	only a JPEG image, which may not be suitable for 
+	research purposes.
+
+
+-------------------------------------------------------------
+Brain Scan -- Normal
+-------------------------------------------------------------
+Resource Type: Image
+
+Image Type: JPEG
+
+URL: gopher://gopher.austin.unimelb.edu.au/I9/images/
+		petimages/brain_normal_FDG
+
+Description:
+	From Austin Hospital Gopher:
+
+	Scan; Normal brain -FDG
+	Location; Hammersmith
+	Scanner; Siemens/CTI 953B
+	Radiopharmaceutical; 18F fluorodeoxyglucose
+
+	This is a scan showing the utilization of fluorine-18 
+	labelled glucose by the brain. The intensity at each 
+	point reflects the energy being used by that part of the 
+	brain while the scan was taken. You can see greater 
+	intensity in the outer (or cortical) areas and the deep 
+	central structures. This is the greymatter of the brain. 
+	The white matter of the brain requires only 1/4  of the 
+	energy of the grey matter. The large wedge shaped region 
+	in the posterior is called the visual cortex, and is 
+	responsible for all of our visual processing.  
+	Approximately 25% of the human brain is dedicated to 
+	this function. Even though the subject's eyes were 
+	closed during the scan the visual areas are still seen 
+	to be using a lot of glucose. The deep central 
+	structures are responsible for co-ordinating movement, 
+	and are involved in cognitive, higher functions. Many 
+	structures in the brain are joined through this area as 
+	well.
+
+File Size: 89K
+
+Hardware/Software Requirements: JPEG file viewing software
+
+Originating Source: Hammersmith
+
+FAQ: none
+
+Evaluation:
+	Useful for incorporation into compound documents of text 
+	and images.  Resolution is fairly good, but this 
+	resource contains  only a JPEG image, which may not be 
+	suitable for research purposes.
+
+
+-------------------------------------------------------------
+Brain Scan -- Normal -- Reconstructed in 3D
+-------------------------------------------------------------
+Resource Type: Image
+
+Image Type: JPEG
+
+URL: gopher://gopher.austin.unimelb.edu.au/I9/images/ 
+		petimages/brain_3D_recon
+
+Description:
+	From Austin Hospital Gopher:
+
+	Scan; Normal brainscan reconstructed in 3D.
+	Location; UCLA
+	Scanner; CTI 931
+	Radiopharmaceutical;18F-FDG
+
+	This is a normal FDG brain study which has been 
+	reconstructed using volume rendering to create a 3-
+	dimensional display. The individual projections can be 
+	linked into a cine display to give the impression of a 
+	rotating solid brain.
+
+File Size: 127K
+
+Hardware/Software Requirements: JPEG file viewing software
+
+Originating Source: UCLA
+
+FAQ: none
+
+Evaluation:
+	Useful for incorporation into compound documents of text 
+	and images.  The options discussed (for creating a 
+	rotating solid brain) may prove interesting.  
+	Resolution is fairly good, but this resource contains  
+	only a JPEG image, which may not be suitable for 
+	research purposes.
+
+
+-------------------------------------------------------------
+Brain Scan -- Recurrent Tumor
+-------------------------------------------------------------
+Resource Type: Image
+
+Image Type: JPEG
+
+URL: gopher://gopher.austin.unimelb.edu.au/I9/images/
+		petimages/brain_tumour2_FDG
+
+Description:
+	From Austin Hospital Gopher:
+
+	Scan; Brain - Recurrent Tumour
+	Location: UCLA
+	Scanner; CTI 931
+	Radiopharmaceutical; 18F-FDG
+
+	There is a hypermetabolic area just lateral to the 
+	thalamus on the left side which represents a 
+	metabolically active tumour.
+
+File Size: 53K
+
+Hardware/Software Requirements: JPEG file viewing software
+
+Originating Source: UCLA
+
+FAQ: none
+
+Evaluation:
+	Useful for incorporation into compound documents of text 
+	and images.  Resolution is fairly good, but this 
+	resource contains  only a JPEG image, which may not be 
+	suitable for research purposes.
+
+
+-------------------------------------------------------------
+Brain Scan -- Recurrent Tumor (Astrocytoma)
+-------------------------------------------------------------
+Resource Type: Image
+
+Image Type: JPEG
+
+URL: gopher://gopher.austin.unimelb.edu.au/I9/images/
+		petimages/brain_tumour1_FDG
+
+Description:
+	From Austin Hospital Gopher:
+
+	Scan; Brain - Recurrent Tumour (Astrocytoma)
+	Location; UCLA
+	Scanner; CTI 931
+	Radiopharmaceutical; 18F-FDG
+
+	There is an obvious cold area in the parieto-occipital 
+	region on the right side,where the astrocytoma has been 
+	treated. This is probably necrotic tissue. However there 
+	is increased metabolic activity on the anterior border 
+	of the tumour, probably representing recurrence. Other 
+	brain structures on the right side show the effects of 
+	radiotherapy ie. decreased metabolism.
+
+File Size: 42K
+
+Hardware/Software Requirements: JPEG file viewing software
+
+Originating Source: UCLA
+
+FAQ: none
+
+Evaluation:
+	Useful for incorporation into compound documents of text 
+	and images.  Resolution is fairly good, but this 
+	resource contains  only a JPEG image, which may not be 
+	suitable for research purposes.
+
+
+-------------------------------------------------------------
+BrainBrowser Texts
+-------------------------------------------------------------
+Resource Type: text document(s)
+
+Date: 1989
+
+File Format: ascii
+
+URL: file://obex.scripps.edu/pub/shared_data/BrainBrowser
+
+Author:
+	BrainBrowser was created by Floyd Bloom, Warren 
+	Young, and Yuag Kim.  This ftp collection of 
+	BrainBrowser documents is maintained by Warren Young 
+	(young@scripps.edu)
+
+Description:
+	BrainBrowser is a commercially available, digitized 
+	version of Paxinos and Watson's rat brain atlas.  It 
+	runs on the Macintosh using Hypercard.  The software 
+	itself is not available here, but texts produced by the 
+	software are.  They include a file of over 300 
+	literature references (Reference Reports), "flashcards" 
+	from the educational module of BrainBrowser 
+	(Learner_Reports), circuitry data (Circuit_Reports), 
+	textual descriptions of structures and coordinates in 
+	horizontal and saggital slices (Horizontal_Reports and 
+	Saggital_Reports), and full descriptions of places in 
+	the brain including the entire circuitry chaining 
+	(Place_Reports).  All of these files are indexed and 
+	searchable using the WAIS sources listed below.
+
+File Size: varies
+
+Searchable Index:
+	wais://obex.scripps.edu/BrainBrowserReferences
+	wais://obex.scripps.edu/BrainBrowserLearner
+	wais://obex.scripps.edu/BrainBrowserCircuits
+	wais://obex.scripps.edu/BrainBrowserHorizontal
+	wais://obex.scripps.edu/BrainBrowserSagittal
+	wais://obex.scripps.edu/BrainBrowserPlaces
+
+Evaluation:
+	This is a little known but potentially useful store of 
+	information.  One drawback is its date.  It has not been 
+	updated since 1989.
+
+
+-------------------------------------------------------------
+Brainstack
+-------------------------------------------------------------
+Resource Type: Software
+
+Date/Version: unknown
+
+URL:	file://sunsite.unc.edu/pub/academic/medicine/mac-
+		medical/hypercard/brainstack.cpt.hqx
+
+Description:
+	Describes different lobes of the brain and specialized 
+	regions visually by clicking and highlighting areas.  
+	Includes frontal lobe (Broca's area, motor cortex, 
+	smell) occipital lobe (primary visual, secondary visual) 
+	parietal lobe (primary sensory) temporal lobe 
+	(Wernicke's area hearing).  Has textual descriptions 
+	with hypertext glossary.  Several unfinished features 
+	promised in the next release.
+
+File Size: 101K in archive
+
+
+Hardware/Software Requirements:
+	Macintosh computer
+	Hypercard player
+	BinHex compatible decompression software
+	Extraction software
+
+Author:
+	For questions concerning the content of this resource, 
+	contact:
+
+	John Mack
+	15 Pine Tree Road
+	Huntington Station
+	New York 11746
+	(516) 385-1294
+	compuserve: 70411,377
+
+	Robert Slotnick 
+	NYIT Microcomputer Lab
+	1855 Broadway
+	New York, NY 10023
+	(212) 399-0790
+
+Evaluation:
+	The content is pretty basic -- middle school to bio101 
+	level.
+
+
+-------------------------------------------------------------
+Cellular Neural Networks
+-------------------------------------------------------------
+Resource Type: Listserv
+
+Subscriptions:  mb@tce.ing.uniroma1.it  (151.100.8.30)
+
+Postings:  cells@tce.ing.uniroma1.it (151.100.8.30)
+
+Moderator:
+	Marco Balsi 
+	mb@tce.ing.uniroma1.it  (151.100.8.30)
+
+Description:
+	From the announcement:
+	We are now announcing the start of a new mailing list  
+	dedicated  to Cellular Neural Networks. It will give  
+	the opportunity of discussing current research, 
+	exchanging news, submitting  questions.  Due to memory  
+	shortage, we are currently not able to offer an archive 
+	service, and hope that some other group will be able to 
+	volunteer for the establishment of this means of fast 
+	distribution of recent reports and papers.  The list 
+	will not be moderated, at least as long as the necessity  
+	does not arise.
+
+	Cellular Neural Networks (CNN) are continuous-time 
+	dynamical systems, consisting of a grid of processing 
+	elements (neurons, or cells) connected only to 
+	neighbors within a given (typically small) distance.  It 
+	is  therefore a class of recurrent neural networks, 
+	whose particular topology is most suited for integrated 
+	circuit realization.  In fact, while in typical 
+	realizations of other neural systems most of silicon 
+	area is taken by connections, in this case connection 
+	area is neglectible, so that processor density can be 
+	much larger.
+
+Archive/Gateway: n/a
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	This list was first announced in late November 1993 and 
+	is just getting started.  The sponsors will be hosting 
+	the next IEEE International Workshop on Cellular Neural 
+	Networks and their Applications (CNNA-94), which will be 
+	held in Rome, December 18-21, 1994.
+
+
+-------------------------------------------------------------
+Center for Neural Communication Technology
+-------------------------------------------------------------
+Resource Type:  ftp site
+
+URL:  file://hertz.khri.med.umich.edu/pub
+
+Description:
+	Currently, there is not much here (code for MU, a 
+	research proposal, and a schematic in postscript 
+	format), but there are plans to develop this site as the 
+	communication arm of a proposed Center for Neural 
+	Comunication Technology at the University of Michigan.  
+	Ideas for the future include an electrode catalog; 
+	design rules; electronic schematics; data sets, 
+	including MU data sets, sampled analog sets, field-
+	potential data, format standards and confocal data sets; 
+	various software packages; and a reference database, 
+	including citations, conferences, and preprints.
+
+Searchable Index:  n/a
+
+Manager:
+	Planning is being headed by:
+	Ben Clopton
+	Assoc. Prof Otorhinolaryngology
+	Univ. of Michigan Medical School
+	Adj. Assoc. Prof.of Psychology
+	University of Michigan
+	benc@u.washington.edu
+
+FAQ:  n/a
+
+Evaluation:
+	This could be a valuable resource if plans work out.
+
+
+-------------------------------------------------------------
+Center for Theoretical & Applied Neuroscience (CTAN)
+-------------------------------------------------------------
+Resource Type: web home page
+
+URL: http://www.yale.edu/HTML/YaleCTAN-Info.html
+
+Description: From Ted Carnevale:
+
+	Our specific idea here at CTAN is to post the following 
+	kinds of data:
+
+	>  code for biologically realistic simulations of 
+	neurons (using NEURON or GENESIS)
+
+	>  code that models the biophysics of membrane and 
+	cytoplasm (in NMODL for NEURON, tabchannel for GENESIS)
+
+	>  detailed tables of accurate quantitative morphometric 
+	data of the sort generated by B. Claiborne (U Texas San 
+	Antonio)
+
+	>  other code for simulations (e.g. in C, Pascal) for 
+	pickup via ftp by anyone who wants to recreate our 
+	published simulations or who wishes to create new models 
+	for other purposes.
+
+	Other types of data might find their way into our ftp 
+	repository, as we generate them.  Descriptive text will 
+	be provided that specifies the empirical basis for these 
+	data, points to relevant literature etc.
+
+Author:
+	For more information contact
+	Ted Carnevale:carnevale-ted@CTAN.YALE.EDU 
+
+Evaluation:
+	Though there is nothing to evaluate at the moment, the 
+	CTAN home page is worth keeping an eye on as CTAN makes 
+	resources available.
+
+
+-------------------------------------------------------------
+Cogneuro
+-------------------------------------------------------------
+Resource Type: Listserv
+
+Subscriptions:see below
+
+Postings: see below
+
+Moderator: Kimball Collins
+
+Description:
+	"For more details about the Cognitive Neuroscience 
+	Mailing List, including how to subscribe, how to get 
+	archives, and posting guidelines, please send email to 
+	me at: cogneuro-request@ptolemy.arc.nasa.gov   with 
+	"cogneuro: send info" in the subject line, and I will 
+	reply manually with the latest information."
+
+	From the announcement:
+	The Cognitive Neuroscience Mailing List is a way to 
+	discuss phenomena at the interface of cognitive science 
+	(broadly construed) and biology. The discussion is
+	scientific, multidisciplinary, and academic.  Topics 
+	include:
+	- behavioral aspects of neuroanatomy and 
+		neurophysiology;
+	- biological aspects of particular sets of behaviors;
+	- the neuropsychology of ecology, ethology, genetics, 
+		ontogeny, endocrinology, info. science, and 
+		pharmacology;
+	- new imaging, simulation, and measurement techniques;
+	- books, papers, research directions, and new results;
+	- curricula, graduate programs, jobs, zeitgeist, and 
+		funding.
+
+	"Behavior" above is an attempt at a theory-independent, 
+	catch-all term for cognition, emotion, volition, and 
+	meaningful action in humans and other animals, normal 
+	and abnormal, including subjective reports.
+
+	Primary emphasis tends to be on science (measurable 
+	phenomena) more than philosophy, and on the field itself 
+	more than its implications.
+
+Archive/Gateway: file://ego.psych.mcgill.ca/pub/cogneuro
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	We have not personally monitored this listserv.
+
+
+-------------------------------------------------------------
+comp.ai.neural-nets
+-------------------------------------------------------------
+Resource Type: usenet group
+
+Date: unknown
+
+Description:
+	From the FAQ:
+	The newsgroup comp.ai.neural-nets is intended as a forum 
+	for people who want to use or explore the capabilities 
+	of Artificial Neural Networks or Neural-Network-
+	like structures.  Postings may take the form of 
+	requests, questions, answers, summaries, announcements, 
+	reports, or discussions [more explicit guidelines for 
+	these categories are available in the FAQ.]  In 
+	addition, several regular postings show up here 
+	including Paul Bakker's list of conferences and Neuron 
+	Digest.
+
+Archive: n/a
+
+Searchable Index: n/a
+
+FAQ: file://rtfm.mit.edu/pub/usenet/news.answers/
+		neural-net-faq
+
+Evaluation:
+	Great FAQ! A terrific resource for neural network 
+	information on the Internet.
+
+
+-------------------------------------------------------------
+Connectionists
+-------------------------------------------------------------
+Resource Type: Listserv
+
+Subscriptions: Connectionists-Request@cs.cmu.edu
+
+Postings: Connectionists@cs.cmu.edu
+
+
+Moderator:	Dave Touretzky 
+			David Redish
+
+Description:
+	From a message received when we tried to subscribe:
+	Connectionists is a restricted mailing list 
+	primarily intended for discussion of technical issues 
+	relating to neural computation, and dissemination of 
+	information directly relevant to researchers in the 
+	field.  It is NOT a public digest like AIList or the 
+	NEURON digest; membership is restricted to students and 
+	faculty members who are actively involved in 
+	connectionist research.  If you would kindly send a list 
+	of your papers or other activities in this area, we will 
+	be glad to add you to the list.  Please include your 
+	full name.
+
+Archive/Gateway: 
+	for 1/93-present:
+		gopher://icsia.icsi.berkeley.edu/ORO-11278-/
+			icsi/ai/connectionists
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	From what we've seen, this list is active and their 
+	restrictions on participation keep it focussed.
+
+
+-------------------------------------------------------------
+CT Cadaver Head data:  A 113-slice MRI data set of a CT study 
+	of a cadaver head
+-------------------------------------------------------------
+Resource Type: data set
+
+Date: n/a
+
+URL:  file://omicron.cs.unc.edu/pub/softlab/CHVRTD/volII
+
+Description:
+	From announcement at softlab ftp site:
+	A 113-slice MRI data set of a CT study of a cadaver 
+	head.  Slices are stored consecutively as a 256 x 256 
+	array with dimensions of z-113 y-256 x-256 in z-y-x 
+	order.  Format is 16-bit integers -- two consecutive 
+	bytes make up one binary integer.   We (Softlabs) do not 
+	object to your further distributing these datasets, but 
+	we request that full acknowledgement of the source of 
+	the data accompany such distribution.  If you are going 
+	to send a dataset to someone, please also send the 
+	accompanying information file.  [An installation manual 
+	is available in the same folder.]
+	For customers interested in purchasing the datasets on 
+	tape, both Volume I and Volume II can be purchased for 
+	$50.00 each, or $90.00 as a set.  The distribution is 
+	available in two different formats.  The files on the 
+	tape will be written from a DEC VAX computer using the 
+	UNIX file copy command 'dd' or the UNIX 'tar' command.  
+	Total block size is 8192 bytes written at 1600 bpi on 
+	either a standard 1/2" magnetic tape or a cartridge 
+	tape.  Please specify your preference when ordering and 
+	note that 'dd' is not available with the cartridge tape.  
+	Installation instructions accompany the distribution.
+
+File Size: 14,811,136 bytes total file size
+
+Hardware/Software Requirements:
+	Software to view these images is not provided with the 
+	datasets.  When we inquired as to suitable viewing 
+	software, we recieved the following reply from Graham 
+	Gash:
+
+	The data we distribute is 3D volume data in raw form. 
+	The purpose of our distributing these data sets was to 
+	provide a standard suite of data for testing and 
+	comparison of various volume visualization methods.  
+	Users of these data sets must convert them into whatever 
+	format is required by the software they intend to run.  
+	Most serious image processing packages provide some 
+	capability for making such conversions.  The datasets 
+	were written on a Digital Equipment Corporation (DEC) 
+	VAX  computer.  Each file contains only pixels, stored 
+	in row major order with 2-byte integers per pixel.  To 
+	use the images on machines that have normal byte order 
+	(DECs use reverse byte order), you should swap alternate 
+	bytes, for example using the 'dd' command in UNIX.  The 
+	important thing for those interested in these data sets 
+	to realize is that there is a dearth of auxiliary data 
+	about them.  In particular, practically the only such 
+	data available are the dimensions of the images.
+
+	In addition, we distribute two packages for image 
+	processing, with a somewhat medical slant.  The older 
+	one, written in C, is called /usr/image/.  It consists 
+	of a small library of file I/O functions, and about 100 
+	application programs built on that library.  The other 
+	package, called /usr/Image/, consists of 6 C++ libraries 
+	called DIAL, that perform I/O and a lot more, a few new 
+	C++ programs and the original set of programs, which 
+	work with the C++ libraries through a "compatibility 
+	library".  We will eventually convert the C programs to 
+	C++.  Both of these packages are downloadable via ftp, 
+	but they are presently licensed.  In the future 
+	(probably within 6 months), the C++ libraries (possibly 
+	also the programs) will be freely distributable (a la 
+	the GNU software).
+Originating Source:
+	Data taken on the General Electric CT Scanner and 
+	provided courtesy of North Carolina Memorial Hospital.  
+	Made available by Softlabs.
+
+	Natalie E. Sipes
+	SoftLab Coordinator
+	email: softlab@cs.unc.edu
+	telephone:  919-962-1960
+	SoftLab Software Systems Laboratory
+	CB# 3175, 361 Sitterson Hall
+	University of North Carolina
+	Department of Computer Science
+	Chapel Hill, North Carolina  27599-3175
+
+	Graham Gash, Ph.D. 
+	Medical Image Processing Manager 
+	gash@cs.unc.edu or gash@cv.ruu.nl
+	Department of Computer Science
+	Phone: (919) 962-1725
+	FAX: (919) 962-1799
+	University of North Carolina
+	Chapel Hill, N.C.  27599-3175
+
+
+Evaluation:
+	We have not looked at this dataset personally.  E-mail 
+	inquiries were handled very expediently, however.
+
+
+-------------------------------------------------------------
+CTI Centre for Biology Gopher
+-------------------------------------------------------------
+Resource Type:  gopher
+
+URL:  gopher://gopher.csc.liv.ac.uk/11/ctibiol
+
+Login Instructions: n/a
+
+Description:
+	This gopher catalogs educational software for biology 
+	including hypercard stacks, videodiscs, and other 
+	multimedia formats.  Each entry contains a short 
+	description and information about obtaining the 
+	software.  Both commercial and free packages are 
+	included.  The decriptions contain no evaluative or 
+	price information.  The entries have not been updated 
+	since 1991, but there are plans to have an updated 
+	version by Christmas, 1993, possibly with online forms 
+	to register new software.
+
+Searchable Index: n/a
+
+Manager:
+	CTI Centre for Biology
+	Donnan Labs
+	University of Liverpool
+	ctibiol@liverpool.ac.uk
+	P.O. Box 147
+	Liverpool L69 3BX, UK
+	phone: 051-794 5118
+	fax: 051-794 3588 or 051-794 4401
+
+FAQ:  gopher://gopher.csc.liv.ac.uk/11/ctibiol/readme
+
+Evaluation:
+	Although the information is dated and has a British bias 
+	(after all it is funded by the UK government), this 
+	might be a useful first look for educational software.  
+	There are several entries of interest for the 
+	neurosciences.  It has the potential to become a 
+	valuable resource if the planned improvements come 
+	about.  Log in so that they can justify their work!
+
+
+-------------------------------------------------------------
+Eindhoven University of Techonology Electric Circuit Design 
+Home Page - Neural Network Information
+-------------------------------------------------------------
+Resource Type:  web home page
+
+URL:  http://www.eeb.ele.tue.nl/neural/neural.html
+
+Description:
+	The sponsors of this resource are interested in the 
+	electronic implementation of neural networks using 
+	analog hardware. This page provides general information 
+	about neural networks as well as more specialized 
+	subjects on the electronic implementation.  It now 
+	contains some general information on neurons, a link to 
+	Neuroprose, several reports by members and graduate 
+	students of their group on both algorithms and analog 
+	electronic implementations, and a hypertext version of 
+	the comp.ai.neural-nets FAQ.
+
+Manager:
+	Send any suggestions on information which could also be 
+	made public on this page to: 
+	Heini Withagen
+	www@eeb.ele.tue.nl.
+
+Evaluation:
+	It's been fun to watch this resource evolve over the 
+	last two months.  The FAQ greatly expands it's scope.  
+	Nice organization.
+
+
+-------------------------------------------------------------
+Epilepsy List
+-------------------------------------------------------------
+Resource Type:  listserv
+
+Subscriptions:  listserv@calvin.dgbt.doc.ca
+
+Postings:  epilepsy-list@calvin.dgbt.doc.ca
+
+Moderator:
+	Andrew Patrick, Ph.D.
+	Communications Research Centre,
+	Ottawa, Canada
+	andrew@calvin.dgbt.doc.CA
+
+Description:
+	This mailing list is intended for discussions about 
+	epilepsy and seizure disorders.
+
+Archive/Gateway:  n/a
+
+Searchable Index:  n/a
+
+FAQ:  n/a
+
+Evaluation:  We have not personally monitored this list.
+
+
+-------------------------------------------------------------
+European Journal of Nuclear Medicine
+-------------------------------------------------------------
+ISSN: 0340-6997
+
+Resource Type: journal
+
+Feature
+			URL
+Table of Contents:	gopher://next.csc.cuhk.hk/11/cinfo/uli/ 
+				sj/259
+
+Articles (abstracts):  not available
+
+Articles (full-text):  not available
+
+Subscription Info:  not available
+
+Online Version:  not available
+
+Other Notes:
+	List of issues presented as a gopher menu organized 
+	chronologically by year, month, volume and issue number.  
+	Each gopher menu item corresponds to a file containing 
+	that issue's table of contents.
+	The table of contents are part of a two-year experiment 
+	by publisher Springer-Verlag.  Contents are in an ASCII 
+	format and tagged to BRS Medline conventions for 
+	downloading into personal bibliographic software.
+
+	From Springer-Verlag:
+
+	"The aim of the European Journal of Nuclear Medicine is 
+	to provide a forum for the exchange of clinical and 
+	scientific information for the nuclear medicine 
+	community. The European Journal of Nuclear Medicine will 
+	be of primary interest to doctors practising in the 
+	field of nuclear medicine, but original works relating 
+	to clinical nuclear medicine in physics, dosimetry, 
+	radiation biology, computer science, radiopharmacy and 
+	radiochemistry are also welcome. The European Journal of 
+	Nuclear Medicine also publishes in-depth reviews of 
+	topical subjects. Case reports are published only if 
+	they are of outstanding interest. All manuscripts 
+	should be formulated so that the average reader can at 
+	least grasp the general principles of the subject 
+	matter."
+
+
+
+-------------------------------------------------------------
+Experimental Brain Research
+-------------------------------------------------------------
+ISSN: 0014-4819
+
+Resource Type: journal
+
+Table of Contents:	gopher://morris.lib.udel.edu/11/Xperarea/ 
+				springer/ebr
+
+Articles (abstracts):  not available
+
+Articles (full-text):  not available
+
+Subscription Info:	
+
+Online Version:  not available
+
+Other Notes:
+
+	List of issues presented as a gopher menu organized 
+	chronologically by year, month, volume and issue number.  
+	Each gopher menu item corresponds to a file containing 
+	that issue's table of contents.
+
+	The table of contents are part of a two-year experiment 
+	by publisher Springer-Verlag.  Contents are in an ASCII 
+	format and tagged to BRS Medline conventions for 
+	downloading into personal bibliographic software.
+
+	From Springer-Verlag:
+
+
+	"Experimental Brain Research accepts original 
+	contributions on many aspects of experimental research 
+	of the central and peripheral nervous system in the 
+	fields of morphology, physiology, behaviour, 
+	neurochemistry, develolpmental neurobiology, and 
+	experimental pathology relevant to general problems of 
+	cereberal function."
+
+
+-------------------------------------------------------------
+Frog-Net
+-------------------------------------------------------------
+Resource Type: Listserv
+
+Subscriptions: liaw@rana.usc.edu
+
+Postings: frog-net@rana.usc.edu
+
+Moderator:
+	Jim Liaw
+	Center for Neural Engineering
+	Univ. of Southern California
+	Los Angeles, CA 90089-2520
+	(213) 740-6991
+	liaw@rana.usc.edu
+
+Description:
+	From the announcement:
+	This mailing list is set up to facilitate the 
+	communication and interaction among researchers 
+	interested in the behavior and the underlying neural 
+	mechanisms in amphibians.
+
+Archive/Gateway: n/a
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	We have not monitored this listserv personally.
+
+
+-------------------------------------------------------------
+Head data:  A 109 slice MRI data set of a human head
+-------------------------------------------------------------
+Resource Type: data set
+
+Date: n/a
+
+URL:  file://omicron.cs.unc.edu/pub/softlab/CHVRTD/volI
+
+Description:
+	From announcement at softlab ftp site:
+	A 109-slice MRI data set of a human head.  Complete 
+	slices are stored consecutively as a 256 x 256 array. 
+	Pixels consist of 2 consecutive bytes making one binary 
+	integer.  We (Softlabs) do not object to your further 
+	distributing these datasets, but we request that full 
+	acknowledgement of the source of the data accompany such 
+	distribution.  If you are going to send a dataset to 
+	someone, please also send the accompanying information 
+	file.  [An installation manual is available in the same 
+	folder.]
+
+	For customers interested in purchasing the datasets on 
+	tape, both Volume I and Volume II can be purchased for 
+	$50.00 each, or $90.00 as a set.  The distribution is 
+	available in two different formats.  The files on the 
+	tape will be written from a DEC VAX computer using the 
+	UNIX file copy command 'dd' or the UNIX 'tar' command.  
+	Total block size is 8192 bytes written at 1600 bpi on 
+	either a standard 1/2" magnetic tape or a cartridge 
+	tape.  Please specify your preference when ordering and 
+	note that 'dd' is not available with the cartridge tape.  
+	Installation instructions accompany the distribution.
+
+File Size: n/a
+
+Hardware/Software Requirements:
+	Software to view these images is not provided with the 
+	datasets.  When we inquired as to suitable viewing 
+	software, we received the following reply from Graham 
+	Gash:
+
+	The data we distribute is 3D volume data in raw form. 
+	The purpose of our distributing these data sets was to 
+	provide a standard suite of data for testing and 
+	comparison of various volume visualization methods.  
+	Users of these data sets must convert them into whatever 
+	format is required by the software they intend to run.  
+	Most serious image processing packages provide some 
+	capability for making such conversions.  The datasets 
+	were written on a Digital Equipment Corporation (DEC) 
+	VAX  computer.  Each file contains only pixels, stored 
+	in row major order with 2-byte integers per pixel.  To 
+	use the images on machines that have normal byte order 
+	(DECs use reverse byte order), you should swap alternate 
+	bytes, for example using the 'dd' command in UNIX.  The 
+	important thing for those interested in these data sets 
+	to realize is that there is a dearth of auxiliary data 
+	about them.  In particular, practically the only such 
+	data available are the dimensions of the images.
+
+	In addition, we distribute two packages for image 
+	processing, with a somewhat medical slant.  The older 
+	one, written in C, is called /usr/image/.  It consists 
+	of a small library of file I/O functions, and about 100 
+	application programs built on that library.  The other 
+	package, called /usr/Image/, consists of 6 C++ libraries 
+	called DIAL, that perform I/O and a lot more, a few new 
+	C++ programs and the original set of programs, which 
+	work with the C++ libraries through a "compatibility 
+	library".  We will eventually convert the C programs to 
+	C++.  Both of these packages are downloadable via ftp, 
+	but they are presently licensed.  In the future 
+	(probably within 6 months), the C++ libraries (possibly 
+	also the programs) will be freely distributable (a la 
+	the GNU software).
+
+Originating Source:
+	Data taken on the Siemens Magnetom and provided courtesy 
+	of Siemens Medical Systems, Inc., Iselin, NJ.
+	Made available by Softlabs.
+
+	Natalie E. Sipes
+	SoftLab Coordinator
+	email: softlab@cs.unc.edu
+	telephone:  919-962-1960
+	SoftLab Software Systems Laboratory
+	CB# 3175, 361 Sitterson Hall
+	University of North Carolina
+	Department of Computer Science
+	Chapel Hill, North Carolina  27599-3175
+
+	Graham Gash, Ph.D. 
+	Medical Image Processing Manager 
+	gash@cs.unc.edu or gash@cv.ruu.nl
+	Department of Computer Science
+	Phone: (919) 962-1725
+	FAX: (919) 962-1799
+	University of North Carolina
+	Chapel Hill, N.C.  27599-3175
+
+
+Evaluation:
+	We have not looked at this dataset personally.  E-mail 
+	inquiries were handled very expediently, however.  
+
+
+-------------------------------------------------------------
+Journal of Neurophysiology
+-------------------------------------------------------------
+ISSN: 0022-3077
+
+Resource Type: journal
+
+Table of Contents:	gopher://oac.hsc.uth.tmc.edu:3300/11/ 
+				publication/jn
+
+Articles (abstracts):  not available
+
+Articles (full-text):  not available
+
+Subscription Info:  not available
+
+Online Version:  not available
+
+
+-------------------------------------------------------------
+MR Brain data: 109-slice MRI data set of a head with skull 
+	partially removed to reveal brain
+-------------------------------------------------------------
+Resource Type: data set
+
+Date: n/a
+
+URL:  file://omicron.cs.unc.edu/pub/softlab/CHVRTD/volII
+
+Description:
+	From announcement at softlab ftp site:
+	A 109-slice MRI data set of a head with skull partially 
+	removed to reveal brain.  256 x 256 array, with 
+	dimensions of Z=109 Y=256 X=256 in z-y-x order.  Format 
+	is 16-bit integers -- two consecutive bytes make up one 
+	binary integer.  We (Softlabs) do not object to your 
+	further distributing these datasets, but we request that 
+	full acknowledgement of the source of the data accompany 
+	such distribution.  If you are going to send a dataset 
+	to someone, please also send the accompanying 
+	information file.  [An installation manual is available 
+	in the same folder.]
+
+	For customers interested in purchasing the datasets on 
+	tape, both Volume I and Volume II can be purchased for 
+	$50.00 each, or $90.00 as a set.  The distribution is 
+	available in two different formats.  The files on the 
+	tape will be written from a DEC VAX computer using the 
+	UNIX file copy command 'dd' or the UNIX 'tar' command.  
+	Total block size is 8192 bytes written at 1600 bpi on 
+	either a standard 1/2" magnetic tape or a cartridge 
+	tape.  Please specify your preference when ordering and 
+	note that 'dd' is not available with the cartridge tape.  
+	Installation instructions accompany the distribution.
+
+File Size: 14,286,848 bytes total file size. 
+
+Hardware/Software Requirements:
+	Software to view these images is not provided with the 
+	datasets.  When we inquired as to suitable viewing 
+	software, we received the following reply from Graham 
+	Gash:
+
+	The data we distribute is 3D volume data in raw form. 
+	The purpose of our distributing these data sets was to 
+	provide a standard suite of data for testing and 
+	comparison of various volume visualization methods.  
+	Users of these data sets must convert them into whatever 
+	format is required by the software they intend to run.  
+	Most serious image processing packages provide some 
+	capability for making such conversions.  The datasets 
+	were written on a Digital Equipment Corporation (DEC) 
+	VAX  computer.  Each file contains only pixels, stored 
+	in row major order with 2-byte integers per pixel.  To 
+	use the images on machines that have normal byte order 
+	(DECs use reverse byte order), you should swap alternate 
+	bytes, for example using the 'dd' command in UNIX.  The 
+	important thing for those interested in these data sets 
+	to realize is that there is a dearth of auxiliary data 
+	about them.  In particular, practically the only such 
+	data available are the dimensions of the images.
+
+	In addition, we distribute two packages for image 
+	processing, with a somewhat medical slant.  The older 
+	one, written in C, is called /usr/image/.  It consists 
+	of a small library of file I/O functions, and about 100 
+	application programs built on that library.  The other 
+	package, called /usr/Image/, consists of 6 C++ libraries 
+	called DIAL, that perform I/O and a lot more, a few new 
+	C++ programs and the original set of programs, which 
+	work with the C++ libraries through a "compatibility 
+	library".  We will eventually convert the C programs to 
+	C++.  Both of these packages are downloadable via ftp, 
+	but they are presently licensed.  In the future 
+	(probably within 6 months), the C++ libraries (possibly 
+	also the programs) will be freely distributable (a la 
+	the GNU software).
+
+Originating Source:
+	Data taken on the Siemens Magnetom and provided courtesy 
+	of Siemens Medical Systems, Inc., Iselin, NJ.  Data 
+	edited (skull removed) by Dr. Julian Rosenman, North 
+	Carolina Memorial Hospital.
+	Made available by Softlabs.
+
+	Natalie E. Sipes
+	SoftLab Coordinator
+	email: softlab@cs.unc.edu
+	telephone:  919-962-1960
+	SoftLab Software Systems Laboratory
+	CB# 3175, 361 Sitterson Hall
+	University of North Carolina
+	Department of Computer Science
+	Chapel Hill, North Carolina  27599-3175
+
+	Graham Gash, Ph.D. 
+	Medical Image Processing Manager 
+	gash@cs.unc.edu or gash@cv.ruu.nl
+	Department of Computer Science
+	Phone: (919) 962-1725
+	FAX: (919) 962-1799
+	University of North Carolina
+	Chapel Hill, N.C.  27599-3175
+
+
+Evaluation:
+	We have not looked at this dataset personally.  E-mail 
+	inquiries were handled very expediently, however.  
+
+
+-------------------------------------------------------------
+NEURO1-L, the Bitnet Neuroscience Information Exchange Forum
+-------------------------------------------------------------
+Resource Type: listserv
+
+Date: 11/1/90 to present
+
+Subscriptions:
+	LISTSERV@UICVM.UIC.EDU  (for internet users)
+	LISTSERV@UICVM  (for bitnet users)
+
+Postings:
+	NEURO1-L@UICVM.UIC>EDU  (for internet users)
+	NEURO1-L@UICVM  (for bitnet users)
+
+Moderator:
+	E.J.  Neafsey,  Ph.D. 
+	NEURO1-L  list  manager 
+	#m01ejn@luccpua  on  Bitnet
+	Director,  Neuroscience Graduate Program 
+	Associate  Professor
+	Department of Cell Biology, Neurobiology & Anatomy 
+	Loyola University Chicago Medical Center 
+	2160 S. First Ave.
+	Maywood, IL 60153 
+	(708) 216-3355
+
+Description:
+	From announcement:
+	"This (unmoderated)  forum has several functions. One is 
+	to improve everyday communication and interchange 
+	between neuroscientists.  For example, when a question 
+	arises such as "Where can I get an antibody to nerve 
+	growth factor" or something like that, simply 
+	sending that message to NEURO1-L will, hopefully, 
+	address an audience of hundreds or even thousands  of 
+	neuroscientists, at least a few  of whom will be able to  
+	send you  a reply.  I also hope  that the  forum will 
+	promote ongoing discussions  of  various, more 
+	substantial,  current  issues in  Neuroscience: Should  
+	some type  of National  Neural  Circuitry Database  be 
+	established  and maintained? What  is going on  in the 
+	field  of neuronal transplants?  Does the cerebral 
+	cortex operate primarily in a  hierarchical, sequential 
+	manner or in a distributed,  parallel fashion?  Of 
+	course,  many  other issues  also could  be discussed.  
+	Lastly,  I  hope  that NEURO1-L provides  a  stimulus  
+	for  "doing neuroscience" in  a more interactive, global  
+	way. I am sure  my own individual experience of being  
+	"overwhelmed" with information is shared  by many; 
+	perhaps if there  is a  common forum  where open 
+	discussion takes  place on  a regular basis, the "big 
+	picture" will become easier to discern, leading to 
+	better, more productive neuroscience.  Since I hope  
+	NEURO1-L becomes  a large list, please don't send junk 
+	mail because it will clutter up many mailboxes and takes 
+	time to read and throw away."
+
+Archive/Gateway: n/a
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	This list is slow.  We have received approximately one 
+	posting per week for the last month.  It seems other 
+	avenues of communication are getting more traffic.  
+	Content has been solicitations to review articles for 
+	Behavioral and Brain Sciences, conference announcements, 
+	and an occasional query.
+
+
+-------------------------------------------------------------
+Neuroanatomy Foundations
+-------------------------------------------------------------
+Resource Type: Software
+
+Date/Version: 1987
+
+URL:
+	file://orion.oac.uci.edu/med-ed/mac/clinical-science/ 
+		neuro-foundation-1.stak.sea.hqx
+	file://orion.oac.uci.edu/med-ed/mac/clinical-science/ 
+		neuro-foundation-2.stak.sea.hqx
+
+Description:
+	Neuroanatomy Foundations is a hypercard,  introductory 
+	atlas to the human brain.  By pointing and clicking on 
+	pictures and labels, the reader can explore the cerebral 
+	hemispheres, the limbic system and subcortical 
+	structures, the cerebellum and brainstem, or the major 
+	cerebral fiber tracts.  There are also text fields 
+	connected to labels with more complete information and 
+	an index.  The images are digitized, black and white 
+	photographs from Structure of the Human Brain: A 
+	Photographic Atlas by Stephen J. DeArmond, Maeline M. 
+	Fusco and Maynard M. Dewey (New York: Oxford University 
+	Press, 1976) and The Human Brain: A Photographic Guide 
+	by Nedzad Gluhbegovic and Terence H. Williams 
+	(Philadelphia:  Harper & Row, 1980).  
+
+File Size: 900 K (both volumes)
+
+Hardware/Software Requirements:
+	Macintosh computer
+	Hypercard player
+	BinHex compatible decompression software
+
+	Note:  Be sure to get both volumes or you will miss out 
+	on half the show!  After the files are decompressed they 
+	are self-extracting.
+
+Author:
+	J. Michael Williams, PhD
+	Department of Mental Health Sciences
+	Hahnemann University
+	Broad & Vine
+	Philadelphia, PA 19102
+
+Evaluation:
+	This stack is packed with information!  It is relatively 
+	easy to navigate with a little common sense and perusal 
+	of the intro material.  The images don't do justice to 
+	the originals, but the tradeoff is a program of 
+	reasonable size which is easily transportable and usable 
+	on most Macs.  Parts of the design are not quite 
+	polished, but the volume and quality of the information 
+	make up for it.  Appropriate for high school and college 
+	level.
+
+
+-------------------------------------------------------------
+Neuron-Digest
+-------------------------------------------------------------
+3/1/89 to present
+
+Resource Type: Listserv
+
+Subscriptions: neuron-request@psych.upenn.edu.
+
+Postings: neuron-request@psych.upenn.edu.
+
+Moderator: Peter Marvit
+
+Description:
+	From the announcement:
+	Neuron-Digest is a list (in moderated, digest form) 
+	dealing with all  aspects of neural networks (and any 
+	type of network or neuromorphic system), especially: 
+	Natural Systems, Software Simulations, Neurobiology, 
+	Hardware, Neuroscience, Artifical Systems, Neural 
+	Networks, Optical, Algorithms, Cellular Automatons.  Any 
+	contribution in these areas is accepted.
+
+	Any of the following types of items are reasonable: 
+	Abstracts, Reviews, Lab Descriptions, Research 
+	Overviews, Work Planned or in Progress, Half-Baked 
+	Ideas, Conference Announcements, Conference Reports, 
+	Bibliographies, History Connectionism, Puzzles and 
+	Unsolved Problems, Anecdotes, Jokes, and Poems, Queries 
+	and Requests, Address Changes.
+
+Archive/Gateway:
+	file://psych.upenn.edu/pub/Neuron-Digest
+
+	That directory contains back issues with the names 
+	vol-nn-no-mm (e.g., vol-3-no-02).   Neuron-Digest is 
+	also posted to the usenet newsgroup comp.ai.neural-
+	networks. 
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	This list is active and well moderated.  Lots of 
+	conference announcements, calls for papers, book 
+	announcements.  Fair amount of scholarly queries and a 
+	collaborative atmosphere.  What a wealth of information 
+	gets passed along here!  
+
+
+-------------------------------------------------------------
+Neuroprose
+-------------------------------------------------------------
+Resource Type: ftp site
+
+URL: file://archive.cis.ohio-state.edu/pub/neuroprose
+
+Login Instructions:
+	login: anonymous
+	password: e-mail address
+
+Description:
+	From the README:
+	This directory contains technical reports as a public 
+	service to the connectionist and neural network 
+	scientific community.
+
+	Researchers may place electronic versions of their 
+	preprints in this directory, announce availability, and 
+	other interested researchers can rapidly retrieve and 
+	print the postscripts.  This saves copying, postage and 
+	handling, by having the interested reader supply the 
+	paper.  We strongly discourage the merger into the 
+	repository of existing bodies of work or the use of this 
+	medium as a vanity press for papers which are not of 
+	publication quality. 
+
+	There are currently well over 300 papers available here.  
+	Consult the FAQ for contributor's guidelines.
+
+Searchable Index:
+	wais://wais.cic.net/neuroprose.src
+	This index contains only 137 documents and does not seem 
+	to have been updated since 1992.  It also indexes only 
+	the index page (as opposed to the full text of the 
+	articles). 
+
+
+Manager:
+	Jordan Pollack
+	Asistant Professor
+	pollack@cis.ohio-state.edu
+	614-292-4890 (then * to fax)
+	Laboratory for AI Research
+	2036 Neil Ave.
+	Columbus, OH 43210
+
+
+FAQ: file://archive.cis.ohio-state.edu/pub/neuroprose/README
+
+
+Evaluation:
+	Good example of what a research community can do in the 
+	name of collaboration.  Since the WAIS index is pretty 
+	much useless, it's best to occasionally print off the 
+	index file and look for new additions or monitor 
+	appropriate listservs and usenet groups for 
+	announcements of newly available papers.
+
+
+-------------------------------------------------------------
+Neurotour
+-------------------------------------------------------------
+Resource Type: Software
+
+Date/Version: unknown
+
+URL:	file://sunsite.unc.edu/pub/academic/medicine/
+		 mac-medical/hypercard/neurotour.cpt.hqx
+
+Description:
+	Neurotour begins to cover the basics of neuroanatomy 
+	from the macro to the micro level.  It starts with a 
+	silhouette of a human head, defines 3 sections of brain, 
+	zooms in to a diagram of the brain and defines lobes and 
+	areas, zooms in to the neuron level and identifies cell 
+	parts (some textual description), zooms again to an 
+	illustration of the synaptic region, zooms again to 
+	transmitter vesicles . . . and stops abruptly.  We have
+	not located a finished version to date.
+
+File Size: 361K in archive
+
+Hardware/Software Requirements:
+	Macintosh computer
+	Hypercard player
+	BinHex compatible decompression software
+	Extraction software
+
+Author:
+	The stack was written by Jim Ludtke.  
+	We have no other contact information.
+
+Evaluation:
+	Unfinished.  What he has is very appealing 
+	graphically and his approach is an interesting one, but 
+	is simply not very usable in its present form.  Middle 
+	school to bio101 level.
+
+
+-------------------------------------------------------------
+sci.bio
+-------------------------------------------------------------
+Resource Type: usenet group
+
+Date: 
+
+Description:
+	This is the general discussion area for biology in the 
+	sci hierarchy.  The volume is high and the topics wide-
+	ranging.  There are many queries for information.
+
+Archive: 
+	Postings since 12/91:  
+	gopher://ftp.bio.indiana.edu/11/Network-news/sci.bio
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	Neuroscientists who have a biological focus may find 
+	monitoring of this group useful for more general 
+	concerns.  There are more specialized groups which don't 
+	have as much "lay" traffic.
+
+
+-------------------------------------------------------------
+sci.bio.technology
+-------------------------------------------------------------
+Resource Type: usenet group
+
+Date: unknown
+
+Description:
+	This is a subgroup of sci.bio which deals with 
+	technology issues related to any field in biology.
+
+Archive: gopher://ftp.bio.indiana.edu/11/Network-News/ 	
+			sci.bio/technology
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	The volume is small--mostly technical questions and 
+	pleas for help.  Answers are rarely posted, so it is 
+	hard to know if it is effective to field your question 
+	to this group. 
+
+
+
+-------------------------------------------------------------
+sci.cognitive
+-------------------------------------------------------------
+Resource Type: usenet group
+
+Date: 6/92 to present
+
+Description:
+	From the charter:
+	Cognitive science is an inter-disciplinary investigation 
+	of cognition, involving cognitive psychology, artificial 
+	intelligence, computer science, human-computer 
+	interaction, philosophy of mind, philosophy of science, 
+	linguistics, neuroscience, cognitive anthropology and 
+	other disciplines. The 'mind's new science' has been 
+	around since the mid-50's, and has entered an 
+	institutional phase with textbooks, journals, centres of 
+	research and teaching etc. However, due to its inter-
+	disciplinary and international character, channels of 
+	communication devoted specifically to cognitive science 
+	are still needed, and the group sci.cognitive is 
+	intended to serve this end.
+
+	The group should serve as an open forum for discussion 
+	of all aspects of cognitive science: empirical work, 
+	cognitive modelling, theory, methodology, foundational, 
+	historical and social issues etc. The group should also 
+	facilitate the exchange of information on teaching 
+	programmes, conferences, jobs etc. The main language of 
+	the group is English, but postings in other languages 
+	are also encouraged.
+
+Archive: n/a
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	The volume here is medium (avoiding the perils 
+	of non-scientist groups).  Content seems to overlap 
+	somewhat with bionet.neuroscience. 
+
+
+
+-------------------------------------------------------------
+sci.engr.biomed
+-------------------------------------------------------------
+Resource Type: usenet group
+
+Date: 2/92 to present
+
+Description:
+	The purpose of the group is to facilitate discussions 
+	and the exchange of information pertaining to the field 
+	of Biomedical Engineering.  Biomedical Engineering being 
+	(but not limited to): design and manufacture of 
+	artificial  limbs and organs; scientific research 
+	involving medicine/the body and artificial materials; 
+	mature discussions on ethical matters; computer 
+	programs/hardware related to Biomed Engineering, data 
+	collection, and electronic muscle stimulation; 
+	modeling/simulation of Biomed systems; and 
+	schools/courses involved with Biomedical Engineering.
+
+Archive: n/a
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	We have not monitored this group personally.
+
+
+-------------------------------------------------------------
+sci.med
+-------------------------------------------------------------
+Resource Type: usenet group
+
+Date: unknown
+
+Description:
+	This is the catch-all group for medical issues in the 
+	sci hierarchy.  Participation is varied from laypersons 
+	to clinicians to researchers.
+
+Archive: n/a
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	This group is high volume--lots of folks seeking 
+	diagnoses and advice, but also plenty of clinicians 
+	communicating professional and research concerns.
+
+
+-------------------------------------------------------------
+sci.med.pharmacy
+-------------------------------------------------------------
+Resource Type: usenet group
+
+Date: 8/93 to present
+
+Description:
+	From the charter:
+	[The purpose of sci.med.pharmacy is] to provide 
+	pharmacists with a forum for the discussion of 
+	issues related to the teaching and practice of the 
+	profession. It is expected that sci.med.pharmacy would 
+	attract contributions from all the major disciplines 
+	including pharmacology and pharmaceutical chemistry as 
+	well as areas with more direct professional implications 
+	such as pharmacy practice and legislation. It is 
+	proposed that cross posting should occur between the 
+	news group and the Pharmacy Mail Exchange List. It is 
+	expected that all the postings to the list will be 
+	transfered to the news group.
+
+Archive: n/a
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	We have not personally monitored this group.
+
+
+-------------------------------------------------------------
+sci.med.psychobiology
+-------------------------------------------------------------
+Resource Type: usenet group
+
+Date: 12/93 to present
+
+Description:
+	From Charter:
+	sci.med.psychobiology will be an unmoderated common 
+	forum for discussions and announcements among those 
+	interested in such scientific aspects of psychiatry as: 
+	psychobiology, psychopharmacology, inheritance of 
+	psychiatric illness, behavioral genetics, 
+	psychoneurobiology, neuropsychiatry, neuropsychology, 
+	psychoneuroendocrinology, psychoneuroimmunology, 
+	psychosomatics, somatization disorder, psychiatric 
+	education and training, research support and funding, 
+	research training.
+
+Archive: n/a
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	This is brand spanking new!  So new that it hasn't shown 
+	up on our server yet.  Check it out.
+
+
+-------------------------------------------------------------
+sci.psychology
+-------------------------------------------------------------
+Resource Type: usenet group
+
+Date: unknown
+
+Description:
+	This group is the catch-all for psychology in the sci 
+	hierarchy.  Lots of lay and professional contributions 
+	on a wide range of psychological subjects.
+
+Archive: n/a
+
+Searchable Index: n/a
+
+FAQ: n/a
+
+Evaluation:
+	Another high volume group.  This one is less research 
+	oriented and heavier on theory and "talk".  These folks 
+	carry a thread longer than most!
+
+
+-------------------------------------------------------------
+Sheep's Brain
+-------------------------------------------------------------
+Resource Type: Software
+
+Date/Version: unknown
+
+URL: file://ra.nrl.navy.mil/MacSciTech/biology/descriptive/ 
+		sheepsbrain.cpt.hqx
+
+Description:
+	Sheep's Brain is a SuperCard stack of labelled B&W 
+	photos of sheep brain and various cross sections. It has 
+	a self test/quiz feature.  A hypertext index of labels 
+	will pop you to the appropriate photo, otherwise you are 
+	limited to browsing it sequentially.  Pictures are used 
+	with permission from The Sheep Brain: a Basic Guide  by 
+	Richard K. Cooley and C. H. Vanderwolf, published by 
+	A.J. Kirby Co.  Written with Dr. Ross Dingman and Dr. 
+	Daniel Moriarity at University of San Diego.
+
+	A Thor Production.  Portions copyrighted by Silicon 
+	Beach Software (a subsidiary of Aldus Corporation).
+
+File Size:1 M in archive
+	1.8 M uncompressed 
+	(includes a run-time version of SuperCard)
+
+Hardware/Software Requirements:
+	Macintosh computer
+	BinHex compatible decompression software
+	Extraction software
+
+Author:
+	The author, Thor Avidsen, writes in the README file:
+	This is a project I developed which is currently in use 
+	at the University of San Diego.  Feel free to use it and 
+	distribute it any way you like.  If you have any 
+	questions or bug reports, drop me a line at 
+	Thor@usdcsv.acusd.edu
+
+Evaluation:
+	This would be a good introduction to a dissection lab.  
+	It is complete and well designed.  The quiz and the 
+	index make it flexible.  Some of the photos are not as 
+	sharp as they could be.
+
+
+-------------------------------------------------------------
+Stereotaxic Atlases of Pigeon and Electric Fish
+-------------------------------------------------------------
+Resource Type: image
+
+Date: n/a
+
+URL: file://obex.scripps.edu/pub/shared_data/Karten
+
+Description:
+	These Canvas files are Harvey Karten's attempts to 
+	convert traditional paper based stereotaxic atlases into 
+	digital format.  There are 3 sets of plates from Karten 
+	and Hodos Stereotaxic Atlas of the Pigeon and 1 set of 
+	plates from the Maler atlas of Apteronotus, a weakly 
+	electric fish.  (There is also a tempting folder 
+	entitled "Squirrel" which won't open.)  The sets are 
+	meant to be viewed as layers in Canvas, a graphics 
+	program.
+
+File Size:
+	Pigeon Anterior: 58 files, each 46-89K
+	Pigeon Posterior: 19 files, each 56-88K
+	Pigeon Saggital: 11 files, each 52-119K
+	Electric Fish: 3 files, each 307-327K
+
+Hardware/Software Requirements:
+	Canvas 3.0 or higher
+
+Originating Source:
+	Harvey J. Karten
+	kartenh@sdsc.edu
+	619-534-4938
+	Dept. of Neurosciences
+	UCSD
+	La Jolla, CA 92093-0608
+
+FAQ:	file://obex.scripps.edu/pub/shared_data/Karten/ 
+		Read_Me_first.txt	
+	
+	file://obex.scripps.edu/README
+
+Evaluation:
+	We don't have access to Canvas, so we were unable to 
+	take a look.
+
+
+-------------------------------------------------------------
+University of California at San Diego Neurosciences Gopher
+-------------------------------------------------------------
+Resource Type:  gopher
+
+URL:  gopher://helmholtz.sdsc.edu
+
+Description:
+	This gopher server has been set up by the UCSD 
+	Neurosciences graduate programme using computing 
+	facilities of the Computational Neurobiology Laboratory 
+	at the Salk Institute.  It contains information about 
+	the graduate and undergraduate offerings in neuroscience 
+	at UCSD, lists of faculty with research interests and 
+	publications, and postings concerning lectures on 
+	neuroscience topics in the San Diego area.
+
+Searchable Index:  n/a
+
+Manager:
+	Questions, comments, and gripes about the information 
+	available here can be sent to:
+	<neuro-students-request@ucsd.edu>.
+
+FAQ:  n/a
+
+Evaluation:  
+	Although the lectures are primarily of local interest, 
+	the faculty and institutional information can be of 
+	general interest.
+
+
+-------------------------------------------------------------
+VOXEL-MAN Atlases
+-------------------------------------------------------------
+Resource Type: Software
+
+Date/Version: 1993 (ongoing)
+
+URL: n/a
+
+Description:
+	From a posting to MEDINF:
+	As some of you may know we (K.H. Hohne et al.) are 
+	working on a true 3D interactive atlas of the human 
+	body(VOXEL-MAN). The present versions of VOXEL-MAN/brain 
+	and VOXEL-MAN/skull may now be usefully applied. People 
+	interested in getting the programs or information about 
+	them may contact me.
+
+References:
+
+K. H. Hohne, M.Bomans, M.Riemer, R.Schubert, U.Tiede, and 
+W.Lierse, "A 3D anatomical atlas based on a volume model,"  
+IEEE Comput. Graphics Appl., vol.12, no.4, pp.72--78, 1992.
+
+K.H. Hohne, A.Pommert, M.Riemer, T.Schiemann, R.Schubert, 
+U.Tiede, and W.Lierse, "Eine modellbasierte Multimediatechnik 
+zur Erzeugung von dreidimensionalen medizinischen Atlanten,'' 
+it-Informationstechnik, vol.35, no.3, pp.26--30, 1993.
+
+R.Schubert, K.H. Hohne, A.Pommert, M.Riemer, T.Schiemann, and 
+U.Tiede, "Spatial knowledge representation for visualization 
+of human anatomy and function,'' in  Information Processing 
+in Medical Imaging, Proc. IPMI '93 (H.H. Barrett, A.F. 
+Gmitro, eds.), pp.168--181, Berlin: Springer-Verlag, 1993.
+
+U.Tiede, M.Bomans, K.H. Hohne, A.Pommert, M.Riemer, 
+T.Schiemann, R.Schubert, and W.Lierse, "A computerized three-
+dimensional atlas of the human skull and brain,''  Am. J. 
+Neuroradiology, vol.14, pp.551--559, 1993.
+
+D. A. Charletta "A computerized three-dimensional atlas of 
+the human skull and brain(Commentary)''  Am. J. 
+Neuroradiology, vol.14, pp.560--561,1993.
+
+File Size: 400 MB
+
+Hardware/Software Requirements:
+	VOXEL-MAN/Atlases run under a MOTIF user-interface 
+	presently on the following UNIX-Workstations:
+
+	-DECstation 5000/xxx (preferably /240)
+	-DEC 3000 AXP("alpha")
+	-SUN Sparcstation
+	-Silicon Graphics Iris
+
+The following minimum configuration is required:
+
+	 -   color display(8bit frame buffer is sufficient,     
+			24 bit is better)
+	 -   >=96 Mbytes of main memory
+	 -   >=400Mbytes of disk storage
+	 -   installation medium e. g. DEC TLZ04 tape, etc
+	 -   X11 window system
+
+	Compatibility with other workstations like Hewlett-
+	Packard 7xx(portation progress) and IBM RS/6000 is 
+	planned for the future.
+
+Author:
+	Karl Heinz Hoehne
+	Inst. of Math. and Computer Science in Medicine 
+	University Hospital
+	Eppendorf
+	Martinistrasse 52
+	20246 Hamburg
+
+	Phone(business):(040)4717-3698 
+	Fax:(040)4717-4882 
+	Tel.(home):(04101)25464
+
+Evaluation:
+	We have not looked at this resource personally (we don't 
+	have 400 MB just laying around)  See the list of 
+	references in the description for reviews.  This is 
+	obviously a big ticket item to put on your department 
+	wish list.
+
+
