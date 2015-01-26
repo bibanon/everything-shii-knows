@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>K240 game trivia | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>K240 game trivia</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<h2>Development</h2>
+
+<p>K240 changed somewhat during its two-year development. We can
+find information in various magazine articles.</p>
+
+<p><a href="http://amr.abime.net/review_20463">The One Amiga
+August 1993</a> gives a start date of May 1992, about nine months
+after the release of the original Utopia. The article depicts
+the game as we'd recognise it, but with a few differences. The
+game uses different sprites for the turrets of Protected
+Resiblocks and for another unidentified building, 
+a radically different design for the Transporter,
+a slightly different sprite for the Fleet Battleship,
+and different palettes for Terran ships. We also see
+slightly different sprites for the Construction Yard
+and Environment Control which appeared in the
+<a href="k240-cu-amiga-coverdisk">CU Amiga K240 demo</a>.</p>
+
+<p>At this point, the title "K240" wasn't decided on.
+The article interviews the programmer, Graeme Ing,
+who codenames "Utopia 2" but in a "stop press" the article
+reveals a new title, "K240: The New Worlds". The developer
+describes how a lot of features were cut from the original
+design, including multiplayer. He mentions that some scenarios
+would have special missions like destroying shield generators,
+although only the Swixarans have this in the final game.</p>
+
+<p>We also see a different date format, like Y3.010.61, and
+screenshows show two unknown numbers to appear in the top-right
+of the screen - perhaps debug information or a removed feature.
+The review suggests a December 1993 release date, but K240
+would not be released until after May 1994.
+The game's setting was described as the
+<a href="http://en.wikipedia.org/wiki/Large_Magellanic_Cloud">Large Magellanic Cloud</a>,
+a star cluster 160,000 light years from Earth. The final
+game manual places the setting in an area called the Fragmented
+Sectors only 300 light years from Earth, but the cover still
+bears the title "Magellanic Mining Guidelines".</p>
+
+<p><a href="http://amr.abime.net/review_25444">Amiga Action
+September 1993</a> concurs with The One's preview and shows
+many of the same screenshots. It also reveals that the game's
+backstory was that two alien races have encroached on the
+empire and taken much of its resources, forcing the Terrans
+to expand into asteroid mining. The game is described as having
+forty building types, seven spaceship types and sixteen hardpoints,
+which concurs with the final release, give or take a slot for
+the Orbital Space Dock.</p>
+
+<p><a href="http://amr.abime.net/review_19688">Amiga Power
+October 1993</a> is the next preview chronologically. By now,
+K240 appears to have lost its subtitle "The New Worlds".
+It describes scientific research as a gameplay mechanic,
+rather than blueprint purchase.</p>
+
+<p><a href="http://amr.abime.net/review_35944">Amiga Format
+February 1994</a> gives a brief preview of K240 which shows
+two ship designs which didn't appear in the final game. It
+defines the title "K240" as the name of a mining operation
+at the Large Magellanic Cloud's fartest edge.</p>
+
+<p><a href="http://amr.abime.net/review_29004">CU Amiga
+March 1994</a> includes an in-depth interview with
+the game's designer, sprite sheets and an early
+development screenshot. It's revealed that the title is
+from Sector K240 where the game takes place. The
+Orbital Space Dock and the blueprint purchasing system
+are definitely in there. Spy satellites were still
+work-in-progress.</p>
+
+<p>This issue came with a <a href="k240-cu-amiga-demo">demo of K240</a>
+on disk, which is very close to the final game. Compared to
+the screenshots in most previews, the ships have taken on
+their characteristic Terran grey colour.</p>
+
+<p><a href="http://amr.abime.net/review_33943">Amiga Computing
+April 1994</a> has the last k240 preview, revealing a chunk
+of backstory. The Empire enters a period of internal strife and
+minor wars, during which communication breaks down and natural
+resources are depleted due to overmining. Corporate-controlled
+worlds consequently hoard their resources, and the empire begins
+to break down. It's saved by the discovery of minerals in the
+Large Magellanic Cloud, by ships returning from a 40-year voyage.</p>
+
+<p>Screenshots appear in 
+<a href="http://www.lemonamiga.com/games/advert.php?id=625">an
+advertisement in CU Amiga</a> and on the back of the retail
+game box, showing the blue and green ships which may be
+the original Destructor, Terminator or Imperial Transporter.
+The game manual refers to the Terminator's "lurid (original?)
+colour schemes". The green colour of the Orbital Space Dock
+may be a holdover from before all ships were painted a
+more uniform Terran grey.</p>
+
+<p>The <a href="http://hol.abime.net/2543/boxscan">back of the
+game box</a> shows an unused green wireframe design for the
+Transporter, and an older design for the Sci-Tek screen.</p>
+
+<p>The CU Amiga advertisement also reveals the use of
+<a href="k240-cheats">cheat codes</a> that appeared in the
+final game. Several screenshots show the button layout from
+the code PANEL, and one demonstrates the ICBM code which gives
+four of each missile. The ad also shows the older sprite for
+the Construction Yard, which appears in the CU Amiga demo.</p>
+
+<h2>Blinking yellow lights</h2>
+
+<p>The illusion of animated buildings is achieved using a palette
+trick. COLOR14 and COLOR15 alternate between dark red (700) and
+yellow (FF2). When COLOR14 is red, COLOR15 is yellow, and vice-versa.
+This effect is used on the mine, deep bore mine, seismic penetrator,
+satellite silo, landing pad, and ore teleporter. Look closely at the
+mine to see how this is achieved.</p>
+
+<p>It's also used on the orbital space dock, and all terran ships
+except the transporter and imperial transporter.</p>
+
+<p>The missile silos, however, are genuinely animated (if only
+in three frames).<p>
+
+<h2>Four square buildings</h2>
+
+<p>All four-square buildings consist of four of the same sprite.</p>
+
+<h2>Early and final versions</h3>
+
+<p>More than one version of K240 was released. Pressing 'V'
+in-game reveals the version. The following version number
+appears in a cracked version released by TRSI &amp; Zenith
+with a blue intro on disk 1:</p>
+
+<p><code>K240 - VERSION 1.886,&nbsp;  20-5-94 13:25</code></p>
+
+<p>The following version number is given by a Paradox cracked
+version with an random-coloured intro on disks 1 and 2 naming
+this the "final fixed version", and
+<a href="http://bitworld.bitfellas.org/demo.php?id=21319">a
+trainer by Backlash</a> on disk 2 calling this "K240 Final".
+(Not to be confused with
+<a href="http://bitworld.bitfellas.org/demo.php?id=21320">a
+very similar trainer by Backlash</a> referring to "K240/Utopia 2",
+presumably an earlier release, probably 1.886). This version
+number also appears on my own retail version of the game.</p>
+
+<p><code>K240 - VERSION 2.000,  7-6-94 11:15</code></p>
+
+<p>Presumably, version 1.886 is either an early release or
+a review copy leaked from an Amiga magazine. Version 2.000
+may have been released to fix bugs, such as fleets
+appearing at the wrong asteroids.</p>
+
+<p>No version string is present in the
+<a href="k240-cu-amiga-coverdisk">CU Amiga coverdisk K240 demo</a>,
+although given its release date of March 1994 it must predate
+both of these versions.</p>
+
+<h2>How large is Sector K240?</h2>
+<p>Gameplay takes place in an area of eight by five "sectors",
+each forty pixels square. A Scout ship moves two pixels
+per game day, taking about 20 game days to cross a sector.</p>
+
+<p>According to the game's manual, the Scoutship's speed is
+740 light seconds per day. It's possible to conclude that
+the region of space for one game is an area of of 118,400 by
+74,000 light seconds, or 237.27 x 148.30 AU, where 1 AU
+is the distance between the Earth and the Sun.) An asteroid
+exactly one sector away is almost thirty times further away
+from you than the Earth from the Sun.</p>
+
+<p>A scout ship could travel from the Earth to the Sun
+in a day and a half, or from the Sun to Pluto in 27 days.
+A speed 5 asteroid moves 1 pixel per ten days, or 37 light
+seconds per day, giving it a top speed of 128.38km/s.</p>
+
+<p>The game's manual describes Sector K240 as a cube of
+over fifty light years across, or over 3 million AU cubed.
+As your segment of K240 is only a few hundred AU per side,
+it's a very tiny piece of Sector K240 indeed.</p>
+
+<h2>How many humans live in the year 2380?</h2>
+<p>The game manual describes the Terran Empire in the
+year 2380 as consisting of countless billions of humans
+on over a thousand worlds.
+In 2009, the population of Earth is estimated at
+6.796 billion, and in 2007 the population growth rate
+was an estimated 1.19% per year. At this rate, the human
+population in 2380 would reach 547.40 billion.</p>
+
+<p>A growth rate of only 1% would yield 272.57 billion.
+A massive growth rate of 2% would yield a figure of
+10.54 trillion. The human race would likely limit
+its growth rate using policy and technology, given a
+major overpopulation problem, so a constant growth rate
+of 2% seems unlikely.</p>
+
+<p>The Terran empire include "over 1,000 inhabited
+worlds", a figure which can be assumed somewhere between
+1,001 and 1,999. Supposing a growth rate of 1%, the
+population in 2380 would be an average of between 136.45
+million and 272.30 million per inhabited planet. In 2215
+when the human race faced an overcrowding problem,
+the total human population was 52.78 billion.</p>
+
+<p><a href="k240">&laquo; Back to JD's K240 page</a>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 8th November 2009</em>. <em>Last updated: 20th December 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>K240 cheats | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>K240 cheats</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<h2>Help codes</h2>
+
+<p><a href="k240">K240</a> is more interesting without using
+cheat codes for an easy win. Nevertheless, here they are.
+To use these codes, hit Return, type the code, and hit Return
+again. You can use the same 'Return' to both end one code and
+start another, for long chains of codes.</p>
+
+<p>Early game code referred to these as "help codes".</p>
+
+<dl>
+  <dt>SKYSCRAPER</dt>
+  <dd>Build time reduced to 1 day for all buildings.</dd>
+  
+  <dt>PANEL</dt>
+  <dd>Extracts a useful set of buttons. Buttons don't
+  appear until you rotate the view once, enter space view
+  and return, or similar.</dd>
+  
+  <dt>NASA</dt>
+  <dd>Create a ship at the current asteroid. When prompted,
+  press 1 through 8 to create the following ship: Assault
+  Fighter (1), Combat Eagle (2), Scout Ship (3), Destructor
+  (4), Terminator (5), Transporter (6), Fleet Battleship
+  (7), and Orbital Space Dock (8). All ships are generated
+  with random hardpoints. This cheat is useful to create
+  a Scout Ship directly at an asteroid for quick geological
+  survey, or a Transporter there for quick colonization.
+  For fun, generate an Orbital Space Dock at an enemy
+  asteroid.</dd>
+  
+  <dt>ICEMAN</dt>
+  <dd>Toggle asteroid movement.</dd>
+  
+  <dt>TRACEY</dt>
+  <dd>Toggle voice.</dd>
+  
+  <dt>BJORK</dt>
+  <dd>Speech test. Press A to U to test sounds, and Escape
+  or Return to resume game. (Press other keys such as numbers
+  for a fun glitch.)</dd>
+  
+  <dt>WIDGET</dt>
+  <dd>Toggle which blueprints you own (gain all blueprints you don't
+  own, lose all blueprints you do.)</dd>
+  
+  <dt>NOISES</dt>
+  <dd>Sound test. Press A to W to test sounds, and Escape
+  to resume game.</dd>
+  
+  <dt>LOADSADOSH</dt>
+  <dd>Gain 100,000 credits.</dd>
+  
+  <dt>ICBM</dt>
+  <dd>Places four of each missile and four spy satellites
+  at the current asteroid. If you have more than four, you
+  lose them. Also works with alien asteroids.</dd>
+  
+  <dt>TELESCOPE</dt>
+  <dd>Toggle ability to see all asteroids, and view
+  alien colonies without a spy satellite.</dd>
+  
+  <dt>LEMINGS</dt>
+  <dd>Add fifty population to current asteroid. A glitch
+  allows you to put colonists on an uncolonized asteroid
+  and quickly place buildings, but the colonists die
+  quickly and the building explodes since you don't have
+  a colony there. You can't use this to put buildings on
+  an alien asteroid.</dd>
+</dl>
+
+<h2>See alien asteroid without spy satellite</h2>
+
+<p>Bind an F-key to an alien asteroid. Go in to one of your
+asteroids or an uninhabited asteroid, and hit the F-key
+for the alien asteroid. You'll get a message that you can't
+view an alien colony without a spy satellite, but you'll
+be able to see the enemy asteroid for a second first.
+You can also do this in orbit view (above the asteroid).</p>
+
+<h2>Extra bonus alien?</h2>
+
+<p>According to a rumour, an extra hard alien can be found
+by loading a game with Disk 2 in DF0:. This is false.
+Presumably, someone had a copy of the game where someone
+had saved their game on Disk 2 by mistake.</p>
+
+<h2>Fire alien missiles (CU Amiga K240 demo only)</h2>
+
+<p>In the <a href="k240-cu-amiga-coverdisk">K240 CU Amiga
+demo</a>, a bug lets you fire the enemy's missiles. See
+<a href="http://www.youtube.com/watch?v=4RT6RDBGiQk">Thiima52's
+Youtube video demonstrating these bugs</a>.</li>.</p>
+
+<p><a href="k240">&laquo; Back to JD's K240 page</a>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 10th November 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

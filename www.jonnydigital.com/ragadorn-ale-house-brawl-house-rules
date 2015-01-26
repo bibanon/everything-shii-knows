@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Ragadorn Ale-House Brawl house rules | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Ragadorn Ale-House Brawl house rules</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>Ragadorn Ale-House Brawl
+<a href="http://boardgamegeek.com/boardgame/29346/ragadorn-alehouse-brawl">
+is a board game</a> featured in
+<a href="http://www.projectaon.org/en/Main/TheMagnamundCompanion">The Magnamund Companion</a>,
+a setting guide for the world of the
+<a href="http://www.projectaon.org/en/Main/Home">Lone Wolf gamebooks</a>.
+It's quite fun, but it's from an era of ambiguous or badly-written rules,
+where players were assumed to be familiar with miniatures games or were
+expected to work rules on their own.</p>
+
+<p>Here are some of the rules clarifications and variants I've used
+in play. The original rules can be found on pages 46-51 and 97 of
+<a href="http://www.projectaon.org/en/Main/TheMagnamundCompanion">The Magnamund Companion</a>,
+available for download in PDF at Project Aon.</p>
+
+<h2>Board game equipment</h2>
+
+<p>I use ten sided dice rather than the random number chart.
+A roll of 10 counts as zero.</p>
+
+<p>You should create tokens for each character's mundane weapon.
+These come in handy when someone throws a weapon, as happens
+when they have a magic weapon or have looted a spare weapon
+for throwing.</p>
+
+<h2>Order of play</h2>
+
+<p>Clarification: Each player moves all of his characters before the
+next player moves all of his. Play goes clockwise for the first round,
+then anticlockwise for the second round, and so on.</p>
+
+<h2>Setup</h2>
+
+<p><b>What happens if you must place your character at a door, but
+all five door squares are taken?</b></p>
+
+<p>Strictly speaking, if you roll a 7, 8 or 9 when placing your character
+at the beginning, they must be placed on a door square. If they can't,
+it seems your character is outside of the tavern and must wait until
+round 2 to enter. You might relax this and allow the character to be placed
+adjacent to a door square.
+
+<h2>Movement Quarter</h2>
+
+<p><b>How does the "Talk" option work?</b></p>
+
+<p>The "Talk" option isn't elaborated on. I decided that a player
+who elects to talk may trade gold and items. They may trade secret
+messages, although I've yet to play a game where anyone wished to do
+this. The Knight may use Talk to tell the Adventuress she is under arrest,
+and may attack her if she moves away, throws at the Knight, or starts
+combat with the Knight. Trading occurs immediately, since there's
+no reason not to.</p>
+
+<p><b>Where can you pick up items from?</b></p>
+
+<p>The rules are unclear. The Missile Phase only allows you to throw
+adjacent items, not items you're standing on. However, I've house
+ruled that on the movement phase you can pick up items from any adjacent
+square or your own square. There's no reason you shouldn't be able to
+loot a body you're standing on.</p>
+
+<p>The rule is that looting a body in the movement phase takes one point
+of movement per item. I've decided that any amount of gold counts as
+a single item. You can't loot diagonally, since that's two squares away.</p>
+
+<p><b>Can you pick up bar items like chairs?</b></p>
+
+<p>I've house ruled this to say no. There's no sensible way to carry
+multiple chairs, even if the rules allow it. The early rounds of
+the game would see players hoard all the throwable items for later.</p>
+
+<h2>Missile Quarter</h2>
+
+<p><b>What happens if a missile misses, but there's no room for it
+to land?</b></p>
+
+<p>If a missile misses its target and the roll is odd, it lands behind
+its target. The rules don't specify what happens if the opponent has
+his back to the wall. You might place it beside the character, or on the
+character, or have the item break.</p>
+
+<p><b>What happens to missiles that hit?</b></p>
+
+<p>The rules don't specify what happens to missiles after they hit
+their target. I've ruled that weapons land on the square of the
+character they hit, but bar items such as chairs are destroyed. The
+axe counts as a weapon.</p>
+
+<p><b>Do magic weapons still have to roll on the missile chart?</b></p>
+
+<p>Yes. As per the rules, thrown magical weapons deal extra damage
+only if a successful hit is scored. Magical weapons are Lone Wolf's
+Magic Spear, the Magic Sword (Special Item) and Magic Mace (Special Item),
+as listed in rules on what magical weapons can harm the Helghast.</p>
+
+<h2>Combat Quarter</h2>
+
+<p><b>Can multiple attackers fight the same target?</b></p>
+
+<p>The rules don't say you can't, so it seems logical that you can.
+It's not an unreasonable house rule to allow only one character to fight
+at a time.</p>
+
+<p>There's a confusing rule that characters can only co-operate
+with other player's characters once they have talked to each other.
+Does this mean multi-way combat is possible, but only between your
+own characters? Was this rule written assuming one player per
+character as in 7-10 player mode, suggesting that your own characters
+can't team up without talking first?</p>
+
+<p>The only side-effect of multiple-attacker combat is that it's
+possible to flee from one opponent even though combat continues with
+the other.</p>
+
+<p><b>Who is the "loser" of the combat?</b></p>
+
+<p>The rules specify that the loser chooses whether to continue the
+combat or flee, but doesn't specify who the loser is. We decided
+it to mean the character who loses the most hit points. If both
+characters lose the same amount, neither is the loser, and combat
+automatically continues.</p>
+
+<p><b>In what order is fleeing resolved?</b></p>
+
+<p>By the rules, a fleeing character must move before the character
+who he is fleeing from. We ruled that fleeing characters move
+before any other characters in the movement round.</p>
+
+<p><b>Does looting a body take any movement points?</b></p>
+
+<p>If you kill an opponent, you can loot any or all of his equipment
+immediately at no cost. Since it's not the movement round, there
+can't be any movement cost.</p>
+
+<p><b>Do multiple magic weapons stack?</b></p>
+
+<p>I still haven't decided this. The rules don't specify that you
+can't gain both bonuses. On the other hand, it's illogical for a
+character to wield both the Magic Sword and the Magic Mace in order
+to gain a total of +6 to Combat Skill. Nothing in the Lone Wolf
+setting suggests that merely carrying a second magic weapon imparts
+any combat benefit.</p>
+
+<h2>Gaming Quarter</h2>
+
+<p><b>Can you gamble while fleeing?</b></p>
+
+<p>You can gamble when not involved in combat, so the question is
+whether or not a character who has opted to flee is still in combat.
+I would suggest that a fleeing character is too busy running to
+gamble.</p>
+
+<p><b>If I bet on 9 and the table rolls a 0, do I receive twice
+my stake?</b></p>
+
+<p>Yes, or there would be no reason to bet on 0 or 9.</p>
+
+<p><b>Can the table run out of money?</b></p>
+
+<p>There are no rules which say so. The Gaming Table can be considered
+a limitless supply of money. However, the Landlord's goal is to make
+a profit of 40 Gold Crowns at the end of the night.</p>
+
+<p><b>Can gambling occur when there are bodies or objects on the
+Gaming Table?</b></p>
+
+<p>Gambling cannot occur if player's character is standing on the
+Gaming Table. The rules say nothing about bodies or objects, so you
+can.</p>
+
+<h2>Special Items</h2>
+
+<p><b>When can the Elixir of Life and Laumspur be used?</b></p>
+
+<p>There are no particular rules, but I play assuming you can
+use the healing potions at any time, except when you are reduced
+to 0 Endurance.</p>
+
+<p><b>When can Alether be used?</b></p>
+
+<p>I usually decide that it can be used just before combat. The
+attacker should always ask the defender his Combat Skill, in case
+it has changed. At this point, if either player wishes to use his
+Alether, he may.</p>
+
+<p><b>When can the Magic Wand be used, and what is its effect?</b></p>
+
+<p>The rules only say that it stops any character from moving for
+two turns. I interpret this that it causes the player to have no
+movement points on his next two Movement Quarters. The wand can
+be used at any time, as the rules don't say it must be used in any
+particular quarter. It has no range limit.</p>
+
+<p><b>When can the Spell Book be used, and what is its effect?</b></p>
+
+<p>The rules only say that it puts a character to sleep for two turns.
+I interpret this as causing him to miss his entire next two turns. The
+book can be used at any time and has no range limit.</p>
+
+<p>As a sleeping character should be extremely vulnerable to attack
+and shouldn't be able to use his Combat Skill, I added a house rule that
+sleeping characters cannot be fought in combat. This prevents the Spell
+Book from being used for an easy kill on a defenceless target. They can
+be looted as a body, however.</p>
+
+<h2>Score</h2>
+
+<p><b>Can dead characters achieve objectives?</b></p>
+
+<p>This is a tricky point, and can be argued either way. I suggest
+that a dead character can't earn points for achieving his objective.</p>
+
+<p>In tactical terms, you can kill a character who has already
+achieved his objective, in order to stop a player who has taken the
+lead. This gives players an interesting choice between defending the
+characters who have achieved their objective already, and helping the
+characters who haven't.</p>
+
+<p>It doesn't make sense for most of the characters to consider
+themselves victorious if they are killed after achieving their
+objective. Some explicitly need to attain their objective in order
+to escape unharmed. The only characters selfless enough to
+sacrifice themself in their objective are Lone Wolf and the
+Helghast, and they have higher aims than to get killed in a
+bar fight.</p>
+
+<p><b>Can characters achieve each other's objectives?</b></p>
+
+<p>If someone kills your target for you, I generally rule that this is
+equivalent to you having killed them, assuming you're still alive to
+witness it. The alternative would be that you can deny an objective by
+killing someone else's target mid-combat with a thrown bottle.</p>
+
+<p><b>Can dead characters get points for holding Special Items?</b></p>
+
+<p>Although the rules aren't specific on this point, I rule that
+they don't. A player gives his character card away when killed, so
+even if the items aren't taken, the player doesn't have the card
+at the end of the round to add up the points. Only characters
+can own magic items, not bodies.</p>
+
+<p><b>Do expended items count toward score?</b></p>
+
+<p>The Alether and Laumspur are specifically removed from play
+when used. Technically, the rules don't say the Elixir of Life,
+Spell Book or Magic Wand are discarded when used up, but it's
+reasonable to play as such. The Spell Book or Magic Wand still
+count toward score as long as they have one use left.</p>
+
+<p><b>Do the Alether and Laumspur count as Special Items for the
+purpose of score?</b></p>
+
+<p>The rules refer to Alether and Laumspur as Special Items, although
+they're picked up as loot tokens rather than given out at the start, and
+the Lone Wolf book series doesn't refer to them as Special Items.
+Rules-as-written, however, they are Special Items, and count toward
+score.</p>
+
+<h2>Objectives and the Helghast</h2>
+
+<p><b>What happens if my target is revealed to be the Helghast?</b></p>
+
+<p>The most sensible approach is that your character must kill the
+Helghast or at least see it dead. This way, the character still has a
+chance of achieving his objective, rather than automatically succeding
+or failing.</p>
+
+<p>If the Magician or Ranger is the Helghast, the Mercenary must
+still kill him, as the Helghast could have been the traitor. If the
+Herbwarden is the Helghast, the Druid must still kill him, as he is
+a spy for the Darklords. If the Adventuress is the Helghast, then the
+Helghast killed the Knight's brother, and he must kill it. If the
+Merchant is the Helghast, the Ranger is stubborn enough that he must
+still get his 15 Gold Crowns.</p>
+
+<p><b>How does the Knight arrest the Adventuress?</b></p>
+
+<p>The Knight my only attack the Adventuress "if she offers resistance".
+In play we decided that the Knight may not attack or throw objects
+at the Adventuress without first talking. If she moves away from the
+Knight, attacks him or throws an object at him, the Knight may thereafter
+attack and kill her normally to acheive his objective. The Adventuress
+may give herself up, although she will fail in her objective.</p>
+
+<p>If the Adventuress is the Helghast, the Knight does not have to
+attempt to arrest it.</p>
+
+<p><b>How can the Adventuress acquire the large diamond if someone
+spends it at the Gaming Table?</b></p>
+
+<p>The diamond can't be spent at the table. It's worth 30 Gold Crowns,
+and the maximum stake is 10.</p>
+
+<p><b>How can the Ranger achieve his objective without killing
+the Merchant?</b></p>
+
+<p>He can trade with the Merchant by talking, or loot it from the
+Merchant's body if nobody else has taken it. The Ranger must take
+the Merchant's gold from him, as a matter of principle. He can't
+take it from someone else who took it from the Merchant, or win it
+from the Merchant when gambling.</p>
+
+<p><b>How much gold must the Merchant and Landlord have to win?</b></p>
+
+<p>The Merchant must acquire 50 gold on top of the 20 he already
+owns, so 70.</p>
+
+<p>The Landlord must end the night with an overall profit of at least 40
+gold at the gaming table.</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 1st October 2010</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

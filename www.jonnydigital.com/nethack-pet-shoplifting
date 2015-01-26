@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>NetHack pet shoplifting guide | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>NetHack pet shoplifting guide</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+
+
+<h2>Summary</h2>
+
+<p>In NetHack, shopkeepers ignore objects that your pet carries out
+of the shop. Some pets can be trained to bring you items by feeding
+them certain foods when they drop items at your feet. With a
+well-trained pet you can stand on the door of a shop and clear
+the entire shop out without angering the shopkeeper.</p>
+
+<h2>Stealing from shops</h2>
+
+<p>Stealing from shops is complicated by a few matters.</p>
+
+<p>The most significant is the shopkeeper. He takes many
+precautions to prevent thievery: won't let you leave with unpaid
+items (even items you already consumed or threw out of the shop),
+won't let you enter or leave while invisible, etc. If you manage
+to steal anyway, he becomes violent and is very difficult to kill
+early on.</p>
+
+<p>Second is alignment. Lawful characters suffer a -1 alignment
+penalty when stealing from shops, and lawful and neutral
+characters who murder a shopkeeper lose intrinsic telepathy and
+two points of luck.</p>
+
+<p>Third is that shopkeepers are usually more useful alive, as
+the price they buy items for can be used to help identify them.
+It's also considered poor form to kill Izchak.</p>
+
+<h2>Stealing with pets</h2>
+
+<p>Fortunately, there's a loophole. Shopkeepers only watch you,
+and ignore pets and other creatures entirely. Any item your
+pet eats or picks up is ignored. If a pet drops an item outside
+of the shop, it's yours: the shopkeeper forgets he ever owned it,
+and you can even sell it back to him (even multiple times).</p>
+
+<p>You can wait until your pet picks up an item, then leave
+the shop and hope the pet follows you, or summon the pet with
+a magic whistle or blessed eucalyptus leaf. You can also stand
+in the doorway and hope the pet drops items on the first square
+inside the shop, which is considered "outside" for the purposes
+of stealing. However, it's possible to train many pets further.</p>
+
+<h2>Training your pet</h2>
+
+<p>Your pet has an attribute called <i>apport</i> which determines
+the likelihood it will pick up and drop items, and how near to
+you it will drop them. Apport decreases by 1 each time the pet
+drops an item, and increases when the pet eats a treat. What
+food it considers a treat varies by animal:</p>
+
+<blockquote><p>Dogs, cats and other meat-eating creatures consider tripe
+rations a treat, along with food with 'meat' in the name
+(meatball, huge chunk of meat). You can create meatballs by
+casting <i>stone to flesh</i> on rocks, and can create
+rocks by hitting boulders or statues with a pickaxe. Eggs are
+treats, but break if thrown at a pet, the normal delivery
+method when raising apport. Corpses are not treats.</p></blockquote>
+
+<blockquote><p>Horses and other herbivores consider carrots
+and apples a treat.</p></blockquote>
+
+<blockquote><p>Monkeys (any Y) consider a banana a treat.</p></blockquote>
+
+<blockquote><p>Metal-eating creatures like rust monsters consider
+iron objects treats.</p></blockquote>
+
+<blockquote><p>Rust monsters consider iron objects treats.</p></blockquote>
+
+<blockquote><p>Ghouls and ghasts consider any corpse more than 50
+turns old a treat.</p></blockquote>
+
+<blockquote><p>Creatures which don't eat, such as demons, treat
+no food as treats. They make poor shoplifters as you can't
+raise their apport with food.</p></blockquote>
+
+<p>According to <a href="http://www.statslab.cam.ac.uk/~eva/nethack/pets2.html">Keeping
+And Training Pets In Nethack And Slash'EM</a>, the best way
+to raise a pet's apport is to throw it a treat immediately
+after it drops something at your feet. This will raise apport
+by 100. The further away the pet was when he dropped and the
+longer you wait before giving the treat, the less apport gain.</p>
+
+<h2>Shoplifting tactics</h2>
+
+<p>If a shop contains treats (usually tripe rations), it's a
+good idea to run ahead, shut the door and take these before
+your pet can eat them. You'll have to pay, of course, since
+you picked it up, but two treats make it easy to rob a shop
+blind so it's worth it.</p>
+
+<p>The first square from the door is considered "outside" the
+shop. Any item your pet drops here is yours. A common tactic
+is to stand in the doorway and hold down 's' or '.' to wait
+while your pet drops items at your feet. You can feed him
+more treats when he does this, if you have any. A pet with
+high apport will make light work of a large shop.</p>
+
+<p>Drop your gold ($) on a square near the door. The
+shopkeeper will offer you credit, and your pet can steal
+the gold back. Repeat this indefinitely until you have
+enough gold to buy any items too heavy for your pet to
+pick up.</p>
+
+<p>Sell back items you don't want. This gives you access
+to the shopkeeper's gold, as opposed to just store credit.
+If you're confident in your pet's shoplifting ability,
+pawn artifacts for quick gold.</p>
+
+<p>To save time (and food), you can put all lightweight
+items into a sack, drop it near the door and have your
+pet steal that.</p>
+
+<h2>Strategies for stubborn pets</h2>
+
+<p>A useful pet tactic is to displace your pet onto
+a polymorph trap to make it into a more powerful
+creature. This has the drawback that certain creatures
+(such as demons) don't eat, and therefore you cannot
+raise their apport. Some pets only eat rare
+foods as treats, and sometimes you just don't
+have any treats handy.</p>
+
+<p>One solution is to place several items into a
+bag, then when the pet picks it up, summon him
+out of the shop with a magic whistle or blessed
+eucalyptus leaf. You can also zap a wand of
+teleportation or cast "teleport away" on the
+pet.</p>
+
+<p>Non-eating pets have the additional difficulty
+that you cannot raise their tameness by feeding,
+nor re-tame them by throwing food as with dogs,
+cats and ponies.</p>
+
+<h2>Very powerful pets</h2>
+
+<p>I once managed to polytrap a pony into an incubus,
+who managed to acquire a fantastic amount of
+equipment and experience by killing and stealing.
+By the bottom of of the Gnomish Mines he had an AC
+of -16 and speed. A mind flayer had recently eaten
+my dog so I attempted to use the incubus to shoplift.</p>
+
+<p>Instead of stealing, the incubus murdered every
+shopkeeper in Minetown. I had to lock the aligned priest
+in for his own safety.</p>
+
+<p>Killing a shopkeeper with a pet, if you can do
+so safely, gives you quick access to the entire
+shop inventory, all the shopkeeper's gold, and the
+shopkeeper's private possessions (including a wand
+of striking). There is no alignment penalty for
+allowing your pet to murder.</p>
+
+<p>The only real drawback to killing the shopkeeper
+is that he can no longer be used to identify items
+by price. The maximum amount of gold a shopkeeper
+can give you is what he carries.</p>
+
+<h2>Danger</h2>
+
+<p>When stealing, you'll probably want to buy the
+last few shop items on credit, rather than waste
+time and nutrition having your pet take it. Be
+aware that the shopkeeper will sell unidentified
+gems as if they are the most expensive type of
+their colour.</p>
+
+<p>If your pet needs to eat, it can starve while
+you block the door and force it to shoplift.
+Pets which do not eat may become un-tame.</p>
+
+<h2>In summary</h2>
+
+<p>Throw tripe rations or meatballs (cast stone
+to flesh on rocks) at your cat/dog, or carrots
+or apples at your horse, immediately after they
+drop an item at your feet, to encourage them to
+fetch. Stand in the doorway and let your pet
+drop items on the first square, which counts
+as outside the shop. Drop gold in the shop for
+credit and have your pet steal it back.
+Shopkeepers ignore pet thieves.</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 25th September 2009</em>. <em>Last updated: 27th September 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

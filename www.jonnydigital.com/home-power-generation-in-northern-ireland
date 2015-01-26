@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Home power generation in Northern Ireland | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Home power generation in Northern Ireland</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>I decided to investigate the cost-effectiveness of generating
+your own power from renewable source (wind and solar) in Northern
+Ireland.</p>
+
+<h2>The basics</h2>
+
+<p>A power generator's output is measured in kilowatts (kW), or
+units of 1,000 watts. One unit of electricity is equivalent to
+one <em>kilowatt-hour</em> (kWh), or the amount of energy produced
+by a one-kilowatt generator in one hour. Northern Ireland's
+electricity supplier, NIE Energy, currently charges 15.03p per
+unit.</p>
+
+<p>You can, however, generate your own electricity and any surplus
+back to the grid. With renewable sources (wind/solar), your running
+costs are almost zero (assuming nothing breaks down), so the only
+issue is whether or not you will recoup your initial cost, and
+how soon.</p>
+
+<h2>NIE Energy Generation Tariff</h2>
+
+<p>NIE currently offers <a href="http://www.nie-yourenergy.co.uk/micro4a.php#micro">5.22p</a>
+per unit generated.</p>
+
+<p>In addition, generating electricity from
+renewable sources entitles you to Renewable Obligation Certificates
+from electricity regulator OFGEM, which NIE will currently buy from
+you for <a href="http://www.nie-yourenergy.co.uk/micro5a.php#micro">8.32p</a>
+per unit generated. You receive these <em>whether you use the generated
+electricity yourself or sell it</em>.</p>
+
+<p>Therefore, each unit you sell currently pays 13.54p, while each
+unit you use yourself saves 15.03p and earns 8.32p for a total of
+23.35p.</p>
+
+<h2>Solar cost-effectiveness</h2>
+
+<p>The European Commission Joint Research Centre estimates that
+Northern Ireland receives sufficient sunlight for a 1kW solar
+panel to generate between 700 and 1,000 kilowatt-hours per year,
+depending on location and optimal positioning (see
+<a href="http://re.jrc.ec.europa.eu/pvgis/cmaps/eu_opt/pvgis_solar_optimum_GB.png">optimum positioning chart</a>,
+<a href="http://re.jrc.ec.europa.eu/pvgis/cmaps/eu_hor/pvgis_solar_horiz_GB.png">sub-optimal positoning chart</a>).
+An <a href="http://www.nie-yourenergy.co.uk/casestudies/carrickfergus.pdf">NIE case study</a> (PDF) in
+Carrickfergus estimates 900 kilowatt-hours.</p>
+
+<p>For each 1kW of solar panel installed, you will receive around
+&pound;94.78 to &pound;135.40 per year if all power is sold, and earn/save
+&pound;163.45 to &pound;233.50 per year if all power is used. Since you'll
+probably use some and sell some, the result will probably be
+somewhere in the middle.</p>
+
+<p>The initial cost will be several thousand pounds, a significant
+amount of which can be covered by a renewable energy grant.
+A search of <a href="http://www.lowcarbonbuildings.org.uk/info/installers/find/installerfind">accredited
+solar panel installers</a> suggests total costs of around &pound;5,000
+to 7,000 per kilowatt (peak) depending on size.
+<a href="http://www.nie-yourenergy.co.uk/renewablegrants.php#householderlcbp">Grants available</a> from
+NIE and the Low Carbon Buildings Programme can reduce this to
+something in the region of &pound;3,000-&pound;3,600 for a 1kW installation,
+or &pound;5,700-&pound;9,700 for a 2kW installation.</p>
+
+<p>The big question is how soon the system will become
+cost-effective. A 1kW installation will generate 700 to
+1,000 units per year, earning/saving &pound;163.45 to &pound;233.50
+per year assuming you use all the energy, and 20% less
+if you sell half. Given current rates and reasonable
+installation costs of &pound;3,500, it will take at least
+fifteen years just to break even on a 1kW installation at
+current rates, and potentially longer than 20 years.</p>
+
+<p>Increasing the initial investment doesn't provide
+much help, since energy sent back to the grid is less
+valuable than energy saved and the grant on initial costs
+is capped.</p>
+
+<p><b>Conclusion:</b> Solar power in Northern Ireland isn't
+cost-effective yet. We have poor solar coverage, initial costs
+are too high to be cost-effective compared to paying for
+electricity, and NIE doesn't pay enough for green energy
+for this to be worth it.</p>
+
+<h2>Wind cost-effectiveness</h2>
+
+<p>Northern Ireland has some of the best wind speeds in
+Europe, ranging from 5m/s to 11m/s at a height of 50m,
+or about 4.4m/s to 9m/s at a height of 10m. This is about
+on par with Texas which currently generates around 8,000MW
+from wind power, although admittedly using taller, larger
+wind towers than you can reasonably site in your back garden.
+(Source: <a href="http://www.windatlas.dk/Europe/landmap.html">European Wind Atlas</a>,
+<a href="http://www.mrsolar.com/faq/faq17.php">United States annual average wind power</a>)</p>
+
+<p>Just how much electricity this converts to and what
+this will cost to install depends on the model of wind
+turbine used. Straight comparison is difficult since
+different manufacturers rate their products assuming
+different wind speeds and many are not up-front about
+total installed cost. Some rate their device assuming
+wind speeds much higher than the UK average.</p>
+
+<p><a href="http://www.ardenhamenergy.co.uk/domestic_pricelist.php">One retailer</a>
+offers a 2.5kW wind installation which in Northern
+Ireland would cost &pound;12,500 installed 
+<a href="http://www.nie-yourenergy.co.uk/renewablegrants.php#householderlcbp">after grants</a>
+from NIE and the Low Carbon Buildings Programme.
+At wind speeds of 5m/s (UK average), the manufacturer
+estimates 3,500 units of electricity per year, which
+assuming you use half and sell half back to the grid
+will net &pound;645.56 per year, breaking even in 19 years.
+A 6kW installation, assuming you can use half of the
+estimated 9,500 units generated, will cost &pound;18,500
+after rebate, earn &pound;1752.275/year, and break even
+in 10 and a half years.</p>
+
+<p>Things look significantly better if you get high wind,
+such as a hilly area. A 50% increase in wind speed in will
+more than double the energy available to the windmill, since
+the wattage produced is equal to the wind speed times the
+windmill's blade length squared. An average speed of 7m/s
+will produce twice as much, so the 2.5kW wind turbine
+above will pay for itself in 10 years and the 6kW installation
+in 5 years. Parts of Northern Ireland receiving an average
+of 9m/s or higher will find it increasingly cost-effective
+to employ wind turbines at these rates.</p>
+
+<p>Prices currently vary significantly, with <a href="http://www.wind-rotor.com/files/ServicePages-Download-36.pdf">one UK supplier</a> (PDF)
+offering a 6kW installation for around &pound;30,000 installed
+(&pound;5,000/kW) after Northern Ireland rebate, while another
+offers <a href="http://www.windpoweruk.com/5kw_wind_turbine_kit.htm">a 5kW DIY kit</a>
+for under &pound;2,800 after rebate (&pound;560/kW), without installation.
+The options mentioned earlier works out to &pound;3,083 (6kW) and
+&pound;5,000 (2.5kW) per kilowatt.</p>
+
+<p>Other than price, the major drawbacks to a windmill are
+that it's pretty big (5.5m to 11m masts are typical),
+you'll need to apply for planning permission, and the
+neighbours might complain. Smaller roof-mounted models
+are available, although their performance is lower.
+<a href="http://www.renewabledevices.com/images/est%20location%20location%20location%20july%202009.pdf">In one test</a> (PDF),
+a 1.5kW <a href="http://www.renewabledevices.com/swift/specification.htm">SWIFT Turbine</a>
+(&pound;3,000 after Northern Ireland rebate, price not including installation)
+generated 975kWh in Scotland, which has similar or better
+wind speeds to Northern Ireland. This would earn around
+&pound;179.84 per year and break even in 17 years.</p>
+
+<p><b>Conclusion:</b> Wind power has good potential in
+Northern Ireland, but is most effective in rural areas
+where wind speeds are high. Build-up areas have poorer
+wind speed and fewer opportunities for positioning good
+tall windmills, 
+
+<h2>Summary</h2>
+
+<p>Northern Ireland has good wind potential, but rubbish solar.
+It's not even worth considering solar power until solar panel
+prices come down, normal electricity prices go way up, NIE
+starts paying a lot more for green energy, or government
+subsidies for renewable energy are drastically increased.
+The best-case payoff for solar is over 10 years.</p>
+
+<p>Wind power can be quite effective in rural hilly areas, but
+less so in urban ones where wind speeds are lower. Building
+an 11 metre windmill mast in your back yard is a difficult
+proposition, and even the best roof-mounted small windmills
+don't break even for over 15 years.</p>
+
+<h2>Further reading</h2>
+
+<ul>
+  <li><a href="http://www.renewabledevices.com/images/est%20location%20location%20location%20july%202009.pdf">Location, location, location: Domestic small-scale wind field trial report</a> (PDF)</li>
+</ul>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 27th November 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

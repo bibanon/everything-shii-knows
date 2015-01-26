@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>NIL: | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>NIL:</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>On the <a title="Amiga"
+href="http://everything2.com/index.pl?node=Amiga&lastnode_id=1234211">Amiga</a>, 
+the <a title="equivalent"
+href="http://everything2.com/index.pl?node=equivalent&lastnode_id=1234211">equivalent</a> 
+of <a title="UNIX"
+href="http://everything2.com/index.pl?node=UNIX&lastnode_id=1234211">UNIX</a>'s 
+<a title="/dev/null"
+href="http://everything2.com/index.pl?node=%2Fdev%2Fnull&lastnode_id=1234211">/dev/null</a>. 
+NIL: is a <a title="virtual device"
+href="http://everything2.com/index.pl?node=virtual%20device&lastnode_id=1234211">virtual 
+device</a> which leads to the <a title="bit bucket"
+href="http://everything2.com/index.pl?node=bit%20bucket&lastnode_id=1234211">bit 
+bucket</a>. Anything sent here, effectively goes to <a title="nowhere"
+href="http://everything2.com/index.pl?node=nowhere&lastnode_id=1234211">nowhere</a>.</p>
+
+<p>
+One use of the <a title="device"
+href="http://everything2.com/index.pl?node=device&lastnode_id=1234211">device</a> 
+NIL: is to silence the <a title="output"
+href="http://everything2.com/index.pl?node=output&lastnode_id=1234211">output</a> 
+from a <a title="command line"
+href="http://everything2.com/index.pl?node=command%20line&lastnode_id=1234211">command 
+line</a> <a title="program"
+href="http://everything2.com/index.pl?node=program&lastnode_id=1234211">program</a>. 
+For example, <i>this</i>:
+</p>
+
+<p>
+<pre>
+    type foo.txt >> NIL:
+</pre>
+</p>
+
+<p>would <a title="output"
+href="http://everything2.com/index.pl?node=output&lastnode_id=1234211">output</a> 
+<a title="diddly-squat"
+href="http://everything2.com/index.pl?node=diddly-squat&lastnode_id=1234211">diddly-squat</a>.</p>
+
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 7th July 2004</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

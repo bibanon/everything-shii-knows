@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Why are blogs popular? | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Why are blogs popular?</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>In 1999, video game journalist Scott Sharkey started the website
+that would become <a href="http://www.solidsharkey.com/">Solidsharkey.com</a>,
+a sort of personal homepage and internet journal. The term 'blog' had
+been coined only five months earlier, and wouldn't become ubiquitous
+until several years later. Sharkey didn't run a 'blog' - he ran a
+website:</p>
+
+<p><blockquote><cite>
+"Every once in a while it hits me that I can use this space for whatever
+I want. Anything at all. I could use it to post my (nonexistent) prom
+pictures, or show how non-conformist I am by bitching about
+non-conformism. Maybe I could write a gripping page about Why I Think
+Religion Is Bad, or tell you all about this crazy fuckin Nintendo game
+I found, dude!<br><br>
+
+Or I could just write the above thinly veiled bitch about why every
+other web-diary I've read today bored the hemorrhaging fuck out of me.
+Not that mine is any more entertaining right now."
+</cite></blockquote></p>
+
+<p>It may not be too grandiose a statement to say that sites like
+SolidSharkey.com marked the end of the simple "personal homepage"
+and the beginning of the blogging revolution. The individually owned
+websites of the mid-1990s have all but disappeared, replaced by
+increasingly professional "blogs".</p>
+
+<h2>Why have things changed?</h2>
+
+<p>The Web of 2008 is very different to the Web of 1998, and how
+people use the Internet has changed.</p>
+
+<p>The first big change is content management. Prior to web services
+like Livejournal and CMS systems like Moveable Type, most websites
+were updated by hand. Users needed to know the ins and outs of web
+technologies like HTML and FTP, and this restricted access to two
+sorts of people: enthusiasts, maintaining their own little slice of
+the Internet for its own sake, and entrepreneurs, who could afford
+to pay someone to do it for them.</p>
+
+<p>When technology gave every user the means to create websites,
+websites were no longer anything special. Suddenly it was the
+content that mattered most, not the amount of technical skill or
+funding available. We got a sort of division of labour, and now
+content specialists rule supreme.</p>
+
+<h2>Why are blogs popular?</h2>
+
+<p>For many reasons, including the psychology of web users and
+content creators, the 'blog' is simply a more successful
+publishing platform.</p>
+
+<p>Short posts are easily updated, encouraging frequent
+updates and regular visitors, cementing the site's numerical
+popularity. Where the 1990s personal homepage thrived on
+long feature articles or stagnant knowledgebases, the
+blog is almost by definition continually refreshed. Like
+a newspaper, readers come back time and time again.</p>
+
+<p>"Blog" has become synonymous in the media with "popular,
+authoritative website", much like "hacker" has shifted from
+"computer enthusiast" to "computer criminal". This doesn't
+mean that most blogs are successful - the majority aren't
+- but a reflection on the qualities that make a successful
+website.</p>
+
+<p>Generally put, a website needs to supply a steady stream
+of value to readers if it expects to acquire and retain a
+user base. Personal homepages were often updated at the
+maintainer's whim, and didn't have guarantees of new content
+that modern blog does.</p>
+
+<p>Nor did they guarantee content relevant to the reader's
+interests. As blogging became more popular and prominent
+blogs emerged, it became clear that a key to remaining a
+hit was to adhere to one topic that will appeal to the
+same user over and over. Split your content between two
+different topics, and you divide your strength.</p>
+
+<p>If Sharkey's site was popular long after blogs overtook
+personal homepages, we can attribute it to three main factors.
+First, it stuck to one topic, or at least to one general
+appeal: sarcastic humour and old videogames. Second, it
+updated just often enough to draw readers back. Third, the
+webmaster was happy to update the site even before web
+advertising became popular.</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 19th October 2008</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

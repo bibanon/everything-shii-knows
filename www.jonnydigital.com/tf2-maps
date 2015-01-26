@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Which Team Fortress 2 map is which? | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Which Team Fortress 2 map is which?</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>This map identification guide should help you to describe a Team
+Fortress map quickly and accurately to someone who has played on that
+map but cannot remember the name.</p>
+
+<dl>
+	<dt>2Fort</dt>
+	<dd>A capture the flag map. Each team has a building with two front
+	doors, separated by a water moat with a rooved bridge across it.
+	There are sniper battlements above the front doors and both a regular
+	staircase and spiral staircase inside the base.</dd>
+
+	<dt>Badlands</dt>
+	<dd>A desert arena and capture point map. The middle point is
+	on a wooden bridge and the second points are on top of a spiral.</dd>
+
+	<dt>Badwater Basin</dt>
+	<dd>A single-stage payload map. The cart heads left and through a
+	tunnel at the beginning.</dd>
+
+	<dt>Double Cross</dt>
+	<dd>An industrial capture the flag only map. There is a bridge in
+	the centre of the map, with a pile of boxes and sand on it at
+	its midpoint.</dd>
+
+	<dt>Dustbowl</dt>
+	<dd>A three-stage desert attack/defend map. Stage 1 is where
+	Blue starts by capturing A in a hut on the left with a canyon to
+	the right. Stage 2 is where he leaves spawn, goes into a trench
+	and comes back out again, with point A ahead and to the left,
+	and point B to the right and through mines. Stage 3 is where
+	they begin in an underground grey building and point A is
+	behind a building on the left, and follow a snaking path to
+	point B which is across a	grey bridge.</dd>
+
+	<dt>Egypt</dt>
+	<dd>The one with the hieroglyphs.</dd>
+
+	<dt>Fastlane</dt>
+	<dd>A capture point map with many wooden buildings. The centre
+	point is sparsely protected by wood panels and the last point is
+	in a large dark room with a wire mesh walkway above it.</dd>
+
+	<dt>Gold Rush</dt>
+	<dd>A three-stage desert payload map. If it's not the one where
+	you push through a long tunnel at the start, it's probably a
+	stage of Gold Rush.</dd>
+
+	<dt>Gorge</dt>
+	<dd>An alpine/industrial attack-defend map. Capture point A is
+	on a concrete bridge, and capture point B is indoors in a pit.</dd>
+
+	<dt>Granary</dt>
+	<dd>An industrial arena and capture point map. The centre point
+	is surrounded by red and blue shipping crates.</dd>
+
+	<dt>Gravel Pit</dt>
+	<dd>A capture point map. Blue must capture both A and B before
+	capturing C in a rickety tower outside Red spawn. Red usually loses
+	at least either A or B.</dd>
+
+	<dt>Harvest</dt>
+	<dd>A king of the hill map set on an abandoned farm.</dd>
+
+	<dt>Hoodoo</dt>
+	<dd>A three stage desert payload map. Blue starts by pushing the cart
+	up a narrow hill and then to the left.</dd>
+
+	<dt>Hydro</dt>
+	<dd>The only territorial control type map. You capture one enemy
+	point while guarding your own. Multiple stages.</dd>
+
+	<dt>Junction.</dt>
+	<dd>A dark indoors attack/defend map. There are three control points.</dd>
+
+	<dt>Lumberyard</dt>
+	<dd>An alpine arena-only map. The capture point is indoors and
+	the only health box is balanced on a log over a cliff edge.</dd>
+
+	<dt>Nucleus</dt>
+	<dd>A high-tech looking arena and king of the hill map. The
+	centre point is in the middle on a platform underneath a high-tech
+	glowing device, and is only accessible by four catwalks.</dd>
+
+	<dt>Offblast</dt>
+	<dd>A desert arena-only map. The centre point is underneath a missile
+	and the outside is a path cut around a mountainside.</dd>
+
+	<dt>Pipeline</dt>
+	<dd>A three-stage double-payload map. Both teams race their cart.</dd>
+
+	<dt>Ravine</dt>
+	<dd>A desert arena only map. (I haven't actually played this map.)</dd>
+
+	<dt>Sawmill</dt>
+	<dd>A capture the flag, arena and king of the hill map. The
+	centre point has saws around it and a log hanging above it.</dd>
+
+	<dt>Steel</dt>
+	<dd>A five-point attack-defend map. Blue must only capture E to win.
+	Blue can only capture A to D in order to make it easier to capture E.
+	E is a circular platform over a pit which scouts can jump to before
+	the bridge is unlocked by a capture.</dd>
+
+	<dt>Turbine</dt>
+	<dd>An indoor capture the flag map. The map has a system of vents
+	and the spawn room has transparent walls facing the corridor.</dd>
+
+	<dt>Viaduct</dt>
+	<dd>A king of the hill map. It has a snowy central point.</dd>
+
+	<dt>Watchtower</dt>
+	<dd>An alpine arena map. The centre point is in a wooden shack
+	reachable by pipes. From spawn, players can run ahead along the pipe
+	or around to the left and right.</dd>
+
+	<dt>Well</dt>
+	<dd>An industrial arena, capture the flag, and capture point map.
+	The centre point is in a building which trains run through.</dd>
+
+	<dt>Yukon</dt>
+	<dd>A capture the flag map. (I haven't actully played this map.)</dd>
+	
+</dl>
+
+<p>If you feel you can improve upon these descriptions, please use the
+comments link below.</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 14th February 2010</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

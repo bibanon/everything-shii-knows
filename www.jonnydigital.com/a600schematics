@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Amiga 600 system schematics | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Amiga 600 system schematics</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p><img src="img/a600schematic.jpg"></p>
+
+<p>At one point I stumbled upon what appear to be schematics for the Amiga 600.
+Unfortunately, I don't recall where I downloaded these. I assume they're copyright
+Commodore, who oughtn't mind since there's little commercial benefit to these
+schematics and the company folded over fourteen years ago.</p>
+
+<p>Download link: <a href="files/a600schematic.zip">a600schematics.zip</a> (1.06MB)</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 15th August 2008</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

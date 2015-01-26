@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>ADF, Amiga Disk File | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>ADF, Amiga Disk File</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>An acronym for <b><a title="Amiga"
+href="http://everything2.com/index.pl?node=Amiga&lastnode_id=553044">Amiga</a> 
+<a title="Disk"
+href="http://everything2.com/index.pl?node=Disk&lastnode_id=553044">Disk</a> 
+<a title="File"
+href="http://everything2.com/index.pl?node=File&lastnode_id=553044">File</a></b>.</p>
+
+<p>An ADF is a <a title="disk image"
+href="http://everything2.com/index.pl?node=disk%20image&lastnode_id=553044">disk 
+image</a>, or <a title="raw copy"
+href="http://everything2.com/index.pl?node=raw%20copy&lastnode_id=553044">raw 
+copy</a> of an <a title="Amiga"
+href="http://everything2.com/index.pl?node=Amiga&lastnode_id=553044">Amiga</a> 
+<a title="floppy disk"
+href="http://everything2.com/index.pl?node=floppy%20disk&lastnode_id=553044">floppy 
+disk</a>. ADF files can made using a piece of <a title="Amiga"
+href="http://everything2.com/index.pl?node=Amiga&lastnode_id=553044">Amiga</a> 
+<a title="software"
+href="http://everything2.com/index.pl?node=software&lastnode_id=553044">software</a> 
+known as <a title="TransDisk"
+href="http://everything2.com/index.pl?node=TransDisk&lastnode_id=553044">TransDisk</a>, 
+which creates the <a title="file"
+href="http://everything2.com/index.pl?node=file&lastnode_id=553044">file</a> 
+from a disk currently in the Amiga's floppy drive. The primary reason
+for <a title="creating"
+href="http://everything2.com/index.pl?node=creating&lastnode_id=553044">creating</a> 
+ADF files is for use with an <a title="Amiga"
+href="http://everything2.com/index.pl?node=Amiga&lastnode_id=553044">Amiga</a> 
+<a title="emulator"
+href="http://everything2.com/index.pl?node=emulator&lastnode_id=553044">emulator</a> 
+such as <a title="WinUAE"
+href="http://everything2.com/index.pl?node=WinUAE&lastnode_id=553044">WinUAE</a> 
+or <a title="Fellow"
+href="http://everything2.com/index.pl?node=Fellow&lastnode_id=553044">Fellow</a>, 
+since normal <a title="PC"
+href="http://everything2.com/index.pl?node=PC&lastnode_id=553044">PC</a>
+<a title="floppy drive controller"
+href="http://everything2.com/index.pl?node=floppy%20drive%20controller&lastnode_id=553044">floppy 
+drive controller</a>s are unable to read Amiga-formatted disks.</p>
+
+<p>ADF <a title="files"
+href="http://everything2.com/index.pl?node=files&lastnode_id=553044">files</a> 
+of normal <a title="double density"
+href="http://everything2.com/index.pl?node=double%20density&lastnode_id=553044">double 
+density</a> <a title="Amiga"
+href="http://everything2.com/index.pl?node=Amiga&lastnode_id=553044">Amiga</a> 
+disks are exactly 880k (901,102 bytes) in size.</p>
+
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 7th July 2004</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

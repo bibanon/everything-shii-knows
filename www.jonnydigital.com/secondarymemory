@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Secondary Memory for Dummies | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Secondary Memory for Dummies </h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+
+<h2>A Comprehensive Report on Secondary Memory Technology<br> and Its Impact on Computer System Performance</h2>
+
+<!-- <p>1. Explain with the aid of block diagrams how the major functional units of a computer are interrelated.</p>
+
+<p>2. Illustrate, <b>IN DETAIL</b>, the characteristics, speed and capacity etc. of currently available secondary memory.</p>
+
+<p>3. Discuss also the potential of advanced secondary memory devices.</p>
+
+
+<hr> -->
+
+<p>Secondary memory, in basic terms, is a computer's method of storing data and information on a more long-term basis than primary memory. While primary memory (RAM, for example) is concerned mainly with storing programs currently executing and data currently being accessed, secondary memory is generally intended for storing anything that needs to be kept even if the computer is switched off or no programs are currently executing.</p>
+
+<p>The best known examples of secondary memory are hard disks (or hard drives) and external media drives (such as CD-ROM drives). These storage methods are most commonly used to store the computer's operating system, the user's collection of software and any other data the user wishes. While the hard drive is used to store data and software on a semi-permanent basis and the external media drives are used to hold other data, this setup varies wildly depending on the different forms of storage available and the convenience of using each.</p>
+
+<h3>The Interrelationship of Secondary Memory to the Other Major Functional Components Of a Computer System</h3>
+
+<p align=center><img src="gfx/diagram1.png"><br clear=all><small><b>Figure 1:</b> The major functional components of a computer system.</small></p>
+
+
+The simple diagram of the main components of a computer system shows how secondary memory relates to the other components of a computer system, with the CPU (Central Processing Unit) at the centre of it all. Primary and secondary memory, while similar in some respects as well as in the diagram, have subtly different properties in a computer system.
+
+<p><b>Primary memory</b>, primarily RAM, is typically extremely fast in modern computers, and since it interfaces almost directly with the CPU it allows for very fast transfers between the two. Typically, it is in the form of units of memory, which store their data electronically and transfer it to and from the CPU via a fast memory bus which the computer has dedicated to this purpose. However, RAM tends to be volatile, meaning that it loses its contents when the power to the computer system is shut off.</p>
+
+<p>ROM is a smaller amount of primary memory which is nonvolatile, but it is really unsuitable for holding anything other than the BIOS (a small program used to load the basic operating system allowing more advanced software, such as Windows or Linux, to be chosen and run). It is optimised and designed for reading from, rather than writing to, although modern ROM chips are capable of having their normally permanent contents changed - a system sometimes called PROM (Programmable ROM) or EPROM (Erasable Programmable ROM).</p>
+
+<p>The cache, which also falls under the category of primary memory, is a nifty feature of most CPUs which makes use of the fact that some parts of RAM are accessed more often than others by storing certain amounts of data in a cache. Instead of retrieving the data from RAM, the CPU retrieves it from the cache, which is much faster to access since it is located on the CPU itself. Modern computers tend to have a level 2 cache, which is effectively a cache for the cache, further enhancing the computer's overall speed.</p>
+
+<p>The defining factor of primary memory is that it is a permanent feature of the computer system itself, and not a removable or interchangeable part. However, since the hard drive of modern computers is just as interchangeable (or not) as the RAM and ROM chips, this distinction is often somewhat blurred.</p>
+
+<p><b>Secondary Memory</b> is designed to overcome some of the limitations of primary memory. It is non-volatile, meaning that it retains its contents even when power to the computer system is switched off. This allows it to retain its data on a long-term basis, while primary memory cannot. Given its relatively high capacity compared to primary memory of the same price, it is far more feasible for use as a mass storage device. Removability for some forms of secondary memory is an additional bonus, allowing data to be shared between multiple computers on disks. However, it is not as fast as most primary memory, given as it relies on a slower interface (generally IDE or SCSI) and a slower storage method (physical storage on magnetic media, rather than electronic storage).</p>
+
+<p>An important aspect of secondary memory is that it cannot be addressed directly by the CPU. While a variable in memory can point to other locations in memory, it's not possible to "point" to a location in secondary memory. This is a major distinction between primary and secondary memory. It means that a computer system is unable to point to a location in memory, even if it wanted to - secondary memory cannot be used as primary memory. However, the CPU can be used to transfer data from the secondary memory into primary memory, and the data can be accessed from there.</p>
+
+<p><b>The CPU</b>, or Central Processing Unit, is used to perform all of the functions of the computer. This includes, but is not limited to, transferring the data from the secondary memory into primary memory and executing code already in primary memory.</p>
+
+<p>The <b>Input/Output System</b> may consist of any number of devices, including a mouse, one or more monitors, keyboard, speakers, digital camera, TV input card, graphics card or a game controller. However, these devices interact primarily with the CPU, not the secondary memory itself.</p>
+
+<h3>A Comprehensive Study of Current Secondary Memory Technology</h3>
+
+<p>Secondary memory is a major component of a modern personal computer system, and makes up a considerable percentage of its cost. All modern home computer systems (aside from certain specialised devices, such as games consoles) come with a hard disk drive as a standard feature, usually quite a sizeable one, and most also include a form of removable mass-storage media such as a CD drive or one of its modern variants. Floppy disk drives, while less useful than they originally were since they hold less data, are still included with many computers.</p>
+
+<h4>Hard disk drives</h4>
+Referred to alternately as hard disks or hard drives, these are an important part of most (if not all) modern home computers. Varying in capacity, speed and other properties, the hard disk is the primary long-term storage method for the computer, and is used to store the computer's main operating system(s) (such as Windows or Linux), software required by the computer's user (such as Microsoft Office, or Unreal Tournament 2003) and other non-executable data (the user's music collection, for example). While they are unwieldy to move between two seperate computers for file transfer on a regular basis, data stored on a hard drive has the advantage of being always available to the computer's user - unlike the old fashioned system of storing the computer's OS on floppy disks or magnetic tapes which could all to easily get lost or damaged.
+</p>
+
+<p align=center><img src="gfx/diagram2.png"><br clear=all><small><b>Figure 2:</b> A breakdown of the major forms of hard disks, and their typical uses.</small></p>
+
+<p>Hard drives are available in a number of different forms, and with a number of different interface standards. The most common form used today in personal computers is the IDE, or Integrated Drive Electronics standard. Also known as EIDE (Extended IDE) in its modern variants, this standard of hard drive is both fast and cost-effective. Each IDE "chain", or connection, can support IDE or ATAPI standard devices, and a typical computer motherboard allows for two IDE chains. This formation is known as a <i>master/slave</i> configuration. Hence, the average home computer can support a total of four IDE devices, which are normally used only for secondary memory devices.</p>
+
+<p align=center><img src="gfx/diagram3.png"><br clear=all><small><b>Figure 3:</b> A typical IDE hard disk configuration in a home computer system.</small></p>
+
+<p>Some systems (although somewhat rarely in home computers until recently) support a technology known as RAID, or Redundant Array of Inexpensive (or Independant) Disks. In this system, more than two IDE chains are available to the computer, allowing for far more devices to be included than normal. Recent ATX factor motherboards such as some of the MSI K7 range allow for four IDE chains, for a maximum of eight IDE devices attached to the computer via the standard IDE bus system. However, few average home users require more than four, which is one the standard IDE system still remains just as popular.</p>
+
+<p>IDE drives have developed over time with progressively faster and higher bandwidth interfaces. Originally somewhat slow, the PIO Mode 0 through PIO Mode 4 IDE controller interface allowed less than a few megabytes through per second, this has since been replaced by the far faster UDMA-66 standard. All recent motherboards and hard drives do (or should) conform to this new standard, which allows today's huge amounts of data on multi-gigabyte drives more feasible to access.</p>
+
+
+<p>In terms of speed, the current range of IDE drives sports the following range of impressive statistics:</p>
+
+<p><table cellspacing=0 border=0 cellpadding=4>
+
+<tr>
+   <td></td>
+   <td><b>Low End</b></td>
+   <td><b>High End</b></td>
+</tr>
+
+<tr>
+   <td><b>Seek time</b></td>
+   <td>10ms</td>
+   <td>8ms</td>
+</tr>
+
+<tr>
+   <td><b>Latency</b></td>
+   <td>4.1ms</td>
+   <td>4.3ms</td>
+</tr>
+
+<tr>
+   <td><b>Spindle speed</b></td>
+   <td>5,400RPM</td>
+   <td>10,000RPM</td>
+</tr>
+
+<tr>
+   <td><b>Maximum bandwidth</b></td>
+   <td>100 MB/s</td>
+   <td>600 MB/s</td>
+</tr>
+</table></p>
+
+<p><small><b>Seek Time</b> refers to the amount of time it takes, on average, for the read/write head on the hard disk to move from one part of the drive to the other. The seek time depends on many conditions, including the power of the servo, the mass of the heads, the number of tracks traversed and the time taken to position the heads over the target track accurately enough to start data transfer. <b>Latency</b> is a measurement of the average delay in the request for the transfer of data, and the transfer being executed.</small></p>
+
+<p>As well as this classification, IDE comes in two main different size forms - 3.5" and 2.5". 3.5" hard drives, being on the whole faster, cheaper and better value for money are used primarily in desktop computers. They are also used in certain high-performance business appliances, such as servers and the like, using RAID systems to allow high amounts of data to be stored easily and efficiently. An example would be a webserver.</p>
+
+<p>2.5" drives are more expensive for their features and use a slightly different form of connector cable, but are otherwise similar to the 2.5" variety. While the actual statistics are hard to compare with each other, 2.5" hard drives are smaller and therefore easier to fit into a smaller computer, such a a laptop or other portable device. In general, a 2.5" drive will have less diskspace and have a lower spindle speed than a 3.5" drive in a similar price range.</p>
+
+<p>Seperate from the IDE standard is SCSI. SCSI is known for use in the Apple Mac series of computers, and is technically superior to IDE in many ways. Some users, even those using Windows machines, will swear by it for this reason. SCSI, informally pronounced "Scuzzy", supports up to seven devices, all of which can be used as secondary memory devices. It is a very fast and efficient system, designed specifically for the purpose of storing to and accessing from multiple drives at once. For this reason, and the fact that it allows devices to be freely switched in and out while the computer is still switched on, it tends to be used in many servers and professional applications. However, it is relatively expensive when compared to IDE and not necessarily faster than existing IDE variants such as ATA/100.</p>
+
+<h4>Mass media storage</h4>
+
+<p>While hard disks are useful for permanently storing information, software and other data that the user needs to keep on hand, removable forms of media have the advantage that they allow the user to store information on a seperate entity which isn't tied to the computer itself. This can be extremely useful for a variety of reasons - notably, to allow sharing of information between computers, as backup devices, and to extend the amount of data which a user can hold on a computer system by storing it somewhere other than the limited internal hard disk.
+</p>
+
+<p>As the capacity of hard disks and computers has increased over time (see <i>Moore's Law</i>), the need for external media storage devices to store the user's information has decreased. The availability of high-speed broadband internet connections has negated part of the usefulness of external media devices as data-sharing devices. However, they are still both a useful and necessary part of a modern home computer system.</p>
+
+<p>The primary storage system, the CD-ROM drive, has progressed and evolved immensely since its creation and inception over a decade ago. Current models of drive reach speeds of up to (and occasionally beyond) 52x, or 52-speed - this means that the CD drive can read from a CD at up to 52 times the speed of a standard CD player (which is 150k/sec), or 7.8Mb/sec. Since the average CD can hold 80 minutes of music or up to 800MB of data, this makes it a good media for companies to use to sell software. At a cost of £20 or less in a £600 computer, say, it's a negligible enough in cost that every home computer has the capability to read CDs. CDs are also the perfect media to store a computer's operating system on in the case that the computer will not boot from the hard drive and requires reinstalling of the operating system - most modern computers can now boot directly from CD. Given the relative speed of CDs to hard drives, however, data which needs to be accessed quickly would be better copied to hard drive first, which is now possible given the large capacity of modern hard drives. As another consideration, the noise produced by some very high-speed CD drives often discourages the use of keeping data on CD drives when hard drive space is plentiful.</p>
+
+<p>However, the primary disadvantage to CD drives (other than their relatively low speed) is that they cannot be written to; CDs are a read-only media. Devices such as the CD writer or CD-RW, however, overcome this limitation, making mass storage much more readily available to the average computer user. Blank CDs are as cheap as floppy disks once were, and unlike proprietary methods such as Zip disks, they can be read in the vast majority of home personal computers. Given their easy availability and extremely low cost, blank CDs are the perfect method for storing large amounts of data for backup purposes or for transferring data from one computer to another. Since high-speed broadband internet is not yet as ubiquitous as would be preferred, CD-RW drives are still a viable method of data transfer between two computers where one or more have the capability to read CDs but lack broadband internet or even a suitable network connection for large-scale file transfer and storage. This also has the pleasent side-effect of affording either user a backup in the event that one is unexpectedly required. CD-RW drives are relatively cheaply available (~£50), can be used as regular CD drives and is easily worth its extra cost for most users.</p>
+
+<p>The DVD (Digital Versatile Disc) drive is an extension on the same concept as the CD drive, but allows for far more storage than the standard CD drive. DVD drives, in addition to allowing their user to watch DVD movies, are capable of use as mass data storage devices, and can reportedly store around 15GB in certain forms of DVD. The current disadvantage to this technology is that like CD a decade ago, it is currently (as of date of writing) unfeasibly expensive for the average user to purchase and use DVD-writing technology. An entry-level DVD-writer costs £200, with the blank discs themselves costing perhaps around £10 apiece, compared to around £2 for the same storage on multiple blank CDs. This price makes it (somewhat ironically) cheaper to buy most DVDs than to illegally copy them.</p>
+
+<p>As well as the array of CD-type media, other (although less widely used) forms of removable media are available. Examples are the 750MB Zip drive and Jaz drive, which each require their own proprietary form of magnetic media disks. While they do offer the same function as the old-fashioned standard floppy disk but with greater storage capacity, none of them can be used with a computer which does not have a drive of the required type. In other words, the disadvantage of these technologies is that copying data between two computers using these alternative removable media disks requires both the source computer system and the destination computer system to have disk drives of the required type. Ultimately, this means that users are likely to eschew systems like this for more widely compatible systems such as CD-RW.
+</p>
+
+<p>Backup devices such as magnetic tape drives, although occasionally still used in older systems and by large businesses, are no longer as ubiquitous as they originally were due to the capacity of modern hard drives. Tape backup devices, such as the DAT (originally an acronym for Digital Audio Tape) and DLT (Digital Linear Tape) formats are somewhat slow and expensive, hold only a fraction of a large (and much cheaper) hard disk and require an initial expensive investment in a specialised drive to read from and write to the tape. Conversely, a hard disk or a collection of backup CDs would work on almost any computer using cheap, off-the-shelf equipment, and would most likely have a longer "shelf life" before the data would degrade. As a comparison, the Exabyte Mammoth 2 drive can hold only 60GB, while a hard disk costing half the price of the cheapest tape drives can hold 120GB - twice as much as this.</p>
+
+<p>Lastly, the floppy disk drive is a once ubiquitous piece of technology that has, arguably, already become obsolete, to the extent that some computers are built without one. While the floppy drive is still useable for the transfer of small files and documents between computers, it is no longer required as an emergency boot device since computers can boot directly from a CD drive. Most significant files are larger than the average floppy disk's capacity, and both floppy disks and floppy drives are cheaply made and subject to falling into disrepair. However, since it is so cheap (as low as £7 in some places), most pre-built computers come with one as standard regardless.
+</p>
+
+<p><table cellspacing=0 border=0 cellpadding=4>
+
+<tr>
+   <td></td>
+   <td><b>Hard Disk</b></td>
+   <td><b>CD/CD-RW</b></td>
+   <td><b>DVD-R</b></td>
+   <td><b>Zip 750Mb</b></td>
+   <td><b>Floppy drive</b></td>
+</tr>
+
+<tr>
+   <td><b>Drive Cost</b></td>
+   <td>n/a</td>
+   <td>£20/£50</td>
+   <td>£200</td>
+   <td>£90</td>
+   <td>£7</td>
+</tr>
+
+
+<tr>
+   <td><b>Cost per GB</b></td>
+   <td>£1.00</td>
+   <td>£0.30</td>
+   <td>£0.60</td>
+   <td>£11.36</td>
+   <td>£208.00</td>
+</tr>
+
+<tr>
+   <td><b>Reusable</b></td>
+   <td>Yes</td>
+   <td>No</td>
+   <td>No</td>
+   <td>Yes</td>
+   <td>Yes</td>
+</tr>
+
+<tr>
+   <td><b>Read Speed</b></td>
+   <td>100MB/sec</td>
+   <td>7.8MB/sec</td>
+   <td>7.8MB/sec</td>
+   <td>7.0MB/sec</td>
+   <td>0.025MB/sec</td>
+</tr>
+
+<tr>
+   <td><b>Write Speed</b></td>
+   <td>100MB/sec</td>
+   <td>2.4MB/sec</td>
+   <td>0.3MB/sec</td>
+   <td>7.0MB/sec</td>
+   <td>0.025MB/sec</td>
+</tr>
+
+
+<!--
+<tr>
+   <td><b></b></td>
+   <td>Hard Disk</td>
+   <td>CD/CD-RW</td>
+   <td>DVD-R</td>
+   <td>Zip</td>
+</tr>
+-->
+
+
+</table><br>
+<small><b>Storage devices:</b> A statistical comparison. Prices correct as of 13th March 2003.</small></p>
+
+<h3>The Potential for Advanced Secondary Memory Devices</h3>
+
+<p>Like all aspects of computing technology, secondary memory devices and systems are continually advancing and evolving. As well as the advancement in specification and performance of existing devices, a vast array of new technologies are being created. As computers and their uses exact a more demanding toll on system resources, there is always a need for faster secondary memory devices with increasingly higher capacity.</p>
+
+<p><b>Hard disks</b> increasing in size (capacity) is one major factor in future secondary memory technology. As computers become faster and software becomes more resource intensive, users are finding that they require progressively more diskspace as time goes by. The availability of high-speed internet and the amount of data which a user can accumulate over time means that users require ever more storage space, and relatively cheaply. Similarly to <i>Moore's Law</i>, a theory which states that the speed of computers will approximately double in cost and half in price every eighteen months, hard disks follow a similar pattern, which encourages both hard disk manufacturers to create better and better devices and encourages users to buy them.</p>
+
+<p>The primary example of the evolution of hard disk technology is the sheer capacity of modern drives compared to older models. One only has to look at computing literature from a few years back to see how reviewers and enthusiasts were ranting and raving about 20GB drives, when modern drives (at the date of writing) start at 40GB and are widely available in up to 160GB forms. In comparison, 20GB would have seemed an unfeasibly high amount of storage for a mainstream computer about four or five years ago, and ten years before that a 4GB drive would have been totally out of the question.</p>
+
+<p>As well as faster, higher capacity hard drives, manufacturers are constantly working on improving the standard of hard drive interface. The old IDE PIO Mode 0 transfer method has been gradually improved and upgraded to the much faster UDMA-66, which itself is likely to be replaced by a system known as Serial ATA.</p>
+
+<p>DVD technology, itself a progression of the old CD-ROM format, is also being further developed. Blue laser DVD is an improvement over the standard red laser DVD, since the smaller light wavelength allows data to be efficiently stored and read in a much smaller space using much thinner "tracks" than a regular CD. While modern formats of DVD disc can only hold around five gigabytes of data in their most common form, Sony's "Blu-ray" DVD format (due for release in Japan by April 10th 2003) uses blue lasers instead of red to hold 23GB of data on a single disc. However, it should be noted that the asking price of this device is approximately seven times as much as a normal DVD-ROM drive. As the need for mass-storage media increases, however, the price of blue-laser DVDs can be expected to decrease and the availability and popularity of these devices will most likely improve exponentially.
+</p>
+
+<p>In the much longer term, aspects such as quantum computing and solid state memory are likely to enter use. Current data storage research is in the area of solid state memory, where data can be stored either as a form of primary or secondary memory on a small and selectively nonvolatile unit. While it is at least five to ten years away from actual production, this technology theoretically has the potential to allow a terabyte of data to be stored, in a selectively volatile or nonvolatile state, on a supercooled device the approximate size of a sugar cube. Systems such as these are superior in many ways to magnetic media, since they are unaffected by the stay magnetic fields generated by some modern technology that provide a hazard to current magnetic media such as a hard disk.</p>
+
+<p>Finally, the somewhat long term concept of quantum computing is an important step forward in storage technology. It not only allows data storage devices to be minimised and stored in much less space, but also allows smaller portable computing devices to be created which use up little electricity but still retain the ability to store large amounts of data. In a somewhat recent experment, scientists were able to store 1024 bits of information (a simple monochrome 32*32 image) in the 19 hydrogen atoms of a single molecule, and retrieve these perfectly later. In summary, this kind of technology is likely to increase in popularity and availability in years to come.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="http://www.newscientist.com/news/news.jsp?id=ns99993129">New Scientist</a>, December 02</li>
+  <li><a href="http://www.blu-raydisc.info/">http://www.blu-raydisc.info/</a></li>
+  <li><a href="http://www.seagate.com/cda/products/discsales/personal/family/0,1085,564,00.html">Barracuda Serial ATA V - ST380023AS Product Family</a></li>
+  <li><a href="http://www.usbyte.com/common/dvd_7.htm">USByte.com - DVD</a></li>
+  <li><a href="http://everything2.com/index.pl">Everything2.com</a></li>
+  <li><a href="http://www.google.com/search?q=secondary+memory+definition&sourceid=opera&num=0&ie=utf-8&oe=utf-8">Google Search: secondary memory definition</a></li>
+  <li><a href="http://searchsystemsmanagement.techtarget.com/sDefinition/0,,sid20_gci212546,00.html">memory - a searchSystemsManagement definition</a></li>
+  <li><a href="http://www.scan.co.uk/">Scan Computers International</a></li>
+  <li><a href="http://searchsystemsmanagement.techtarget.com/originalContent/0,289142,sid20_gci764700,00.html">searchSystemsManagement.com</a></li>
+  <li><a href="http://www.zdnet.com.au/reviews/computers/storage/story/0,2000023527,20272548,00.htm">ZDNet Australia</a></li>
+  <li><a href="http://storagereview.com/welcome.pl/http://storagereview.com/map/lm.cgi/seek">StorageReview.com</a></li>
+</ul>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 12th August 2003</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

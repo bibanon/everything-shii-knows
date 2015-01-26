@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Recommended Amiga games | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Recommended Amiga games</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>The following are a few Amiga games I recommend. See also my
+guide on <a href="winuae">how to set up WinUAE</a>, an Amiga
+emulator for Windows.</p>
+
+<h2>Platform games</h2>
+
+<p><b>Myth</b> is an excellent platform game that takes the hero
+through worlds themed on various mythologies: Greek, Norse, and
+Egyptian. Special to this game is that it uses primarily melee
+weapons, unlike most platform games which use laser guns or the
+like, and the player can switch between weapons.</p>
+
+<p><b>Ruff 'n' Tumble</b> is a fun platform shooter with excellent
+gameplay, graphics and music. You shoot robots with a laser gun
+of some sort while collecting marbles. You can shoot forward,
+upward and diagonally. Powerups increase the maximum of your
+gun's power bar, which depletes quickly with time (for power-up
+guns you pick up) or depletes as you fire, regenerates when you
+stop, and penalizes your gun's rate of fire when low (for your
+regular gun). There's an element of strategy as you choose
+between extending your powerup gun duration and extending
+your regular gun's power when the powerup gun runs out.</p>
+
+<p><b>Soccer Kid</b> is a game where your weapon is a football
+(soccer ball). Soccer Kid can perform a fantastic array of
+skillful trick kicks in order to hit opponents, pick up items
+or catapult himself upward. His goal is to collect his missing
+football cards as he traverses the world to find the five
+pieces of the World Cup (stolen by an alien, of course), and
+he has to find it on time for the 1994 World Cup. A particularly
+nice touch is that you can choose Soccer Kid's strip colour.</p>
+
+<h2>Shootemups</h2>
+
+<p><b>Apidya</b> is a side-scrolling shootemup where you control
+a wasp, battling against other insects, spiders and garden
+wildlife. It's one of the best shootemups on the Amiga and is
+produced by Team 17, who later went on to make Worms. Apidya
+more or less assumes you'll own an autofire joystick. Apidya
+has been released free to download at
+<a href="http://www.dream17.co.uk/downloads.php?cat=1">Dream17</a>.</p>
+
+<p><b>Deluxe Galaga</b> is a top-down scrolling Galaga clone
+which regularly appears on top Amiga game lists even though it's
+a free public domain game rather than a commercial release.
+The author has since released a PC and Mac version named
+<a href="http://www.warblade.as/">Warblade</a>.</p>
+
+<h2>Strategy</h2>
+<p><b>UFO: Enemy Unknown</b> (in the US: X-Com: UFO Defense)
+is a turn-based, squad-based strategy game in which you control
+troops who raid UFO landing sites for technology to use against
+an impending alien invasion. Like Master of Orion II, UFO has
+both tactical combat and a significant research and resource
+management aspect as you reverse-engineer, produce and sell
+alien technology. What particularly appeals to me is that you
+start out with only 20th Century technology (the game begins
+in 1999) and research or reverse-engineer advanced technologies
+yourself. The DOS version
+<a href="http://store.steampowered.com/app/7760/">is available
+to buy on Steam</a>.</p>
+
+<p><b>K240</b> is a real-time space colonization game in which
+you compete with aliens to establish mining colonies on asteroids.
+Your weapons include missiles and ships, both of which require
+certain ore to produce, and what minerals you don't use can
+be sold back to the empire. You can buy hi-tech blueprints
+for new buildings, weapons, or upgrades to existing technologies.
+K240 has slightly dystopian undertones (which may be
+unintentional): workers sometimes escape on a stolen ship,
+or stage a revolt, requiring security centres to be built;
+citizen morale is otherwise no concern of the player.
+K240 was re-released on the <cite>Best of Gremlin</cite> CD
+in 2000.</p>
+
+<h2>Other lists of top Amiga games</h2>
+
+<ul>
+	<li><a href="http://www.warblade.as/feature01.html">The Amiga Report Top 100 Games of All Time</a></li>
+	<li><a href="http://amr.abime.net/amr_amiga_power_top_100.php">Amiga Power All-Time Top 100 Games (1991-1996)</a></li>
+</ul>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 27th September 2009. Last updated: 16th January 2010</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

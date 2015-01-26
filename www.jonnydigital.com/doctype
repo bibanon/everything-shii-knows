@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Which doctype should I use? | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Which doctype should I use?</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>Anyone who's viewed the source of a modern webpage will be familiar
+with the DOCTYPE declaration that begins a HTML document. Here I'll
+explain what they're used for, why they're important and which form
+is correct.</p>
+
+<h2>Quirks mode</h2>
+
+<p>If your company is hiring a web developer, ask at the interview
+if they understand something called Quirks Mode. If they've never
+heard of it, you have a problem. Understanding this browser rendering
+mode and how to avoid it is critical to creating webpages that
+render consistently across browsers.</p>
+
+<p>Lesson One of modern web development is that Internet Explorer
+has never quite done things properly, but it's improving. It will
+still give you more trouble than any other major browser today.
+Thankfully, a significant portion of your IE troubles go away if
+Internet Explorer detects a correct doctype declaration.</p>
+
+<p>It works like this: Prior to Internet Explorer 6, IE didn't
+support web standards with any sort of consistency. Yet it was
+such a popular browser that most people designed their webpages
+to work with its quirky, non-standard rendering mode. We call
+this <cite>Quirks Mode</cite>.</p>
+
+<p>In order to allow developers to build websites for IE6's
+new modicum of web standards compliance&mdash;we call this one
+<cite>Standards Mode</cite>&mdash;it was declared that websites
+with a correct and current doctype declaration would render in
+Standards Mode, while sites using an old doctype or none at all
+would continue to use the old Quirks Mode.</p>
+
+<p>At current, Internet Explorer holds perhaps half the total
+market share of installed web browsers. If you expect your
+webpage to function with any sort of consistency between web
+browsers, you need to set a doctype that triggers Standards
+Mode.</p>
+
+<h2>The correct doctype</h2>
+
+<p>If you're in a hurry, any of the following doctypes will
+suffice:</p>
+
+<ul>
+  <li><code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</code></li>
+  <li><code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;</code></li>
+  <li><code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;</code></li>
+  <li><code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</code></li>
+</ul>
+
+<p>In order to function correctly, you can have nothing before
+the doctype, except whitespace. Whitespace includes spaces, newlines
+and HTML comments. You <b>must not</b> include the <code>&lt;?xml</code>
+prologue, regardless of how often you've seen "Web 2.0" sites do it.
+Internet Explorer 7 might understand it, but a significant number
+of people still use Internet Explorer 6, which doesn't.</p>
+
+<h2>But which is the One True Doctype?</h2>
+
+<p>The ideal doctype depends on what you want to achieve. In
+general, I prefer HTML 4.01 (Strict). It's the most straightforward
+modern doctype, as XHTML offers no benefits in most cases and raises
+certain minor issues that have to be addressed. Don't be put off by
+the name "Strict"; your browser is no more or less fault-tolerant
+in Strict as in Transitional.</p>
+
+<p>HTML 4.01 Transitional is much like Strict, except backwardly
+compatible with certain elements and attributes you generally only
+want to use on old pages that already use them. Extra elements
+supported by Transitional include <code>&lt;applet&gt;</code>,
+<code>&lt;basefont&gt;</code>, <code>&lt;center&gt;</code>,
+<code>&lt;dir&gt;</code>, <code>&lt;font&gt;</code>,
+<code>&lt;isindex&gt;</code>,<code>&lt;menu&gt;</code>,
+<code>&lt;s&gt;</code>, <code>&lt;strike&gt;</code>, and
+<code>&lt;tt&gt;</code>. Transitional also supports
+<a href="http://www.w3.org/TR/html401/index/attributes.html">certain attributes</a>
+like <code>&lt;p align="right"&gt;</code> and <code>&lt;body
+bgcolor="FFFFFF"&gt;</code>, generally things you should now be
+using CSS for instead.</p>
+
+<p>Once touted as HTML's successor, XHTML is really just
+high-maintainence HTML. Most browsers simply interpret XHTML
+as HTML by ignoring the extra markup, meaning you need to
+adhere to both the <a href="http://www.w3.org/TR/xhtml1/#diffs">Differences with HTML 4</a>
+list and the <a href="http://www.w3.org/TR/xhtml1/#guidelines">Appendix C: HTML Compatibility Guidelines</a>.
+Use XHTML if you're using a content management system that
+only generates XHTML markup.</p>
+
+<p>The difference between XHTML 1.0 Strict and XHTML 1.0 Transitional
+is much the same as in HTML, with Transitional supporting
+a few deprecated elements and attributes. XHTML 1.0 Transitional
+appears to be the more popular XHTML doctype, although
+it's hard to tell if this is from demand for deprecated
+elements, web developers copying doctype declarations from
+each other, marginally better IE compatibility, or an
+unfounded fear of Strict doctype being too 'strict' on
+errors.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<p>I get these a lot:</p>
+
+<dl>
+
+  <dt>Should I use HTML, or XHTML?</dt>
+  <dd>Use HTML, unless you have a good reason to use XHTML.
+  "It's more standard" is not a good reason&mdash;in fact,
+  it's not even true. Good reasons include working with a
+  system that requires XHTML and making use of XHTML or XML
+  specific features. Less pure but still valid reasons
+  include working for clients who ask for XHTML, impressing
+  future employers by having another acronym on your
+  resume, keeping yourself in line with XML's well-formedness
+  rules, and enjoying all the extra markup you get to add.</dd>
+
+  <dt>Why not use the newer XHTML 1.1?</dt>
+  <dd>Even though you're writing XHTML pages, odds are
+  your webserver is sending it out as type <code>text/html</code>.
+  The web standard for XHTML 1.1 forbids you from doing
+  this. Even if you did, <a href="http://www.w3.org/TR/xhtml11/changes.html">the differences are minor</a>
+  and provide no practical benefit. XHTML 1.1 is not
+  "better" or "more standard".</dd>
+  
+  <dt>What's wrong with sending my page as <code>application/xhtml+xml</code>?</dt>
+  <dd>Again, I see people do this because they imagine
+  that it's "more standard". All it does is to cause
+  your page to break in Internet Explorer, since IE
+  (even IE7) doesn't properly support XHTML. You can
+  use browser detection to send <code>text/html</code> to IE and
+  <code>application/xhtml+xml</code> to more standards-compliant
+  browsers, but then you can't rely on any XHTML-specific
+  features, which most webpage authors won't use
+  anyway.</dd>
+  
+  <dt>What do I do if I don't want to support Internet Explorer 6?</dt>
+  <dd>You support it anyway. IE6 still holds a significant browser
+  share, perhaps 5-20% of the total market. Failing to support
+  such a large percentage of users is unprofessional at best,
+  and plain foolish if you're earning money from the site. At
+  any rate, making your site work in IE6 helps ensure that it
+  also works in IE7, which holds a much greater browser share.</dd>
+  
+</dl>
+
+<h2>Further reading</h2>
+
+<ul>
+  <li><a href="http://hsivonen.iki.fi/doctype/">Activating Browser Modes with Doctype</a>, by Henry Sivonen</li>
+  <li><a href="http://www.quirksmode.org/css/quirksmode.html">Quirks Mode and strict Mode</a>, by Peter-Paul Koch</li>
+  <li><a href="http://hixie.ch/advocacy/xhtml">Sending XHTML as text/html considered harmful</a>, by Ian Hickson</li>
+  <li><a href="http://www.cs.tut.fi/~jkorpela/quirks-mode.html">What happens in Quirks Mode</a>, by Jukka Korpela</li>
+</ul>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 19th August 2008</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

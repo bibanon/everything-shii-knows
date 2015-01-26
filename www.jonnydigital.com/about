@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>About | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>About</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>This website dates back to a "weblog" around 1998. In 1999 it took on
+a distinctive blue theme, and received sporadic updates until 2004. Spinoff
+projects included a Dungeons &amp; Dragons website in 2003 titled
+<cite>Talen's Forge</cite>, and a <cite>Fullmetal Alchemist</cite> episode
+guide in 2004 named <a href="http://www.edwardelric.com">EdwardElric.com</a>.</p>
+
+<p>In 2006, Talen's Forge turned into a blog titled
+<a href="http://d20.jonnydigital.com">D20 Source</a>, with over 500
+subscribers at current. Jonnydigital.com remained without update until
+August 2008, when it undertook a radically minimalist style inspired by
+wiki <a href="http://shii.org/knows/">Everything Shii Knows</a>.</p>
+
+<p><cite>Everything Shii Knows</cite> makes a
+<a href="http://shii.org/knows/Everything_Shii_Knows:Guarantee">guarantee
+of validity</a>:</p>
+
+<p><blockquote><cite> Linked at the bottom of every Wikipedia page is this
+message: "WIKIPEDIA MAKES NO GUARANTEE OF VALIDITY". Everything Shii Knows
+does make a guarantee of validity. Everything on this website is my valid
+opinion. It is not written to attract Google hits, make money, or to anger
+you. This website contains no vandalism and no alterations from what I
+actually know. If I say something is evil, that's because I believe it is
+evil. If I tell you the history of Britain, consider it the same as if I
+had walked up to you on the street and told you all about it. This website
+is guaranteed honest.</cite></blockquote></p>
+
+<p>Please accept this website in the same manner.</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 14th August 2008</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

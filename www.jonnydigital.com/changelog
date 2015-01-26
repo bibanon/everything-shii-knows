@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Changelog | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Changelog</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<h2>29th April 2011</h2>
+<p>Added <a href="k240-can-the-imperial-transporter-be-destroyed?">Can the Imperial Transporter be destroyed?</a> to the <a href="k240">K240</a> page.</p>
+
+<h2>9th April 2011</h2>
+<p>Added <a href="pokeball-guide">Pok&eacute;ball capture rate guide</a>
+and <a href="rare-pokemon-guide">Rare Pok&eacute;mon guide</a>.</p>
+
+<h2>19th January 2011</h2>
+<p>Changed the website name from "JonnyDigital.com" to "Jonathan's
+Reference Pages. Minor layout edits.</p>
+
+<h2>1st October 2010</h2>
+<p>Added <a href="ragadorn-ale-house-brawl-house-rules">Ragadorn Ale-House Brawl house rules</a>,
+a set rules clarifications for the Lone Wolf board game.</p>
+
+<h2>18th March 2010</h2>
+<p>Added <a href="realcalc-latex-howto">How to install realcalc for LaTeX</a>,
+for anyone who is having trouble using the 'invoice' package for LaTeX
+(MiKTeX) on Windows.</p>
+
+<h2>14th February 2010</h2>
+<p>Added <a href="tf2-maps">Which Team Fortress 2 map is which?</a>,
+a very short synopsis of each map to describe to someone who knows
+the map but not what it's called.</p>
+
+<h2>4th February 2010</h2>
+<p>Added <a href="4chan-history">4chan history</a>.</p>
+
+<h2>27th January 2010</h2>
+<p>Added <a href="amiga-benchmarks">WinUAE Amiga benchmark results</a>.
+Based on integer operations I have an emulated Amiga running as fast
+as a Pentium III 500MHz, on a 3GHz Core 2 Duo.</p>
+
+<h2>23rd January 2010</h2>
+<p>Added <a href="sneech-spoilers">Sneech spoilers</a>.</p>
+
+<h2>16th January 2010</h2>
+<p>Rewrote <a href="transferring-amiga-disks">How do I transfer Amiga disks?</a>.
+Minor edits to <a href="amiga-games">Recommended Amiga games</a> and
+<a href="winuae">How do I set up WinUAE?</a>.</p>
+
+<h2>20th December 2009</h2>
+<p>Added "Development" to <a href="k240-game-trivia">K240 game trivia</a>.
+Added link to <a href="k240-links">K240 links</a> for my K240 disassembly
+and analysis project at the Amiga Development Wiki,
+<a href="http://amiga-dev.wikidot.com/project:k240">Project: K240</a>.</p>
+
+<h2>30th November 2009</h2>
+<p>Added <a href="k240-nuclear-missile">K240 nuclear missile data</a>
+and edited <a href="k240-undocumented-features">K240 undocumented
+features</a>.</p>
+
+<h2>27th November 2009</h2>
+<p>Added <a href="home-power-generation-in-northern-ireland">Home
+power generation in Northern Ireland</a>. Let me know if there are
+any errors.</p>
+
+<h2>22nd November 2009</h2>
+<p>Added <a href="k240-undocumented-features">K240 undocumented
+features</a>. Moved some information there from
+<a href="k240-game-trivia">K240 game trivia</a>.</p>
+
+<h2>14th November 2009</h2>
+<p>Added an older article,
+<a href="ode-to-an-amiga">Ode To An Amiga</a>. A piece of
+poetry by an Amiga-obsessive fourteen-year-old in 1997.</p>
+
+<h2>13th November 2009</h2>
+<p>Added review links to <a href="k240-links">K240 links</a>.</p>
+
+<h2>11th November 2009</h2>
+<p>Added <a href="k240">K240 page</a>, which indexes nine new
+pages I've spent far too much time working on:
+<a href="k240-strategy-guide">a strategy guide</a>,
+<a href="k240-game-trivia">game trivia</a>,
+<a href="k240-manual-protection-codes">manual protection codes</a>,
+<a href="k240-game-strings-english">game strings (English)</a>,
+<a href="k240-cu-amiga-coverdisk">CU Amiga coverdisk K240 demo details</a>,
+<a href="k240-galactic-history">galactic history</a>,
+<a href="k240-galaxy-map">galaxy map</a>,
+<a href="k240-cheats">cheats</a>,
+and <a href="k240-links">links and resources</a>.
+
+<h2>27th September 2009</h2>
+<p>Added <a href="amiga-games">Recommended Amiga games</a>. Added
+wand of teleport to <a href="nethack-pet-shoplifting">NetHack pet
+shoplifting guide</a>.</p>
+
+<h2>25th September 2009</h2>
+<p>Created this index. This site comprised 40 pages, not
+including this one. The oldest goes back to 1997. Not on this site
+are <a href="http://www.d20source.com">D20 Source</a>, which includes
+355 Dungeons &amp; Dragons articles dating back to 2003, and
+<a href="http://www.edwardelric.com">EdwardElric.com</a>, which has
+a 51-page episode guide on <i>Fullmetal Alchemist</i> and six
+articles.</p>
+
+<p>Added 
+<a href="nethack-pet-shoplifting">NetHack pet shoplifting
+guide</a>.</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 25th September 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>WinUAE Amiga benchmark results | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>WinUAE Amiga benchmark results </h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>I decided to run some benchmark tests on WinUAE to calculate
+just how fast an emulated Amiga is. I'm using
+<a href="http://aminet.net/package/util/moni/AIBB_65">AIBB</a>,
+the standard Amiga benchmarking software. The host machine is
+an Intel Core 2 Duo E7600 @ 3.06GHz, 4GB RAM, an NVIDIA GeForce
+GTX 260 graphics card, running Windows 7 64-bit. I'm using
+<a href="http://www.winuae.net/">WinUAE v2.0.1</a>.</p>
+
+<h2>Test 1: Standard Amiga</h2>
+
+<p>The first test is an emulated PAL A600, 1MB chip RAM, and
+cycle-exact enabled. The results are very close to AIBB's "A600-NF"
+benchmark, from 0.99 to 1.01 in all tests except LineTest, which
+gave 1.04.</p>
+
+<p><img src="img/aibb-68000.png" width="640" height="400"
+	alt="AIBB benchmark: WinUAE emulated A600, cycle-exact"></p>
+
+<p>I wanted to run an A600 with more RAM (chip or fast) for
+comparison, but as the 7MHz CPU takes a long time to run the
+test. I decided to skip it for now.</p>
+
+<h2>Test 2: Amiga 1200</h2>
+
+<p>Next I decided to test WinUAE's "fastest possible" setting.
+I emulated a PAL A1200 with a 68020, Kickstart 3.0, Workbench 3.1,
+2MB chip RAM and 8MB fast RAM. WinUAE options "fastest possible",
+"24-bit addressing" and "more compatible" were enabled. JIT and
+cycle-exact were disabled.</p>
+
+<p><img src="img/aibb-68020.png" width="640" height="400"
+	alt="AIBB benchmark: WinUAE emulated A1200, fastest-possible"></p>
+
+<p>The emulated A1200 runs the Dhrystone test almost 36 times
+faster than the benchmark A1200 and over three times faster than
+the A4000 040/25MHz. It manages similar results in CPU-intensive
+tests like BeachBall (almost 5 times better than the A4000)
+and Sort (3.4 times better). However, it's not so good in graphical
+tests.</p>
+
+<p><img src="img/aibb-68020-ellipsetest.png" width="640" height="400"
+	alt="AIBB benchmark: WinUAE emulated A1200, EllipseTest"></p>
+
+<p>WinUAE's emulated A1200 performs terribly in the EllipseTest,
+only 0.76 of the rate of a normal A1200. The LineTest result is
+only 1.3 of the stock A1200 and 1.2 of the A4000. The limiting
+factor seems to be the Amiga's graphics chipset, which is emulated
+accurately.</p>
+
+<h2>Test 3: JIT enabled</h2>
+
+<p>Earlier I switched off just-in-time CPU emulation to make a
+comparison. In the next test I disabled "24-bit addressing" and
+"more compatible", and enabled JIT.</p>
+
+<p><img src="img/aibb-68020-jit.png" width="640" height="400"
+	alt="AIBB benchmark: WinUAE emulated A1200, JIT enabled"></p>
+
+<p>The speed increase is enormous. The Dhrystone test jumps
+from just under 36 times the stock A1200 to 239 times faster.
+The result is 25 times faster than the A4000/25Mhz. On
+Dhrystones alone, we would estimate the emulated speed as
+a 68020 at 3,346MHz, or 68040 at 625MHz.</p>
+
+<p><img src="img/aibb-68020-ellipsetest-jit.png" width="640" height="400"
+	alt="AIBB benchmark: WinUAE emulated A1200, JIT enabled, EllipseTest"></p>
+
+<p>However, the EllipseTest is still rather poor, only 4.58
+times the emulated A1200. TGTest is still slower than the
+A4000. Hypothesizing that this limitation is imposed by
+emulating the Amiga's graphics hardware, my next idea was
+to get rid of that entirely.</p>
+
+<h2>Test 4: Picasso96</h2>
+
+<p>I began a series of tests using the
+<a href="http://aminet.net/package/driver/video/Picasso96">Picasso96</a>
+graphics board drivers, which WinUAE supports. These should take
+the graphics chipset emulation out of the equation entirely.</p>
+
+<p>First I installed Picasso96, emulated a 32MB graphics card
+and ran the benchmarks again. There was no increase, as expected
+since AIBB was still running the benchmarks on a standard PAL
+screen. In fact, there was a slight decrease, perhaps due to
+another Windows program using CPU time.</p>
+
+<p>Test 2 ran the benchmarks on a 640x480x8 UAEGFX screen.
+This saw a significant increase in graphical tests: relative
+to the A1200 with JIT, AIBB gave 27.81 times better on EllipseTest,
+74.82 times on TGTest, and 106.72 times on the LineTest.</p>
+
+<p><img src="img/aibb-68020-picasso96.png" width="640" height="400"
+	alt="AIBB benchmark: WinUAE emulated A1200, Picasso96"></p>
+
+<p>For comparison to the A600, this configuration is 492.49
+times faster on the Dhrystone test, 361.10 times faster on
+LineTest, and 804.15 times faster at the BeachBall rendering
+task.</p>
+
+<h2>Test 5: More Picasso96</h2>
+
+<p>I wanted to try and improve the result by tweaking the
+settings, so I ran more Picasso96 tests. Test 3 adds the
+new rtg.library from WinUAE. Test 6 also runs Workbench
+on an RTG window, and Test 7 runs the same but fullscreen.
+Let's not ask what happened to Tests 4 and 5.</p>
+
+<p>The effects are varied and inconclusive. The new library
+is 3% faster at EllipseTest and 2% slower at TGTest. The
+RTG Workbench windows and full screen are between 0.81 and
+0.88 of the P96 A1200 on the EllipseTest, and the fullscreen
+version is only 0.27 on the LineTest.</p>
+
+<h2>Test 6: Other CPU/FPU</h2>
+
+<p>I wanted to see how CPUs other than the 68020 would
+affect the results. I ran the following emulated configurations
+through AIBB: 68030, 68040 (no FPU), 68060 (no FPU), 68040
+(CPU internal FPU), 68060 (CPU internal FPU). For fair
+comparison I re-ran the 68020 also. In all cases JIT is enabled
+and the emulator runs both Workbench and the tests in fullscreen
+in 1680x1050x32.</p>
+
+<p>Unfortunately, WinUAE guru'd when loading AIBB on the 030
+and guru'd on boot with both configurations of the 060.
+This leaves the 020 and both configurations of 040. The
+040 varied by less than 5% in most tests. Even the Flops
+test gave very close results for the 040 and the 040 with
+FPU. It could be that the benefit of these CPUs is outweighed
+by the optimizations available to JIT CPU emulation.</p>
+
+<h2>Results</h2>
+
+<p>By using WinUAE's JIT feature and Picasso96 support, a
+mid-range gaming PC from 2009 can emulate an Amiga with
+over 1,000 times better Integer performance than an A600,
+800 times better FPU performance, and 500 times better graphics
+performance.</p>
+
+<p><img src="img/aibb-68020-results1.png" width="640" height="400"
+	alt="AIBB benchmark: WinUAE emulated A1200, system combined evaluation indices"></p>
+
+<p><img src="img/aibb-68020-results2.png" width="640" height="400"
+	alt="AIBB benchmark: WinUAE emulated A1200, comparison to A600"></p>
+
+<p>We can compare the results to
+<a href="http://amiga.resource.cx/perf/aibb.pl?amiga=500&amiga=1200&amiga=2000&amiga=3000&amiga=4000&amiga=other&testgroup=int&testgroup=float&testgroup=gfx&order=dhry&ref=a500">other AIBB benchmark tests</a>. The Blizzard 1260 accelerator running a 68060 at
+64MHz has the fastest Dhrystones performance of any real
+68k Amiga listed, at 36.26 times a stock A1200. The emulated
+performs 674.09 times better than the stock A1200!</p>
+
+<p>The highest graphical performers are 15.63 in the EllipseTest
+(A4000 CyberStorm PPC 68060/50), 11.15 in TGTest (A3000
+CyberStorm II 68060/050), 11.51 in LineTest (A4000 CyberStorm II
+68040/040) and 15.00 in WritePixel (A2000 WildFire 68060/050).
+Our emulated Amiga gives 207.99 in EllipseTest, 180.90 in
+TGTest, 236.17 in WritePixel, and 412.55 in LineTest.</p>
+
+<p>However, all is not lost. The Blizzard 1260 060/64 manages
+497.68 on the Savage test, which beats the emulator's score of
+359.99 by a margin of about a hundred and forty A1200s.</p>
+
+<p>Bear in mind that benchmarks are only so useful, unless you
+mainly use your computers to run benchmarking tools. Even so,
+it's impressive to see Amiga Workbench load in under two
+seconds, and respond instantly even in in 1080p resolution
+with a 24-bit background image - faster even than Windows
+runs itself.</p>
+
+<h2>Further work</h2>
+
+<p>It would be interesting to compare the results of real and
+emulated Amiga computers to other machines for which a common
+benchmark can be established.</p>
+
+<p>Roy Longbottom's
+<a href="http://www.roylongbottom.org.uk/dhrystone%20results.htm">Dhrystone Benchmarks for PCs</a>
+gives the Dhrystone results of various Intel processors, converted
+into MIPS by dividing by 1,757 (the speed of the DEC VAX 11/780, a
+1977 computer believed to have a speed very close to 1 MIPS, or one
+million instructions per second. On this scale, a 7.09MHz emulated
+Amiga generates 1,734.88 Dhrystones/second or 0.98 MIPS. This is
+probably quite accurate, as the 68000 CPU
+<a href="http://en.wikipedia.org/wiki/Million_instructions_per_second#Million_instructions_per_second">is also said to run at 1 MIPS</a>.</p>
+
+<p>The fast emulated 020 Amiga gives 2,170,138.89 Dhrystones or
+1,235.14 MIPS, suggesting speed equal to a hypothetical 020/6.17Ghz,
+030/3.7GHz, 040/1.1GHz or 060/929Mhz. Wikipedia's benchmarks
+place this comparable to a Pentium III 500MHz. A high-end modern
+CPU, the Intel Core i7 Extreme 965EE, is rated at 76,383 MIPS,
+over sixty times the emulated Amiga and over 75,000 times faster
+at integer operations than an Amiga 600.</p>
+
+<p>Note that Dhrystones aren't all that useful for measuring 3D
+performance, which relies on a lot of floating point calculations.
+3D games released for both Amiga and another platform tend to
+have been optimized for the Amiga release, so it's hard to use
+the two as a comparison.</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 27th January 2010</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

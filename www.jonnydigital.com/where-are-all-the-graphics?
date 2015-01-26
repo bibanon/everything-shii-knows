@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Where are all the graphics? | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Where are all the graphics?</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>You're probably wondering where all the snazzy design has gone
+on this page.</p>
+
+<h2>Short answer</h2>
+
+<p>Websites have come from simple hand-made pages in 1993 to
+over-designed, content-managed messy systems. I don't think
+it has to be that way.</p>
+
+<h2>Long answer</h2>
+
+<p>When Sir Tim Berners-Lee invented the World Wide Web, the idea that
+people would write HTML by hand didn't occur to him. Without software
+to simplify the process, the majority of people wouldn't be able to
+edit pages. He was right - the web as we know it didn't really take
+off until the advent of web-based content management systems, a system
+the media knows today as <cite>Web 2.0</cite>.</p>
+
+<p>The first websites were simple and extremely minimalist, as
+early web browsers didn't support features like colour and many
+people had only 9600bps modems or slower. For those well-versed in
+HTML, creating a webpage was straightforward and flexible, a step
+up from the plain text files of the BBS era.</p>
+
+<p>This changed with the introduction of HTML feature extensions,
+some entirely browser-proprietary. Now, webpages weren't just
+written - they were designed. In 1996, Jakob Nielsen declared
+that web users <a href="http://www.useit.com/alertbox/9605a.html">don't
+scroll down</a>, leading to an era of <a href="http://www.wizards.com/dnd">tiny
+fonts and cramped design</a>.</p>
+
+<p>The trend reversed with "Web 2.0" minimalist design, for which
+(in my humble opinion) we can thank Internet Explorer 6. IE6 supported
+Cascading Style Sheets well enough to encourage idealistic web
+startups to start using CSS over messy HTML extensions, but it had
+enough infuriating rendering bugs to make coding for multiple browsers
+a chore. The solution: make the website as simple as possible.
+Less elements, less bugs to fix. After all, it worked for Google.</p>
+
+<p>With "Web 2.0" came a host of simple but effective visual
+stylings. Gradients, probably inspired by viewing an LCD monitor from
+above or below, were combined with simple mirror shadows and faux
+"sale price" stickers saying "beta". Most importantly, these styles
+were easy for non-designers to do in Photoshop. Unfortunately, they
+were also easy to overuse, and a lot of the elements quickly went out
+of fashion.</p>
+
+<p>Perhaps the most significant advancement to graphical web design,
+then, was <a href="http://www.csszengarden.com/">CSS Zen Garden</a>,
+a website which managed to impress upon the web design community
+just how flexible CSS could be. Meanwhile, early content management
+systems like PHP-Nuke had been supplanted by software like Wordpress,
+Drupal and Ruby on Rails, opening up web publishing to more people
+than ever before.</p>
+
+<p>Unfortunately, this "new web" all but killed the traditional
+webpage. Writing a page in HTML was no longer the style. You wrote
+blogs, which had been promoted from useless daylog duty to power
+news and entertainment websites wherever possible. The web was
+no longer about what you had said, but about what you were going
+to say tomorrow, and so on. Webpages became like magazines, with
+writers and readers and subscribers and advertisers and professional
+flair.</p>
+
+<p>If your site didn't become a magazine, then it became a reference,
+and references were supplanted almost entirely on the web by
+wikis. No one person could write as much on a topic as the hundred
+or thousand contributors a single Wikipedia entry might have,
+and if Wikipedia wouldn't take it a specialist Wiki would. Your
+article on <cite>Pok&eacute;mon</cite> is nothing compared to what
+five hundred unemployed men have to say on the topic.</p>
+
+<p>While blogs and wikis began to dominate the internet's content,
+<cite>CSS Zen Garden</cite> rose the bar for graphic design and
+created a market for high paid web designers. It was no longer
+enough to design your own webpage. If you wanted anyone to take you
+seriously, serious professional design became a necessity.
+Now that a website could be a thing of beauty, it had to be.
+Image on the web was everything.</p>
+
+<p>Like the <a href="http://www.mindfully.org/Farm/2003/Everything-Is-Illegal1esp03.htm">modern
+farmer who can no longer slaughter his own animals</a>, I'm finding
+that almost nobody writes their own webpages any more. You
+don't write your own HTML; the CMS does it. You don't do your
+own design; you outsource to a professional. URL structure,
+semantics, categorization, code, underlying code, and in cases
+even hosting are taken away from us. All that changes what it is
+to make and own a website.</p>
+
+<p>Over the course of building this website, I've gone through
+various solutions to expedite the process of creating new pages.
+It actually gave me much of my education in the business of
+web development. First SHTML to include navigation links, then
+PHP for similar tasks, leading up to fully-blown hand-written
+PHP-based content management systems. There are companies whose
+entire business to to sell these CMS solutions, complete with
+XSLT and AJAX and other acronyms that make websites more and
+more complicated.</p>
+
+<p>And yet, the real answer is that if it's simple enough, <b>you
+don't need any of these</b>. Why design a templating system when
+you can avoid design? Why content manage when your content is
+plain text and a few formatting tags?</p>
+
+<p>Worse, what I'd done was to obsess over graphic design and
+content management, when what really mattered was the content.
+After a decade on the web, I had perhaps only twenty articles.
+Since ditching the graphic design to focus on straightforward
+editing of content, I've managed to add seven more.</p>
+
+<p>Now, I'm not saying you can't use a content management
+system if you want to make a website. I have, at the time of
+writing, thirty-one articles at <a href="http://everything2.com/">everything2</a>
+perhaps three hundred at my Wordpress-powered <a href="http://d20.jonnydigital.com">Dungeons &amp; Dragons blog</a>,
+and I'd be hard pressed to post video online without Youtube.
+<b>It's when these content management systems make assumptions
+about how you want to communicate that websites held by
+individuals lose their individuality</b>.
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 16th August 2008</em>. <em>Last updated: 24 September 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
