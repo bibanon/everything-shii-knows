@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>How do I transfer Amiga disks? | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>How do I transfer Amiga disks?</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>A common question on Amiga forums is, "How do I transfer data
+to/from an Amiga"? You may wish to transfer Amiga disks to a PC
+to use in WinUAE, backup data from an old Amiga, or copy software
+to an Amiga from the Internet.</p>
+
+<p>You have two problems to solve. The first is how to transfer
+data between Amiga and PC, when PC disk drives cannot read Amiga
+floppy disks and the two share no networking standard by default.
+The second is how to copy a floppy disk into a format a PC can
+use.</p>
+
+<h2>Reading Amiga disks</h2>
+
+<p>An Amiga disk can be copied to a single file called an ADF, using
+a program called <cite>transdisk</cite> supplied with Amiga emulator
+<a href="http://www.winuae.net/">WinUAE</a>. This file contains a
+representation of the complete disk, like an ISO file for a CD. An
+ADF can be used in WinUAE or written back to an actual disk.</p>
+
+<p>The following command reads the disk in DF0:, the internal
+floppy disk drive, to a file on the ram disk:</p>
+
+<ul>
+  <li><code>transdisk &gt;RAM:<cite>filename</cite>.adf</code></li>
+</ul>
+
+<p>If you want to write an ADF to a floppy disk, such as to play
+a game downloaded from the Internet, use this command to write a
+diskfile to DF0:</p>
+
+<ul>
+  <li><code>transdisk -w <cite>filename</cite>.adf</code></li>
+</ul>
+
+<h2>Methods of data transfer</h2>
+
+<p>Of the following, I recommend a PCMCIA SD card adaptor if you
+have an A600 or A1200, using CrossDOS to copy the required drivers
+over. If you only have Workbench 1.x, use Amiga Explorer.</p> 
+
+<h3>CrossDOS</h3>
+
+<p><b>Cost: &pound;0</b></p>
+<p><b>Compatible with:</b> Workbench 2.04 and up</p>
+<p>CrossDOS is an Amiga filesystem which allows an Amiga to read
+PC-formatted floppy disks. It comes with Workbench 2.1 and up,
+but works with Workbench 2.0. Enter <code>mount pc0:</code> into
+the command-line to activate.</p>
+
+<p>As the Amiga only has a double density floppy drive as standard,
+you can only read 720KB formatted disks and not 1.44MB high density
+formatted disks. A spare Amiga disk formatted on PC is good for this.
+The 720KB limit causes problems when copying Amiga disk images, which
+are 880KB. See "Methods of data compression" below for solutions.</p>
+
+<p>There's another guide at l8r.net called
+<a href="http://www.l8r.net/technical/t-crossdos.shtml">How To Use CrossDos On Your Amiga</a>.</p>
+
+<h3>PCMCIA SD card/CompactFlash reader</h3>
+
+<p><b>Cost: &pound;10</b></p>
+<p><b>Compatible with:</b> Amiga 600 / 1200</b></p>
+<p>A PCMCIA CompactFlash or SD card reader is one of the best Amiga
+peripherals you can buy right now. It's essentially like a floppy
+drive, but fast, silent, has 1GB+ capacity and compatible with just
+about everything (including your PC, your camera and mobile phone).</p> 
+
+<p>The <a href="http://www.dealextreme.com/details.dx/sku.23720">EDUP MCR-5A</a>
+PCMCIA SD-card adaptor sells for &pound;4.59 including shipping. It should work on
+all A600 and A1200s, and I've personally tested it on an A1200 with WB2.1 and
+a 1GB Corsair 60x SD card. You'll need two drivers from Aminet:
+<a href="http://aminet.net/package/disk/misc/cfd">cfd.lha</a> to add
+CompactFlash and SD support, and
+<a href="http://aminet.net/package/disk/misc/fat95">fat95.lha</a> to support
+Windows filesystem. You may need to format the card under Windows as
+"FAT" or FAT16".</p>
+
+<p>Whichever card reader you use, you'll need something else to get
+the drivers to the Amiga in the first place. You can use CrossDOS as
+the drivers are only about 200KB. If you don't have a hard disk in the
+Amiga you'll need to make a Workbench disk with these drivers installed.
+On the PC side, you can buy a USB to CF/SD adaptor quite cheaply.</p>
+
+<h3>Internal IDE CF reader or (2.5" hard disk)</h3>
+<p><b>Cost: &pound;10</b></p>
+<p><b>Compatible with:</b> Any IDE-equipped Amiga (incl. A600 and A1200)</p>
+<p>An IDE CompactFlash or SD reader is a cheap, noise-free alternative to an
+internal hard disk. It has advantages and disadvantages compared to a
+PCMCIA CF/SD reader.</p>
+
+<p>An IDE to CF adaptor requires no drivers, and consequently can be
+formatted with the Amiga filesystem used as a boot device like a normal
+hard disk. It works with Amigas that have IDE but not PCMCIA (A4000, A4000T,
+expanded Amigas). The drawbacks are that you'll need to open the Amiga
+to remove the card, and you'll need WinUAE to read the Amiga filesystem.
+I don't own one of these devices so I can't recommend any particular model.</p>
+
+<p>If you've got a spare 2.5" hard disk kicking around you can put it in
+the Amiga. It can be connected to a PC using a USB hard disk enclosure and
+read via WinUAE. For the A600/A1200 you'll probably want a
+<a href="http://amigakit.leamancomputing.com/catalog/product_info.php?cPath=24&products_id=184">hard disk cradle</a> to make sure it fits in snugly. Remember that Amiga has
+limits on partition size, and some early A600s are said to have faulty IDE
+control in ROM. My own 2.5" hard disk is 4GB and has two 2GB partitions.</p>
+
+<h3>Serial cable with Amiga Explorer</h3>
+<p><b>Cost: &pound;18.20</b></p>
+<p><b>Compatible with:</b> All Amigas, Workbench 1.2 or higher</p>
+<p><a href="http://www.amigaforever.com/ae/">Amiga Explorer</a> is
+a networking solution which uses a null modem cable. It cleverly
+solves the problem of how to get its own software to the PC side,
+by sending an installer over the serial cable. The full version is
+&euro;14.95 from Cloanto.</p>
+
+<p>The drawbacks are that transfers are slow (see "transfer rates",
+below), you're limited by the length of your cable, and many PCs
+don't have serial ports any more, requiring a USB to serial adaptor.
+However, it's the primary option for A500 users without IDE ports.
+As a bonus, you can run WinUAE and play multiplayer Populous.</p>
+
+<h3>ADFRead/Disk2FDI</h3>
+<p><b>Cost: &pound;15</b></p>
+<p><b>Compatible with:</b> Some PCs</p>
+<p><a href="http://eab.abime.net/showthread.php?t=22596">ADFRead</a>
+is a PC program that does the impossible: allows a PC disk drive to
+read an Amiga disk. Due to the unique way it works, ADFRead requires
+a PC with two internal floppy drives (not USB floppy drives). It
+can only read disks, not write, and can only read standard format
+disks (many games used copy-protected non-standard format).</p>
+
+<p>Disk2FDI is an older program which does something similar.</p>
+
+<h3>Ethernet</h3>
+<p><b>Cost: &pound;30+</b></p>
+<p><b>Compatible with:</b> Any PCMCIA/Zorro-equipped Amiga with hard disk and 2MB+ RAM</p>
+<p>An Ethernet setup is the most complex and expensive setup
+listed here. A600/A1200 users can find the
+<a href="http://amigakit.leamancomputing.com/catalog/product_info.php?cPath=32&products_id=116">EasyNet PCMCIA network card</a> for &pound;30, and big-box Amiga users
+can expect to fork out a whopping &pound;88.88 for the Zorro-based
+<a href="http://amigakit.leamancomputing.com/catalog/product_info.php?cPath=32&products_id=250">X-Surf 3CC</a>. You'll then need to copy a lot of software to the PC by
+some other method, install MUI, setup TCP/IP software,
+manage connecting this to a Windows network, and setup Windows-style
+network shares.</p>
+
+<p>On the plus side, this heavy setup will let you hook your
+Amiga up to the Internet.</p>
+
+<h2>Transfer rates</h2>
+
+<p>I ran some speed tests using
+<a href="http://aminet.net/package/disk/moni/DiskSpeed42">DiskSpeed 4.2</a>
+on a stock A1200. Testing with a 262144 byte, MEMF_CHIP, LONG-aligned buffer.
+Amiga floppy and ramdisk included for comparison.</p>
+
+<ul>
+	<li><b>CrossDOS floppy</b>: 6,451 bytes/sec write, 11,159 bytes/sec read</li>
+	<li><b>Amiga floppy</b>: 10,256 bytes/sec write, 22,285 bytes/sec read</li>
+	<li><b>PCMCIA SD Card</b>: 499,321 bytes/sec write, 862,105 bytes/sec read</li>
+	<li><b>Hard disk</b>: 943,198 bytes/sec write, 1,443,877 bytes/sec read</li>
+	<li><b>Ram disk</b>: 1,886,396 bytes/sec write, 1,928,490 bytes/sec read</li>
+</ul>
+
+<p>Serial transfer is limited to around 19.2 kbit/sec on A500/A600 and
+57.6 kbit/sec on A1200, for transfer rates no more than 2KB/sec or 7KB/sec.
+This is slower than CrossDOS floppy, but more convenient.</p>
+
+<p>The Amiga 600/1200 IDE uses PIO Mode 0, which has a limit of 3.3MB/s.
+You'll actually get less than this on the Amiga as CPU is the limiting
+factor (this is why earlier Amigas used SCSI). In my test the
+hard disk transfer used 94%-100% CPU and only reached 1.38MB/sec, and
+even the ramdisk only reached 1.84MB. This suggests that you're unlikely
+to exceed 2MB/sec without expensive specialist hardware like an accelerator
+card.</p>
+
+<p>The PCMCIA SD card device can write a floppy disk image in under two
+minutes, which is over twenty times faster than the disk drive can read it.
+This is probably good enough.</p>
+
+<h2>Methods of data compression</h2>
+
+<p>The main reason you'll want to compress data is if you're using
+CrossDOS and want to fit an 880KB Amiga disk image onto a 720KB PC
+disk. It's also useful if your transfer method is very slow or unreliable.</p>
+
+<h3>LHA</h3>
+
+<p><a href="http://aminet.net/package/util/arc/lha">LHA</a> is the Amiga
+standard archiver, and can also be read under Windows by WinRAR or 7-Zip.
+Compress the disk image like so:</p>
+
+<ul>
+  <li><code>transdisk &gt;RAM:<cite>filename</cite>.adf</code></li>
+  <li><code>lha a <cite>filename</cite>.lha <cite>filename</cite>.adf</code></li>
+</ul>
+
+<p>There's a snag, however: lha might not reduce the filesize enough
+to fit on the 720K floppy. The solution is to read or write the file in
+two parts:</p>
+
+<ul>
+  <li><code>transdisk &gt;RAM:<cite>filename</cite>.adf.1 -s 0 -e 39</code></li>
+  <li><code>lha a <cite>filename</cite>1.lha <cite>filename</cite>.adf.1</code></li>
+  <li><code>delete <cite>filename</cite>.adf.1</code></li>
+  <li><code>transdisk &gt;RAM:<cite>filename</cite>.adf.2 -s 40 -e 79</code></li>
+  <li><code>lha a <cite>filename</cite>2.lha <cite>filename</cite>.adf.2</code></li>
+</ul>
+
+<p>You can concatenate the file in a Windows command prompt:</p>
+
+<ul>
+  <li><code>copy /y /b <cite>filename</cite>.adf.1+<cite>filename</cite>.adf.2 <cite>filename</cite>.adf</code></li>
+</ul>
+
+<h3>DMS</h3>
+<p><a href="http://aminet.net/package/util/arc/dms111">DMS</a>, available from
+Aminet, is an old Amiga program to read Amiga disks to disk images and compress
+them at the same time. You can uncompress the files back to an ADF file using
+DMS under WinUAE.</p>
+
+<p>Suppose again that the resulting DMS file is too large. You can split it
+like so:</p>
+
+<ul>
+	<li><code>dms read <cite>filename</cite>-1.dms from DF0: LOW 0 HIGH 39</code></li>
+	<li><code>dms read <cite>filename</cite>-2.dms from DF0: LOW 40 HIGH 79</code></li>
+</ul>
+
+<p>You can recombine like so:</p>
+
+<ul>
+	<li><code>dms write <cite>filename</cite>-1.dms to DF0: LOW 0 HIGH 39</code></li>
+	<li><code>dms write <cite>filename</cite>-2.dms to DF0: LOW 40 HIGH 79</code></li>
+</ul>
+
+<p>As splitting and recombining is a lot of effort, you should try
+something other than CrossDOS if possible.</p>
+
+<h2>Yarr! Pirates!</h2>
+
+<p>It's still frowned upon in some circles, but if your original game
+disks are corrupted or unavailable, you can probably find copies
+online.</p>
+
+<p>You can, of course, use this to enjoy all the Amiga classics you
+missed out on back in the day. Strictly speaking this is software piracy,
+but most classic Amiga games publishers are no longer in business
+or are disinterested in chasing up copyright on their twenty year old
+games. See my list of <a href="amiga-games">recommended Amiga games</a>.</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 23rd August 2008. Last updated: 16th January 2010</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

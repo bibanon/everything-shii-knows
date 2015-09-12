@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Where do I get joysticks for my Amiga? | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Where do I get joysticks for my Amiga?</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p><img src="img/autofire.png" alt="Amiga-style DB9 joystick port"></p>
+
+<p>If you own an Amiga or similar machine, you have at some point
+owned a small cache of broken joysticks. Those jet fighter style
+Quickshot controllers looked pretty awesome in the nineties, but
+were terribly prone to breakage. One of the few survivors is the
+Competition Pro, the defining image of the joystick with the big
+red buttons on a black base and the red-ball stick - but good luck
+finding someone willing to part with theirs.</p>
+
+<p>I was pretty excited, then, to hear that Individual Computers
+and Speedlink had <a href="http://amigakit.leamancomputing.com/catalog/product_info.php?cPath=52&products_id=657">put the Competition Pro</a>
+back into production. This is good news for Amiga owners looking
+to replace worn-out joysticks. The Atari, Commodore 64 and Amstrad
+used the same joystick standard as the Amiga, and should be
+compatible with this.</p>
+
+<p>A site called <a href="http://www.amigakit.com">AmigaKit.com</a>
+supplies the replica Competition Pro joystick, along with a USB
+version for PC use, and other handy Amiga-related hardware.</p>
+
+<h2>Competition Pro: Is it any good?</h2>
+
+<p>I own two of the Amiga joysticks and one of the PC joysticks,
+and I have to say that they're pretty good. You have four fire
+buttons, all of which (on the Amiga version at least) do the same
+thing. The switch on the back is not an autofire, but enables or
+disables the smaller fire buttons in case you want to hold the
+joystick at that point and use the larger buttons instead.</p>
+
+<p>The connector was a tight fit in my A1200's port, but worked
+fine. However, it lacks the special features of those snazzy
+Quickshot controllers such as trigger buttons and autofire;
+good luck playing games like Apidya which were specifically
+designed for autofire controllers.</p>
+
+<p>The USB version works just fine for playing <a href="http://kayin.pyoko.org/iwbtg/">I Wanna Be The Guy</a>
+and under WinUAE. It's silver and blue rather than the
+traditional red and black, and differs from the Amiga version
+in that all four fire buttons are separate function, as on a
+Megadrive or Playstation controller. The switch at the back
+also functions as an autofire.</p>
+
+<h2>Alternatives</h2>
+
+<p>I previously bought two used Amiga Quickshot joysticks
+on eBay. One doesn't move right, the other doesn't fire.
+I put them in the cupboard with "doesn't move left",
+"trigger doesn't work" and "doesn't work at all". Your
+mileage may vary.</p>
+
+<p>The interoperability between consoles means that Atari
+2600 / 7800 or Sega Megadrive / Master System /Genesis
+controllers will work for the Amiga, although most games
+won't support the Sega joypad's extra buttons. Broken
+controllers are often possible to repair, if you've got
+some time and a solder iron (or even some tin foil and
+tape).</p>
+
+<p>For PC users willing to emulate an Amiga, you've got more
+options available. You can find USB adaptors for both old
+and modern game controllers, including Sega Megadrive and
+Playstation 2 joypads. You can also find new PC joysticks,
+although these tend to be analogue sticks where the consoles
+of old are expecting digital, so it's not always a perfect
+match.</p>
+
+<h2>Conclusion</h2>
+
+<p>I heartily recommend the Competition Pro remake as a
+replacement for your broken Amiga or Atari joysticks, and
+its USB counterpart for those of us who use an emulator
+or just want to play <cite>IWBTG</cite> the authentic
+old-fashioned way.</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 17th August 2008</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

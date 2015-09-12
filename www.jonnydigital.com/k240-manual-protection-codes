@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>K240 manual protection codes | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>K240 manual protection codes</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>Amiga game <a href="k240">K240</a> requires the user to enter
+a randomly selected word from the game manual as an anti-piracy
+measure. As with many Amiga games, the idea is that the user
+can't copy the game without copying the entire manual.</p>
+
+<p>However, the game only stores 100 words per language (keeping
+the entire manual on disk would take up far too much space, and
+indexing all the words would be too much work).</p>
+
+<p>A complete list follows.</p>
+
+<h2>English</h2>
+
+<p>Tetracorp Authorisation Code...</p>
+
+<p>For continuing support from Tetracorp, please enter your security clearance code.</p>
+
+<p>Refer to the K240 manual. Ignore all subtitles in bold or underlined print...</p>
+
+<p>Please enter the word from:</p>
+
+<p><pre>
+Page  11, line  1, word  4: QUICK     
+Page  11, line  5, word  2: CENTRE    
+Page  11, line  8, word  2: AND       
+Page  11, line 10, word  6: ABOUT     
+Page  11, line 12, word  3: MAY       
+Page  11, line 13, word  7: DISCOVER  
+Page  12, line  1, word  3: BROWSE    
+Page  12, line  3, word  2: BUILDING  
+Page  12, line  5, word  5: SELECT    
+Page  12, line  7, word  4: TIME      
+Page  12, line  9, word  1: NOTICE    
+Page  13, line  2, word  8: DAYS      
+Page  13, line  4, word  1: EXIT      
+Page  13, line  5, word  9: SOLAR     
+Page  13, line  7, word  5: CONTROL   
+Page  14, line  2, word  5: ASTEROID  
+Page  14, line  4, word  5: MANUAL    
+Page  14, line  7, word  5: NEED      
+Page  17, line  1, word  4: CONTROL   
+Page  17, line  3, word  3: SUMMARY   
+Page  17, line  5, word  4: GIVEN     
+Page  17, line  6, word  6: DISPLAY   
+Page  18, line  2, word  7: LARGER    
+Page  18, line  3, word  1: DETAILS   
+Page  18, line  4, word 10: ORE       
+Page  18, line  6, word  7: SEE       
+Page  23, line  2, word  5: DETAILS   
+Page  23, line  4, word  9: EQUALS    
+Page  23, line  6, word  4: ARMOUR    
+Page  23, line  8, word  2: BUILD     
+Page  23, line 10, word  2: COST      
+Page  24, line  1, word 16: BOTTOM    
+Page  24, line  5, word  6: INSTALL   
+Page  24, line  6, word 10: BLUEPRINT 
+Page  24, line  8, word  5: ICONS     
+Page  24, line 10, word 10: YOU       
+Page  26, line  3, word  6: BUTTON    
+Page  26, line  4, word  2: SPACE     
+Page  27, line  1, word  9: MOUSE     
+Page  27, line  2, word  5: DESELECT  
+Page  27, line  4, word  4: RIGHT     
+Page  32, line  1, word  6: SINCE     
+Page  32, line  3, word  1: ANNUALLY  
+Page  32, line 12, word 15: ENEMY     
+Page  36, line  7, word  6: ENEMY     
+Page  36, line 10, word  5: BEFORE    
+Page  41, line  4, word  3: ACCESSING 
+Page  41, line 12, word 12: CAN       
+Page  46, line  3, word  5: HOWEVER   
+Page  46, line  5, word  6: DATABASE  
+Page  46, line  7, word  6: PERUSE    
+Page  46, line  9, word  4: AVAILABLE 
+Page  48, line  4, word  3: BEGIN     
+Page  48, line  8, word  6: MASS      
+Page  48, line 12, word  7: ONCE      
+Page  48, line 17, word  3: SCOUTS    
+Page  48, line 21, word  7: OTHER     
+Page  52, line  5, word  9: YEAR      
+Page  52, line 10, word  5: NEW       
+Page  52, line 15, word  4: HIGHLY    
+Page  52, line 20, word  9: ALIENS    
+Page  53, line  1, word  5: RESULT    
+Page  53, line  4, word  3: IMPERIAL  
+Page  53, line  7, word  3: ORES      
+Page  53, line  9, word  5: THE       
+Page  57, line  2, word  4: WINDOW    
+Page  57, line  3, word  1: ARRIVES   
+Page  59, line  1, word  9: UP        
+Page  59, line  3, word  2: NOBLE     
+Page  59, line  5, word  4: BUILDING  
+Page  60, line  1, word  8: ASTEROID  
+Page  60, line  3, word  9: CONTAINS  
+Page  60, line  6, word  5: DRAG      
+Page  60, line  9, word  8: CURRENT   
+Page  72, line  1, word  3: VIRUS     
+Page  72, line  4, word  7: SUCH      
+Page  96, line  4, word  2: SPACE     
+Page  96, line  9, word  8: MORE      
+Page  96, line 11, word  2: BUILD     
+Page  96, line 14, word  4: MISSILE   
+Page 103, line  1, word  3: BURNING   
+Page 103, line  4, word  2: AND       
+Page 103, line  8, word  2: PANELS    
+Page 104, line  2, word  6: GALAXY    
+Page 104, line  3, word  3: HAVE      
+Page 104, line  5, word  4: TO        
+Page 105, line  3, word  5: SPACE     
+Page 105, line  5, word  1: PLANETS   
+Page 105, line  8, word  5: THREAT    
+Page 106, line  2, word  2: CAPELLA   
+Page 106, line  5, word  3: THAT      
+Page 106, line 10, word  4: LIGHT     
+Page 107, line  2, word  8: NEVER     
+Page 107, line  3, word  3: PARADE    
+Page 107, line  5, word  7: YOUR      
+Page 111, line  2, word  2: BATTERIES 
+Page 111, line  3, word  5: BEST      
+Page 111, line  5, word  5: CARRY     
+Page 112, line  2, word  4: HEART     
+Page 112, line  5, word  3: LIFE      
+</pre></p>
+
+<h2>German / Deutsch</h2>
+
+<p>Tetracorp-Autorisationscode...</p>
+
+<p>F&uuml;r weitere Unterst&uuml;tzung durch Tetracorp, gebe sie bitte ihren Sicherheits-unbedenklich-</p>
+
+<p>Keitscode ein. vergl. K240-Handbuch. Ignorieren sie alle Fetten oder Understrich. Untertitel...</p>
+
+<p>Bitte eingabe des Wortes aus:</p>
+
+<p><pre>
+Seite 121, Zeile  1, Wort  3: WIRD      
+Seite 121, Zeile  2, Wort  1: TASTE     
+Seite 122, Zeile  4, Wort 10: NICHT     
+Seite 122, Zeile  7, Wort  4: BEFINDET  
+Seite 122, Zeile 11, Wort  7: DEN       
+Seite 122, Zeile 14, Wort  1: UNTEN     
+Seite 122, Zeile 15, Wort  1: DER       
+Seite 125, Zeile  3, Wort  7: MACHEN    
+Seite 125, Zeile  6, Wort  2: WIRD      
+Seite 126, Zeile  2, Wort  4: TAG       
+Seite 126, Zeile  4, Wort  3: VORRAT    
+Seite 126, Zeile  8, Wort  3: CPU       
+Seite 127, Zeile  1, Wort  4: UND       
+Seite 127, Zeile  3, Wort  2: WERDEN    
+Seite 129, Zeile  1, Wort  1: IMPERIALE 
+Seite 129, Zeile  4, Wort  5: EINEN     
+Seite 129, Zeile  7, Wort  4: KREIST    
+Seite 129, Zeile 17, Wort  2: KLEINER   
+Seite 130, Zeile  1, Wort  4: DES       
+Seite 131, Zeile  1, Wort  3: SCHIFFE   
+Seite 132, Zeile  2, Wort  3: IHNEN     
+Seite 132, Zeile  3, Wort  3: DREI      
+Seite 133, Zeile  1, Wort  2: GEHEN     
+Seite 134, Zeile  3, Wort  2: REPARIERT 
+Seite 134, Zeile  6, Wort  2: ANGRIFF   
+Seite 134, Zeile  9, Wort  1: KNOPF     
+Seite 135, Zeile  1, Wort  3: NUN       
+Seite 135, Zeile  5, Wort  1: EINEN     
+Seite 135, Zeile 11, Wort  2: WURDE     
+Seite 136, Zeile  2, Wort  5: HANGARS   
+Seite 136, Zeile  4, Wort  3: ODER      
+Seite 136, Zeile  9, Wort  2: SCHIFFE   
+Seite 137, Zeile  1, Wort  2: ODER      
+Seite 138, Zeile  2, Wort  8: DEM       
+Seite 138, Zeile 10, Wort  1: WIRD      
+Seite 138, Zeile 11, Wort  1: EINEN     
+Seite 138, Zeile 16, Wort  7: DIE       
+Seite 139, Zeile  2, Wort  1: VERFOLGEN 
+Seite 139, Zeile  5, Wort  4: DANN      
+Seite 139, Zeile 11, Wort  4: WIRD      
+Seite 139, Zeile 17, Wort  1: SENKEN    
+Seite 140, Zeile  2, Wort  3: EINEM     
+Seite 141, Zeile  2, Wort  2: WERDEN    
+Seite 141, Zeile  8, Wort  9: GEBRACHT  
+Seite 141, Zeile 10, Wort  1: BRAUCHEN  
+Seite 142, Zeile  3, Wort  3: DARAUFHIN 
+Seite 142, Zeile  6, Wort  2: SIE       
+Seite 142, Zeile 11, Wort  4: ERHALTEN  
+Seite 142, Zeile 18, Wort  3: EINMAL    
+Seite 143, Zeile  1, Wort  7: SATELLIT  
+Seite 143, Zeile  2, Wort  2: CHANCE    
+Seite 143, Zeile  5, Wort  1: ASTEROIDEN
+Seite 145, Zeile  1, Wort  1: ANDERE    
+Seite 146, Zeile  2, Wort  3: AUF       
+Seite 146, Zeile  4, Wort  2: GLEICHE   
+Seite 146, Zeile  9, Wort  1: ANKLICKEN 
+Seite 146, Zeile 18, Wort  2: BEFEHL    
+Seite 147, Zeile  2, Wort  1: DRINGEND  
+Seite 147, Zeile  4, Wort  2: UNTEREN   
+Seite 148, Zeile  1, Wort  3: WOLLEN    
+Seite 148, Zeile  4, Wort  2: GELD      
+Seite 148, Zeile 12, Wort  2: BEGINN    
+Seite 148, Zeile 14, Wort 10: NAHRUNG   
+Seite 149, Zeile  1, Wort  1: BEGINNEN  
+Seite 149, Zeile  3, Wort  1: HIER      
+Seite 149, Zeile  4, Wort  1: ALIENS    
+Seite 149, Zeile 10, Wort  8: TAKTIKEN  
+Seite 150, Zeile  1, Wort  1: DAS       
+Seite 150, Zeile  8, Wort  3: WELTEN    
+Seite 150, Zeile 15, Wort  2: SEINEM    
+Seite 150, Zeile 20, Wort  3: LOCH      
+Seite 150, Zeile 23, Wort  1: BETA      
+Seite 151, Zeile  1, Wort  2: KEINER    
+Seite 151, Zeile  7, Wort  2: UND       
+Seite 151, Zeile 11, Wort  7: HATTE     
+Seite 153, Zeile  2, Wort  4: IHRE      
+Seite 155, Zeile  1, Wort  1: SCHIFFE   
+Seite 155, Zeile  2, Wort  1: STEHT     
+Seite 157, Zeile  1, Wort  3: ANLAGE    
+Seite 157, Zeile  3, Wort  2: SIND      
+Seite 158, Zeile  2, Wort  7: BILDET    
+Seite 158, Zeile  4, Wort  6: VIERECK   
+Seite 159, Zeile  2, Wort  2: SIND      
+Seite 161, Zeile  1, Wort  2: UND       
+Seite 161, Zeile  2, Wort  3: VERMEIDEN 
+Seite 161, Zeile  3, Wort  2: SIE       
+Seite 161, Zeile  5, Wort  3: NEUE      
+Seite 162, Zeile  1, Wort  3: WIRD      
+Seite 162, Zeile  4, Wort  4: WEITERE   
+Seite 164, Zeile  1, Wort  8: DIESES    
+Seite 164, Zeile  1, Wort 10: FINDEN    
+Seite 165, Zeile  1, Wort  5: ALLER     
+Seite 165, Zeile  3, Wort  2: WENN      
+Seite 168, Zeile  1, Wort  1: BAU       
+Seite 170, Zeile  1, Wort  2: SEHR      
+Seite 170, Zeile  2, Wort  4: NACH      
+Seite 170, Zeile  4, Wort  6: NICHT     
+Seite 170, Zeile  6, Wort 11: GESTAMTEN 
+Seite 170, Zeile  7, Wort  1: KOLONIE   
+Seite 170, Zeile  8, Wort  8: VIRUS     
+</pre></p>
+
+<h2>French / Français</h2>
+
+<p>Code d'autorisation Tetracorp...</p>
+
+<p>Pour prolonger le soutien de Tetracorp, veuillez entrer votre code de securite.</p>
+
+<p>Consultez le manuel K240. Ignorez tous les sous-titres en gras et soulignes...</p>
+
+<p>Veuillez entrer le mot se trouvant:</p>
+
+<p><pre>
+Page 177, ligne  1, mot  3: CONSEILS  
+Page 177, ligne  2, mot  1: VOTRE     
+Page 178, ligne  4, mot  8: BOUTON    
+Page 178, ligne  5, mot  4: TOUCHE    
+Page 179, ligne  1, mot  4: UTILISER  
+Page 179, ligne  3, mot  4: SURPLUS   
+Page 179, ligne  4, mot  3: SERONT    
+Page 179, ligne 12, mot  3: EN        
+Page 180, ligne  4, mot  5: UNE       
+Page 180, ligne  5, mot  5: PLUS      
+Page 180, ligne  6, mot  4: BUDGET    
+Page 180, ligne 13, mot  2: NOTRE     
+Page 180, ligne 19, mot  3: CETTE     
+Page 181, ligne  3, mot  7: DROITE    
+Page 181, ligne  6, mot  1: VOUS      
+Page 181, ligne 10, mot  5: CUBE      
+Page 182, ligne  1, mot  2: OBJECTIF  
+Page 182, ligne  4, mot  4: ORDRE     
+Page 182, ligne  3, mot  6: COLONIES  
+Page 183, ligne  1, mot  4: VOUS      
+Page 183, ligne  3, mot  5: DE        
+Page 184, ligne  1, mot  7: VOTRE     
+Page 184, ligne  3, mot  4: SECTION   
+Page 184, ligne  9, mot  3: SONT      
+Page 184, ligne 10, mot  2: COULEURS  
+Page 186, ligne  1, mot  2: VENDU     
+Page 186, ligne  3, mot  6: TROP      
+Page 186, ligne  8, mot  1: CHIFFRE   
+Page 186, ligne 12, mot  6: TOUJOURS  
+Page 186, ligne 22, mot  6: VIGUEUR   
+Page 186, ligne 27, mot  3: ELLE      
+Page 188, ligne  3, mot  1: DESSUS    
+Page 188, ligne  8, mot  3: LES       
+Page 189, ligne  4, mot  3: BOUTON    
+Page 189, ligne  6, mot  1: POUR      
+Page 189, ligne 10, mot  6: POINT     
+Page 190, ligne  1, mot  5: VOUS      
+Page 190, ligne  5, mot  2: DONNER    
+Page 190, ligne  8, mot  5: ORDRES    
+Page 191, ligne  2, mot  2: PUIS      
+Page 192, ligne  1, mot  2: ORDRE     
+Page 192, ligne  3, mot  1: DOCKS     
+Page 192, ligne  4, mot  4: SONT      
+Page 192, ligne  8, mot  7: ORBITE    
+Page 192, ligne 10, mot  2: PEUVENT   
+Page 195, ligne  1, mot  3: FORME     
+Page 195, ligne  2, mot  3: FLOTTE    
+Page 196, ligne  2, mot  6: SECTEUR   
+Page 196, ligne  5, mot  3: DONNER    
+Page 196, ligne  6, mot  5: UNE       
+Page 198, ligne  1, mot  5: VOUS      
+Page 198, ligne  3, mot  4: SONT      
+Page 198, ligne  6, mot  4: EXEMPLE   
+Page 198, ligne  7, mot  2: DONNE     
+Page 199, ligne  1, mot  3: VOTRE     
+Page 199, ligne  3, mot  4: RESTENT   
+Page 199, ligne  5, mot  7: ENCORE    
+Page 199, ligne  6, mot  3: LOIN      
+Page 201, ligne  1, mot  1: VOUS      
+Page 201, ligne  7, mot  4: FONCTION  
+Page 201, ligne 15, mot  1: VOTRE     
+Page 202, ligne  1, mot  7: BLEU      
+Page 202, ligne  2, mot 11: BOUTON    
+Page 202, ligne  6, mot  9: CETTE     
+Page 204, ligne  3, mot  1: REPORTS   
+Page 204, ligne  7, mot  3: DES       
+Page 204, ligne 12, mot  9: SERT      
+Page 204, ligne 21, mot  1: NOUVEL    
+Page 204, ligne 26, mot  2: POUR      
+Page 206, ligne  2, mot  5: OUVRIT    
+Page 206, ligne 12, mot  9: CLIENT    
+Page 206, ligne 13, mot  2: INTERVINT 
+Page 207, ligne  1, mot  4: VOTRE     
+Page 207, ligne  2, mot  5: PRENNENT  
+Page 207, ligne  3, mot  2: CETTE     
+Page 209, ligne  1, mot  2: TROUVE    
+Page 209, ligne  2, mot  6: UTILISENT 
+Page 209, ligne  5, mot  3: SUR       
+Page 210, ligne  3, mot  1: RENDRE    
+Page 210, ligne  3, mot  4: SURPLUS   
+Page 210, ligne  5, mot  4: CETTE     
+Page 211, ligne  1, mot  3: VOUS      
+Page 211, ligne  2, mot  6: LISTE     
+Page 211, ligne  4, mot  4: RIEN      
+Page 211, ligne 16, mot  2: VERS      
+Page 216, ligne  1, mot  6: PEUT      
+Page 216, ligne  3, mot  2: DANS      
+Page 216, ligne  5, mot  3: BOUCLIERS 
+Page 218, ligne  1, mot  4: COLONIE   
+Page 218, ligne  2, mot  1: PLUS      
+Page 220, ligne  2, mot  5: CONTRE    
+Page 222, ligne  2, mot  1: SECTION   
+Page 222, ligne  5, mot  3: VOUS      
+Page 222, ligne  7, mot  2: CONSTRUIRE
+Page 222, ligne  9, mot  2: USINE     
+Page 223, ligne  1, mot  5: TYPE      
+Page 223, ligne  2, mot  2: SUIVIS    
+Page 224, ligne  2, mot  3: UNE       
+Page 224, ligne  3, mot  3: TOUTES    
+Page 224, ligne  5, mot  5: PEUVENT   
+</pre></p>
+
+<p><a href="k240">&laquo; Back to JD's K240 page</a>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 8th November 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

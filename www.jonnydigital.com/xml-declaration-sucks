@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Don't use the XML declaration with XHTML | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Don't use the XML declaration with XHTML</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>If you build webpages you may have encountered webpages that begin with this line:</p>
+
+<p><blockquote><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</code></blockquote></p>
+
+<p>It's called the "XML prolog" or "XML declaration", and <b>should
+not be used in webpages</b> for several reasons:</p>
+
+<ol>
+  <li>It's misinterpreted by Internet Explorer 6's <a href="http://www.jonnydigital.com/doctype">doctype sniffing</a>, and this significantly affects page rendering.</li>
+  <li>It's not required, and XHTML 1.0 is valid without it.</li>
+  <li>It adds no extra functionality to most webpages.</li>
+  <li>It encourages other HTML writers to include the XML declaration,
+      without warning them of the issues in IE6</p>
+</ol>
+
+<h2>More detailed explanation</h2>
+
+<p>If you're familiar with Quirks vs Standards modes (and if you
+work with webpages, you should be), you'll know that modern web browsers
+use the <code>&lt;!DOCTYPE</code> declaration to determine how
+correctly a webpage should adhere to the W3C standards. Historically,
+Internet Explorer has implemented these standards poorly, hence the
+need for doctype switching.</p>
+
+<p>Unfortunately, there's a bug: Internet Explorer 6 only scans
+the first non-whitespace element in the document when looking
+for the doctype. Since the XML declaration is not a valid
+doctype, it assumes that this document has no doctype declaration
+and reverts to Quirks Mode.</p>
+
+<p>Worse still, webpages with the XML prolog usually include a
+valid doctype, giving many developers the impression that their
+page is triggering Standards Mode in IE6. It will trigger Standards
+Mode in most other browsers, including IE7 which fixes this bug.</p>
+
+<p>It's true that the W3C recommendations strongly encourage including
+an XML declaration. Unfortunately, as long as web developers need
+to support Internet Explorer 6, inclusion is not an option. Thankfully,
+since the line is not normally required and has little or no effect,
+omitting it is not a major issue.</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 23rd September 2008</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

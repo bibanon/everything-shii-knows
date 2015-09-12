@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>K240 CU Amiga coverdisk K240 demo | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>K240 CU Amiga coverdisk K240 demo</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>CU Amiga Magazine March 94 presented Coverdisk #77, a demo of
+Gremlin Games' upcoming asteroid colonization game,
+<a href="k240">K240</a>. The demo has a few differences with
+the game's final release.
+</p>
+
+<ul>
+  <li>Play begins mid-game. You have over three million credits,
+      a large asteroid, many buildings, several ships, and the
+      blueprints to Missile Guidance System. Your opponent is
+      always the KLL-KP-QUA.</li>
+  <li>You can see alien colonies without a spy satellite.</li>
+  <li>Several features are disabled. You can't build missiles,
+      ships, spy satellites, or an Orbital Space Dock. You can't
+      start a new colony, order blueprints, destroy buildings,
+      load ore on your transporter, or sell ore to the Imperial
+      Transporter. Fleets can't intercept other fleets.</li>
+  <li>The sprites for the Construction Yard, Environment Control,
+      and Protected Environment Control are different to the
+      final version.</li>
+  <li>You don't receive a cash bonus for discovering an asteroid,
+      discovering an alien asteroid, or wiping out an alien
+      colony. You don't receive income based on your population
+      or number of colonies.</li>
+  <li>Due to a bug, you can fire the enemy's missiles at himself.
+      Another bug let you fire more missiles than the number
+      at the asteroid by changing the number while missiles
+      are firing. You can see
+      <a href="http://www.youtube.com/watch?v=4RT6RDBGiQk">Thiima52's
+      Youtube video of these bugs in action</a>.</li>
+  <li>Speech is disabled.</li>
+  <li>A few minor text changes. Power Amplifier was called
+      Power Doubler. A hit from a Mega missile gave the message
+      "A COLONY ASTEROID HAS BEEN DESTROYED BY A DEEP SPACE MISSILE",
+      rather than "A COLONY ASTEROID HAS BEEN DESTROYED, BLOWN TO
+      PIECES!"</li>
+  <li>Pressing 'V' doesn't reveal the game's version number.</li>
+  <li>Cheats are not enabled in this version. The game executable
+      contains the cheat-related strings "ENTER HELP CODE:",
+      "ENTER SHIP 1-7:", and "ENTER SFX A-Z:", but disassembly
+      suggests the help codes themselves were removed from the
+      demo.</li>
+</ul>
+
+<p><a href="k240">&laquo; Back to JD's K240 page</a>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 8th November 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

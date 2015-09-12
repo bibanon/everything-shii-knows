@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>K240 nuclear missile data | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>K240 nuclear missile data</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>As listed in <a href="k240-undocumented-features">K240 undocumented features</a>,
+the nuclear missile deals 16 damage to each building on an asteroid, or
+43 damage to a building which takes up four squares. It's particularly
+lethal, and here's why.</p>
+
+<h2>First strike</h2>
+<p>As listed in <a href="k240-undocumented-features">K240 undocumented features</a>,
+all Terran buildings have between 5HP and 52HP, while alien buildings have a
+theoretical maximum of 128HP due to the data structure (one signed byte).
+Lets consider the effect of a successful nuclear strike on one asteroid.</p>
+
+<p>When the first Nuclear hits, all buildings with 16HP or less, and
+all 2x2 buildings with 43HP or less, are destroyed within seconds. The
+full list is as follows: Anti-Missile Pod, Asteroid Engines, CPU,
+Command Centre, Construction Yard, Landing Pad, Laser Turret,
+Living Quarters, Medical Centre, Missile Silo, Powerplant, Resiblock,
+Satellite Silo, Security Centre, Seismic Penetrator, Sensor Array,
+Solar Generator, Solar Matrix, and Solar Panel.</p>
+
+<p>This has three deadly effects. First, the CPU is destroyed along
+with all Living Quarters and Resiblocks, wiping out your entire
+population (and destroying the entire colony) unless you built any
+Protected Resiblocks. Second, all power generation buildings are
+destroyed except for Protected Solar Matrix and Power Store, which
+(if power fails) disables Life Support. In fact, all buildings
+lose power, except Repair Facility, Environment Control,
+and surviving power generation/storage buildings.</p>
+
+<p>Third, it destroys the colony's defensive capability by destroying
+every Anti-Missile Pod and Laser Turret, and the power cut negates
+every Photon Turrets, Plasma Turret, the turrets of any Protected
+buildings, and all Screen Generators, rendering the colony vulnerable
+to a second Nuclear missile.</p>
+
+<p>Less lethal complications are that your Missile Silos, Landing
+Pads and Ore Teleporters are destroyed or lose power, preventing you
+from evacuating ships, ore or missiles from a doomed colony, and
+cutting short any retaliatory strike. Your asteroid may be in danger
+of collisions if its Gravity Nullifier loses power and its Asteroid
+Engines and Sensor Array are destroyed.</p>
+
+<h2>Second strike</h2>
+
+<p>A second Nuclear missile can hit while your Anti-Missile Pods and
+Screen Generators are still down, and before you've had time for the
+Repair Facility to fix the damage from the first missile.
+
+<p>All buildings of 32HP or less are destroyed. The full list is
+as follows: Decontamination Filter, Deep Bore Mine, Gravity Nullifier,
+Hydration Plant, Hydroponics, Life Support, Mine, Photon Turret,
+Plasma Turret, Protected Resiblock, Protected Solar Matrix, Protected
+Storage Tower, Repair Facility, Storage Facility, Storage Tower,
+Weapons Factory. (Note that all 2x2 buildings have under 43HP, and
+were destroyed in the first strike.)</p>
+
+<p>The only surviving buildings at this stage are Environment Control,
+Ore Teleporter, Power Store, Protected Environment Control and
+Screen Generator. Since the colony no longer has anywhere for
+the population to live, it is destroyed instantly.</p>
+
+<p>A third strike will destroy any alien building with 48HP or
+more, and any alien 2x2 building with 128HP (the maximum possible
+HP for any building). The Kll'Kp'Qua Queen's Chamber, for example,
+has 100HP and can survive two Nuclear hits.</p>
+
+<h2>Defence 1: Building Armour</h2>
+
+<p>Building Armour changes the game against Nuclear attack. It
+doubles the armour of new buildings built, and in conjunction
+with Repair Facility it doubles the armour of old buildings
+too.</p>
+
+<p>The first Nuclear missile deals 16 damage to all buildings
+and 43 damage to all 2x2 buildings. The following buildings
+are destroyed: Construction Yard, Landing Pad, Living Quarters,
+Solar Panel. Odds are you will only lose any ships in production
+and your hangar access.</p>
+
+<p>The second Nuclear missile has the effect that the first would
+have without Building Armour: lose CPU, non-Protected housing
+and power generation, Anti-Missile Pods, Laser Turrets, all
+2x2 buildings.</p>
+
+<p>A third Nuclear destroys even Protected Resiblocks with
+Building Armour, and this will destroy the colony.</p>
+
+<h2>Defence 2: Screen Generator</h2>
+
+<p>The Screen Generator halves all damage a building takes,
+but requires power and only covers part of an asteroid.
+It's thus weaker than Building Armour, which covers the
+entire asteroid. The advantage is when both Building
+Armour and Screen Generator are applied.</p>
+
+<p>The first Nuclear strike will deal 8 damage to buildings
+covered by a Screen Generator, and 21 to covered 2x2
+buildings. No buildings will be destroyed, not even
+Construction Yard.</p>
+
+<p>The second strike will deal another 8 and 21. Each
+covered Construction Yard, Landing Pad, Living Quarters
+and Solar Panel will be destroyed.</p>
+
+<p>The third strike raises the damage total to 24, or
+63 for 2x2 buildings. You lose the following covered
+buildings: Asteroid Engines, Resiblock, Satellite Silo,
+Seismic Penetrator, Solar Generator, and Solar Matrix.
+CPU is intact, as are all Protected buildings. You
+lose the colony if you had no CPU and relied on
+non-Protected Resiblocks. You lose power if you relied
+on Solar Generators or non-Protected Solar Matrices.</p>
+
+<p>The fourth strike raises damage to 32 and 84.
+You lose Anti-Missile Pod, CPU, Command Centre, Laser Turret,
+Medical Centre, Missile Silo, Powerplant, Security Centre
+and Sensor Array. If your colony had no Protected Resiblocks,
+it is destroyed. If your colony had no Protected Solar
+Matrices or Power Stores, and had not lost power already,
+it loses power now. Otherwise, you survive minus your
+Anti-Missile Pods and Laser Turrets, but keep
+Photon Turrets and Plasma Turrets. All 2x2 buildings
+are destroyed.</p>
+
+<p>The fifth strike raises damage to 40. You lose 
+Deep Bore Mine, Hydration Plant, Mine, Photon Turret,
+Plasma Turret, Protected Resiblock, Protected Solar Matrix
+and Repair Facility. Without housing, your colony is
+destroyed. However, if your Repair Facility had time
+to repair even one point of damage between the first
+and fifth strike, none of these buildings are destroyed.
+Your colony continues as normal.</p>
+
+<p>The sixth strike raises the total to 48. Any
+Protected Resiblocks which survived the fifth
+strike are probably destroyed, and your colony
+is destroyed with it. Of course, your chances of
+receiving a sixth strike are greatly diminished.
+You can survive three Nuclear hits before losing
+your Anti-Missile Pods, which greatly decreases
+the chance that a fifth or sixth will hit.</p>
+
+<h2>Summary</h2>
+
+<p>A single Nuclear missile will destroy a colony unless
+it has a Protected Resiblock, and a second will finish
+it even if it does. Building Armour with a Repair Facility
+lets you survive one additional hit. Heavy use of Screen
+Generators in combination with Building Armour and a
+Repair Facility will let you survive five hits.</p>
+
+<p>Protected Resiblocks and Anti-Missile Pods are vital
+for surviving Nuclear missile attack. Protected
+Resiblocks have more hit points, and this always
+lets you survive at least one more hit.</p>
+
+<p><a href="k240">&laquo; Back to JD's K240 page</a>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 30th November 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

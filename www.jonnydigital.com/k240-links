@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>K240 links and resources | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>K240 links and resources</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<ul>
+  <li><a href="http://amiga-dev.wikidot.com/project:k240">Project: K240</a>
+  at the Amiga Development Wiki. This is a project which I started, and it
+  aims to uncover data on K240.</li>
+  
+  <li><a href="http://www.facebook.com/group.php?gid=118724175822&v=wall&ref=search">
+  K240 Facebook group</a></li>
+  
+  <li><a href="http://www.lemonamiga.com/games/docs_print.php?id=904">
+  Text of the K240 game manual</a>, at Lemon Amiga.</li>
+  
+  <li><a href="http://www.youtube.com/Thiima52">Thiima52's Youtube
+  channel</a>, including many K240 videos</li>
+  
+  <li>CU Amiga K240 preview, March 1994:
+  <a href="http://amr.abime.net/amr_popup_picture.php?src=cu_amiga/magscans/cu_1994_03/062.jpg&c=26367&n=1&filesize=335460">page 1</a>,
+  <a href="http://amr.abime.net/amr_popup_picture.php?src=cu_amiga/magscans/cu_1994_03/063.jpg&c=26367&n=1&filesize=368575">page 2</a>.</li>
+  
+  <li>CU Amiga review of K240, May 1994:
+  <a href="http://amr.abime.net/amr_popup_picture.php?src=cu_amiga/magscans/cu_1994_05/066.jpg&c=26367&n=1&filesize=350766">page 1</a>,
+  <a href="http://amr.abime.net/amr_popup_picture.php?src=cu_amiga/magscans/cu_1994_05/067.jpg&c=26367&n=1&filesize=373010">page 2</a>.</li>
+  
+  <li><a href="http://hol.abime.net/2543">K240's entry at Hall
+  of Light</a>. Publisher information, contemporary magazine
+  reviews, box scan, photo of disk, front of manual, and
+  front of the K240 Quick Reference Guide page.</li>
+  
+  <li><a href="http://www.lemonamiga.com/games/details.php?id=625">
+  K240 at Lemon Amiga</a>. Game statistics, user comments,
+  screenshots, scan of K240 full-page advertisement from CU
+  Amiga Magazine, text of the game manual, and external
+  links.</li>
+
+  <li><a href="http://www.angusm.demon.co.uk/AGDB/DBA1/K2402.html">K240
+  review</a> at the Amiga Games Database, by Joona Palaste</li>
+  
+  <li><a href="http://www.angusm.demon.co.uk/AGDB/DBA1/K240.html">K240
+  review</a> at the Amiga Games Database, by Michael Carrillo</li>
+
+  <li><a href="http://en.wikipedia.org/wiki/K240">K240 entry
+  at Wikipedia</a></li>
+
+</ul>
+
+<p><a href="k240">&laquo; Back to JD's K240 page</a>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 10th November 2009</em>. <em>Last updated: 20th December 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

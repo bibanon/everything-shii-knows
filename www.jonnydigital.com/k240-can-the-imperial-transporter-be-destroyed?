@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Can the Imperial Transporter be destroyed? | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Can the Imperial Transporter be destroyed?</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>In <a href="http://www.youtube.com/watch?v=Rw0VMIBGOkk#t=7m15s">Thiima52's K240 playthrough video against the Tylarans</a>, I was surprised to see the Imperial Transporter
+hit by a Static Inducer. This raised a good question: Can the Imperial
+Transporter be destroyed?</p>
+
+<h2>Background</h2>
+
+<p>The Imperial Transporter in K240 is a trade ship which warps in periodically
+and stays for several days to purchase ore. When it warps out, you are paid for
+the ore you loaded onto it. You can't control the Imperial Transporter, nor can
+you check its remaining armour value. The ship will stay around even during an
+enemy attack, and is believed by some to be invulnerable to attack.</p>
+
+<p>What I wanted to know was, can it really be killed, and if so, how?</p>
+
+<h2>Nuclear attack</h2>
+
+<p>I created a save state in <a href="winuae">WinUAE</a> in which the Imperial
+Transporter had arrived at one of my asteroids. From this save position I tested
+various permutations of nuclear missile attack on the colony. It's known that
+nuclear missiles can damage ships in orbit.</p>
+
+<p><b>Result: Success!</b> A nuclear missile barrage was successful at destroying
+the Imperial Transporter, in some cases.</p>
+
+<p>In one test, the ship survived three nuclear missile strikes at the asteroid,
+while in another it was destroyed after one hit. All other surviving ships were
+at full armour. It therefore appears that a nuclear missile doesn't deal normal
+damage to ships, but has a random chance of destroying each ship in orbit,
+including the Imperial Transporter.</p>
+
+<h2>Enemy ships</h2>
+
+<p>However, it's possible that the Imperial Transporter is still invulnerable
+to enemy ships. There are two possibilities. One is that the enemy ships
+are coded not to target the Imperial Transporter. Another is that they deal no
+damage. I have yet to test for this case.</p>
+
+<h2>What happens when the Imperial Transporter is destroyed with ore on board?</h2>
+
+<p>Interestingly, the game has not prepared for the Imperial Transporter's
+destruction. The ship still warps out with the green effect, and you still
+receive payment for ore. K240 still gives you the five day warning to finish
+loading ore. This still occurs even if the asteroid is destroyed with a Mega
+missile.</p>
+
+<p><a href="k240">&laquo; Back to JD's K240 page</a>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 29th April 2011. Last updated: 29th April 2011.</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

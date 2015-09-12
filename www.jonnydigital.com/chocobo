@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Chocobo Ringtone | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Chocobo Ringtone</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr>
+
+<p>
+While each game in the Final Fantasy RPG series is set in an entirely different
+world from the rest, with entirely different characters and absolutely unrelated
+storylines, a few familiar faces show up in every game. One of these faces is the
+Chocobo - the giant yellow ostrich-like creature that serves as transportation for the party.
+</p>
+
+<p>
+Another thing that stays the same is the Chocobo's theme music. Several versions
+exist - FF6 has <i>Techno de Chocobo</i>, FF10 has <i>Brass de Chocobo</i> and FF7
+has no less than four variants - but the basic melody is always the same.
+</p>
+
+<p>
+The following ringtone is, strictly speaking, FF7's <i>Electric de Chocobo</i>.
+Dropping the BPM to 125 fits both FF6's <i>Techno de Chocobo</i> or FF8's <i>Odeka
+ke Chocobo</i> (the electronic sounding one), both of which are essentially the same
+rhythym. I don't think Nokia phones can handle 150BPM (FF7's <i>Fiddle de Chocobo</i>),
+and FF9's Chocobo themes are in a different key.
+</p>
+
+<hr />
+
+<p>
+<b>Chocobo Theme (Final Fantasy series) Nokia Ringtone</b><br />
+<small>by <a href="http://www.jonnydigital.com">JD</a></small>
+</p>
+
+<p>
+<b>Tempo:</b> 160BPM
+</p>
+
+<p>
+<b>Keypresses</b> (Nokia 3210 Composer):<br><code>
+28*, 0, 7**, 5, 3, 2*, 7**, 5, 7, 0, 5, 0, (hold 7)9, 68, 58, 0, 5, 6, 59, 4, (hold 5)9, 48, 58, 0, 5, 7, 29*, 3, (hold 4)9
+</code>
+</p>
+
+<p>
+<b>RTTTL/Nokring</b> <small>(note: split across two lines to ensure it fits on the page)</small>:<br />
+<code>
+8d6,8p,8b,8g,8e,8d6,8b,8g,8b,8p,8g,8p,b.,8a,16g,16p,
+16g,16a,8g,8f,g.,8f,16g,16p,16g,16b,8d6,8e6,f.6
+</code>
+</p>
+
+
+<p>
+<b>How it should appear on screen</b>:<br />
+<code>
+8d2 8- 8b1 8g1<br>
+8e1 8d2 8b1 8g1<br>
+8b1 8- 8g1 8-<br>
+4.b1 8a1 16g1<br>
+16- 16g1 16a1<br>
+8g1 8f1 4.g1 8f1<br>
+16g1 16- 16g1<br>
+16b1 8d2 8e2<br>
+4.f2<br>
+
+</code></p>
+
+
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 26th February 2004</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Jay Miner Interview | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Jay Miner Interview</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p><cite>Source: I discovered this floating around on some CU Amiga coverdisk
+or public domain CD. According to internet sources, this interview is by
+Mike Nelson and appeared in Amiga User International magazine.</cite></p>
+
+<h2>Jay Miner Interview Pasadena, September 1992.</h2>
+
+<p>The name badge says it all, Jay Miner, VIP, Father of the Amiga.  During my
+recent jaunt to the A4000 launch in Los Angeles, I was lucky enough to meet
+and talk to Jay as he cast his fatherly eye over the next generation of the
+architecture he created all those years ago.  We talked and ate as he
+reiterated the fascinating history of the secret project that resulted in the
+birth of a remarkable machine, which has survived mainly because of his
+foresight and supreme effort.  It was all far from plain sailing, however,
+and plenty of skullduggery was afoot from a number of parties, not least the
+design team themselves!</p>
+
+<p>The story about the Amiga's genesis has been told before, but it is only
+relatively recently that Jay and Commodore have been seeing eye to eye about
+the machine and its evolution.  Also, there are many little anecdotes untold
+before now...</p>
+
+<p>Jay:</p>
+
+<p>"The story starts in the early 1980`s with a company not originally called
+Amiga, but Hi Toro, which was started by Dave Morris, our president, but
+before all that I used to work with Atari and I wanted to do a 68000 machine
+with them.  We had just finished the Atari 800 box and they were not about to
+spend another umpteen dollars on research for a 16-bit machine and the
+processor chip itself cost $100 apiece.  RAM was also real expensive and you
+need twice as much.  They couldn't see the writing on the wall and they just
+said "No", so I quit!".</p>
+
+<p>Jay Miner is not a man to say "No" to, and it's quite clear that Atari must
+still be regretting their myopic decision.  Anyway, Jay still held the
+concept of an all-powerful 16-bit machine but the bills had to be paid.</p>
+
+<p>"I went to a chip company called Xymos as I knew the guy who started it.  He
+gave me some stock and it looked like an interesting startup company (I've
+worked for a lot of new companies).  Going back to Atari, Larry Caplan was
+one of the top programmers on the Atari 2600 video game.  Him and the other
+programmers wanted a pay rise, or at least a small royalty, a nickel per
+cartridge in fact, on the software that was selling like crazy.  Atari was
+making a fortune and they said "No" so they all said "Goodbye" and they went
+off and started a little company called Activision.  Larry rang me up about
+two years later in early '82 and said he wasn't happy at Activision and
+suggested we start up a company.  I had a lot of stock in Xymos and suggested
+we get some outside finance from back East.  We hired a little office on
+Scott Boulevard, Santa Clara and they got a Texas millionaire to put up some
+money.  He liked the idea of a new video game company which is what Larry
+Caplan wanted to do.  He was going to do the software.  I had an idea about
+designing a games machine that was expandable to a real computer and he
+though that was a great idea but didn't tell any of his investors.  I moved
+to Santa Clara from Xymos.  They were still called Hi Toro but the investors
+wern't too keen so they chose "Amiga" and I didn't like it much - I thought
+using a Spanish name wasn't such a good move.  I was wrong!"</p>
+
+<p>The design team at Hi Toro/Amiga was assembled from a bunch of people over
+the next few months.  Jay says that they were looking for people not just
+interested in a job, but with a passion for the Amiga (codenamed Lorraine
+after the president's wife) and the immense potential it offered.</p>
+
+<p>"We worked out a deal whereby I got a salary and some stock and I also got to
+bring my dog Mitchy into work every day.  Dave did reserve the right to go
+back on that one if anyone else objected but Mitchy was very popular."</p>
+
+<p>I asked Jay to sum up what it was like to work on the Amiga:</p>
+
+<p>"The great things about working on the Amiga?  Number one I was allowed to
+take my dog to work and that set the tone for the whole atmosphere of the
+place.  It was more than just companionship with Mitchy - the fact that she
+was there meant that the other people wouldn't be too critical of some of
+those we hired, who were quite frankly weird.  There were guys coming to work
+in purple tights and pink bunny slippers.  Dale Luck looked like your average
+off-the-street homeless hippy with long hair and was pretty laid back.  In
+fact the whole group was pretty laid back.  I wasn't about to say anything -
+I knew talent when I saw it and even Parasseau [the "Evangelist] who spread
+the word] was a bit weird in a lot of ways.  The job gets done and that's all
+that matters.  I didn't care how solutions came about even if people were
+working at home.</p>
+
+<p>"There were a lot of various arguments and the way most were sorted out was
+by hitting each other with the foam baseball bats.  The stung a bit if you
+got hit hard.  There was a conflict in the fundamental design philosophy with
+some like RJ Mical wanting the low cost video game (the investors side, you
+might say).  Others like Dale Luck and Carl Sassenrath wanted the best
+computer expansion capability for the future.  This battle of cost was never
+ending, being internal; among us as well as with the investors and Commodore.</p>
+
+<p>"You go through stages in any large project like the Amiga of thinking "This
+looks great and it's going to sell really well", and then things go wrong and
+you just want to quit!"</p>
+
+<p>The unique spirit at Amiga was such that people worked tirelessly on their
+various projects, remembering that the software was well on the way to
+completion before any silicon had been pounded into the graphics chips.  Carl
+Sassenrath was brought in to do the operating system and was asked at the
+interview "What would you like to design?".  He just replied that he wanted
+to do a multi-tasking operating system, and thus was born the Exec which lies
+at the very heart of the Amiga.  Carl has maintained his close links with
+Commodore and was instrumental in designing CDTV.  Incredible really that
+they opted for such a sophisticated backdrop for a games machine.  Already,
+strange things were afoot....</p>
+
+<p>"I started thinking about what we wanted to design.  Right from the beginning
+I wanted to do a computer like the A2000 with lots of expansion slots for
+drives, a keyboard etc.  I'd also read a bit about blitters and so I talked
+with a friend called Ron Nicholson who was also interested in them and he
+came to join us.  We came up with all sorts of functions for the blitter.
+Line drawing was added much later at the request of Dale Luck, one of our
+software guys.  This was about two weeks before the CES show where the Amiga
+was unveiled.  I told him we can't put that in there as the chips were nearly
+done and there wasn't enough room.  He fiddled about and showed me what
+registers were needed, so in it went".</p>
+
+<p>The chips took three designers including Jay (who did the Agnus) almost two
+years to design (1982-84) and throughout this time the ever-expanding
+software team were working on what became the Amiga's operating system
+libraries and such like.  They had a pretty tough job writing for the most
+advanced, radical hardware ever conceived for a home machine, and which
+didn't really exist, except for a zillion and one ideas and a white board of
+obscure diagrams.</p>
+
+<p>"Once you've got the design concept for the chips, all you need to do then is
+pick names for the registers and tell the software people something like "I'm
+going to have a register here that's going to hold the colours for this part
+and it's called whatever." They can the simulate it in their software.  We
+then built hardware simulators called bread boards and that was a chore.  We
+originally did the chips using the NMOS process which has much higher current
+consumption than the state of the art CMOS.  I'm surprised that Commodore
+haven't re-designed the chips in CMOS which is the big stumbling block to
+bringing out a protable.  We did that because at the time, CMOS was much
+slower than NMOS and not as reliable.  It's now much faster, so why are
+Commodore still using NMOS for some of their chips?"</p>
+
+<p>"Hold and Modify came from a trip to see flight simulators in action and I
+had a kind of idea about a primitive type of virtual reality.  NTSC on the
+chip meant you could hold the Hue and change the luminance by only altering
+four bits.  When we changed to RGB I said that wasn't needed any more at it
+wasn't useful and I asked the chip layout guy to take it off.  He came back
+and said that this would either leave a big hole in the middle of the chip or
+take a three-month redesign and we couldn't do that.  I didn't think anyone
+would use it.  I was wrong again as that has really given the Amiga its edge
+in terms of the colour palette."</p>
+
+<p>It was Commodore who wanted to leave things as NTSC/PAL output.  We wanted to
+make them RGB but monitors were so expensive in those days - IBM's and Mac's
+were monochrome.  I'd put the converter on the chip and this was a very low
+cost way of doing things as it saved a lot of parts, but by the time
+Commodore bought us, the bottom had fallen out of the video game market and
+we were moving more towards a computer so Commodore agreed to finance RGB as
+well.</p>
+
+<p>Seeing pictures of the early Amiga, it's almost impossible to imagine that
+the piles of wires and boards could eventually be reduced to something the
+size of an A500.  The first Agnus was three lots of eight bread boards, each
+with 250 chips, and this was repeated for the other two custom chips which
+were nicknamed Daphne and Portia in those days and metamorphosed into Denise
+and Paula.</p>
+
+<p>"Those were a nightmare to keep running with all the connections keeping
+breaking down.  They're still around somewhere.  We hired lots of other
+people to design peripherals which kept the notorious silicon valley spies
+away from the office.  All they could see were joysticks and they weren't too
+much of a threat."</p>
+
+<p>"In 1983 we made a motherboard for the breads to be plugged in, took this to
+the CES show and we showed some little demos to selected people away from the
+main floor.  At the show itself, they wrote the bouncing ball demo and this
+blew people away.  They couldn't believe that all this wiring was going to be
+three chips.  The booming noise of the ball was Bob Parasseau hitting a foam
+baseball bat against our garage door.  It was sampled on an Apple ][ and the
+data massaged into Amiga samples.CES was really important to us as we were
+getting short of money and the response from that show really lifted the
+team.  We were still short of money and several re-mortgages later we managed
+to keep up with the payroll.  It's amazing how much it costs to pay 15 or 20
+people!"</p>
+
+<p>With things running desperately close, Amiga were forced to look for more
+finance to keep the ball bouncing.  They turned eventually to Jay's old
+employer, Atari:</p>
+
+<p>"Atari gave us $500,000 with the stipulation that we had one month to come to
+a deal with them about the future of the Amiga chipset or pay them back, or
+they got the rights.  This was a dumb thing to agree to but there was no
+choice."</p>
+
+<p>They offered $1 per share but Amiga were hoping for much more than that.  The
+offer was refused and as Atari knew about the troubles of Amiga, they then
+cut the offer to 85 cents a share.  Commodore stepped in at the last minute
+to scoop the prize from under the noses of their arch rivals and take the
+Amiga for themselves, shelling out a mere $4.25 per share and installing the
+team in the Los Gatos office.  Jay continued the story:</p>
+
+<p>"Tramiel [the president of Atari] was livid when he found out he couldn't get
+his hands on the chips, as the whole idea of financing us was just to get the
+chips, not the people designing them, unlike Commodore who needed to keep the
+team intact.  The Atari 400 and 800 [which Jay designed also] series were
+great computers in their day, but you know things move on.  When he didn't
+get the chipset his only alternative was to design a new computer without the
+custom chips so he came up with the ST.  This wasn't a bad little computer
+but lacked the power of the Amiga's chipset."</p>
+
+<p>Tell us something we don't know, Jay!!  What about MIDI, why wasn't that
+included?</p>
+
+<p>"Actually MIDI isn't so far away from the standard serial port on the Amiga,
+and soon after the machine was released, someone came up with a tiny plug-in
+box that gave you all the MIDI inputs and outputs, but Commodore refused to
+manufacture and push it which was one of my big disagreements with them.  If
+you've got a little company doing great third party products which makes your
+machine so much more competitive, you've got to support them.  Commodore in
+the past have been too greedy, wanting everything for themselves without
+paying for it, but I think they're changing.  I hope they're changing,
+anyway."</p>
+
+<p>The Amiga 1000 really didn't take shape until long after Commodore bought it.
+The president had the idea of sliding the keyboard underneath the machine and
+it took nearly a year to redesign the motherboard to fit in.  Everything was
+set and then Commodore decided that 512K of RAM was too much:</p>
+
+<p>"They wanted a 256K machine as the 512 was too expensive.  Back in those days
+RAM was very pricey, but I could see it had to come down.  I told them it
+couldn't be done as we were too close to being finished, it would spoil the
+architecture, etc, etc.  Dave Needle came up with the idea of putting the
+cartridge on the front which worked.  I was in favour of putting sockets on
+the motherboard so the user could just drop in the chips."</p>
+
+<p>As events turned out, Jay's opinion was vindicated when, on release, it
+became patently obvious that the machine needed the 512K to do anything
+meaningful and this was the shipping form in the UK.  Commodore's short
+sightednes cost the world another 6 months without the Amiga, during which
+time RAM prices fell anyway!</p>
+
+<p>"I spent this time polishing up the software/hardware documentation, renaming
+registers to be more meaningful.  This was actually time well spent in the
+end."</p>
+
+<p>Regular readers will know that I'm always going on about how wonderful
+Intuition is to work with so I asked Jay to tell me a bit about its
+development.</p>
+
+<p>"RJ Mical pretty much did it all himself.  He was holed up for three weeks
+(!) and came out once to ask Carl Sassenrath about message ports.  That's it,
+really!  He wrote Intuition and went on to do the graphics package,
+Graphicraft, as noone else could do it right.  Remember the Jarvik 7 heart
+animation - they actually talked to the guy and got permission to draw it,
+and the animation was cycling the colour registers.  A lot of quite beautiful
+pseudo-animations were done that way.  That's how we did the rotating pattern
+of the bouncing ball.  Other machines couldn't use that system".</p>
+
+<p>Once all the software was done, it was time for the big release of the A1000.
+Jay's reaction:</p>
+
+<p>"There were a lot of compromises which I didn't like, but it was better than
+it might have been if we hadn't gotten our way on a lot of things.  We didn't
+get our way on everything, though.  The 256K RAM was a real problem.  The
+software people knew it was inadequate but nobody could stand up to Commodore
+about it.  We had to really argue to put the expansion connector on the side
+and this was before the deal was finalised so we were close to sinking
+everything.  The lowest cost way of doing it was the edge connector and I'm
+glad it got through".</p>
+
+<p>"Once the A1000 was out were kind of at a loss.  There was so much dealer and
+developer support necessary that a large proportion of our company went into
+that.  We had 11 or 12 people in that and we wanted to expand, but Commodore
+wouldn't let us, and in fact they made us lay off some people.  We tried to
+talk Commodore into building a machine with vertical slots and they
+eventually came out with the A2000, but they weren't keen at first".</p>
+
+<p>Once the Amiga was released, work at Los Gatos continued, but the days for
+this fine, but maverick, design team were numbered.</p>
+
+<p>"I was really pleased to see Commodore moving in the direction of the A2000 -
+it was the first Amiga you could really tailor to your own needs and this was
+one of the reasons for the success of the early Apples.  We then wanted to go
+onto horizontal slots, like the A3000 as that would be easier to cool and
+shield - there was a design to do it but at that time the A2000 came from
+Germany so that's the way we went.  We wanted to do the Autoconfiguration for
+the slots but Commodore weren't keen because it added 50c to the cost, so we
+had a big battle with them and did it anyway.  Our divisional manager from
+Commodore was a guy called Rick Geiger.  He was pretty good at keeping
+Commodore off our backs.  However, there were others who were good at
+figuring out what we were up to and saying "No" all the time.  Sometimes Rick
+would protect us and he was trying hard to give Commodore something they
+wanted badly, MS-DOS compatability.  Some company promised they could deliver
+a software solution but it never really worked knew he was Jewish because he
+wore one of those funny little hats to work.  That's no problem for me - I
+didn't mind if people wore pink bunny slippers as long as the job got done.
+Anyway, he promised MS-DOS on a small card to make an IBM interface.  He
+worked alone, and weeks went by with nothing appearing despite all the
+promises which worried me a lot, and this really led to Rick's downfall.  He
+promised he could do it and nobody kept close enough tags on him, always a
+few more weeks.  Commodore started advertising and the board didn't work so
+both men were canned.  This was the start of the downfall for the Los Gatos
+division.  I've never really told this before as it was too personal but I
+can't remember the designer now so it doesn't matter so much.  It shows that
+you need your peers looking over your work to get things right".</p>
+
+<p>How important did you think PC compatability was going to be?</p>
+
+<p>"Eventually Sidecar came out from Germany but there were a lot of bugs in the
+software and the Los Gatos team helped with solving those.  They did that
+before the 2000.  It's funny but I never really saw MS-DOS compatability as
+being that important for the Amiga.  I said at the time to Commodore "Hey,
+we're different.  Try to take advantage of that, not imitate or simulate
+other people".  We could make our commands more similar to theirs.  There's a
+tendancy when you're writing new software to try and be different with names
+and functions, but it isn't really necessary.  We could do a better job than
+MS-DOS, which would have been enough with the Amiga's superior operating
+system and colour resolution capabilities to take a really big bite out of
+IBM.  Instead they kept promising compatability and not delivering which is
+worse."</p>
+
+<p>After that, Commodore wanted the design team to move back East, and not
+surprisingly they declined, so gradually the Los Gatos facility was closed
+down and Jay left.  We carried on talking about the interim period and also
+about the staff recently at Commodore:</p>
+
+<p>"The VP of engineering [Bill Sydnes] got canned.  He designed the PC Junior
+which really crashed, one of IBM's big mistakes, and gave the Amiga a window
+of opportunity which Commodore failed to exploit - a little competitive
+advertising would have gone a long way."</p>
+
+<p>What about the overall handling of the Amiga over the years?  Does it annoy
+you that there are 10 times as many PCs as Amigas?</p>
+
+<p>"Yeah, that really does annoy me.  I don't have any financial connections
+with Commodore any more so I don't get anything out of Amiga sales.  Things
+should have been a lot different.  I still feel fatherly towards to Amiga,
+more so than any of the Ataris.  What frustrates me the most is that people
+are missing out on something very special in the Amiga.  They tell me about
+their IBMs and wonderful Macs but they're still missing out".</p>
+
+<p>The Toaster is a killer product over here, what do you think?</p>
+
+<p>"It's a fantastic product.  Commodore made a really big mistake in not
+embracing the Toaster in its early days, and getting a real piece of it.  I
+never even envisaged it back in the design stages.  TV image manipulation
+just wasn't around then - I put genlock circuitry and sync signalling into
+the first designs so that side of things we appreciated.  I had no idea that
+things like the Toaster were coming."</p>
+
+<p>What would you like to see in the future?</p>
+
+<p>"I'd like to see Commodore grab hold of one of these 24-bit cards like the
+GVP or DMI boards and put it in as standard.  The Amiga badly needs a
+standardisation of high resolution 24-bit colour modes.  The JPEG board from
+DMI is another wonderful product which needs to be standard in high end
+Amigas.  They'll wait like they always do until someone else has made the
+standard and try and add something in while others are going to make a bundle
+of money - look at GVP.  Gerard Bucas was VP of Engineering and he wasn't
+doing things the way Commodore liked, so he left.  He saw a chance to make
+some money and look at the size of GVP - they're competing with Commodore.
+The next generation Amiga needs a real time JPEG converter and 24-bit
+graphics to stay ahead.</p>
+
+<p>"I did get together with Lou Eggibrecht [the new VP Engineering] for about 10
+minutes and I was very pleased.  He promised he'd fly out to have dinner with
+me and talk about the Amiga.  I asked him some questions about the future
+direction of the chips and got the kind of answers I was looking for - the
+kind of things we've been talking about.  High resolution, new architecture,
+more competitive.  His understanding of the present architecture was very
+encouraging.  I'd love to work as a consultant for them, but I don't know how
+much I could contribute."</p>
+
+<p>What's your opinion of the A4000?</p>
+
+<p>"You know, Commodore actually gave me one today at the show - the first time
+I ever got anything out of them!</p>
+
+<p>Putting the IDE drive onto the A4000 motherboard was a terrible mistake -
+every previous Amiga has benefitted from SCSI.  I'm really tickled with the
+A4000 though.  I was looking at it over the last few days and thinking how
+could I get to buy one of these without the wife getting to know.  I have two
+A2000s which are fine for the BBS stuff I do at the moment.</p>
+
+<p>They've improved the chipset in the 4000, taking the colours to 256 from 8
+bitplanes.  The higher resolution and more colours are really fast.  The
+MS-DOS interface [CrossDOS] is quite nice but I'm unhappy about the SCSI and
+they didn't go to full 16-bit audio, but according to Eggibrecht that's
+coming soon.  I'm also a little disappointed they didn't use the 040's memory
+management facilities.  The 3.0 operating system looks very good with
+datatypes and a number of other great features.  Who needs MS-DOS and
+Windows?".</p>
+
+<p>What about CDTV?</p>
+
+<p>"CDTV is quite a nice idea, but the software has to be right.  Can you think
+of anything more horrible than trying to read an encyclopaedia or the Bible
+on a TV, rather than a nice crisp RGB monitor?  As a low cost entertainment
+system it's a good viable long term project.  I hope Commodore won't drop the
+ball if things aren't as good initially; they can take on Philips."</p>
+
+<p>What's your favourite products?</p>
+
+<p>"I love the bulletin board software as that's what I'm into at the moment.
+ADPro is also a fantastic program.  I picked up a program called Scala and
+I'd like to get into that - it's user interface is very impressive.  I have a
+GVP '030 accelerator and that's incredible.  The hard drive on the 32-bit
+card is very fast indeed - it's like a new machine".</p>
+
+<p>Conclusion:</p>
+
+<p>Talking with Jay Miner is one of the best experiences an Amiga owner can
+have.  He really is the Father of the Amiga and his passion for the machine
+is so apparent.  It's easy to understand the frustrations he must have at not
+seeing things go exactly as he wanted, with the full potential of the machine
+yet to be realised, some Aight years after its release.  One has to marvel
+that it is still around and selling well given its superior competition and
+the natural tendancy for serious users to turn to the IBM/Mac platforms.
+It's also clear that the Amiga Corporation contained one of the most
+innovative design teams ever assembled, and it is so tempting to speculate
+where the Amiga would be today if they had stuck together, and the efforts of
+Commodore had been more constructive.  Their marketing people have yet to
+understand what the Amiga is truly about, and why it is so special.  Trying
+to sell it as a PC is wrong as it is far more than a spreadsheet, word
+processing machine.  Unlocking doors is what the Amiga is remarkable hardware
+justice.  Only time will tell if the Amiga can make the impact it is capable
+of and maybe Commodore should take on board the views of the Padre.</p>
+
+<p>Sad footnote:  After suffering a long bout with a kidney illness, Jay Miner
+passed during the summer of 1994.  His death is mourned by all the Faithful.</p>
+
+<p>The light he lit burns on.</p>
+
+<p>- TBM</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 15th August 2008</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

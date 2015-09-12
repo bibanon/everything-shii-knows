@@ -1,0 +1,2814 @@
+June 23, 1992
+
+                          NOT JUST COWS
+
+A Guide to Internet/Bitnet Resources in Agriculture
+ and 
+Related Sciences 
+
+
+Written and compiled by Wilfred Drew.
+                          June 23, 1992
+
+
+The purpose of this guide to direct the user to resources in agriculture
+that are available on the INTERNET or BITNET.  
+
+In several places this guide is uses examples specific to the VAX VMS
+environment.  This is because Morrisville College uses the VAX.  It would be
+impossible to cover all possible variations on system specific commands or
+unusual implementations.
+
+Please feel free to copy this guide in any format as long as credit is given
+to me.  I worked hard on this guide and expect to get credit for it.  The guide
+is copyright free.
+
+Please contact me if there are any questions.
+
+
+Wilfred Drew
+Serials/Reference Librarian
+State University of New York
+Morrisville College of Agriculture and Technology
+Morrisville, New York 13408
+
+BITNET:   drewwe@snymorva.bitnet
+Voice:    315-684-6055
+FAX:      315-684-6115
+
+Acknowledgements:
+
+To all of those that have gone before me in the pursuit of INTERNET trivia.
+
+How this guide was produced:
+
+This guide was written and compiled entirely on a microcomputer and our
+local VAX.  Except for my initial list of libraries with holdings in
+agriculture, all information is from sources on the INTERNET.  Sample
+screens were captured using QVT.  The original document is written in
+WordPerfect 5.1 format.  The ascii version is derived from that file.
+
+Table of Contents
+
+INTERNET/BITNET TOOLS. . . . . . . . . . . . . . . . . .   Page 1
+     GOLD-MAIL . . . . . . . . . . . . . . . . . . . . .   Page 1
+     MAIL. . . . . . . . . . . . . . . . . . . . . . . .   Page 1
+     FTP . . . . . . . . . . . . . . . . . . . . . . . .   Page 1
+          Sample FTP session . . . . . . . . . . . . . .   Page 2
+     TELNET. . . . . . . . . . . . . . . . . . . . . . .   Page 2
+
+LIBRARIES WITH EXTENSIVE COLLECTIONS IN AGRICULTURE. . .   Page 4
+
+INTERNET ELECTRONIC BULLETIN BOARDS. . . . . . . . . . .  Page 11
+     Advanced Technology Information Network . . . . . .  Page 11
+     CLEMSON UNIVERSITY FORESTRY AND AGRICULTURAL NETWORK  Page 15
+     PENpages. . . . . . . . . . . . . . . . . . . . . .  Page 19
+     CENET - Cornell Cooperative Extension NETwork . . .  Page 26
+
+MAIL BASED SERVICES. . . . . . . . . . . . . . . . . . .  Page 30
+     Almanac Servers . . . . . . . . . . . . . . . . . .  Page 31
+     LISTSERVER Discussion groups related to agriculture  Page 33
+
+OTHER IMPORTANT SERVICES . . . . . . . . . . . . . . . .  Page 41
+
+Miscellaneous services of interest . . . . . . . . . . .  Page 41
+     Wide Area Information Server at THINK.COM . . . . .  Page 41
+     Geographic Name Server. . . . . . . . . . . . . . .  Page 43
+     FEDIX: On-line Information System for Colleges, Universities and
+          other Research Organizations . . . . . . . . .  Page 45
+     Weather Underground (University of Michigan). . . .  Page 47
+
+WORKS CITED. . . . . . . . . . . . . . . . . . . . . . .  Page 48
+
+
+INTERNET/BITNET TOOLS
+
+
+Tools needed to access services on the INTERNET or BITNET:
+
+
+GOLD-MAIL (I prefer this to VMS MAIL mentioned further below under MAIL.
+This information was taken from the GOLD-MAIL help screens on our VAX.)
+
+  Gold-Mail is a VMSmail compatible electronic mail system.
+
+  The menus are "pulled down" from the menu bar by pressing the underlined
+(first) letter in Gold, Message, Send, Output, Utilities, or Customize.
+
+  Menu options can be selected by typing the underlined letter in the
+option's name, or using the arrow keys and pressing RETURN.  The CANCEL
+key (F20 or <CTRL-Z>) may be pressed to cancel a menu without performing a
+command.
+
+  Mail messages are organized into drawers and folders.  Folders may be
+created when moving or copying mail messages.  Folders may be opened and
+closed by placing the highlighting on the folder name and pressing RETURN. 
+Mail messages may be read by moving the highlighting to the desired
+message and pressing RETURN.  Operations may be performed on multiple
+messages by selecting them using the SELECT key (numeric keypad "." key).
+
+(End of extract from Gold_Mail help screens)
+
+GoldMail is started by:  $ gmail
+
+
+MAIL (taken from the VMS MAIL help screens on our VAX. These will be
+different for other systems).
+
+    Invokes the VMS Personal Mail Utility (MAIL), which is used  to send
+messages  to other users of the system.   For a complete description of  the 
+VMS  Personal  Mail   Utility, including information about the MAIL command
+and  its  qualifiers,  see the  VMS Mail Utility Manual.
+
+(End of extract from VAX help files)
+
+FTP (taken from the FTP help screens on our VAX. These will be different for
+other systems).
+
+    FTP is the user interface to the ARPANET standard file transfer
+protocol.  FTP allows users to log into remote systems, transfer files to
+and from remote hosts, obtain listings of directories on remote hosts, and
+other common file operations.
+
+    The FTP utility supports two styles of user interfaces, a    DCL command
+interface and a ULTRIX command interface.  The DCL command interface is
+the default.  To select the ULTRIX command    interface, define a symbol as
+follows:
+
+     $ FTP :== $UCX$FTP/ULTRIX
+
+    Most FTP commands require one or more file specifications.  Local file
+specifications must be valid VAX/VMS file specifications. Remote file
+specifications will be interpreted by the remote host and therefore must be
+valid to that host.  Any file specification which is not a valid VAX/VMS file
+specification must be quoted.
+   
+(End of excerpt from VAX help file)
+
+Sample FTP session using ULTRIX interface: (my comments wil appear in bold)
+
+$ ftp hydra.uwo.ca   <==  Same command would be entered in DCL interface. This
+command is entered at the prompt. The address of the remote system here is
+hydra.uwo.ca. 
+
+
+Response from remote system:
+
+220 HYDRA.UWO.CA MultiNet FTP Server Process 3.0(12) at Thu 7-May-92
+11:48AM-GMT 
+
+Connected to HYDRA.UWO.CA.  
+
+Name (hydra.uwo.ca:drewwe): anonymous <== Enter anonymous at this prompt.
+331 anonymous user ok. Send real ident as password. 
+Password:  <== Enter your e-mail address. It will not be visible.
+
+230-Guest User DREWWE@SNYMORVA.BITNET logged into PUB:[000000] at Thu 
+7-May-92  
+11:48, job 5793. 
+230 Directory and access restrictions apply 
+
+ftp> cd libsoft <== Change directory command.  In DCL interface would be SET
+DEF
+250 Connected to PUB:[000000.LIBSOFT]. <== Directory changes
+
+ftp> ls <==  Lists files in directory
+200 Port 6.98 at Host 136.204.1.1 accepted. 
+150 List started. <== I have deleted the list of files from this example.
+226 Transfer completed.
+Received transfer complete reply
+1553 bytes received in 00:00:27.97 seconds
+ftp> ascii <== Sets file transfer to text
+200 Type A ok. 
+ftp> get ftp_guide.txt <== command for transferring file to our system
+200 Port 6.99 at Host 136.204.1.1 accepted. 
+150 ASCII retrieve of PUB:[000000.LIBSOFT]FTP_GUIDE.TXT;1 started. 
+226 Transfer completed.  7896 (8) bytes transferred. 
+local: ftp_guide.txt remote: ftp_guide.txt 
+7896 bytes received in 00:00:10.67 seconds  
+ftp> quit <==  Ending session
+221 QUIT command received. Goodbye. 
+$ <==  Back at VAX prompt
+
+
+TELNET (taken from the TELNET help screens on our VAX. These will be
+different for other systems).
+
+    TELNET is a remote login protocol in the Internet protocol suite. It allows
+a user on one host to establish a connection with a remote host and
+interact as if the user's terminal is connected directly to the remote host.
+
+ 
+(End of extract from TELNET help screens)
+
+No sample session is shown for telnet because of the wide variety of
+services available via telnet.
+See the separate sections of this guide for more details.
+
+LIBRARIES WITH EXTENSIVE COLLECTIONS IN AGRICULTURE
+
+Why search library catalogs on the INTERNET?
+
+There are several reasons to search OPACs on the INTERNET:
+
+1. Our collection is relatively small and you can access farlarger
+collections such as Mann Library at Cornell University.
+
+2. Many libraries have mounted unique databases such as the ones on CARL
+(Colorado Alliance of Libraries).
+
+3. If you were to access any of these by modem and telephone it would be a
+long distance call.  Access through the INTERNET does not cost you
+anything.
+
+4. It allows you to check out a distant library with out leaving your office.
+
+
+The following list of library catalogs is extracted and adapted from UNT's
+Accessing On-Line Bibliographic Databases.  These catalogs were selected
+because they have relatively large collections in agriculture or contain
+other unique and useful features.  
+
+Note:  Since our campus does not have TN3270 on our VAX,  use the gateway
+at Washington University -- St. Louis for access to some of the TN3270
+systems. It is the last entry in this list.
+
+************************************
+Arizona State University
+Location: Tempe, Arizona USA
+To access:
+1. Type TELNET CARL.LIB.ASU.EDU.
+2. At the destination prompt, enter
+CARL.
+3. Enter 5 for VT100.
+4. Press RETURN twice.
+To exit, type //EXIT twice.
+
+
+************************************
+Cal Poly State University
+Location: San Luis Obispo,
+California USA
+To access:
+1. Type TELNET LIBRARY.CALPOLY.EDU.
+2. Choose 1 for Polycat and follow
+the instructions on the menu.
+To exit:
+1. Hit CTRL-D.
+2. Type x.
+
+************************************
+Carnegie Mellon University
+Location: USA
+To access:
+1. Type TELNET
+CMULIBRARY.ANDREW.CMU.EDU.
+2. Enter VT100 as terminal type.
+3. Press RETURN.
+4. Enter 1 at the menu.
+To exit the CMU library:
+1. Type Q.
+
+
+
+************************************
+Clemson University
+Location: Clemson, South Carolina
+USA
+To access:
+1. Type TN3270 CLEMSON.CLEMSON.EDU.
+2. Choose option B on the menu.
+3. Push <RETURN>.
+To exit, use the TN3270 escape
+key.
+
+************************************
+Colorado Alliance of Research
+Libraries
+Location: Colorado USA
+One of the major online systems.
+To access CARL:
+1. Type TELNET PAC.CARL.ORG.
+2. When prompted for terminal type,
+enter 5 for VT100 emulation.
+To exit, hit the TELNET escape key.
+
+
+************************************
+Cornell University
+Location: Ithaca, New York USA
+To access:
+1. Type TN3270
+CORNELLC.CIT.CORNELL.EDU.
+2. When userid/password screen
+appears, press RETURN.
+3. When CP READ appears on the
+screen, type LIBRARY.
+To exit, type X.
+
+
+************************************
+Florida State University System
+Location: Gainesville, Florida USA
+To access:
+1. Type TN3270 NERVM.NERDC.UFL.EDU.
+2. Press RETURN.
+3. Type DIAL VTAM.
+4. On the NERDC VTAM IS ACTIVE
+screen, enter NERLUIS FCLSKYA.
+To exit:
+1. TYPE %OFF.
+2. When NERDC VTAM IS ACTIVE
+appears, enter UNDIAL.
+
+
+
+************************************
+Hebrew University                 
+Location: Israel
+To access:
+1. Telnet ALEPH.HUJI.AC.IL.
+2. At the login prompt, type ALEPH.
+3. Select 11 at terminal type
+prompt.
+To exit,use TELNET escape key.
+
+
+************************************
+Iowa State University
+To access:
+1. TELNET ISN.IASTATE.EDU
+2. At the DIAL prompt, type LIB.
+3. At the ENTER TERMINAL TYPE 
+prompt, type VT100.
+4. At the MVS welcome screen, type
+SCHOLAR.
+Logoff
+  1. On the SCHOLAR command line,
+type QUIT.
+
+************************************
+Kansas State University
+Location: Manhattan, Kansas USA
+To access the KSU catalog:
+1. Type TELNET TELNET.KSU.EDU.
+2. Select destination as KSUVM.
+3. Enter VT100 at terminal type
+prompt.
+4. Type LYNX.
+To exit, type QUIT.
+
+
+************************************
+McGill University
+Location: Montreal, Canada
+To access:
+1. Type TN3270 MVS.MCGILL.CA.
+2. On the menu, choose option 2
+(Muse).
+3. Hit RETURN on the CICS screen.
+To exit, type OFF.
+
+
+************************************
+Miami University
+Location: Ohio, USA
+To access:
+1. Type TELNET
+WATSON.LIB.MUOHIO.EDU.
+2. At the login prompt, type library.
+To exit, type H on the main menu
+
+
+************************************
+Michigan State University
+Location: East Lansing, Michigan
+USA
+To access:
+1. Type TELNET MERIT.MSU.EDU.
+2. At the Which Host? prompt, enter
+MAGIC.
+3. At the terminal id, enter VT100.
+To exit, use the TELNET or TN3270
+escape key.
+
+
+************************************
+Minnesota State University System
+Location: Mankato, Minnesota USA
+(cover North Dakota and South
+Dakota too)
+To access:
+1. Type TELNET MSUSGW.UMN.EDU.
+2. At the "enter destination"
+prompt, enter PALS.
+To exit, type END.
+
+
+************************************
+Montana State University
+Location: Montana, USA
+To access:
+1. Type TELNET
+CATALOG.LIB.MONTANA.EDU.
+2. At the : prompt, type HELLO
+MSU.LIBRARY.
+To exit, type EX.
+
+
+************************************
+New Mexico State University
+Location: Las Cruces, New Mexico
+USA
+To access:
+1. Type TELNET LIBRARY.NMSU.EDU.
+2. At the : prompt, type hello
+user.libr01.
+3. When asked for terminal type,
+enter 5.
+4. When asked for location code,
+enter 0100.
+To exit, enter /QUIT.
+
+
+
+************************************
+Ohio State University
+Location: Columbus, Ohio USA
+To access the Ohio State online
+catalog:
+1. Type TELNET LCS.US.OHIO-
+STATE.EDU.
+2. Choose 0 as your terminal type.
+3. Type HELP to see options.
+To exit, hit the TELNET escape key.
+
+
+************************************
+Oregon State University
+Location: Corvallis, Oregon USA
+To access:
+1. Type TELNET OASIS.KERR.ORST.EDU.
+2. Type OASIS at Login Please
+prompt.
+3. Enter 11 for VT100 emulation.
+To exit, use the TELNET escape
+key.
+
+
+************************************
+Pennsylvania State University
+Location: University Park,
+Pennsylvania USA
+To access LIAS:
+1. Type TELNET LIAS.PSU.EDU.
+2. Normally, VT100 should be
+negotatied at this point.  If you
+have terminal emulation problems,
+try typing TERMINAL VT100 at the >>>
+prompt.
+To exit LIAS, type QUIT or EXIT.
+
+
+************************************
+Purdue
+Location: West Lafayette, Indiana
+USA
+To access:
+1. Type TN3270 LIB.CC.PURDUE.EDU.
+To exit, use the TN3270 escape
+key.
+
+
+************************************
+Rutgers University
+Location: Piscataway, New Jersey
+USA
+To access:
+1. Type TELNET LIBRARY.RUTGERS.EDU.
+2. Press <RETURN>.
+To exit, type END.
+
+
+************************************
+Texas A&M
+Location: College Station, Texas
+USA
+To access:
+1. Type TELNET VENUS.TAMU.EDU from
+any machine connected to the
+Internet.
+2. At the Username: prompt, type
+VTAM.
+3. At the Texas A&M Statewide
+Network screen, type NOTIS.
+4. At the CICS screen, hit RETURN.
+To exit, hit CTRL-Z.
+
+
+************************************
+Triangle Research Libraries
+Location: North Carolina, USA 
+To access:
+1. Type TELNET LIBROT1.LIB.UNC.EDU.
+To exit, use the TELNET escape
+key.
+
+
+************************************
+University of Arizona
+Location: Tempe, Arizona USA
+To access:
+1. Type TELNET
+IDX.TELCOM.ARIZONA.EDU.
+2. Press RETURN repeatedly until
+something happens.
+3. Type geac for the main
+circulation system.
+To exit, use the TELNET escape
+key.
+
+
+************************************
+University of California and
+California State Library at
+Sacramento
+Location: Oakland, California USA
+The library system is known as the
+MELVYL system.
+To access:
+1. Type TELNET MELVYL.UCOP.EDU.
+2. When asked for terminal type,
+enter VT100.
+3. Press RETURN when prompted to.
+4. Type START LOOK for easy to use
+library system.
+  - or -
+Type START COM for command line
+library system.
+To exit:
+1. Type END or STOP.
+2. Type LOGOFF.
+
+
+************************************
+University of California at Berkeley
+Location: Berkeley, California USA
+To access:
+1. Type TELNET GOPAC.BERKELEY.EDU.
+To exit, type LOGOFF.
+
+
+************************************
+University of Delaware
+Location: Newark, Delaware USA
+To access:
+1. Type TELNET DELCAT.UDEL.EDU from
+any host connected to the
+Internet.
+2. Press RETURN.
+3. At TERMINAL TYPE prompt, type
+VT100.
+4. Press RETURN.
+To exit, type EXIT.
+
+
+************************************
+University of Georgia and Georgia
+College
+Location: Georgia USA
+To access:
+1. Type TN3270 UGA.CC.UGA.EDU.
+2. Hit TAB twice.
+3. Type DIAL VTAM on the command
+line.
+4. On the IBM Systems menu, type L.
+5. Hit RETURN on the next menu.
+To exit:
+1. Type QUIT.
+2.                                      On the IBM Systems menu,
+type X.
+
+
+************************************
+University of Illinois at
+Urbana/Champaign
+Location: Urbana/Champaign,
+Illinois USA
+To access:
+1. Type TELNET GARCON.CSO.UIUC.EDU.
+2. Enter LCS at the username
+prompt.
+To exit, type EXIT.
+
+
+************************************
+University of Kentucky
+Location: Kentucky USA
+To access:
+1. Type TN3270 UKCC.UKY.EDU.
+2. Hit TAB twice to get to the
+command line.
+3. Enter DIAL VTAM.
+4. Enter L when prompted.
+5. Enter 4 for application.
+6. Press RETURN when prompted.
+To exit, hit the TN3270 escape key.
+
+************************************
+University of Minnesota
+Location: Twin Cities, Minnesota
+USA
+To access:
+1. Type TELNET LUMINA.LIB.UMN.EDU.
+2. When prompted for terminal type,
+enter 0 for VT100 emulation.
+3. When prompted to do so, type PA.
+4. On the Public Access
+Information Service screen, enter
+1.
+To exit, hit the TELNET escape key.
+
+
+************************************
+University of Missouri at Columbia
+Location: Columbia, Missouri USA
+To access:
+1. Type TN3270 UMCVMB.MISSOURI.EDU.
+2. TAB down to command prompt.
+3. Enter DIAL VTAM.
+4. At the VTAM LOGON prompt, enter
+LIBCICS.
+To exit:
+1. Type #LOGOFF.
+2. When VTAM LOGON or UNDIAL
+appears on the screen, type UNDIAL.
+
+
+************************************
+University of Nebraska
+Location:  Lincoln, Nebraska USA
+To access:
+1. Type TELNET UNLLIB.UNL.EDU.
+2. At the login: prompt, type
+library.
+3. Select V for type of terminal.
+4. Enter Y to confirm.
+To exit, enter D.
+
+************************************
+University of Puerto Rico
+Location: Puetro Rico USA
+To access:
+1. Type TELNET 136.145.2.10.
+2. Hit TAB twice.
+3. Type DIAL VTAM.
+4. Enter NOTIS.
+5. Press RETURN.
+6. On the blank screen, type LUUP.
+To exit, hit the TELNET escape key.
+
+
+************************************
+University of Tennessee at Knoxville
+Location: Knoxville, Tennessee USA
+To access:
+1. Type TELNET LIBRARY.UTK.EDU.
+To exit, type END.
+
+
+************************************
+University of Wisconsin
+Location: Madison/Milwaukee,
+Wisconsin USA
+To access:
+1. Type TELNET NLS.ADP.WISC.EDU.
+2. Hit <RETURN> when prompted for
+terminal type.
+3. At the menu, TAB to the left of
+the NLS1 selection.
+4. Push <RETURN>.
+5. At the next prompt, just push
+<RETURN> for the Madison Catalog. 
+For the Milwaukee catalog, type MIL
+and press <RETURN>.
+To exit:
+1. Type EXIT.
+2. At the menu, TAB to the left of
+the QUIT selection.
+3. Push <RETURN>.
+
+************************************
+Virginia Polytechnic Institute and
+State Unersity (Virginia Tech)
+Location: Blacksburg, Virginia USA
+To access:
+1. Type TELNET VTCBX.VT.EDU.
+2. At the CALL, DISPLAY, OR MODIFY
+prompt, type CALL VTLS.
+3. Hit <RETURN> once or twice.
+To exit, hit the TELNET escape key.
+
+
+************************************
+Washington State University and
+Eastern Washington University
+Location: Washington USA
+To access:
+1. Type TN3270 WSUVM1.CSC.WSU.EDU.
+2. Hit TAB twice.
+3. Type DIAL VTAM.
+4. Choose option COUGALOG.
+To exit, hit the TN3270 escape key.
+
+
+************************************
+Washington University-St. Louis
+Location: St. Louis, Missouri USA
+To access:
+1. Type TELNET WUGATE.WUSTL.EDU.
+2. At the login: prompt, type LUIS.
+3. Choose VT100 as the terminal
+type.
+4. On the menu, choose option 1.
+To exit, hit the TELNET escape key.
+
+
+INTERNET ELECTRONIC BULLETIN BOARDS
+
+
+Electronic bulletin boards are simply ways of "posting" items for others to
+see.  Many services are available throught them including full text files on
+various topics, databases, and other services.  I have included here sample
+screens from three bulletin boards related to agriculture.
+
+
+Advanced Technology Information Network
+
+Telnet CATICSUF.CSUFRESNO.EDU.
+Login: super <return> (Must be in lower case)
+
+
+First Screen:
+
+
+IDS Information Dissemination System (Version 0.7)
+Copyright (c) 1989, 1990 California Agricultural Technology Institute All
+Rights Reserved
+
+                       ** WELCOME TO THE ATI-NET **
+
+You have reached the Advanced Technology Information Network.  The ATI-
+Net  is a full service information source designed to assist several
+markets within California.  Individual systems provide information for the
+agri-cultural market, international exporting (ATLS system), and the
+educational  community (CSUPER-Net).
+
+If you would like to register as a new user for any of the systems
+mentioned  above, please do so below.  After you respond to the registration
+questions,  a login name and password will be shown on the screen.  Please
+write this  information down!  The next time you log into the system, you may
+use your  new login name and password.  If you have any question
+concerning the ATI-Net,  call (209) 278-4872 during regular business hours. 
+IT IS VERY IMPORTANT ALL NEW USERS COMPLETE ALL REGISTRATION
+INFORMATION CORRECTLY.  NEW ACCOUNTS  THAT HAVE INCORRECT OR INCOMPLETE
+INFORMATION ARE SUBJECT TO REMOVAL WITHOUT PRIOR NOTIFICATION.
+
+NOTE:  Once you have registered as a new user, please select option [d]
+=====  on the ATI-Net Main Menu.  This will describe access into the system
+and will also give you the nearest access port.
+
+Would you like to register as a new user [y,n]? n
+
+
+Menu Screen: (This appears after some news messages)
+
+ADVANCED TECHNOLOGY INFORMATION NETWORK (ATI-Net)
+-------------------------------------------------
+[a] Agricultural Information (including ATIS)
+[b] CSUPER-Net
+[c] Automated Trade Library Service (ATLS)
+[d] Biotechnology Information (CSUPERB)
+
+[e] ATI-Net Access Information
+[f] ATI-Net System New Releases
+[g] ATI-Net System Use Policy Statement
+
+[0] Quit and log off
+
+[8] search, [9] help: 
+
+
+Sample screen for [a] from main menu:
+
+
+                             Welcome to the
+             ADVANCED TECHNOLOGY INFORMATION NETWORK (ATI-Net)
+                              sponsored by
+             The California Agricultural Technology Institute                             
+     
+                                  and
+             The California Department Of Food And Agriculture
+
+
+ATI-NET MAIN SYSTEM MENU
+------------------------
+[a] Agricultural News 
+[b] Daily Agricultural Market Reports (AMS)
+[c] Agricultural Events Schedule 
+[d] California Agriculture Teacher's Project
+[e] California State University Agricultural Degrees
+[f] ATI-Net System Information & Communications
+[g] Agricultural Job Listings
+[h] International Agricultural Trade Information Service (ATIS) 
+[i] Agricultural Weather Information
+[j] Agricultural Labor Information
+[k] Agricultural Safety Information
+
+[1] Return to the previous menu
+[0] Quit and log off
+
+[8] search, [9] help: 
+
+Sample screen for [a] above: 
+
+AGRICULTURAL NEWS 
+-----------------
+[a] National 
+[b] California 
+[c] International 
+[d] Commodity 
+[e] Legislative (Federal and State)
+[f] Health and Nutrition
+[g] International Trade 
+[h] All Daily Agricultural News
+
+[i] Previous Week's Agricultural News
+[j] Monthly Agricultural News
+
+[2] Return to the top level menu
+[1] Return to the previous menu
+[0] Quit and log off
+
+[8] search, [9] help: a
+
+
+
+
+Sample screen from AGRICULTURAL NEWS menu above:
+
+NATIONAL AGRICULTURAL NEWS
+--------------------------
+
+        March 25, 1992 
+
+GOVERNMENT ISSUES (California Farmer) --  More than 50 USDA county
+offices are spending above $1 in overhead for every $1 they deliver in
+government payments to farmers, according to an investigations by Sen.
+Richard Lugar ranking minority member of the Senate Agricultural
+Committee.  Lugar announced at a recent news conference that calculations
+by his office and the U.S. Office of Personnel Management also show USDA
+now has one employee for every 1.9 U.S. farmers.  Lugar's investigation
+found that USDA retains offices in many urban areas that no longer have
+much farming.  About 94 percent of U.S. countries have USDA offices
+although only 16 percent are considered farm countries.  Lugar found that
+in several countries.  Lugar found that in several countries, government
+administrative costs run from five to 20 times the value of payments those
+offices make to local farmers.
+
+FARM DEBT INCREASE 2 PERCENT (Ag Alert) -- Total U.S. farm debt, excluding
+households, is estimated at $139.3 billion at the end of 1991, up 2 percent
+from a year earlier, but 28 percent below the 1984 peak. The Agriculture
+Department also said in a February report on agricultural<RETURN> to
+continueincome and finance that farm banks now are among the strongest
+institutions in the nation's banking system.
+
+FARM DEBT INCREASE 2 PERCENT (Ag Alert) -- Total U.S. farm debt, excluding
+households, is estimated at $139.3 billion at the end of 1991, up 2 percent
+from a year earlier, but 28 percent below the 1984 peak. The Agriculture
+Department also said in a February report on agricultural income and
+finance that farm banks now are among the strongest institutions in the
+nation's banking system.
+
+        March 24, 1992 
+
+USDA OFFICIAL DEFENDS DECISION ON PRORATE (AP) -- A federal official has
+defended his decision to suspend volume restrictions on sales of this
+season's California fresh navel orange crop.  But more than a month after
+the free market took control of the orange market, major opponents and
+supporters of controls called prorate do not seem to have changed their
+views.
+
+NUMBER OF FARM, RANCH WORKERS DROPPED (AP) -- The number of hired
+workers on farms and ranches in California, Texas, New Mexico and Florida
+fell from January to February, the Agriculture Department said.  USDA said
+there were 254,000 hired workers on farms and ranches in the four
+states<RETURN> to continue
+
+
+End of sample screens.
+
+Comments--
+
+As can be seen from the screens above, many types of information are
+available on this system.  It is easy to use and is free.
+
+
+
+CLEMSON UNIVERSITY FORESTRY AND AGRICULTURAL NETWORK
+
+Note:  Since there are so many services available on this bulletin board, I
+have only showed the main screens and the second level of menu under each
+entry from the main menu.  Explore it. There are many full text screens of
+newsletters, weather information, press releases from governement
+agencies, official reports, and statistical information for the United
+States and South Carolina.
+
+How to connect: Telnet EUREKA.CLEMSON.EDU or 130.127.8.3 
+Login as PUBLIC at Username: prompt.
+
+
+Opening screen:
+
+
+                        CUFAN LOGIN SCREEN 
+ 
+Please enter the following information about yourself.  If you don't know
+this information leave it blank. 
+ 
+  CITY  ____________________    STATE  __ 
+ 
+  ORGANIZATION  
+   
+      ____________________________________________________________ 
+ 
+  INTERNET ADDRESS 
+ 
+      ____________________________________________________________ 
+ 
+ 
+Use left/right arrows or RETURN to move between fields.
+
+When complete, use PF1 then ENTER to continue.
+
+ 
+Main menu:
+  
+                            WELCOME TO CUFAN  
+          CLEMSON UNIVERSITY FORESTRY AND AGRICULTURAL NETWORK  
+  
+                      <1>  WEATHER   
+                      <2>  ECONOMICS   
+                      <3>  PLANTS   
+                      <4>  ANIMALS  
+                      <5>  ENGINEERING   
+                      <6>  FOOD   
+                      <7>  HOME, HEALTH, FAMILY AND YOUTH    
+ 
+                      <9>  HUMAN RESOURCES  
+                      <0>  NOTES, CALENDARS AND NEWS 
+ 
+ 
+ 
+Press the EXIT key(s) to return to the $ prompt  (F1-. or PF1-.) 
+
+                    Choice:
+
+
+Screen for Entry 1 in main menu:
+
+
+               WEATHER AND CLIMATE 
+ 
+                   <1>  FORECASTS AND ADVISORIES 
+                   <2>  CURRENT WEATHER CONDITIONS 
+                   <3>  WATCHES AND WARNINGS 
+                   <4>  WEATHER SUMMARIES 
+                   
+                   <6>  LOCAL CLIMATOLOGICAL DATA FROM  
+                        SOUTH CAROLINA 
+                        
+
+
+Screen for Entry 2 from main menu: 
+  
+
+          ECONOMICS 
+ 
+     1. News and Newsletters 
+     2. Agricultural Market Service Reports 
+     3. Futures and Options Market Closing Prices 
+     4. Tax Information 
+     5. South Carolina Basis Tables 
+     6. Peach Budgets 
+
+
+Screen for Entry 3 from main menu:
+
+               PLANTS  
+  
+           <1>  AGRONOMIC  
+           <2>  FORESTRY  
+           <3>  HORTICULTURAL  
+           <4>  REGULATORY AND PUBLIC SERVICES     
+           <5>  PLANT DISEASE 
+  
+  
+           <8>  SEED CERTIFICATION     
+           <9>  AGRICULTURAL CHEMICALS HANDBOOK 
+
+
+
+Screen for ENTRY 5 from main menu:
+
+             ENGINEERING 
+ 
+           <1>  FARM LIVESTOCK FACILITIES  
+           <2>  FARM SERVICE FACILITIES  
+           <3>  HOME   
+           <4>  COMMUNITY (No Information Available) 
+           <5>  SAFETY  
+           <6>  SOIL AND WATER 
+           <7>  MACHINERY  
+           <8>  GRAIN STORAGE 
+ 
+ 
+           <0>  NOTES                          
+
+
+Screen for ENTRY 6 from main menu:
+
+                FOODS 
+ 
+           <1>  HOME   
+           <2>  PROCESSED  
+           <3>  HUMAN NUTRITION 
+           <4>  FOOD SAFETY THRUST TEAM 
+
+Screen from Entry 7 from main menu:
+ 
+             HOME, FAMILY AND YOUTH 
+ 
+           <1>  CONSUMER INFORMATION   
+           <2>  LEGISLATION AFFECTING YOUTH AND FAMILIES   
+           <3>  YOUTH AND 4-H   
+           <4>  STATISTICS FOR YOUTH AND FAMILY  
+           <5>  HOME FOOD   
+           <6>  HOME AND ENVIRONMENT   
+           <7>  HEALTH 
+ 
+
+           <0>  BULLETIN BOARD, NEWSLETTERS, CALENDAR, 
+                AND HOME ECONOMICS RESOURCE DIRECTORY (HERD) 
+                                    
+
+Screen for Entry 9 from main menu:
+
+
+                HUMAN RESOURCES 
+
+           <1>  USC CENTER FOR SCIENCE EDUCATION 
+           <2>  STAFF DEVELOPMENT 
+
+
+Screen for Entry 0 from main menu:
+
+
+                   NOTES, CALENDARS AND NEWS 
+                              
+            <1>  CALENDARS 
+            <2>  NEWS AND ANNOUNCEMENTS 
+            <3>  LIBRARY INFORMATION 
+            <4>  COUNTY EXTENSION OFFICE LOCATIONS 
+            <5>  FUTURES TASK FORCE REPORT 
+            <6>  EXTENSION SENATE   
+  
+            <0>  SYSTEM NOTES 
+
+PENpages
+
+PENpages is a database of agricultural and Extension related information
+ranging
+from daily, weekly, and monthly agricultural news and alerts to permanent
+reference material. It is maintained by the faculty and staff of the
+College of Agriculture and offered as a public service by the Cooperative
+Extension of Penn State. Because there are so many services available on
+this BBS only a few samples are included.  Explore, it is a FREE service. 
+PENpages and CENET are the two most extensive services mentioned here.
+
+Telnet PSUPEN.PSU.EDU
+Use your two letter state abbreviation as the username.
+
+Sample Sign on Screen:
+
+                                   PSU*PEN
+                      The Pennsylvania State University
+
+
+Username: NY
+
+NOTE:         The PEN System will be unavailable from 5:00pm on
+              Friday, May 1, until 5:00pm on Saturday, May 2 for
+                            software installations.
+                               
+
+PENpages Main Menu (after some introductory screens):
+
+                         *** PENpages Main Menu ***
+
+  PENpages User Information         Databases
+  -----------------------------    
+-------------------------------------------
+   1..How to Use PENpages            5..MAPP - National Family Database
+   2..Recent Changes                 6..International Food & Nutrition Database
+   3..Recent Changes - Market News   7..Senior Series
+   4..PENpages Announcements
+
+  National & International News and Information
+ 
+-----------------------------------------------------------------
+------------
+   8..Ag*SAT                        11..PDA Ag & Weather Statistics
+   9..Rutgers                       12..PA Calendars & Events
+  10..USDA                          13..PA Market News
+                                    14..PA News & Newsletters
+                                    15..PA Drought Information                  
+
+
+
+
+                        * To EXIT press Control-E *
+                * <PF1> then 7 to go to a known page number *
+ Choice: 
+
+
+
+Selection 2. (RECENT CHANGES) from PENpages Main Menu:
+(Just a small sample)
+
+NOTE: Enter number corresponding to the title to view document.
+      View multiple documents by placing commas between numbers.
+
+
+
+           DATE & 
+ #        CATEGORY                  TITLE 
+----     -----------  
+-----------------------------------------------------
+ 
+         30-APR-1992
+   1.....AGING         Being a Resource for Your Sons and Daughters       
+   2.....AGING         Brookdale Granparent Caregiver Info Proj Underway  
+   3.....AGING         Making New Friends                                 
+   4.....AGING         Manual for Grandparent Caregivers                  
+   5.....AGING         Regnier Finds Europ Models Assistd Liv Work Better 
+   6.....CALENDAR      Central Region Calendar July 1992                  
+   7.....CALENDAR      Central Region Calendar June 1992                  
+   8.....CALENDAR      Central Region Calendar October 1992               
+   9.....CALENDAR      RCE May Calendar                                   
+  10.....EMPLOYMENT    Out of State Employment Opportunities              
+
+
+Selection 3 from PENpages Main Menu:
+
+                  Recent Changes to PENpages Market Reports
+                       Publicly Accessible Information
+                 -------------------------------------------
+NOTE: Enter number corresponding to the title to view document.
+      View multiple documents by placing commas between numbers.
+
+           DATE & 
+ #        CATEGORY                  TITLE 
+----     -----------  
+-----------------------------------------------------
+          1-MAY-1992
+   1.....MARKET        Baltimore Onions & Potatoes Market                 
+   2.....MARKET        Baltimore Vegetable Market                         
+   3.....MARKET        Baltimore Wholesale Fruit Market                   
+   4.....MARKET        Boxed Beef Cutout Report                           
+   5.....MARKET        Central U.S. Carlot Beef Report                    
+   6.....MARKET        Central U.S. Carlot Pork Report                    
+   7.....MARKET        Meat Futures - Chicago Mercantile Exchange         
+   8.....MARKET        National Grain Market Summary                      
+   9.....MARKET        New York Eggs - Market News                        
+  10.....MARKET        New York Onions & Potatoes Market                  
+
+Selection 4 from PENpages Main Menu:
+
+                     *** PENpages Announcements ***
+
+ System Announcements                   Content Announcements
+ ----------------------------------    
+------------------------------------
+1..What is "PENpages Announcements"     5..USDA News Releases on PENpages
+
+2..New PENpages Usernames               6..Christmas Tree & Pest Management
+                                             Newsletter Now in PENpages
+3..Improvements to the Keyword
+     Search Program                     7..USDA's Family Economics NEWS
+                                             Now in PENpages
+4..PENpages Main Menu Changes
+
+Selection 5 from PENpages Main Menu:
+
+                  ***  MAPP National Family Database  ***
+
+MAPP INFO                                     MAPP NEWS
+---------                                     ---------
+ 1..What is MAPP?
+
+ 2..How to Find More Information
+
+ 3..How to Contribute
+
+WHAT IS MAPP?
+
+MAPP is the national Cooperative Extension family database.  It supports
+Cooperative Extension professionals and family educators around the
+world.
+
+MAPP contains:
+  research briefs         reference materials
+  bibliographies          media materials
+  census data             publications
+  program ideas           and more.
+
+
+Selection 6 from PENpages Main Menu:
+
+ **********  International Food And Nutrition (IFAN) Database  **********
+
+Database Information               Food and Nutrition Information
+--------------------               ------------------------------
+1. What is the IFAN Database?      4.  Colorado State University column 
+
+2. How to Contribute               5.  Penn State Nutrition Center
+     to the IFAN Database
+                                   6.  ADA Position Paper:   
+3. What's New in the IFAN?             Nutrition Intervention in the  
+        April 27, 1992                 Treatment and Recovery from
+                                       Chemical Dependency
+
+The Nutrition Letter:              7.  1990 Dietary Guidelines: Alcohol
+ 8.  Volume 10(1):  January 1992       
+ 9.  Volume  9(2):  April 1991 
+10.  Volume  9(3):  July 1991
+11.  Volume  9(4):  October 1991
+
+Selection 7 from PENpages Main Menu:
+
+                         *** SENIOR SERIES ***
+ 
+
+Senior Series Information                 Senior Series Newsletter
+--------------------------                ------------------------
+1.  What is the Senior Series?            4.  January 1992 Issue
+ 
+2.  How to Find More Information  
+ 
+3.  How to Contribute
+ 
+WHAT IS THE SENIOR SERIES?
+ 
+     Do you need programming information on caregiving, nutrition, health, 
+financial management, and housing for older adults?  Research briefs and 
+conclusions, reference articles and bibliographies, publications and
+program 
+ideas on these and many other topics can be found in the National Senior
+Series 
+Database.
+
+Selection 8. (Ag*SAT) from PENpages Main Menu:
+(sample of announcements)
+
+Posting-date: Thu, 2 Apr 1992 00:00 EST
+
+
+     T H E  F O L L O W I N G   A R E   U P C O M I N G
+                T E L E C O N F E R E N C E S
+          T O  B E  B R O A D C A S T  V I A  A G * S A T
+                   A S  O F  April 1, 1992
+
+
+************************************************************
+
+
+
+                    "DETERGENTS - IN DEPTH '92
+              SAFETY OF HOUSEHOLD CLEANING PRODUCTS"
+
+
+DATE:  Thursday, April 9, 1992
+TIME:  11:00 a.m. - 11:30 a.m.   EASTERN TIME   TEST
+       11:30 a.m. - 2:15 p.m.   EASTERN TIME   PROGRAM
+
+Produced by Ohio State University with participation from Soaps
+and Detergents Association.
+
+VIEWING FROM SATELLITE:  This program will only be available on C
+Band.
+
+     C-Band:  Galaxy 6; Channel 21
+
+For further questions contact Mitch Jacobs:
+     Mitch Jacobs
+     TV Program Manager
+     216 Kottman Hall
+     2021 Coffey Road
+     Columbus, OH 43210
+
+Phone:  614-292-2011           FAX:  614-292-2270
+
+PROGRAM DESCRIPTION:  Videoconference that features up-to-the
+minute facts about the safety of household cleaning products.
+
+-------------------------------------------------------------
+
+
+Selection 9.(Information from Rutgers University) from PENpages Main Menu:
+
+                              *** Rutgers ***
+
+                      1..Farm Management News & Views
+
+                      2..Hort. Engineering Newsletter
+
+                      3..Infomemo (Horse)
+
+                      4..Visions Newsletter (Home Economics)
+
+
+Sample screen from Rutgers Menu above (Selection 3):  (Note that this
+contains a lot more than just horse information)
+
+
+                             I N F O M E M O
+
+
+                          43% OF BEEF SOLD IN 
+                             U.S. IS GROUND
+                                    
+Cattle-Fax, a market information service, has estimated that ground beef
+will account for 43% of the beef consumed by the average American in 1991.
+Average per capita consumption of ground beef (including hamburger and
+beef used in processed products) will be an estimated 29 lbs. Consumption
+of steaks and roasts will be an estimated 38.2 lbs., retail weight.
+
+Thus, average per capita consumption of beef, on a boneless, edible-weight
+basis. is expected to be 63.5 lbs. in 1991. Other estimates for 1991 on a
+boneless-weight basis include 43.1 lbs. of pork and 51.4 lbs. of chicken.
+In terms of per capita expenditures also, beef is the leading meat.
+Americans spent an average of $189.39 for beef in 1990, equal to the
+combined expenditures for pork and chicken.
+
+(Source: "The Beef Brief", Spring 1991)
+
+Selection 10 from PENpages Main Menu:
+
+                               *** USDA ***
+
+                      1..CITExtension Newsletter - April Issue 2
+
+                      2..Farm Broadcasters Letter
+
+                      3..Family Economics NEWS - April 1992
+
+                      4..Market Reports
+
+                      5..News Releases
+
+                      6..Weekly World Weather & Crop Report
+
+Selection 11 from PENpages Main Menu:
+
+                     *** PDA Ag and Weather Statistics ***
+
+ PDA Ag Statistics Service News
+
+-----------------------------------------------------------------
+------
+  1..Broilers            (weekly)        11..Poultry Production
+  2..Milk Production     (monthly)       12..Turkey Production
+  3..Potato Stocks       (monthly)       13..Wool Production
+  4..Vegetables          (monthly)       14..Mushroom Production
+  5..Egg Production      (monthly)       15..Trout Production
+  6..Livestock Slaughter (monthly)       16..Non-Citrus Fruit & Nuts
+  7..Hogs and Pigs       (quarterly)     17..Turfgrass Summary
+  8..Grain Stocks        (quarterly)     18..Manufactured Dairy Products
+  9..Crop Producation    (quarterly)     19..PA Machinery Custom Rates
+ 10..Acreage Planted     (biannually) 
+
+ PDA Weather Summaries
+
+-----------------------------------------------------------------
+------
+ 20..Crop Weather Data                   21..Crop Weather Roundup
+      (weekly during season)                 (weekly)
+
+
+Selection 14 (PA Drought Information) from PENpages Main Menu:
+
+                    --------------------------------------
+                          Hay Suppliers By Region
+                    --------------------------------------
+
+                         1. Southeast
+                         2. Northeast
+                         3. Western
+                         4. Central
+                         5. Capital
+                         6. Drought News Release
+
+CENET - Cornell Cooperative Extension NETwork
+
+This service is an electronic mail and bulletin board system.  It primarily
+serves Cornell Cooperative Extension, county extension associations in New
+York state, the College of Agriculture and Life Sciences at Cornell
+University, the College of Human Ecology at Cornell University, other New
+York state and federal agencies.  It is free to those groups mentioned
+above.  Private citizens and businesses may subscribe for a fee.
+
+Contact CENET for a subscription form:
+
+     Extension Electronic Technology Group
+     Cornell Cooperative Extension
+     B-15 Wing Hall, Cornell University
+     Ithaca, New York 14853-8101
+
+     Phone:    607-255-8127
+     FAX: 607-255-4950
+
+     Internet: EETG@nysaes.cornell.edu
+
+YOU MUST HAVE AN ACCOUNT BEFORE YOU CAN USE THIS SYSTEM!!!!!!
+
+Sample screen:
+
+
+CENET Main Menu
+
+ 1. MAIL       Read and send electronic mail
+ 2. CHEM-news  Information on chemical pesticides
+ 3. DAIRY      Information for dairy farms
+ 4. FIELD-Crops Field Crops information
+ 5. FOH        Floriculture and Ornamental Horticulture information
+ 6. FOOD       Food and nutrition information
+ 7. FRUit      Small fruit and tree fruit information
+ 8. HOME-grounds Home & Grounds information
+ 9. HUMAN-ecology Information from the College of Human Ecology
+10. IPM        Information on Integrated Pest Management
+11. MISc       Information on various topics
+12. NATural-resources Information on Forestry, Wildlife and Water 
+13. VEG        Vegetable information
+14. Weather    Weather information
+15. REMarks    A place to suggest changes or ask any questions on CENET
+16. SETtings   Change menu display and other settings
+
+Enter a number, CAP letters of a command, BAck, BYE, or HELP for more info.
+
+MAIN>
+
+
+Since there are so many services available on this bulletin board,  I have
+just included a list of "PRODUCTS" available.  The list is self explanatory.
+
+Listed below are all products available on CENET.  The letter in the
+parentheses shows what type of product it is: (P) is a program, (B) is a
+bulletin board, (L) is a library, (M) is a menu. (* These products have limited
+access.
+ 
+CENET Main Menu & Sub-Menus
+   MAIL             Read and send electronic mail (P)
+   CHEM-news        Chem-News main menu
+      BB-chem            Most Recent Pesticide Changes (B)
+      PIMS               NY State Prod., Ingredient, & Manufact. Searching (P)
+      PROfiles           Pesticide Profiles (Chem. Active Ingred. Info. (L)
+      GENeral            General Information (Fact Sheets) (L)
+      REGs               Pesticide Regulations (L)
+      EXEmpt             NYS Section 18 Exemptions and SLN Labels (L)
+      CERt               Pesticide Information For Certified Applicators (L)
+      NEWs               Chemical Newsletter Report (L)
+      STUdy              Pesticide Self Study/Dictionary (L)
+      RECommends-menu    Pest Mgt. Recommendations
+         BB-rec          Changes in pest management recommendations (B)
+      RECommends      Pest Mgt. Recommendations (L)
+      Issues             Pesticide Issues (L)
+   COOP             Cooperative Extension information
+    * AGProg             Information for ANR program leaders (B)
+    * CAlendar           A calendar of upcoming extension meetings (B)
+    * CE-4H              Coop Extension 4H Program Information
+      * Resource Guide
+         * RG-Browse     Descriptions of available 4H programs/projects (L)
+         * RG-Download   Downloadable files from the CE4H resource guide (B)
+      * FYI-CE4H         General 4H program notices (B)
+    * COunties           Information for Cooperative Extension Offices (B)
+    * ELect-tech         Electronic Technology News (B)
+    * NEWS               Current news packets and releases
+      * AG-am            Daily news digest from USDA (B)
+      * CUNews           Cornell News Service releases (B)
+      * MSNews           Media Services Ag and Consumer News Packets (B)
+      * Radio            Media Services "Closer Look" Radio Scripts (B)
+      * Satellite        Satellite video conference information (B)
+      * USDA             Daily news releases from USDA (B)
+    * EDuc               Inservice Education and Focus Week (L)
+      STAFFdir           Cornell Cooperative Extension Staff Directory
+       * REFerence       Staff Directory as a Reference Document (L)
+       * UPdates         Staff Directory with Downloadable Files (B)
+    * VACancies          Current Cornell Cooperative Extension vacancies (B)
+    * PENpages           Access to Penn State's PENpages information sys.(P)
+    * CUINFO             Cornell University INFOrmation system (P)
+    * PROHELP            Information on PROMAS from PD&E (B)
+    * SPCchrs            Statewide Program Committee Chairs (B)
+   DAIRY            Dairy  information
+    * MILKmkt            Current information on milk marketing situation (B)
+      PRO-dairy          NYS dairy profitability & productivity project (B)
+   FIELD-Crops      Field Crops information
+      Agronomy           Agronomy information (L)
+      FCRops             Field crop news (B)
+      LIBrary            Information on field crops insects (L)
+   FOH              Floriculture and Ornamental Horticulture
+      INsects            Biology & control of insects in greenhouses (L)
+    * LIB                Commercial F&OH information (L)
+    * NEWs               Commercial F&OH news (B)
+   FOOD             Food and nutrition information
+      NUTrition          Information on nutrition (B)
+    * PREServation       Questions and answers for food preservation (L)
+      SAFETY             Information on food safety (B)
+   FRUit            Small Fruit & Tree Fruit information
+      PEST_status        Predictions for fruit pest/tree events (P)
+      GRPfacts           Fact sheets on grapes and grape growing (L)
+      GRApepests         Current Info on Grape Insect Pests (B)
+      SMall-fruit        Small fruit information (L)
+      SNews              Info on crop & pest status for small fruits (B)
+      TFRruit            Tree Fruit Pest Fact Sheets (L)
+      TFDisease          Tree Fruit Disease Key (L)
+      TNews              Tree Fruit News (B)
+   HOME-grounds     Home & Grounds information
+    * NEWS               Home & Grounds News (B)
+    * HGLib              Home & Grounds info, newsletters & resources (L)
+      HGInsects          Home & Grounds Insects Fact Sheets (L)
+   HUMAN-ecology    College of Human Ecology information
+      Aging              Aging Resources (B)
+    * CCBHS              Coop. Communication Between Home & School (B)
+      CEH-News           Timely Consumer Information from CEH (B)
+      CEH-Resources      Annotated bibliography of CEH resources (L)
+    * FCL                Family Community Leadership (B)
+    * SCHool-age         School age child care project (B)
+      TXAeduc            Textiles & Apparel Educational Resources (L)
+   IPM              Information on Integrated Pest Management
+      PESTstatus        Pest event predictions for various commodities
+         FRUIt           Predictions for fruit pest/tree events (P)
+      ORNAmental      Predictions for ornamental pest events (P)
+    * IPM-News           IPM Program News (B)
+   MISc             Information on various topics
+      AG-ENG             Agricultural Engineering information (L)
+      BIOtech            Information for Biotechnology-Based Companies (L)
+      Caep               Cornell Agricultural Energy Program (B)
+      FARM-mgt           Farm Management (B)
+      Global             Global Awareness
+         Links           Global Links for Information Sharing (B)
+         Awareness       Global Awareness Program resources (L)
+      MACintosh          Macintosh software and information
+         GRaphics        Graphics utilities and art (B)
+         Das             Desk Accessories to help you out (B)
+         Fonts           More fonts for brochures, manuscripts (B)
+         GUidelines      Instruct on up & downloading Mac files (P)
+         Hypercard       Stacks to let you do more with HyperCard (B)
+         MIsc            Various applications (B)
+         PROgramming     Items of interest to Macintosh programmers (B)
+         TEmplates       Spreadsheets, letterhead examples, etc. (B)
+         Utilities       Various small applications to help you out (B)
+         VIRus-utils     Virus control utilities (B)
+      NAMes              Displays CENET users names (P)
+      NYStat             Releases from the NYS Agricultural Stat. Service (B)
+      PONY               People of New York (L)
+      PROD               Lists the products that are available on CENET (P)
+      SEAgrant           Marine Science information (B)
+   NATural-resources Information on forestry and wildlife
+      CHRIStmas-trees    Christmas tree farming information and events (B)
+      DAMage-news        Wildlife damage news (B)
+      FORestry           Forestry News (B)
+      FORGuide           A Guide to Forest Management (L)
+    * LYME-disease       Lyme disease/tick information (B)
+      WAter              Water Resource Education (B)
+      WILDlife           Wildlife News (B)
+   VEG              Vegetable information
+      Eco-gardening      An Ecological Approach to Gardening (L)
+      ONION-thrips       Onion Thrips Monitoring and Thresholds (L)
+      VEGEtable          Vegetable news;  local crop and pest status(B)
+      VEG-Pests          Fact sheets on vegetable insects and diseases (L)
+      VEGVariety         Vegetable Variety Recommendation (L)
+   WEAther               Weather information
+      Agweather          Ag weather summaries, forecasts, data (B)
+      Extended-forecasts Mid and long range weather forecasts (B)
+      Forecast           NOAA Weather Forecast (P)
+      Radar              Hourly weather radar summaries (M)
+      Weatherdata        Displays Weather Data for Stations in NY (P)
+   REMarks          A place to ask/suggest any question on CENET (B)
+   SETtings         Change menu display and other settings (P)
+
+MAIL BASED SERVICES
+
+Note: The following instructions for using Almanac and listserv were
+excerpted 
+from EXPLORING INTERNET: An Extension Agents' Introduction to Networking.
+ 
+     Mailing groups, forums, discussion groups, and listservers are special
+interest groups where questions or issues are sent to the group via e-mail.
+Members of the group discuss the topic while all members observe the
+dialog.
+Some lists are more active than others and after subscribing to a list you
+may
+receive few or dozens of e-mail messages weekly. Mailing groups are
+available
+through Almanac. Listservers are available through Internet and BITNET.
+
+     It's recommended that if you subscribe to a group or list that you have a
+personal e-mail account. Remember when you reply to a question posted by a
+member, your message is placed in the mailbox of every member of the group.
+
+     Another type of mailing group available is a "server." Almanac servers
+are
+designed for one-way communications only.  They are typically used by an
+author
+to distribute newsletters or news releases. * Do not send mail to Almanac
+mailing group servers.
+ 
+HOW TO: Subscribe to an Almanac Mailing Group
+ 
+     1.  Send an e-mail message to almanac@oes.orst.edu OR
+  almanac@ecn.purdue.edu OR almanac@esusda.gov
+   * Each site maintains a Mailing List Catalog for their
+     location.
+ 
+     2.  In the body of your message type the following:
+  send mail-catalog
+   * The Mailing List Catalog describes the mailing groups
+     available at that site.
+   * Items designated as "servers" are reserved for one-way
+     communications. Subscribing to a "server" list is similar to
+     signing up for to a newspaper or magazine subscription.  As
+     new information is published you will receive a copy in your
+     e-mail box.
+   * Items designated as "forums" are  discussion groups or
+     interest groups.
+ 
+     3.  Send an e-mail message to the Almanac site where the mailing
+  group you wish to join is located.
+ 
+     4.  In the body of your message type the following: subscribe and
+  the name of the group. For example to subscribe to Ag A.M. you
+  would type the following: subscribe usda.agam
+
+
+
+Almanac Servers (from EXPLORING INTERNET: An Extension Agents' Introduction
+to Networking)
+
+***************
+
+Name: Ag A.M.daily national
+agriculture news
+Service: Almanacmailing group
+server
+Address: almanac@esusda.gov
+Instruction: To Subscribe: Send an
+e-mail message to
+almanac@esusda.gov. In the
+message type the following:
+subscribe usda.agam
+***************
+
+Name: CITExtensionES-USDA
+bi-monthly newsletter focusing on
+communications and technology
+Service: Almanacmailing group
+server
+Address: almanac@esusda.gov
+Instruction: To Subscribe: Send an
+e-mail message to
+almanac@esusda.gov. In the
+message type the following:
+subscribe usda.cite
+***************
+
+Name: ES-USDA Press Releasesfrom
+the Office of Public Affairs
+Service: Almanacmailing group
+server
+Address: almanac@esusda.gov
+Instruction: To Subscribe: Send an
+e-mail message to
+almanac@esusda.gov. In the
+message type the following:
+subscribe usda.news
+***************
+
+Name: Food Market News
+Service: Almanacmailing group
+server
+Address: almanac@oes.orst.edu
+Instruction: To Subscribe: Send an
+e-mail message to
+almanac@oes.orst.edu. In the
+message type the following:
+subscribe fdmktnews-mg
+***************
+
+Name: National Agricultural Market
+News Databasefrom the USDA
+Agricultural Market Service
+Service: Almanac database
+Address: almanac@oes.orst.edu
+Instruction: What's available: 
+Send an e-mail message to
+almanac@oes.orst.edu. In the
+message type the following:
+ send market-news catalog
+How to get a report:
+ Send an e-mail message to
+almanac@oes.orst.edu. In the
+message type the following:
+ send market-news and the code
+number of the report, for
+ example:  send market-news
+mpcn001
+***************
+
+Name: Nationwide Extension Job
+Vacancies
+Service: Almanac database
+Address: almanac@oes.orst.edu
+Instruction: To Subscribe: Send an
+e-mail message to
+almanac@oes.orst.edu. In the
+message type the following:
+ send extension vacancies
+**************
+
+Name: Research Results
+Databasefrom the Agricultural
+Research
+ Service and the Economic
+Research Service
+Service: Almanac database
+Address: almanac@esusda.gov
+Instruction: What's available: Send
+an e-mail message to
+ almanac@esusda.gov. In the
+messsage type the following:
+ subscribe usda.rrdb
+ How to get a report: Send an
+e-mail message to
+ almanac@esusda.gov. In the
+message type the following: send
+ rrdb and the code number of the
+report.
+***************
+
+Name: Satellite Teleconference
+Calendar
+Service: Almanac database
+Address: almanac@oes.orst.edu
+Instruction: To Subscribe: Send an
+e-mail message to
+ almanac@oes.orst.edu. In the
+message type the following:
+ send extension satellite-calendar
+***************
+
+Name: Sustainable Agriculture
+Discussion Group
+Service: Almanacmailing group
+forum
+Address: almanac@oes.orst.edu
+Instruction: To Subscribe: Send an
+e-mail message to
+ almanac@oes.orst.edu. In the
+message type the following:
+ subscribe sanet-mg
+ To send a message: Send an e-mail
+message to
+ sanet-mg@oes.orst.edu
+***************
+
+Name: Sustainable Agriculture
+Showcase Bibliography
+Service: Almanac database
+Address: almanac@oes.orst.edu
+Instruction: What's available: 
+Send an e-mail message to
+ almanac@oes.orst.edu. In the
+message type the following:
+ send extension showcase catalog
+***************
+Name: Water Quality Information
+Management Database
+Service: Almanac database
+Address: almanac@ecn.purdue.edu
+Instruction: What's available: Send
+an e-mail message to
+ almanac@ecn.purdue.edu. In the
+message type send wq catalog
+ How to get a report: 
+Send an e-mail message to
+almanac@ecn.purdue.edu. In the
+message type the following:
+ send wq and the code number of
+the report, for example:
+ send wq wq-13.in
+
+
+HOW TO: Subscribe to a Listserver Discussion Group
+ 
+ 1.  Send an e-mail message to LISTSERV@ followed by the listserver
+  address. For example to subscribe to a list located at the
+  University of Maryland you would type the following:
+  LISTSERV@UMDD.UMD.EDU
+   * Listservers are available via Internet or BITNET. Most
+ BITNET systems require .BITNET as part of the address. Use
+ all caps when using BITNET addresses.
+ 
+ 2.  In the body of your message type the command: SUB followed by
+  the name of the list and your name. For example to subscribe to
+  a list called "Dairy-L" you would type the following: SUB
+  DAIRY-L Joe Smith
+ 
+ 3.  To post a message to the group, send an e-mail message to the
+  name of the list followed by the listserver address. For
+  example to ask a question to the "Dairy-L" members you would
+  send an e-mail note to DAIRY-L@UMDD.UMD.EDU and put your
+  question in the body of your message.
+
+LISTSERVER Discussion groups related to agriculture
+ (assembled from many sources)
+
+**************
+ 
+AG-EXP-L@NDSUVM1 
+Discussion of the use of Expert
+Systems in Agricultural production
+and management.
+Bitnet:  LISTSERV@NDSUVM1
+Internet:  LISTSERV@VM1.NODAK.EDU
+**************
+
+AG-FORST@IRLEARN   BIOSCI
+AgroForestry E-conference
+List for discussion of
+AGROFORESTRY -- the cultivation
+of trees in conjunction with the
+raising of animals. 
+Bitnet/Earn:  LISTSERV@IRLEARN
+Internet:  LISTSERV@IRLEARN.UCD.IE
+**************
+
+AGPGMR-L@WSUVM1  Ag Programmers
+Inter/Intra- Disciplinary Interest
+Group
+Audience : Agricultural
+programmers, administrators,
+students, etc. with multi-
+disciplinary computer questions or
+otherwise unique computer
+questions for the agricultural
+community at large. Suggestion:
+With virtually infinite possible
+cross-disciplinary and unique (AG)
+computer questions.
+Bitnet:  LISTSERV@WSUVM1
+Internet: 
+LISTSERV%WSUVM1.BITNET@CUNYVM.CU
+NY.EDU
+**************
+
+AGRIC-L@UGA  Agriculture
+Discussion
+Topics may include, but are not
+limited to: Grassland husbandry,
+Crop Science, Simulation of
+ecological processes and crop
+production, (Tropical) Forestry,
+Plant Physiology, Land
+Development, Water Resource
+management, Irrigation Science,
+Soil Science, Plant propagation,
+Cattle breeding, Pig farming
+Bitnet:  LISTSERV@UGA
+Internet: 
+LISTSERV@UGA.CC.UGA.EDU
+**************
+
+AQUA-L@VM.UOGUELPH.CA  The
+Aquaculture E-conference
+For individuals interested in the
+science, technology and business
+of rearing aquatic species.  In the
+spirit of open discussion,
+membership in the list is public
+and unrestricted. Topics include:
+Who's doing what and where?
+Problems and solutions rearing
+aquatic larvae. Diseases,
+parasites and pathology. Water
+quality. Recirculation technology
+and applications. Research aquatic
+systems design and operation. 
+Commercial aquatic systems design
+and operation. Site selection.
+Bitnet:  LISTSERV@UOGUELPH
+Internet: 
+LISTSERV@VM.UOGUELPH.CA
+**************
+
+AQUIFER@IBACSATA Pollution and
+groundwater recharge
+Such in the increasing of
+agricultural,industrial and civil
+causes that an aquifer is not a
+warranty of pureness of its water;
+the aquifer has an own
+vulnerability to pollution as a
+function of different elements
+linked like hydrogeological
+parameters, chemical aspects and
+water flow. Aquifers recharge is
+one of the ways for controlling
+pollution.
+Bitnet:  LISTSERV@IBACSATA
+**************
+
+BEE-L@ALBNYVM1
+BEE-L is for the discussion of
+research and information
+concerning the biology of bees.
+This includes honey bees and
+other bees (and maybe even wasps).
+We communicate about sociobiology,
+behavior, ecology,
+adaptation/evolution, genetics,
+taxonomy, physiology, pollination,
+and flower nectar and pollen
+production of bees.
+Bitnet:  LISTSERV@ALBNYVM1
+Internet: 
+LISTSERV@UACSC2.ALBANY.EDU
+**************
+
+BIO-INFO@IRLEARN.BITNET
+LISTSERV@IRLEARN.BITNET
+BIOSCI
+Biological-Information-Theory
+Bulletin
+**************
+
+BIO-JRNL@IRLEARN
+BIOSCI Bio-Journals E-conference:
+Postings of Biological Journal
+tables of contents.
+Bitnet/Earn:  LISTSERV@IRLEARN
+Internet:  LISTSERV@IRLEARN.UCD.IE
+**************
+
+BIO-NAUT@IRLEARN BIOSCI Bionauts
+E-conference:  Directory of
+Biologists' online
+The main purpose of the list is to
+facilitate communications between
+life scientists. This list will have
+three main functions.  1) It can be
+used to ask questions about
+networking addresses of
+scientists in the biological life
+sciences. 2) If you have small
+databases of E-mail addresses
+related to your field of interest
+they can be uploaded. 3) If you
+subscribe you will be asked to send
+ONE MESSAGE to BIO-NAUT which
+gives a brief outline of who you
+are and your main interests.
+Instructions on the format of this
+MESSAGE will be sent to all
+subscribers individually.  
+Bitnet/Earn:  LISTSERV@IRLEARN
+Internet:  LISTSERV@IRLEARN.UCD.IE
+**************
+
+BIO-SOFT@IRLEARN 
+Internet/Bitnet/Janet,Earn
+distribution of the Usenet
+newsgroup BIO-SOFTWARE. 
+The BIO-SOFTWARE newsgroup is not
+moderated. Questions, answers, and
+discussions are welcomed about
+software related to the biological
+sciences (or even about problems
+with other software that
+scientists might use in the course
+of their work such as word
+processors or communications
+software).
+Send subscription Requests to one
+of the addresses below:
+
+BIO-SOFTWARE%NET.BIO.NET@VM1.NOD
+AK.EDU
+bio-soft@NET.BIO.NET BitNet
+**************
+
+BIOCIS-L@SIVM.BITNET
+BIOCIS-L Biology Curriculum
+Innovation Study
+LISTSERV@SIVM.BITNET
+**************
+
+BIOFORUM@IRLEARN.BITNET
+BIOSCI Forum Bulletin Board
+LISTSERV@IRLEARN.BITNET
+**************
+
+BIOJOBS@IRLEARN
+BIOSCI Employment E-conference
+Bitnet/Earn:  LISTSERV@IRLEARN
+Internet:  LISTSERV@IRLEARN.UCD.IE
+**************
+
+BIOMATRX@IRLEARN BIOSCI Bio-
+Matrix E-conference
+Bitnet/Earn:  LISTSERV@IRLEARN
+Internet:  LISTSERV@IRLEARN.UCD.IE
+**************
+
+BIOMCH-L@HEARN
+E-conference for members of the
+International, European, American,
+Canadian and other Societies of
+Biomechanics, and for others with
+an interest in the general field of
+biomechanics and human or animal
+movement science. For the scope of
+this e-conference, see, e.g., the
+Journal of Biomechanics (Pergamon
+Press), the Journal of
+Biomechanical Engineering (ASME),
+and Human Movement Science
+(North-Holland).
+Bitnet/Earn:  LISTSERV@HEARN
+Internet:  
+LISTSERV%HEARN.BITNET@CUNYVM.CU
+NY.EDU
+**************
+
+BIONEWS@IRLEARN  BIOSCI BioNews
+E-conference
+Bitnet/Earn:  LISTSERV@IRLEARN
+Internet:  LISTSERV@IRLEARN.UCD.IE
+**************
+
+BIOPI-L@KSUVM.BITNET
+Secondary Biology Teacher
+Enhancement PI
+LISTSERV@KSUVM.BITNET
+**************
+
+BIOSPH-L@UBVM 
+Anything relating to the
+biosphere, pollution, CO-2 effect,
+ecology, habitats, climate, etc.,
+can be discussed.
+Bitnet:  LISTSERV@UBVMS
+Internet: 
+LISTSERV@UBVM.CC.BUFFALO.EDU
+**************
+
+BIOTECH@UMDC 
+The Biotechnology e-conference is
+open for:
+Software/hardware issues
+Announcements
+Submission of bulletins
+Exchange of ideas and data
+The server accepts commands from
+the Subject:  line of a message.
+The request for information and
+previous bulletins can be sent to
+BIOSERVE@UMDC.UMD.EDU (Internet)
+BIOSERVE@UMDC  (Bitnet)
+All requests to be added to or
+deleted from this e-conference,
+problems, questions, etc., should
+be sent to the Coordinator:
+Archives:  Previous bulletins are
+archived on BIOSERVE server disk. 
+**************
+
+BIRD_RBA@ARIZVM1 National Birding
+Hotline Cooperative
+BIRDCNTR@ARIZVM1  National Birding
+Hotline Cooperative (Central
+BIRDEAST@ARIZVM1  National Birding
+Hotline Cooperative (East)
+BIRDWEST@ARIZVM1  National Birding
+Hotline Cooperative (West)
+BIRDCHAT@ARIZVM1  Discussion of
+the Birding Hotline Cooperative
+BIRDBAND@ARIZVM1  for bird
+banders to discuss their trade.
+National Birding Hotline
+Cooperative. The e-conference
+provides a clearing-house for 
+transcribed  birding  hotlines 
+from  around  the  country.  
+(pick an e-conference in your
+region)
+Bitnet:  LISTSERV@ARIZVM1
+Internet: 
+LISTSERV@ARIZVM1.BITNET@CUNYVM.C
+UNY.EDU
+**************
+
+BNFNET Discussion Group for
+Biological Nitrogen Fixation.
+All requests to be added to or
+deleted from this e-conference,
+problems, questions, etc., should
+be sent to the Coordinator. Send
+your full name, postal address, and
+a short description of your
+work/interest in BNF.  
+Coordinator:
+Eng-leong Foo
+(Internet) Eng-
+Leong_Foo_%KOM.KOMunity.SE@VM1.N
+ODAK.EDU
+***************
+
+BRINE-L@UGA Brine Shrimp E-
+conference
+Bitnet:  LISTSERV@UGA
+Internet: 
+LISTSERV@UGA.CC.UGA.EDU
+***************
+
+CIAMAA-L@USACHVM1 First Ibero-
+American Conference of the
+Atmosphere
+Bitnet:  LISTSERV@USACHVM1
+***************
+
+CLADE@MSU Phylogenetics
+Bitnet:  LISTSERV@MSU
+Internet: 
+LISTSERV%MSU.BITNET@VM1.NODAK.ED
+U
+***************
+
+CLASS-L@SBCCVM  Classification,
+clustering, and phylogeny
+Bitnet:  LISTSERV@SBCCVM
+***************
+
+CLIMLIST@OHSTVMA  E-conference
+of Climatologists
+Bitnet:  LISTSERV@OHSTVMA
+Internet: 
+LISTSERV%OHSTVMA.BITNET@VM1.NODA
+K.EDU
+***************
+
+CYAN-TOX@GREARN  The
+Cyanobacterial Toxins E-
+conference
+Bitnet/Earn: LISTSERV@GREARN
+***************
+
+DAIRY-L@UMDD Dairy E-conference.
+DAIRY-L@UMDD is a discussion
+medium for professional educators
+and extension workers advising the
+dairy industry.  Questions
+concerning problems or policies
+faced by dairy producers are
+encouraged, as are requests for
+educational tools such as visual
+aids, computer-aided decision
+support tools, and outlines of
+educational programs.
+Bitnet:  LISTSERV@UMDD
+Internet:  LISTSERVL@UMDD.UMD.EDU
+***************
+
+EBCBCAT@HDETUD1  Catalogue of
+'Biotechnological' software
+EBCBBUL is short for EBCB
+BULletin board, a facet of the
+European Bank of Computer
+Programs in Biotechnology (EBCB). 
+EBCB is a non-profit making
+organization mainly funded by the
+European Community (EC).  The main
+goal of EBCB is to stimulate and
+facilitate the use of computers in
+biotechnological training and
+research in Europe. EBCBBUL will
+not only promote user/user
+communication, but will also
+provide users with up to date
+information (e.g. about
+courses/congresses).
+EBCBBUL is public, and anyone with
+access to EARN can participate. 
+Bitnet/Earn:  LISTSERV@HDETUD1
+Internet: 
+LISTSERV@HDETUD1.TUDELFT.NL
+***************
+
+ECONET@MIAMIU  A discussion of
+Ecological and Environmental
+Issues
+Bitnet:  LISTSERV@MIAMIU
+***************
+
+EMBINFO@IBACSATA EMBNet(European
+Molecular Biology Network)
+Bitnet:  LISTSERV@IBACSATA
+***************
+
+EMBL-DB@IRLEARN.BITNET
+BIOSCI EMBL-Databank Bulletin
+Board
+LISTSERV@IRLEARN.BITNET
+***************
+
+ENVST-L@BROWNVM The
+Environmental Studies E-
+conference
+The purpose of this e-conference
+is to exchange information about
+Environmental Studies (ES)
+programs,
+Bitnet:  LISTSERV@BROWNVM.
+Internet: 
+LISTSERV@BROWNVM.BROWN.EDU
+***************
+
+EQUINE-D on
+LISTSERV@PCCVM.BITNET
+Rec.Equestrian Digest
+The Rec.Equestrian Digest is a
+redistribution of articles from
+the USENET rec.equestrian
+newsgroup for persons without
+USENET access. Distribution is in
+digest format as described in RFC
+1153 by Frank Wancho. The list is
+currently running in read-only
+mode; no
+subscriber postings are permitted.
+EQUINE-D originated as an
+outgrowth of, and companion list
+to, EQUINE-L.
+Bitnet: LISTSERV@PCCVM
+Owner:  W. K. (Bill) Gorman
+<34AEJ7D@CMUVM>
+***************
+
+EQUINE-L @PCCVM Discussion Forum
+for Horse Fanciers
+EQUINE-L is an e-conference for
+the discussion of all phases of
+horse ownership, management, use
+and related concerns for all horse
+breeds, both hot and cold blood.
+Bitnet:  LISTSERV@PCCVM.
+***************
+
+ETHOLOGY@FINHUTC Ethology
+An unmoderated e-conference for
+the discussion of animal behaviour
+and behavioural ecology. Possible
+topics could be e.g. new or
+controversial theories, new
+research methods, and equipment.
+Announcements of books, papers,
+conferences, new software for
+behavioural analysis etc., are also
+encouraged.
+Bitnet:  LISTSERV@FINHUTC
+Internet: 
+LISTSERV%FINHUTC.BITNET@CUNYVM.C
+UNY.EDU
+***************
+
+HERB@TREARN.BITNET
+Medicinal and Aromatic Plants
+discussion list
+LISTSERV@TREARN.BITNET
+***************
+
+HGML-L@YALEVM  Human Gene
+Mapping Library
+Bitnet:  LISTSERV@YALEVM
+Internet: 
+LISTSERV@YALEVM.YCC.YALE.EDU
+***************
+
+HORT-L@VTVM1 Va Tech Horticulture
+Dept. - Monthly Releases
+Bitnet:  LISTSERV@VTVM1
+***************
+
+INFO-GCG@UTORONTO
+E-conference covering topics in
+computer aided molecular biology
+and of particular interest to
+users and managers of the
+"Genetics Computer Group"
+software from the University of
+Wisconsin.
+Bitnet:  LISTSERV@UTORONTO:
+Internet: 
+LISTSERV@VM.EPAS.UTORONTO.CA
+***************
+
+ITRDBFOR@ASUACAD International
+Dendrochronology Forum
+Bitnet:  LISTSERV@ASUACAD
+Internet: 
+LISTSERV@ASUVM.INRE.ASU.EDU
+***************
+
+MICRONET@UOGUELPH Fungus and
+Root Interaction Discussion
+Bitnet:  LISTSERV@UOGUELPH
+Internet: 
+LISTSERV@VM.UOGUELPH.CA
+***************
+
+MOL-EVOL@IRLEARN
+BIOSCI Molecular-Evolution E-
+conference
+Bitnet/Earn:  LISTSERV@IRLEARN
+Internet:  LISTSERV@IRLEARN.UCD.IE
+***************
+
+MORPHMET@CUNYVM  Biological
+Morphometrics
+Bitnet:  LISTSERV@CUNYVM
+Internet: 
+LISTERV@CUNYVM.CUNY.EDU
+***************
+
+NEWCROPS@PURCCVM E-conference
+for New Crops
+Bitnet:  LISTSERV@PURCCVM
+
+***************
+
+ORCHIDS@SCU.BITNET
+MAILSERV@SCU.BITNET
+Orchid growers
+Willis Dair  <DAIR@SCU.BITNET>
+This unmoderated list was created
+to share and discuss information
+and experiences of orchid growers.
+***************
+
+OTS-L@YALEVM  Organization for
+Tropical Studies at Yale
+University.
+Bitnet:  LISTSERV@YALEVM
+Internet: 
+LISTSERV@YALEVM.YCC.YALE.EDU
+***************
+
+PHOTOSYN@TAUNIVM  Photosynthesis
+Researchers' E-conference
+Bitnet:  LISTSERV@TAUNIVM
+Internet: 
+LISTSERV@taunivm.tau.ac.il
+***************
+
+POP-BIO@IRLEARN POPULATION-
+BIOLOGY
+Population Biology is a synthesis
+of population ecology and
+population genetics, pursuing a
+unified theory to explain the
+structure, functioning and
+evolution of populations of living
+beings. Such populations are very
+complex systems, exhibiting a
+variety of phenomena that we stil
+do not master. Just to quote a
+famous example, multiannual
+density cycles (e.g. in lemmings)
+have not received a satisfactory
+expalnation, despite of decades of
+debated studies and speculations.
+Population Biology is a very active
+field, encompassing such diverse
+approaches as tenacious, harsh
+field work to track long term
+demographic and genetic
+fluctuations, or sophisticated
+conversations with a computer
+about strange attractors possibly
+causing chaos in the density
+fluctuations.
+ 
+The BITNET and USENET names of
+the new group are:
+Internet  POPULATION-BIOLOGY   
+Bitnet POP-BIO
+Use-Net bionet.population-bio
+Bitnet/Earn:  LISTSERV@IRLEARN
+Internet:  LISTSERV@IRLEARN.UCD.IE
+If you wish to participate in the
+the group, please send your
+subscription request to the
+appropriate BIOSCI node below.
+More informations on BIOSCI can
+also be requested at the adresses
+below:
+biosci%NET.BIO.NET@VM1.NODAK.EDU
+Internet
+biosci@net.bio.net  BitNet 
+***************
+
+PROTEINS@IRLEARN  BIOSCI Protein-
+Analysis E-conference
+Bitnet/Earn:  LISTSERV@IRLEARN
+Internet:  LISTSERV@IRLEARN.UCD.IE
+***************
+
+RBMI@FRULM11.BITNET
+Groupe de Recherche en Biologie
+Moleculaire e
+LISTSERV@FRULM11.BITNET
+***************
+
+RECYCLE@UMAB Recycling in
+Practice
+Bitnet:  LISTSERV@UMAB
+Internet:  LISTSERV@UMAB.UMD.EDU
+***************
+
+SCI-RES@IRLEARN  BIOSCI Science-
+Resources E-conference
+Bitnet/Earn:  LISTSERV@IRLEARN
+Internet:  LISTSERV@IRLEARN.UCD.IE
+***************
+
+SM-RUM@ICNUCEVM Small Ruminant
+E-conference
+Bitnet:  LISTSERV@ICNUCEVM
+***************
+
+TITNET
+An e-conference to promote
+communication among scientists
+working on tits (Paridae) and other
+hole-nesting birds
+***************
+
+TROP-BIO@IRLEARN.BITNET
+LISTSERV@IRLEARN.BITNET
+BIOSCI Tropical Biology Bulletin
+Board
+***************
+
+VETCAI-L@KSUVM Veterinary
+Medicine Computer Assisted
+Instruction
+Bitnet:  LISTSERV@KSUVM
+***************
+
+VETMED-L@UGA Veterinary Medicine
+Bitnet:  LISTSERV@UGA  Peered by
+VETMED-L@VTVM2
+Internet: 
+LISTSERV@UGA.CC.UGA.EDU
+
+
+OTHER IMPORTANT SERVICES
+Miscellaneous services of interest
+
+The WAIS service below is important because the number of datbases is
+contstantly growing.
+There are WAIS stes available but this one is the best in my opinion.
+
+Wide Area Information Server at THINK.COM
+
+(Information below from HYTLENET-- see works cited.)
+
+To connect, type  Telnet QUAKE.THINK.COM or 192.31.181.1
+login: wais
+Please type user identifier (optional, i.e user@host):
+
+TERM = (unknown) vt100
+
+The WAIS (Wide Area Information Service) system is a collection of
+programs which provide for convenient information distribution over wide
+area networks. Tools for both "publishing" and accessing information
+sources are provided. The Simple WAIS (SWAIS) interface is a basic
+access tool designed for those focused on data retreival and not
+computer operation. It provides most of the functionality of the more
+complicated interfaces but features a simple and potentially more
+natural interface.  The functionality supported includes source
+selection, keyword entry, and automatic document retrieval. I hope that
+this tool may be of use.  Enjoy.
+
+The WAIS system is the result of a joint project between Thinking
+Machines, Apple Computer, and Dow Jones.  For more information on WAIS,
+send mail to "wais-discussion@think.com".  The current release of the
+WAIS software is available via anonymous ftp from think.com in
+subdirectory wais.
+
+Simple Wais 1.8 [built with WAIS release 8 b5]
+
+John Curran (jcurran@nnsc.nsf.net)
+
+
+Sample screens:
+
+SWAIS               Source Selection    Sources: 230 
+#         ServerSource                  Cost 
+001:   [     archie.au]  aarnet-resource-guideFree 
+002:   [    archive.orst.edu]  aeronauticsFree 
+003:   [nostromo.oes.orst.ed]  agricultural-market-newsFree 
+004:   [    archive.orst.edu]  alt.drugsFree 
+005:   [    wais.oit.unc.edu]  alt.gopherFree 
+006:   [sun-wais.oit.unc.edu]  alt.sys.sunFree 
+007:   [    wais.oit.unc.edu]  alt.wais Free 
+008:   [    archive.orst.edu]  archie-orst.eduFree 
+009:   [     archie.au]  archie.au-amiga-readmesFree 
+010:   [     archie.au]  archie.au-ls-lRtFree 
+011:   [     archie.au]  archie.au-mac-readmesFree 
+012:   [     archie.au]  archie.au-pc-readmesFree 
+013:   [ pc2.pc.maricopa.edu]  ascd-educationFree 
+014:   [     archie.au]  au-directory-of-serversFree 
+015:   [    doppler.ncsc.org]  AVS_TXT_FILESFree 
+016:   [   cirm2.univ-mrs.fr]  bib-cirm Free 
+017:   [  cmns-sun.think.com]  bible    Free 
+018:   [zenon.inria.fr]        bibs-zenon-inria-frFree 
+ 
+ 
+Details on source 003: from above.
+
+Name:           agricultural-market-news.src 
+Directory:      /sources/ 
+Maintainer:     wais@nostromo.oes.orst.edu 
+Selected:       No 
+Cost:           Free 
+Server:         nostromo.oes.orst.edu  
+Service:        210 
+Database:       agricultural-market-news 
+Description: 
+Server created with WAIS release 8 b3.1 on Oct  5 22:48:47 1991 by wais@nostromo.oes.orst.edu 
+ 
+This server contains the agricultural commodity market reports compiled by the Agricultural Market News Service
+of the United States Department of Agriculture. There are approximately 1200 reports from all over the 
+United States. Most of these reports are updated daily. Try searching for 'portland grain.' 
+ 
+For more information contact: wais@oes.orst.edu  
+
+
+
+Sample text retrieved using grain as the keyword: 
+
+INSPECTIONS  Subject:    WA GR101 GRAIN INSPECTIONS   
+Date: Mon, 04 May 92 11:30:43 AM 
+ 
+WA GR101 
+WASHINGTON, D.C. USDA, FEDERAL STATE, MAY 4, 1992 
+                 GRAINS INSPECTED AND/OR WEIGHED FOR EXPORT 
+                             - 1,000 BUSHELS - 
+------------------------------------------------------------------------------- 
+                                                        CURRENT      PREVIOUS 
+                ------------ WEEK ENDING -----------  MARKET YEAR   MARKET YEAR 
+GRAIN           04/30/92      04/23/92      05/02/91    TO DATE       TO DATE 
+ 
+WHEAT            23,785        27,208        20,337     1,188,052       979,596 
+RYE                   0             0             0             0             0 
+OATS                 66            11             0           615            12 
+BARLEY            1,748         3,333            19        89,629        70,897 
+FLAXSEED              0             0             0             0             0 
+CORN             25,123        28,964        32,849     1,040,583     1,207,745 
+SORGHUM           7,148         9,142         4,559       195,941       161,724 
+SOYBEANS          6,733        11,161         6,606       551,326       411,856 
+SUNFLOWER             0             0             0         2,569             0 
+ 
+TOTAL            64,603        79,819        64,370     3,068,715     2,831,830 
+
+
+
+Geographic Name Server
+
+
+Fascinating and potentially very useful service.  Try it. It is free!!
+
+(information below from HYTELNET- See works cited)
+ 
+To access type telnet 141.212.99.9 3000
+
+Geographic Name Server, Copyright 1989, 1990 Merit Inc.  All rights
+reserved.
+
+Data came primarily from the US Geodetic Survey and the US Postal Service.
+Coverage includes all US cities, counties, and states, as well as some US
+mountains, rivers, lakes, national parks, etc. A few international cities
+have also been included. Unfortunately, some minor inaccuracies remain. 
+Merit Inc. is not responsible for maintaining this data.
+
+Queries should generally look like the last line of a postal address, as in
+"Ann Arbor, MI 48103".
+
+All these queries will also work:
+1) ed(1)-style regular expression, like "[Bb]os.*n$"
+2) A city name alone, like "Ann Arbor"
+3) A ZIP or ZIP+4 code alone, like this: "46556", "48103-2112" NOTE: only the
+first 5 digits in a ZIP+4 code are used.
+4) As in 1) or 2) but with a state name or abbreviation, like this: "Ann Arbor,
+MI", "Los Angeles, California"
+5) As above but with optional nation name or abbreviation, like "Toronto, ,
+Canada".  NOTE:  there are currently very few foreign cities.
+
+Punctuation, white space, and upper/lower case are ignored. Any reasonable
+state/nation abbreviations are recognized.
+
+If a query fails, try expanding abbreviations (e.g. change "Mt."to "Mount",
+etc.
+
+Interpret server replies as follows:
+
+0 [city name]
+1 [county FIPS code] [county name]
+2 [state/province abbreviation] [state/province name]
+3 [nation abbreviation] [nation name]
+A [telephone area code]
+E [elevation in feet above mean sea level]
+F [feature code] [feature name]
+L [latitude DD MM SS X] [longitude DDD MM SS X]
+P [1980 census population]
+R [remark]
+T [time zone]
+Z [postal ("ZIP") code]
+
+To exit the server, enter "stop", "end", "quit", "bye","exit", "logout", "logoff",
+or control-D.
+
+Direct questions or comments to Tom Libert (libert@eecs.umich.edu), or phone
+(313) 936-3000.
+
+FEDIX: On-line Information System for Colleges, Universities and other
+Research Organizations
+
+(information below from HYTELNET- See works cited)
+
+
+To access, type telnet fedix.fie.com or 192.111.228.1
+login: fedix
+
+FEDIX is an on-line information service that links the higher education
+community and the federal government to facilitate research, education,
+and services. The system provides accurate and timely federal agency
+information to colleges, universities, and other research organizations. 
+
+FEDIX provides daily information updates on: 
+
+  - Federal EDUCATION and RESEARCH PROGRAMS (including descriptions, 
+    eligibility, funding, deadlines).
+  - SCHOLARSHIPS, FELLOWSHIPS, and GRANTS
+  - Available used government RESEARCH EQUIPMENT
+  - New funding for specific research and education activities from the
+COMMERCE BUSINESS DAILY, FEDERAL REGISTER, and other sources.
+  - MINORITY ASSISTANCE research and education programs
+  - NEWS & CURRENT EVENTS within participating agencies
+  - GENERAL INFORMATION such as agency history, budget, organizational
+structure, mission statement, etc.
+
+PARTICIPATING AGENCIES
+
+Currently FEDIX provides information on 10 federal agencies. The
+Department of Energy (DOE), Office of Naval Research (ONR),
+NationalAeronautics and Space Administration (NASA), Air Force Office of
+Scientific Research (AFOSR), and Federal Aviation Administration (FAA) are
+providing comprehensive education- and research-related agency
+information, while the National Science Foundation (NSF), Department of
+Housing and Urban Development (HUD), Department of Commerce (DOC),
+Department of Education (DOEd) and National Security Agency (NSA) are
+providing minority assistance information, exclusively. Additional
+government agencies are expected to join 
+FEDIX in the future.
+
+
+
+    
+                   FEDIX                       HELPLINE   
+         On-Line Information Service       (301) 975-0103 
+    
+
+              FEDIX MAIN MENU                            
+                                                                 
+1 - COMPREHENSIVE AGENCY INFORMATION7 - Mail
+2 - MINORITY PROGRAM INFORMATION8 - Announcements
+3 - Search Programs (Cross-Agency)9 - System Updates
+4 - Procurements, Notices and News10 - What is FEDIX?
+5 - Utility Menu                                              
+6 - Downloadable Files                                        
+                                                                 
+                      0 - Logoff                                 
+
+Weather Underground (University of Michigan)
+
+
+Provides weather forecasts for the entire country. Who needs the WEATHER
+CHANNEL?
+
+(information below from HYTELNET- See works cited)
+
+To access:
+
+1.      Type telnet hermes.merit.edu or 35.1.48.150
+2.      At the "Which Host?" prompt type um-weather
+
+
+                 WEATHER UNDERGROUND MAIN MENU
+              -------------------------------------
+                1) Forecast for a U.S. city
+                2) National Weather Summary
+                3) Current weather observations
+                4) Ski conditions
+                5) Long-range forecasts
+                6) Latest earthquake report
+                7) Severe weather
+                8) Hurricane advisories
+                9) Canadian forecasts
+                X) Exit program
+                C) Change scrolling to screen
+
+
+
+WORKS CITED
+Documents used in the preparation of this guide:
+
+Barron, Billy, UNT's Accessing On-Line Bibliographic Databases, University of
+North Texas, 1992.
+This document can be acquired via anonymous FTP on the node FTP.UNT.EDU. 
+This guide is one of the best and most comprehensive guides to library
+catalogs on the INTERNET.
+
+Dartmouth Merged List. Dartmouth maintains a merged list of the LISTSERV
+lists on Bitnet and the Interest Group lists on the Internet. The files can
+be obtained by anonymous FTP from DARTCMS1.DARTMOUTH.EDU <129.170.16.19>
+in directory SIGLISTS. 
+
+EXPLORING INTERNET: An Extension Agents' Introduction to Networking; February
+1992, USDA Extension Service, Washington, D.C. 1992. This document is
+available in text format from Thomas G. Tate, Communications and
+Information Technology,USDA Extension Service Room 3322-S,Washington,
+D.C., 20250-0900, Phone (202) 720-8155, INTERNET: ttate@esusda.gov
+
+Scott, Peter, HYTELNET 6.0, University of Saskatchewan Libraries, Saskatoon,
+Sask, Canada,1992. This software package is available via anonymous FTP on
+the node FTP.UNT.EDU.  HYTELNET is designed to assist you in reaching all
+of the INTERNET-accessible libraries, Freenets, CWISs, Library BBSs, &
+other information sites by Telnet.
+
+SRI NIC Maintained Interest-Groups List of Lists. Available via anonymous
+FTP from ftp.nisc.sri.com. 
+
+Other useful guides:  There are many others but these are the best.
+
+BBN Systems and Technologies Corporation, Internet Resources Guide, April
+1991, Available for anonymous FTP on NNSC.NSF.NET.
+
+Kehoe, Brendan P. Zen and the Art of the Internet: A Beginner's Guide to the
+Internet. This is the best guide to the INTERNET avaialble anywhere.
+Available via anonymous ftp from ftp.cs.widener.edu, directory pub,
+filename zen.
+
+Martin, Jerry, There's Gold in them thar Networks!, or, Searching for Treasure
+in all the Wrong Places.  (Network Working Group RFC 1290. Available via
+anonymous ftp from nis.nsf.net, directory publications/rfc, filename
+rfc1290.txt.
+
+Noonan, Dana, A GUIDE TO INTERNET/BITNET, METRONET, January, 1992.
+GUIDE1.TXT contains information on using a VAX, sending email, subscribing
+to mailing lists, obtaining electronic journals, logging on to internet
+bulletin boards, and using FTP to obtain files. GUIDE2.TXT contains her
+latest list of internet libraries. (Jan. 1992 files) Available via anonymous
+ftp form node HYDRA.UWO.CA in LIBSOFT directory.
+
+NYSERNet, NYSERNet New User's Guide to Useful and Unique Resources on the
+Intenet.  NYSERNet: Syracuse, New York. Available via ftp from nysernet.org,
+directory public.]  [For more information contact editor@nysernet.org.]
+
+St.George, Art and Ron Larsen, Internet - Accessible Library Catalogs &
+Databases, University of Maryland, University of New Mexico, April 1991. 
+Available via anonymous FTP on ARIEL.UNM.EDU.
+
+St.Sauver, Joe, The VAX Book, University of Oregon, 1989. Available for
+anonymous FTP on DECOY.UOREGON.EDU.

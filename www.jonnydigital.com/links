@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Links | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Links</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>At one point, there were so few websites that everyone could link to their
+favourites on one page.</p>
+
+<h2>People I know</h2>
+
+<ul>
+  <li><a href="http://zeus.mirtna.org/blog/">From the Brow of Zeus</a></li>
+  <li><a href="http://hellninjacommando.com/">Defiler</a></li>
+
+</ul>
+
+<h2>People I don't</h2>
+
+<ul>
+  <li><a href="http://www.toastyfrog.com/">Jeremy Parish</a></li>
+  <li><a href="http://maddox.xmission.net/">Maddox</a></li>
+</ul>
+
+<h2>Blogs I read</h2>
+<h3>Software development</h3>
+<ul>
+  <li><a href="http://www.codinghorror.com/blog/">Coding Horror</a></li>
+  <li><a href="http://freelanceswitch.com/">Freelance Switch</a></li>
+  <li><a href=""></a></li>
+</ul>
+
+<h3>Roleplaying games</h3>
+<ul>
+  <li><a href="http://jrients.blogspot.com/">Jeff's Gameblog</a></li>
+  <li><a href="http://chattydm.net/">Musings of the Chatty DM</a></li>
+  <li><a href="http://www.thealexandrian.net/">The Alexandrian</a></li>
+  <li><a href="http://rpgbloggers.com/">RPG Bloggers Network</a></li>
+  <li><a href="http://www.stupidranger.com/">Stupid Ranger</a></li>
+</ul>
+
+<h2>News sites</h2>
+<ul>
+  <li><a href="http://arstechnica.com/index.ars">Ars Technica</a></li>
+  <li><a href="http://news.bbc.co.uk/">BBC News</a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+</ul>
+
+
+<h2>Resources</h2>
+<h3>Web development guides</h3>
+<ul>
+  <li><a href="http://www.htmlhelp.com/">HTML Help</a></li>
+  <li><a href="http://css-discuss.incutio.com/">CSS Discuss</a></li>
+  <li><a href="http://www.brainjar.com/">Brain Jar</a></li>
+  <li><a href="http://www.htmldog.com/">HTML Dog</a></li>
+  <li><a href="http://css.maxdesign.com.au/">MaxDesign</a></li>
+  <li><a href="http://www.zoffix.com/">Zoffix ZNet</a></li>
+  <li><a href="http://gettingreal.37signals.com/toc.php">37signals' Getting Real</a></li>
+</ul>
+
+<h3>Web development articles/reference</h3>
+<ul>
+  <li><a href="http://www.webdevout.net/browser-support-css">Web Browser CSS Support</a></li>
+  <li><a href="http://www.seomoz.org/article/search-ranking-factors">Search Engine Ranking Factors</a></li>
+  <li><a href="http://hsivonen.iki.fi/doctype/">Activating Browser Modes with Doctype</a></li>
+  <li><a href="http://www.pearsonified.com/2006/06/how_much_should_a_design_cost.php">How Much Should a Web Design Cost?</a></li>
+  <li><a href="http://www.quirksmode.org/css/quirksmode.html">Quirks mode and strict mode</a></li>
+  <li><a href=""></a></li>
+</ul>
+
+<h3>Game development</h3>
+<ul>
+  <li><a href="http://www.gamedev.net/">GameDev.net</a></li>
+  <li><a href="http://www.gameproducer.net/">GameProducer.net</a></li>
+  <li><a href="http://www.makeitbigingames.com/">Making it Big in Games</a></li>
+  <li><a href="http://developer.popcap.com/forums/pop_index.php">Popcap Developer Program</a></li>
+</ul>
+
+
+<h2>Games</h2>
+<ul>
+  <li><a href="http://www.gamedesign.jp/flash/dice/dice.html">Dicewars</a></li>
+  <li><a href="http://tenhou.net/">Tenhou (mahjong)</a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+</ul>
+
+<h2>Traditional roleplaying games</h2>
+<ul>
+  <li><a href="http://www.criticalmiss.com/">Critical Miss</a></li>
+  <li><a href="http://web.archive.org/web/20070624004520/http://users.tkk.fi/~vesanto/link.fun/stupid.pcs.html">The Head of Vecna</a></li>
+  <li><a href="http://www.imarvintpa.com/dndLive/index.php">IMarvinTPA's Dungeons and Dragons Database</a></li>
+  <li><a href="http://ptgptb.org/index.html">Places to Go, People to Be</a></li>
+  <li><a href="http://www.indie-rpgs.com/forum/">The Forge</a></li>
+  <li><a href="http://garethrees.org/2004/12/01/ocarina-of-time/">The puzzle structure of Ocarina of Time</a></li>
+  <li><a href="http://www.rinkworks.com/namegen/">Rinkworks Fantasy Name Generator</a></li>
+  <li><a href="http://www.ruf.rice.edu/~pound/">Chris Pound's language machines</a></li>
+</ul>
+
+<h2>Other sites I run</h2>
+<ul>
+  <li><a href="http://d20.jonnydigital.com/">D20 Source</a>, a popular Dungeons &amp; Dragons blog</li>
+  <li><a href="http://www.edwardelric.com">EdwardElric.com</a>, a Fullmetal Alchemist episode guide</li>
+</ul>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 13th August 2008</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

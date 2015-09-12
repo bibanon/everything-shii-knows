@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>K240 undocumented features | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>K240 undocumented features</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<h2>Missile damage values</h2>
+
+<ul>
+  <li><b>Explosive:</b> 10 damage. Strikes one square.</li>
+  <li><b>Area Explosive:</b> 10 damage. Strikes multiple squares.</li>
+  <li><b>Napalm:</b> 14 damage. Can spread to nearby buildings.</li>
+  <li><b>Hellfire:</b> 11 damage. Spreads well through densely packed buildings.
+      May be able to strike the same building more than once.</li>
+  <li><b>Nuclear:</b> 16 damage, 43 damage to four-square buildings. Strikes
+      every building on the asteroid, raises radiation, and
+      can strike ships in orbit.</li>
+  <li><b>Scatter:</b> 10 damage, strikes over a wide area.</li>
+  <li><b>Vortex:</b> Random damage of 2, 4 or 6 per hit. Vortex wanders
+      randomly, for a random duration, and can split at random.</li>
+</ul>
+
+<p>The Nuclear is especially deadly to large buildings, which take
+more damage due to their larger area. Its base damage will destroy
+all large buildings not protected by Building Armour or a Screen
+Generator, and all Living Quarters and Resiblocks (except Protected
+Resiblocks). This is how one Nuclear hit destroys an entire colony.</p>
+
+<p>A Nuclear will also destroy all Anti-Missile Pods, Laser Turrets,
+and all power generating buildings except Protected Solar Matrix.
+This knocks out defences against additional missiles. A second
+Nuclear destroys every building except Storage Tower, Environment
+Control (and protected equivalents), Power Store, Ore Teleporter
+and Screen Generator.</p>
+
+<p>For more on the nuclear missile, see the article on
+<a href="k240-nuclear-missile">nuclear missiles</a>.</p>
+
+<h2>Kll-Kp-Qua special missile</h2>
+
+<p>The K240 manual states that the Kll-Kp-Qua "possess a special
+type of warhead, but its effects are unknown". According to
+<a href="http://www.youtube.com/watch?v=4RT6RDBGiQk">Thiima52's
+Youtube video</a> demonstrating bugs in the the
+<a href="k240-cu-amiga-coverdisk">CU Amiga K240 demo</a>, the
+special warhead decreases the population on a planet. It
+appears to reduce the population by 20.</p>
+
+<p>The special warhead replaces the Vortex missile for that
+alien. It's possible that the special warhead shares the
+same attributes as the Vortex missile - cost 9000, requires
+3 crystalite.</p>
+
+<h2>Ship hardpoint damage values</h2>
+
+<ul>
+  <li><b>Ion Cannon:</b> 5 damage.</li>
+  <li><b>Disruptor:</b> 5 damage. Larger area. Four-square buildings can be
+      struck more than once by a Disruptor shot if more than one of
+      their squares is hit.</li>
+  <li><b>Napalm Orb:</b> Appears to be 14 damage, same as the Napalm
+      missile.</li>
+  <li><b>Chaos Bomb:</b> Appears to be 11 damage, same as Hellfire. May be
+      able to strike the same building more than once.</li>
+  <li><b>Vortex Mine:</b> Appears to create the same Vortex as the
+      Vortex missile: wanders dealing 2, 4 or 6 damage per hit.</li>
+</ul>
+
+<p>These are tested against the Kll'Kp'Qua. It's possible that
+races have weakness or resistance against certain weapons.</p>
+
+<p>A brief test against the Kll'Kp'Qua suggests the Laser Cannon
+deals 2 damage, the Photon Cannon 4, and the Plasma Cannon 5.
+Further tests will be necessary.
+</p>
+
+<h2>Building hit points</h2>
+
+<ul>
+  <li><b>5HP:</b> Landing Pad, Living Quarters, Solar Panel</li>
+  <li><b>10HP:</b> Solar Generator, Resiblock, Satellite Silo, Solar Matrix</li>
+  <li><b>15HP:</b> Medical Centre, Security Centre, Sensor Array, Missile Silo</li>
+  <li><b>16HP:</b> Anti-Missile Pod, Laser Turret</li>
+  <li><b>20HP:</b> Hydration Plant, Photon Turret, Plasma Turret, Construction Yard,
+      Deep Bore Mine, Mine, Protected Resiblock, Protected Solar Matrix,
+      Repair Facility</li>
+  <li><b>24HP:</b> Decontamination Filter, Hydroponics, Life Support,
+      Storage Facility, Weapons Factory, Gravity Nullifier,
+      Seismic Penetrator</li>
+  <li><b>28HP:</b> Asteroid Engines</li>
+  <li><b>32HP:</b> Protected Storage Tower, Storage Tower</li>
+  <li><b>34HP:</b> Environment Control, Power Store, Powerplant</li>
+  <li><b>36HP:</b> CPU, Command Centre, Ore Teleporter, Screen Generator</li>
+  <li><b>52HP:</b> Protected Environment Control</li>
+</ul>
+
+<p>Notably, the Protected Environment Control has just over 50% more hit
+points than the unprotected version, while the Protected Resiblock and
+Protected Solar Matrix have twice as many hit points as their regular
+version. However, the Protected Storage Tower has no additional defence
+beyond the laser cannon.</p>
+
+<p>Some alien buildings have more hit points. The Kll'Kp'Qua building
+"Queen's Chamber", analogous to the Terran CPU, has 100HP.</p>
+
+<p>The Building Armour blueprint doubles hit points for all new buildings.
+With this blueprint, the toughest building available to the player is a
+Protected Environment Control, at 104HP.</p>
+
+<h2>Building Armour / Repair Facility</h2>
+
+<p>The Building Armour blueprint only applies to new buildings, not
+buildings constructed before you acquired the Building Armour blueprint.
+However, if you own the Building Armour blueprint and have built a Repair
+Facility, it will begin to retrofit all existing buildings with Building
+Armour.</p>
+
+<p>The Repair Facility does not repair ships in orbit. It does repair
+ships in hangars. Ships in hangars do not repair at all without a Repair
+Facility. There is no way to repair larger ships which cannot use a
+Landing Pad.</p>
+
+<h2>Screen Generator</h2>
+
+<p>The Screen Generator reduces all damage by 50%, for all
+buildings within its range. The Screen Generator benefits
+from its own damage reduction, as long as it's switched on.
+Multiple Screen Generators don't stack.</p>
+
+<h2>Ships in hangars</h2>
+
+<p>Ships in hangars do not repair without a Repair Facility.</p>
+
+<p>Even if all Landing Pads are destroyed, ships in hangars
+remain safe. They can be recovered once another Landing Pad is
+built. The same happens with missiles held in missile bays,
+but not ore held in storage towers.</p>
+
+<h2>Buildings</h2>
+
+<p>No matter how large, an asteroid can only have 100
+buildings. Building size doesn't matter.</p>
+
+<p>Certain buildings require workers. The following buildings
+require eight colonists each: Mine, Deep Bore Mine, Seismic
+Penetrator, Construction Yard, Command Centre and Missile Silo.
+No other buildings require workers. Ships do not require colonists
+for crew.</p>
+
+<h2>Ore</h2>
+
+<p>Asteros ore depletes over time, even if you don't mine
+it. This only occurs on colonised asteroids. Asteros you've
+already mined does not deplete from your stores. If you have
+mines but no ore storage buildings, mines will not waste ore.
+Powerplants can use Asteros directly from the mines without
+storage buildings.</p>
+
+<h2>Colonists</h2>
+
+<p>You receive money each turn, based on how many colonies you
+own and how much population you have. Each day, you receive
+an amount which seems to equal 100 credits per colony, plus
+2 credits per unit of population. With several asteroids and
+a high population, it's possible to earn more from this than
+ore sales.</p>
+
+<p>A colony of 1,000 population will give you 2,100 credits per
+day or around 357,000 to 672,000 for each time the Imperial
+Transporter arrives. However, it may not be the best option.
+In order to keep this many unemployed colonists alive and
+well-behaved, you'll need 7 resiblocks, 7 security centres,
+2 life support, 2 hydration plants, 3 hydroponics, and 10
+solar generators. The initial outlay costs 101,100 credits
+and requires room for 31 buildings. For protected resiblocks
+and one medical facility per 100 citizens, you'll need another
+8 solar generators, 100,500 credits and room for 31 buildings.</p>
+
+<p>There may be a better use for asteroids which have run
+dry of ore. Build Asteroid Engines and crash them into
+an enemy asteroid, or even into your own empty asteroids
+or the edge of the screen. Destroying an asteroid causes
+a new, fresh one to appear, which will be full of ore.</p>
+
+<p><a href="k240">&laquo; Back to JD's K240 page</a>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 22nd November 2009</em>. <em>Last updated: 30th November 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

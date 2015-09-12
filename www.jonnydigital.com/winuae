@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>How do I configure WinUAE? | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>How do I configure WinUAE?</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>The Amiga emulator <cite>WinUAE</cite> does a pretty great job
+of simulating the computer that was said to be impossible to
+emulate. On top of all the advanced proprietary hardware, the
+Amiga was released in over ten discrete versions, plus several
+third-party expansions, all of which WinUAE can handle.</p>
+
+<p>Unfortunately, this complexity means that WinUAE has sixteen
+pages of configuration options, which are all the more difficult
+if you're not very familiar with the Amiga. I'll go through
+the options and tell you what works best for me.</p>
+
+<h2>Step 1: Download WinUAE</h2>
+
+<p>WinUAE releases important updates, so <a href="http://www.winuae.net/frames/download.html">go and download it again</a>.
+This tutorial assumes you're using WinUAE 1.5.1; newer versions
+should be much the same.</p>
+
+<p>Next, source at least one Kickstart ROM image; if you don't
+have this already, it's sort of the Amiga's equivalent to the
+modern PC's BIOS. This is copyrighted software so I won't
+post it here, but you can find it online easily enough. For
+maximum game compatibility I recommend that you collect the
+following:</p>
+
+<ul>
+  <li>Amiga 500, Kickstart v1.3. Best compatibility with old games (pre-1992).</li>
+  <li>Amiga 600HD, Kickstart v2.05. Supports newer games that benefit from the ECS chipset</li>
+  <li>Amiga 1200, Kickstart v3.0 or v3.1. Supports AGA chipset games.</li>
+</ul>
+
+<p>Take care not to confuse ROM with its meaning on other
+consoles, where the game software came on ROM chips in
+cartridges; Amiga software came on floppy disks, with
+the basic operating system in an internal ROM chip. Disk
+images of Amiga games are referred to as ADFs, or
+<a href="http://www.jonnydigital.com/definition-adf">Amiga Disk Files</a>.</p>
+
+<h2>Hardware configuration</h2>
+
+<p>The "Quickstart" page here will set most of the options you
+want, and the tooltips can advise you on certain configurations.
+Here are my recommendations:</p>
+
+<ul>
+  <li>A1200, basic non-expanded configuration: Use this for games
+  requiring the AGA chipset. They're usually listed as "AGA Only"
+  or "Requires A1200/A4000".</li>
+  <li>A600, 2MB Chip RAM expanded configuration: Use this for
+  games made after 1991. Certain games before this had trouble
+  with the newer A600, but after this many A500-compatible
+  games were able to take advantage of the A600's improvements.</li>
+  <li>A500: Use this for games that the A600 has trouble with, or
+  if you don't have the A600 ROM. Use the tooltips to help
+  decide which configuration to use.</li>
+</ul>
+
+<p>This should suffice for a lot of software, but you may still
+wish to fine-tune the hardware settings from here.</p>
+
+<dl>
+  <dt>CPU and FPU</dt>
+  <dd>For games, you have three real options. Most games used
+  the 68000 CPU at about 7MHz, so "Match A500 Speed" should
+  suffice. The A1200, A4000 and CD32 require the 68020 CPU and
+  "Fastest possible", since it ran at 14MHz. Only some later
+  high-spec games (1995 onward) require the faster CPUs, which
+  actually caused many old games to run too fast.</dd>
+  
+  <dt>Chipset</dt>
+  <dd>The defaults should pick OCS for A500, AGA for A1200,
+  and Full ECS for A600. On an Athlon XP 1700 you should
+  be able to run with Collision Level at "Sprites and Sprites
+  vs. Playfield" and Sound Emulation at "Emulated, 100% Accurate".
+  On a faster machine, also set "Cycle-exact"; on a much slower,
+  you may need reduce the options. Only set Collision Level
+  to Full for games that appear to require it.</dd>
+  
+  <dt>Adv. Chipset</dt>
+  <dd>99% of the time you don't need to change any of these.</dd>
+  
+  <dt>ROM</dt>
+  <dd>This should be set by the Quickstart settings. Avoid
+  wacky combinations (like an A500 ROM with the AGA chipset).</dd>
+  
+  <dt>RAM</dt>
+  <dd>For most games, 1MB Chip RAM and no other RAM is a safe
+  bet, but reducing it to 512KB may solve compatibility
+  issues with older A500 games. You should have at least 1MB
+  for A500+/A600, and 2MB for A1200 games. A few newer games
+  benefit from additional Fast RAM.</dd>
+  
+  <dt>Floppy Drives</dt>
+  <dd>Insert your 'disks' (or rather diskfiles) here. Although
+  it's usually safe to enable multiple disk drives, bear in
+  mind that many games didn't support more than one or two
+  drives. Don't meddle too much with the Floppy Drive Emulation
+  Speed; it may confuse some games or cause them to crash
+  entirely.</dd>
+  
+  <dt>Hard drives</dt>
+  <dd>You can ignore this for games, but feel free to set
+  up a hard drive and install Workbench from floppy disks
+  if you're up to it. It's useful for non-game software
+  and <a href="transferring-amiga-disks">transferring Amiga disks</a>.
+  If you mount PC drives, remember that Amiga viruses
+  can attack those drives.</dd>
+</dl>
+
+<h2>Host configuration</h2>
+
+<p>This requires more configuration than the hardware, since
+there's no Quickstart option. Your settings will rely largely
+on your PC's speed. I've configured my own for an Athlon XP
+1700, so when I say "fast computer" or "slow computer" that's
+my benchmark.</p>
+
+<dl>
+  <dt>Display</dt>
+  <dd>For windowed, the defaults should be 720x568, resolution
+  Hires, Line Mode Double. You shouldn't have to reduce Refresh
+  unless your computer is very slow. Note that Fullscreen mode
+  doesn't perform any scaling or centering; you should either
+  set this under the Filter options, or run 800*600 with
+  Centering set to Horizontal.</dd>
+  
+  <dt>Sound</dt>
+  <dd>I set Sound Emulation to "Enabled, 100% accurate", with
+  automatic switching enabled and a Sound Buffer Size of
+  2. Disable Interpolation; it doesn't do much except
+  eat CPU cycles that would be better used making the sound
+  emulate correctly. (Slow computers may have to increase
+  the sound buffer size to solve errors). I like to enable
+  Floppy Drive Sound Emulation on all drives, since as on
+  the real Amiga it lets you know when the game is loading
+  and not just stalled. I usually reduce the volume to
+  20%.</dd>
+  
+  <dt>Game &amp; I/O Ports</dt>
+  <dd>Odds are the only things you'll need to set here are
+  the joystick port. I recommend investing in a real digital
+  joystick like the replica Competition Pro USB (see
+  <a href="http://www.amigakit.com">AmigaKit.com</a>). You
+  might alternatively use a joypad with a digital control,
+  such as a Playstation controller via a USB adaptor or an
+  XBox 360 controller. Otherwise, I recommend Keyboard
+  Layout B, but bear in mind that some games (such as Myth)
+  require the cursor keys.</dd>
+  
+  <dt>Input</dt>
+  <dd>Fiddle with this is your joystick isn't working. The
+  defaults are normally fine.</dd>
+  
+  <dt>Output</dt>
+  <dd>Recording videos of play is its own barrel of worms.
+  I won't go into detail about the process; it's already
+  covered by sites like <a href="http://www.recordedamigagames.org">Recorded Amiga Games</a>.</dd>
+  
+  <dt>Filter</dt>
+  <dd>Use these to scale if you're using fullscreen modes
+  above 800x600. Note that you'll need a fast computer
+  to handle most of these options. Note the PAL filter,
+  which deliberately makes your look output like a crappy
+  TV image.</dd>
+  
+  <dt>Disk Swapper</dt>
+  <dd>I have to be honest, I haven't used this.</dd>
+  
+  <dt>Misc</dt>
+  <dd>You can ignore most of these. If you're using a full-screen
+  mode I recommend enabling On-screen LEDs if you want to track
+  disk drive lights and CPU usage.</dd>
+  
+  <dt>Priority</dt>
+  <dd>Defaults should be fine.</dd>
+</dl>
+
+<p>Remember to save out options once you've got them working how
+you like them. Keep note of the CPU access meter at the bottom of
+the WinUAE window. If it's low, you can afford to enable extra
+power-hungry features like Chipset Cycle-exact and filtering
+modes. If it's high, try reducing features, especially if you
+experience sound stuttering or slowdown.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<dl>
+	<dt>How do I transfer Amiga disks?</dt>
+	<dd>This warrants its own article. See
+	<a href="transferring-amiga-disks">How do I transfer Amiga disks?</a></dd>
+
+	<dt>Where do I get Amiga joysticks?</dt>
+	<dd>Amigakit.com sells a replica of the Competition Pro
+	(the black joystick with the red stick) in both Amiga
+	and USB form.
+	See the article <a href="where-do-i-get-joysticks">Where do I get Amiga joysticks?</a></dd>
+
+  <dt>How do I avoid sound stuttering?</dt>
+  <dd>First, try updating to the newest version. My sound
+  stuttering went away completely when I updated from
+  v1.4.2 to v1.5.1. If that's not it, disable power-hungry
+  features to reduce CPU load, or increase the
+  sound buffer size. An Athlon XP 1700 emulating an A500
+  should not require more than a sound buffer of 2.
+  Don't set the sound buffer too high, or the audio
+  will lag.</dd>
+  
+  <dt>What games are worth downloading?</dt>
+  <dd>It's a matter of opinion, but there are a few lists.
+  Try <a href="http://www.warblade.as/feature01.html">The Amiga Report Top 100 Games of All Time</a>
+  and the <a href="http://amr.abime.net/amr_amiga_power_top_100.php">Amiga Power All-Time Top 100 Games (1991-1996)</a>.
+  See also my own list of <a href="amiga-games">recommended Amiga games</a>.
+  </dd>
+  
+  <dt>How can I avoid messing around with diskfiles?</dt>
+  <dd>Look into something called <a href="http://www.whdload.de/">WHDLoad</a>,
+  which allows hard-disk installs of games originally
+  created as floppy disk only.</dd>
+  
+  <dt>How do I ensure maximum game compatibility?</dt>
+  <dd>You had three main waves of Amiga games. The first
+  was released for the Amiga 500, which had a 7MHz 68000
+  CPU and 512KB RAM and was released in 1987. The second
+  wave took advantage of 1MB RAM, which includes upgraded
+  A500s, the A500+ (1991) and the A600 (1992). The third
+  was AGA games, which were A1200/A4000 only and expected
+  2MB RAM. Many first-wave games were incompatible with
+  newer hardware. Some late-era Amiga games (1995-2002)
+  took advantage of third-party expansion hardware;
+  perhaps most spectacularly there is a functional Amiga
+  port of Quake 2.</dd>
+</dl>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 23rd August 2008</em>. <em>Page updated: 16th January 2010.</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

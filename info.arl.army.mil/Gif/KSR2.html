@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Access Denied</title>
+<script type="text/javascript">
+   function more(){
+      var status=document.getElementById("more").style.display;
+      if(status=="none"){
+         document.getElementById("more").style.display="block";
+         document.getElementById("more-a").innerHTML="[less info]";
+      } else {
+         document.getElementById("more").style.display="none";
+         document.getElementById("more-a").innerHTML="[more info]";
+      }
+   }
+
+   function redirectMe(thisHTML){
+      alert("You are being redirected to "+thisHTML);
+      window.location=thisHTML;
+   }
+</script>
+<style>
+body {
+	background-color: #eaeaea;
+	color: #000000;
+	font: 13px "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+div.contain403 {
+	width: 656px;
+	margin: 100px auto 0px;
+	padding: 0;
+}
+div.box403 { position:relative;  width:608px; overflow:hidden; padding:0 14px 1px; background-color:#fff; margin: 0;}
+
+div.box403 a:link,
+div.box403 a:active,
+div.box403 a:visited {
+	font-size: 13px;
+	font-weight: bold;
+	color: #662f30;
+}
+div.box403 a:hover {
+	text-decoration: none;
+}
+div.box403 ul {
+	margin: 0;
+	padding: 10px;
+	list-style: none;
+}
+div.box403 ul li {
+	margin: 0;
+	padding: 5px 0px;
+}
+div.box403 ul li.last {
+	margin: 0;
+	padding: 5px 0px;
+}
+div.box403 ul li p {
+	line-height: 17px;
+	margin: 0;
+	padding: 5px 0px;
+}
+span.small10 {
+	font-size: 13px;
+}
+h2 {
+	margin:0 -14px;
+	padding:6px 5px 4px;
+	color:#ffffff;
+	background-color: #900;
+	font-weight:bold;
+	font-size:17px;
+}
+.hr{
+	border-top: 1px solid #c0c0c0;
+}
+#more{
+	display:none;
+	background-color:#eeeeee;
+	padding:10px;
+}
+</style>
+</head>
+<body>
+<div class="contain403">
+	<div class="box403">
+		<div class="cap top"></div>
+			<h2>Access Denied</h2>
+			<ul>
+				<li>
+					System policy has denied access to the requested URL.<br>
+					<br>
+				</li>
+				<li class='hr'>
+					Your IP Address: <b>149.200.188.84</b><br>
+					Your Computer Name: <b></b><br>
+					Your Request: <b><i>http://info.arl.army.mil/Gif/KSR2.gif</i></b>
+				</li>
+				<li class='hr'>For support, please contact the CONUS-TNOSC<br>DSN:       879-6798<br>CML: (520) 538-6798<br>Toll Free: 1-800-305-3036<br>Fax DSN: 879-6809<br>Fax CML: (520)538-6809<br></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>

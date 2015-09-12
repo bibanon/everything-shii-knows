@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>K240 strategy guide | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>K240 strategy guide</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<h2>Ship combat</h2>
+
+<p>Early on, you won't be able to afford an Orbital Space Dock,
+and will only be able to build small ships. Your first ships
+should be empty Scout Ships to quickly map the other asteroids
+and prospect to choose colony sites. Next, your choice is
+between Assault Fighters and Combat Eagles.</p>
+
+<p>You'll probably want a fleet specialising in ship combat
+and a fleet specialising in ground attack. Since it's hard
+to tell ships apart by their armaments, you could make all
+Assault Fighters into bombers (Vortex Mine or Napalm Orb)
+and fit all Combat Eagles with ship weapons.</p>
+
+<p>Once you have the money, start building ships on every
+occupied asteroid. You'll want large ground attack fleets
+and large ship combat fleets to escort them. The ship attack
+fleets can go first and engage the enemy fleet while the
+bombers attack the colony. When your money outstrips your
+ship building rate, start building the ships with more
+expensive hardpoints.</p>
+
+<p>Small ships will repair in a hangar if you have a Repair
+Facility. This requires you to have the ships leave the
+fleet, which can be cumbersome.</p>
+
+<p>In combat, always attack with ridiculous overwhelming
+numbers where possible.</p>
+
+<h2>Missiles</h2>
+
+<p>Missiles are expensive. A full rack of ten of each non-blueprint
+missile will cost 607,000 credits, including the price of 90 units
+of red ore and 40 units of yellow ore. Including the blueprint
+missiles, a rack of 10 costs about 6,000,000 credits, including
+180 red, 60 yellow and 20 green ore, not including an additional
+1,500,000 in blueprints.</p>
+
+<p>The advantage of missiles is that a large strike can deal a lot
+of damage before the enemy can rebuild, and a lucky hit can take
+out. A strike too small to obliterate an asteroid can still weaken
+its buildings and defences enough for a fleet to finish the job.
+Missiles also move at 4FN, faster than any ships, and cannot
+be intercepted by ships. However, they have a miss chance based
+on range, and can be shot down. They also only hit once,
+unlike ships with air to ground weapons which can fire multiple
+times before the ship is destroyed.</p>
+
+<p>Probably the best overall missile is Nuclear, which strikes
+every building on an asteroid at once, as well as ships in
+orbit. A few hits can wipe out a colony. It's expensive, at
+300,000 credits for the blueprint and 50,000 per missile,
+but worth it. Given the cost, it's best to fire Nuclears in
+groups of two to five, along with ten or twenty cheap
+Explosive missiles to decrease the chance that a Nuclear
+missile will be shot down.</p>
+
+<p>Since miss chance increases by range and missiles can't
+be transferred between asteroids, it's vital to only
+build missiles with a nearby target in mind. The average
+effect of a 50% miss chance due to range is to double
+the price per successful missile. Ore Teleporters make
+it much more feasible to send the right ores to distant
+missile-producing worlds. It's worth using Asteroid
+Engines to close range with the enemy asteroid while
+building missiles.</p>
+
+<p>In general, missiles are a great way to deal a lot of
+damage in a short space of time, if you have a lot of
+money.</p>
+
+<h2>Asteroid movement</h2>
+
+<p>A vital tactic is to ram an enemy asteroid with a colony
+equipped with Asteroid Engines. Unlike missiles and ships,
+asteroid ramming cannot be countered except by destroying
+the approaching colony or moving out of the way. In particular,
+the Ax'Zilanths have asteroid teleporters for this purpose,
+and the Tylarans have Asteroid Engines capable of moving
+at speed 8.</p>
+
+<p>Your colony moves at 0.02FN per point of speed, or one
+pixel every fifty days. At speed 5, an asteroid will move
+one pixel every ten days, and cross one sector (the screen
+is 8 by 5 sectors) in 400 days. It's a good idea to keep
+colonies away from the sides of the screen, since they will
+collide with new asteroids.</p>
+
+<p>Establishing a colony for the sole purpose of ramming is
+expensive. A new colony and Asteroid Engines costs
+75,000 credits and take at 104 days. Your CPU will only
+produce food and water for 250 days, long enough to build
+the engines and move the asteroid 18.6 pixels, or just
+under half of one sector. Basic life support beyond this
+will bring the cost to 102,500.</p>
+
+<p>A useful side-effect of ramming is that two asteroids
+are removed from play, causing two new ones to enter from
+the edge of the screen. Asteroid ramming can be used to
+get rid of an asteroid that's been emptied of ore and
+generate a new one.</p>
+
+<h2>Blueprints</h2>
+
+<p>Be selective when choosing blueprints.</p>
+
+<p>Early on, you'll want the Gravity Nullifier, if it wasn't
+provided for you at the start. This is vital to avoid
+asteroid crashes once you start building colonies. It's also
+useful for rescuing valuable asteroids from collision. Bear
+in mind that asteroids appearing at the edge of the screen
+are vulnerable to collision with asteroids, so you'll want
+Asteroid Engines as one of your first purchases. Engines
+are extremely useful for crashing enemy asteroids, closing
+missile range, moving out of missile range, or establishing
+a wider sensor network.</p>
+
+<p>Second-generation mines are useful when you're in a race
+against time to generate income and expand faster than the
+enemy. Buy Seismic Penetrator as soon as you find Traxium
+or Nexos and can spare the funds. The blueprint and one
+Seismic Penetrator cost 146,500 credits together, which one
+unit of Nexos or two of Traxium will pay for.</p>
+
+<p>Once you have several colonies, your priorities change
+from saving money to spending it on offence and defence,
+and saving effort. The most vital blueprint is Ore Teleporter,
+which lets you import ore easily to your main asteroid for sale
+and manufacture, send ore out for distribute ore out for
+large-scale ship or missile production, evacuate ore from an
+endangered colony, and transfer ore quickly if the Imperial
+Transporter shows up at the wrong asteroid.</p>
+
+<p>Other convenience technologies are the Asteroid Tracker
+(useful in combination with the Asteroid Engines) and
+Construction Droids (when you want multiple colonies all
+producing small ships as fast as they can).</p>
+
+<p>Start buying offensive and defensive tech as money allows.
+Nuclear missiles are extremely effective and
+even a few can wipe out a colony. If your ship production
+ability exceeds your income and you're using a fleet-heavy
+strategy, start building better-equipped ships - buy
+Fleet Battleship, Shield x50, Deflector and perhaps
+Terminator. Defensively, the Repair Facility, Building
+Armour, Anti-Virus Missile and Anti-Missile Pod become
+important, especially later on if the enemy sends powerful
+missiles.</p>
+
+<p>Later, when you have so much money you can't spend it quickly
+enough, start investing heavily in blueprints. Absolutely
+buy up all the offensive and defensive tech you can make use
+of, plus Missile Bay Extension (if you plan to make heavy
+use of missiles). Also buy any cheap tech you missed, like
+2nd Generation Mines or Power Amplifier. If defence is stil
+a problem but you have Solar Matrix and cash, build a lot of
+Protected Solar Matrix buildings and dot your asteroids
+with Shield Generators.</p>
+
+<p>The high end Virus and Mega missiles are tempting, but
+are even more expensive than they appear. As the ores
+required are rare and valuable, you'll want to sell them
+early on, and later when you can afford the blueprint
+you might have enough for only ten of each missile. Including
+the blueprint and the opportunity cost of keeping the ore,
+ten Mega missiles cost around 4,950,000 credits, and ten Virus
+missiles 1,215,000 credits. Either missile will destroy a
+colony in one successful hit, but so will five Nuclear missiles,
+whose ore is in plentiful supply, and a single Mega missile is
+more likely to be shot down than a barrage of Nuclears.</p>
+
+<p>Stasis can be used to freeze an asteroid
+so many incoming missiles strike at once when the stasis
+wears off, overwhelming anti-missile defence,
+but again, a few Nuclears will do the same job, and
+the Stasis missile itself could be shot down. A similar
+en-masse missile effect can be achieved simply by building
+ten or twenty silos on the one asteroid, costing 4300 per
+silo with no power use. Avoiding the use of Stasis altogether
+also lets you sell all Korellium ore, which has no other use.</p>
+
+<p>The Powerplant is rubbish - it consumes Asteros ore, and
+most asteroids have only enough to sustain two reactors for
+200 to 1000 days. For the same price as the Powerplant
+blueprint and one Powerplant, you could buy the Solar Matrix
+blueprint and build four to produce the same amount of power.
+The next Solar Matrix will cost twice as much to build
+as a Powerplant per megawatt, but money regenerates, while
+Asteros is in short supply (and needed later on for Nuclear
+missiles).
+Once you have the Power Amplifier, four Solar Generators
+will generate the same power as a Powerplant in the same
+area, build twice as fast for 60% of the price, and won't
+consume ore.</p>
+
+<p>Improved Sensors is another crappy tech. For the price
+of this blueprint, you can build Sensor Arrays on eight
+colonies, plus enough Solar Generators to power them.
+The advantage of the blueprint is that you save one square
+and 2MW per asteroid, can't lose sensors in an attack,
+and sensors kick in immediately upon colonization instead
+of 36 days later.</p>
+
+<p><a href="k240">&laquo; Back to JD's K240 page</a>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 10th November 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

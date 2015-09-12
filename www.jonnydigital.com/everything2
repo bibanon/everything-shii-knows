@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Why Everything2 failed | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Why Everything2 failed</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>Before Wikipedia took the crown as the Internet's top
+user-editable encyclopaedia, there was Everything2. E2 was flush
+with community features, was open to a broader variety of content
+than Wikipedia, and had support of then-popular site Slashdot. What
+was E2, and why did Wikipedia win?</p>
+
+<h2>History</h2>
+
+<p>I first encountered Everything2 some time in 2000 or 2001,
+before most Internet users had ever heard of Wikipedia. Websites
+that other people could edit were still a relatively new
+concept, and aside from appointed senior editors, users could
+not edit each others' writing.</p>
+
+<p>This restriction may sound harsh, but it gave Everything2
+a property that Wikipedia has never had. Since users are
+given full responsibility for their own writing, there's no
+enforced neutrality. You can find personal anecdotes, opinion
+pieces, and humour, as the author wrote it, immune to the meddling
+of nitpicking users. Quality control is enforced by a communal
+voting system rewarding interesting, not factual content.</p>
+
+<h2>Cream of the Cool</h2>
+
+<p>Everything2's solution to quality control was a roleplaying-game
+style experience system. Users are rewarded with "experience points"
+for creating content and receiving positive votes. Users received
+promotions based on the number of experience points earned and
+writeups created, with each level offering increasing power and
+responsibility.</p>
+
+<p>At level 2, you gain the privilege of voting on other users,
+up to ten articles per day, for which action you too are awarded
+experience. Level 4 grants the ability to hand out "Cools", an
+award that briefly promotes the article to the front page.
+It's much the same model that keeps World of Warcraft running
+at ten million players, and it worked to create an average of
+around 45,000 writeups per year.</p>
+
+<h2>So why did it fail?</h2>
+
+<p>Ultimately, the drawback to Everything2 was that it was
+naturally subtractive. Because users couldn't edit poor
+quality work, a bad writeup could only be left bad or deleted.
+On Wikipedia, the same content would be gradually improved
+by successive users. It doesn't matter if a user gives up
+and leaves, because on Wikipedia anyone else can edit his
+material.</p>
+
+<p>Senior E2 editors tried to combat this problem with a
+mass-deletion of poor quality content, a process titled
+"Raising the Bar". Unfortunately, this only discouraged
+users, who could return to the site after a hiatus to
+discover their material removed and hard-earned experience
+points deducted.</p>
+
+<p>Raising the Bar improved quality overall, but did it
+so by oligarchy of senior editors, rather than the democratic
+system already in place. The real problem was that users
+weren't collaborating on content to improve quality of
+the existing material, and that's something Wikipedia had
+solved much better than Everything2.</p>
+
+<h2>Still Good</h2>
+
+<p>That said, Everything2 today is still home to some
+great content. Here's a list of some nodes that I enjoyed;
+your list can and should vary.</p>
+
+<ul>
+  <li>Roninspoon's <a href="http://everything2.com/title/Two+stories+of+the+pistol">Two stories of the pistol</a></li>
+  <li>Velox's <a href="http://everything2.com/title/How+to+beat+someone+at+%2522pick+a+number%2522">How to beat someone at "pick a number"</a></li>
+  <li>swankivy's <a href="http://everything2.com/title/When+too+much+Dungeons+and+Dragons+changes+your+religion">When too much Dungeons and Dragons changes your religion</a></li>
+  <li>digitalboy's <a href="http://everything2.com/title/10+commandments+of+bad+writers">10 commandments of bad writers</a></li>
+
+  <li>creases' <a href="http://everything2.com/node/903355">Where are those polar bears getting all that Coca-Cola?</a></li>
+  <li>Mod's <a href="http://everything2.com/index.pl?node_id=1175970">How long is a piece of string?</a></li>
+  <li>AntonZ's <a href="http://everything2.com/title/MIT+Guide+to+Lockpicking">MIT Guide to Lockpicking</a></li>
+  <li>pvb's <a href="http://everything2.com/index.pl?node_id=922745">If you're being attacked, yell fire</a></li>
+  <li>Illusionist's <a href="http://everything2.com/title/How+the+potato+delayed+the+microwave+10+years">How the potato delayed the microwave 10 years</a></li>
+</ul>
+
+
+
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 20th October 2008</em>. <em>Last Updated: 25th September 2009</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

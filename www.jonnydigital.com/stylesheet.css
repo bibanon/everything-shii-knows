@@ -1,0 +1,51 @@
+h1, p.subtitle, p.updated, p.links
+{
+  padding: 0;
+  margin: 2px 0 0 0;
+}
+
+p.subtitle
+{
+}
+
+table, td
+{
+	border: 1px solid black;
+}
+
+.homepage .column .disabled
+{
+	float: left;
+	margin-right: 16px;
+}
+
+.homepage hr, .homepage h2
+{
+	clear: left;
+}
+
+h1
+{
+	font-size: 1.6em;
+}
+
+h2
+{
+	font-size: 1.4em;
+}
+
+h3
+{
+	font-size: 1.2em;
+}
+
+h1, h2, h3, h4
+{
+	margin: 0;
+	padding: 0;
+}
+
+dt
+{
+	font-weight: bold;
+}

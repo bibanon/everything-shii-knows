@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>How to contain a float | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>How to contain a float</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>A common problem in CSS-based website design involves elements
+given the "float" property which appear to extend outside of their
+container. This problem is elegantly solved without any additional
+HTML markup:</p>
+
+<p><blockquote>Give the containing element the property
+<code>overflow: hidden</code>.</blockquote></p>
+
+<p>This solution is known as a "float contain".</p>
+
+<h2>Why it works</h2>
+
+<p>Applying <code>float: left</code> or <code>float: right</code>
+gives everything after your element the right to appear alongside
+it instead of below. The float takes itself out of the regular
+flow, effectively surrendering its right to push anything down.
+When an element contains only floated elements, their heights are
+ignored and the container loses its height.</p>
+
+<p>Overflow is normally used to hide contents from extending
+outside of an element, rather than increasing the element
+to fit its contents. However, when your element doesn't have
+a fixed height, that's exactly what it does. The height of
+the floated contents are now included to determine Overflow's
+cutoff point, and the element has to expand to cover all of
+its contents.</p>
+
+<p>That's the theory, anyway. You are free to think of it
+as a magic voodoo fix to one of the most common CSS problems.</p>
+
+<h2>Complications</h2>
+
+<p>This method works at least 95% of the time. Occasionally,
+you will encounter one of two errors which are easily
+solved:</p>
+
+<dl>
+  <dt><code>overflow: hidden</code> is trimming the edge off my element!</dt>
+  <dd>This happens when you set a fixed width or height on the
+  element. In this case, <code>overflow: hidden;</code> has the
+  unwanted side-effect of performing its normal job. The solution
+  is to use an older float-contain technique. Put a div as the last
+  element in the container div, after the floated contents,
+  and apply <code>clear: left</code> or <code>clear: right</code>.</dd>
+  
+  <dt>It works, but not in Internet Explorer.</dt>
+  <dd>Give the container an additional property: <code>zoom:1</code>.
+  If this fixes it, read up on something called hasLayout to
+  find out why it works.</dd>
+</dl>
+
+<h2>Hidden vs Auto</h2>
+
+<p>Previously, <code>overflow: auto</code> was recommended as the
+solution to float contain. Auto and Hidden both work equally well,
+but Hidden is currently preferred. The reason is that if something
+goes wrong, Auto will put an unsightly scrollbar on your element,
+whereas Hidden will not.</p>
+
+<p>It's rare that this happens, but I've seen it occur in sites
+as popular as Paypal.com.</p>
+
+<h2>Further reading</h2>
+<ul>
+  <li><a href="http://www.ejeliot.com/blog/59">Methods for Containing Floats</a>, by Ed Eliot</li>
+</ul>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Last updated: 25th September 2008</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

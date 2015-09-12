@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>Sneech spoilers | Jonathan's Reference Pages</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+  <base href="http://www.jonnydigital.com">
+</head>
+
+<body>
+<h1>Sneech spoilers</h1>
+<p class="subtitle">From <a href="http://www.jonnydigital.com/">Jonathan's Reference Pages</a></p>
+<hr><!-- ======================================================== -->
+
+<p>The more time you spend with
+<a href="http://www.shoecakegames.com/sneech/">Sneech</a> (an arena
+multiplayer Worm/Snake game for the Amiga), the more you get the
+impression that each CPU opponent has a distinct personality. Not bad
+considering that the characters are just different colours of dot
+snake!</p>
+
+<p>Now that the game's author has released
+<a href="http://sneech.net/files/sneechpro.txt">the source code to Sneech</a>,
+we can finally see what makes them tick.</p>
+
+<p>Warning: Reading the following list might spoil the magic for you.
+If you don't want to see the Sneech characters reduced to cold facts
+and figures, quit this page now. Go read
+<a href="http://www.jonnydigital.com/k240">my K240 page</a> or
+read up on the <a href="http://sneech.net/">Sneech port for iPhone</a>
+instead. If you still want to know why Mr.White is so speedy,
+read on.</p>
+
+<h2>Sneech AI settings</h2>
+
+<dl>
+	<dt>Mr.Red *</dt>
+	<dd>50 kill points. Favours Reverse, Bomb Deflect, and Extra Speed. Ahead 4, Speed 2.</dd>
+
+	<dt>Mr.Blue *</dt>
+	<dd>50 kill points. Favours Bomb Deflect, Reverse, and Self Reverse. Ahead 4, Speed 2.</dd>
+
+	<dt>Mr.Green *</dt>
+	<dd>50 kill points. Favours Bomb Deflect, Self Reverse, and Extra Speed. Ahead 4, Speed 1.</dd>
+
+	<dt>Mr.Blonde ****</dt>
+	<dd>60 kill points. Favours Self Reverse, Reverse, and Extra Speed. Ahead 9, Speed 0.</dd>
+
+	<dt>Mr.Black ****</dt>
+	<dd>60 kill points. Favours Bomb, Bomb Deflect, and Self Reverse. Ahead 9, Speed 0.</dd>
+
+	<dt>Mr.White *</dt>
+	<dd>50 kill points. Favours Extra Speed, Reverse, and Extra Speed again. Ahead 4, Speed 2.</dd>
+
+	<dt>Mr.Pink **</dt>
+	<dd>58 kill points. Favours Extra Speed, Self Reverse, and Extra Speed again. Ahead 6, Speed 0.</dd>
+
+	<dt>Mr.Orange ****</dt>
+	<dd>60 kill points. Favours Self Reverse, Extra Speed, and Stunner. Ahead 9, Speed 0.</dd>
+
+	<dt>Mr.Grey *</dt>
+	<dd>50 kill points. Favours Bomb Deflect, Self Reverse, and Extra Speed. Ahead 4, Speed 2.</dd>
+
+	<dt>Mr.Chrome ****</dt>
+	<dd>60 kill points. Favours Extra Speed, Bomb, and Bomb Deflect. Ahead 9, Speed 0.</dd>
+
+	<dt>Mr.Gold **</dt>
+	<dd>54 kill points. Favours Bomb Deflect, Reverse, and Extra Speed. Ahead 6, Speed 1.</dd>
+
+	<dt>Mr.Bogey **</dt>
+	<dd>54 kill points. Favours Self Reverse, Extra Speed, and Super Scooper. Ahead 6, Speed 1.</dd>
+
+	<dt>Mr.Dark ***</dt>
+	<dd>54 kill points. Favours Bomb, Self Reverse, and Extra Speed. Ahead 8, Speed 1.</dd>
+
+	<dt>Mr.Deep ****</dt>
+	<dd>60 kill points. Favours Bomb, Self Reverse, and Bomb. Ahead 8, Speed 1.</dd>
+
+	<dt>Mr.Sky ***</dt>
+	<dd>54 kill points. Favours Extra Speed, Reverse, and Extra Speed. Ahead 8, Speed 1.</dd>
+
+	<dt>Mr.Check ***</dt>
+	<dd>58 kill points. Favours Self Reverse, Extra Speed, and Super Scooper. Ahead 8, Speed 1.</dd>
+
+	<dt>Mr.Banana ***</dt>
+	<dd>58 kill points. Favours Self Reverse, Super Scooper, and Extra Speed. Ahead 8, Speed 1.</dd>
+
+	<dt>Mr.Purple ***</dt>
+	<dd>58 kill points. Favours Extra Speed, Self Reverse, and Bomb Deflect. Ahead 8, Speed 0.</dd>
+
+	<dt>Mr.Ball ***</dt>
+	<dd>45 kill points. Favours Self Reverse, Extra Speed, and and Super Scooper. Ahead 8, Speed 3.</dd>
+
+	<dt>Mr.Sheen ****</dt>
+	<dd>60 kill points. Favours Extra Speed, Bomb, and Bomb Deflect. Ahead 9, Speed 0.</dd>
+</dl>
+
+<h2>Statistics meanings</h2>
+
+<p>Favoured items are applied as follows. The AI receives one of the
+first item on its list for free unless it's already at maximum. It
+buys one of the second item if it can afford it and is not at maximum,
+then one of the third item if it can afford it and is not at maximum.</p>
+
+<p>The AI then enters a loop to buy other items. It picks an item at
+random, which can be any except Stun and Shop Page 3 (Shield 25%,
+Shield 50%, Auto Turn, Bomb Grab and Shield Grab). If it can afford
+this and is not carrying the maximum of that item, there is a random
+chance which varies by item that it will buy it:</p>
+
+<ul>
+	<li><b>100%:</b> Super Scooper, Pass Through, Constant Speed,
+		Slow Scooper, Speed Booster, Extra Size, (Auto Turn) </li>
+	<li><b>50%:</b> (Stunner), Self Reverse, Bomb Deflect</li>
+	<li><b>33%:</b> Extra Speed, Reverse, Bomb</li>
+	<li><b>25%:</b> Survive as 1</li>
+	<li><b>20%:</b> Random Factor, Extra Life</li>
+	<li><b>16.67%:</b> No Dead Money, (Shield 50%)</li>
+	<li><b>9.09%:</b> (Shield 25%, Stun Grab)</li>
+	<li><b>6.25%:</b> (Bomb Grab)</li>
+</ul>
+
+<p>The AI repeats this shopping loop for a maximum of 150
+milliseconds. It has a one in 26 chance each time to break
+out of the shopping loop, unless this is the final round
+and the AI still has 80 or more money to spend.</p>
+
+<p>Ahead and Speed are attributes used in the AI routines. Unfortunately
+I haven't worked out exactly what they do yet. Higher-ranked opponents
+tend to have a higher Ahead.</p>
+
+<hr><!-- ======================================================== -->
+<p class="updated"><em>Page created: 23rd January 2010</em></p>
+<p class="links">
+  <a href="/">&laquo; Back to Jonathan's Reference Pages</a> | 
+  <a href="reply">Comments?</a> |
+  <a href="about">About this website</a>
+</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-771787-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
